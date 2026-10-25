@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "study": "brain-sokoban-v1",
+  "seed": 10,
+  "source": "runs\\linear-joint\\20261002-p05-01\\model.pt",
+  "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+  "training_seeds": [
+    10
+  ],
+  "tiers": [
+    [
+      6,
+      1,
+      9,
+      12
+    ],
+    [
+      6,
+      1,
+      13,
+      16
+    ],
+    [
+      8,
+      1,
+      17,
+      21
+    ],
+    [
+      8,
+      2,
+      22,
+      27
+    ],
+    [
+      8,
+      2,
+      28,
+      33
+    ],
+    [
+      10,
+      2,
+      34,
+      39
+    ],
+    [
+      10,
+      3,
+      40,
+      47
+    ],
+    [
+      10,
+      3,
+      48,
+      60
+    ]
+  ],
+  "initialization": "independent P05 forks; sequential branches explicitly labelled",
+  "success": "autonomous solution within 512 actions; any length accepted",
+  "segments_seconds": [
+    1200,
+    2400,
+    4800
+  ],
+  "minimum_margin_progress": 0.02,
+  "core_lr": 0.0001,
+  "head_lr": 0.0003,
+  "steps_per_assessment": 4,
+  "allocator_gib": 11,
+  "minimum_free_gib": 13,
+  "delay_ms": [
+    0,
+    20,
+    40,
+    80,
+    160,
+    320,
+    640
+  ],
+  "trained_delay_ms": [
+    0,
+    40,
+    160
+  ],
+  "heldout_delay_ms": [
+    20,
+    80,
+    320,
+    640
+  ],
+  "prefix_windows": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "trained_prefix_windows": [
+    0,
+    1,
+    4
+  ],
+  "heldout_prefix_windows": [
+    2,
+    8
+  ],
+  "short_probe_prefix_windows": 0,
+  "cross_step_prefix_windows": [1, 2, 4, 8],
+  "memory_condition_selection": "train conditions only; heldout delays/prefixes are evaluation only",
+  "representative_tasks": [
+    "D1-T0",
+    "D3-T0",
+    "D5-T0",
+    "D7-T0"
+  ],
+  "discovery_families": "T0 in every tier",
+  "confirmation_families": "T1 in every tier",
+  "activity_phases": [
+    "before",
+    "mid",
+    "after"
+  ],
+  "activity_precision": "float32 measurements, recorded accumulation dtype",
+  "full_trace_state_indices": [
+    0,
+    0.5,
+    -1
+  ],
+  "inference_input": "brain activities only except explicitly named board MLP / GRU baselines",
+  "independent_unit": "map / map family; no inference to other training seeds",
+  "acceleration_acceptance": "both calibration tasks learn and independently reload to solve; routes may differ",
+  "status": "registered",
+  "created_unix": 1790903436.9979112
+}

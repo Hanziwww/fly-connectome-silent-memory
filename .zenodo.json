@@ -1,0 +1,109 @@
+{
+ "creators": [
+  {
+   "name": "Wang, Han",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Yeong, Joe Poh Sheng",
+   "affiliation": "Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore; Department of Anatomical Pathology, Singapore General Hospital, Singapore"
+  },
+  {
+   "name": "Zhao, Yunhua",
+   "affiliation": "Department of Neurology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China"
+  },
+  {
+   "name": "Zhao, Yuhui",
+   "affiliation": "Guangdong Key Laboratory of Age-Related Cardiac and Cerebral Diseases, Institute of Neurology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524001, China"
+  },
+  {
+   "name": "Yu, Zizhong",
+   "affiliation": "Shanghai Xieai Ze'an Traditional Chinese Medicine Hospital, Shanghai, China"
+  },
+  {
+   "name": "Liu, Xiaoyu",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "He, Ruoyun",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Chen, Huikuan",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Liu, Ting",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Tian, Ye",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Chen, Weibang",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Cai, Yao",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Xu, Yue",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Ning, Hongyu",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Hou, Xuanhe",
+   "affiliation": "Department of Radiation Oncology (MAASTRO), GROW - Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, the Netherlands"
+  },
+  {
+   "name": "Pang, Lingpin",
+   "affiliation": "Emergency Medical Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China"
+  },
+  {
+   "name": "Jiang, Danxian",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+  },
+  {
+   "name": "Liu, Huafeng",
+   "affiliation": "Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases, Zhanjiang, Guangdong 524001, China"
+  },
+  {
+   "name": "Hao, Junfeng",
+   "affiliation": "Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases, Key Laboratory of Prevention and Management of Chronic Kidney Disease of Zhanjiang City, Institute of Nephrology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524001, Guangdong, China; Department of Family Medicine, Shengjing Hospital of China Medical University, Shenyang 110022, Liaoning, China"
+  },
+  {
+   "name": "Tian, Chunjie",
+   "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China; Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases, Key Laboratory of Prevention and Management of Chronic Kidney Disease of Zhanjiang City, Institute of Nephrology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524001, Guangdong, China; Otolaryngology Research Center, Guangdong Medical University Affiliated Hospital, Zhanjiang 524000, Guangdong, China"
+  }
+ ],
+ "access_right": "open",
+ "language": "eng",
+ "publication_date": "2026-10-25",
+ "keywords": [
+  "connectome",
+  "Drosophila",
+  "MaleCNS",
+  "spiking neural network",
+  "working memory",
+  "spike-frequency adaptation",
+  "activity-silent memory",
+  "state-dependent retrieval"
+ ],
+ "upload_type": "software",
+ "license": "MIT",
+ "title": "Code of \"Brain state locks silent memories in a trained fly connectome\"",
+ "description": "<p>Code of the article, release 1.0.0: training and testing of the whole-CNS model, the declared protocols, the analysis, the code of every figure, video and supplemental table, and the LaTeX source. See START_HERE.md.</p>\n<p>Funding: This work was supported by the National Natural Science Foundation of China (grant nos. 82160215, 81660174, and 82271169); the Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases (grant no. 2022B1212030003); the Research Startup Funds for High-level Talents in the Affiliated Hospital of Guangdong Medical University (grant no. GCC20220013); the College Students' Innovative Entrepreneurial Training Plan Program (grant no. S202510571025); and the 2025 Artificial Intelligence-Enabled Medical Device Innovation Task (Open Competition Mechanism, project no. 2025-AISJK-02007).</p>",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/HEREISCB/flybrain",
+   "relation": "requires",
+   "scheme": "url"
+  }
+ ],
+ "version": "1.0.0"
+}

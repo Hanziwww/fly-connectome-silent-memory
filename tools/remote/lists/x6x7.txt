@@ -1,0 +1,5 @@
+# X6/X7 (plan v2): the inputs x6_x7_prepare.build reads to rebuild the ensembles and their null sets on the host
+# (mechanism annotations and the Fig. 6 cue states of M0 readout-only and S1).
+studies/brain-sokoban-v1/mechanisms-v1/neurons/annotations.parquet
+studies/brain-sokoban-v1/mechanisms-v1/interpretation/remote-dynamic-M0-head_only-memory-cells-d160-p4.parquet
+studies/brain-sokoban-v1/mechanisms-v1/interpretation/supp-S1-ring-brain-memory-cells-d160-p4.parquet

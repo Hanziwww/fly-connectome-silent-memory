@@ -1,0 +1,33 @@
+% Document S1, the primary Supplemental PDF (the Cell author guide): Figures S1-S7 with titles and legends, and Table S1;
+% Arial 10 pt; no article title, author list or page numbers; its own reference list, numbered in its own order.
+\def\cellmode{si}
+\documentclass[10pt, letterpaper]{article}
+\usepackage[si]{cellpress}
+\usepackage{pdflscape}% Table S1 on landscape pages
+\input{generated/values}
+\input{legends/si_figures}
+
+\begin{document}
+\sifigure{S1}
+\sifigure{S2}
+\sifigure{S3}
+\sifigure{S4}
+\sifigure{S5}
+\sifigure{S6}
+\sifigure{S7}
+
+\clearpage
+\newcommand{\tableShead}{% set at the top of the table's first landscape page (generated/table_s1.tex)
+\noindent\textbf{Table S1. The credibility screen of fly pathologies, related to Figure 7}\par
+\smallskip
+\noindent Each candidate pathology of the fly, with the change measured in flies and the operator that expresses it in the
+model. C1--C3 grade, from 0 to 2, the evidence in flies, a mechanism measured and mappable to model cells, and a change that the
+model's operators can express; candidates that passed all three entered the tests in the model. C4, the healthy circuits
+behave like the fly's (one set of tests in two brains); C5, the fly phenotype is reproduced at the calibrated dose (graded);
+C6, its direction holds at half and one and a half times the dose and in a second trained brain. Total, the sum of the six
+grades (a pass of C4 or C6 counts 2), which ranked the cases that passed C1--C5; at most four were retained. Dashes, not
+tested. Sources are given by DOI.\par\medskip}
+\input{generated/table_s1}
+
+\bibliography{refs}% only the references Document S1 cites, numbered in its own order (the guide)
+\end{document}

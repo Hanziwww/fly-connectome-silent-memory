@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 15,
+  "reason": "Lesion link: where the cue trace is written and where it is read",
+  "changes": {
+    "why": "the user (2026-10-23) asked for the causal link between the silent trace, the drift of the read operator and the lesion and recovery effects (Fig. 7) to be tested directly; no run recorded the trace or the read under the lesion",
+    "design": {
+      "file": "tasks/lesion-link-design.json",
+      "sha256": "9fa295a684a30c1492cb9173a721fa3fc7604bc695828fd9f610e2de6efa7549"
+    },
+    "recordings": [
+      {
+        "code": "code/lesion_link.py",
+        "sha256": "2437741a76e27e3c2f5115f9f43ecac5e527bd8955fc185514b11212794102bd",
+        "host": "GPU",
+        "what": "scene-1 readout-trained learner (brain fixed): the 9 trained timings x both cues in the brain conditions H-H, L<d>-L<d>, H-L<d> and L<d>-H (C01 doses 0.5, 1, 1.5, 2; W-R = written and held in W, read in R, the full state transplanted at the end of the delay), read by the healthy-trained readouts 0-9, the lesion-trained readouts (regime B replicates 1-6) and the relearned readouts (regime C replays, replicates 1-3); per history the outcome and the first decision; per brain condition the stored trace, the decision-window state and the readout features; per-ms spikes for the video",
+        "check": "the replica equals memory.assess; sham transplants and the decision-window hook change no decision; the transplanted trace equals the donor's; every replay reproduces its regime C record (audit, assessments after 0, 50 and 100 updates, every loss and gradient norm)",
+        "use": "Fig. 7 or S7 if favourable under the reporting rule (RESULTS_INVENTORY_V4.md), and Video S4"
+      },
+      {
+        "code": "code/analyze_lesion_link.py",
+        "sha256": "7529d849da1a4ca5c3b31025f8fc5337010bef834484c479d9a5dc1560e533d6",
+        "host": "local",
+        "what": "checks against the earlier records (verification, regime C after 0 and 100 updates, the late restoration), then the F15.link tests and the descriptive tables",
+        "check": "status and steps exactly, first-decision logits and features within 1e-4"
+      }
+    ],
+    "tests": {
+      "families": [
+        "F15.link (Holm, 3, primary)",
+        "F15.link.secondary (BH, 9)",
+        "F15.link.descriptive (none)"
+      ],
+      "testplan_sha256": "242447a7cd09f369bc27a2f5535b55f2f840fe60182fe47b0738c0f6d70ac467",
+      "collect_tests_sha256": "bf936b38877e852e75141b0302d738526491d86a8d8f3cb3c469b19d0cc7e5e9"
+    }
+  },
+  "previous_sha256": "e74db3f1bd6857de2cf1f93a0862a08ab73e95a12a7fd73a0f3a394ad2dcd1e0",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792803382.5516055
+}

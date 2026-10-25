@@ -1,0 +1,52 @@
+% Introduction (Gate A; deepened with literature at the user's request after Gate C): five paragraphs, about 650 words;
+% NARRATIVE_V5_CELL.md, Introduction plan. Four open questions, each set against the debate it belongs to, then "Here, we" with
+% the findings in figure order (no figure call-outs here: Figure 1 is first called out in the Results).
+
+Complete connectomes now map every synapse of an insect's brain and nerve cord\cellcite{dorkenwald2024,berg2026,bates2026}, and
+their cell types can be matched across animals and between the sexes\cellcite{schlegel2024,sturner2025}. Models built on them
+predict sensorimotor pathways and neural activity, either without training or with training confined to one sensory
+pathway\cellcite{shiu2024,lappalainen2024,pospisil2024}. In a physics model of the fly's body, trained controllers walk and fly,
+but they are not built from the fly's wiring\cellcite{vaxenburg2025}. The connectome itself is often described as a static map
+without dynamics, state or plasticity\cellcite{kyllmann2026}. Whether a fixed wiring diagram can learn demanding behavior, and
+what its memories would be made of, is unknown.
+
+How a brain holds information across a delay is still disputed. Persistent firing carries remembered items in recordings from
+monkeys and humans\cellcite{thrower2023,paluch2025}, in areas from prefrontal to visual cortex\cellcite{curtis2021}, whereas
+activity-silent states\cellcite{stokes2015} can be read out by an impulse\cellcite{wolff2017}. Whether silent states hold working
+memories, serve only passive storage or reflect retrieval from episodic memory is
+debated\cellcite{trubutschek2019,beukers2021,oberauer2022}. Such states are almost always attributed to synapses, through
+short-term facilitation or fast Hebbian plasticity\cellcite{mongillo2008,masse2019,pals2020,lansner2023}, while intrinsic states
+such as spike-frequency adaptation have been studied mainly as aids to computation\cellcite{salaj2021}. In the fly, visual
+memories that last several seconds depend on signaling in ring neurons of the central complex\cellcite{neuser2008,kuntz2017}.
+Which substrate learning recruits on real wiring is open.
+
+Where memories live, and why learned codes hold in some states but not in others, is equally unresolved. Engrams of a single
+memory are spread across many brain regions\cellcite{josselyn2020,roy2022}, and the excitability of a neuron at learning biases
+whether it joins one\cellcite{delamare2024,hansel2024}. Population codes can stay stable across a delay while responses to an
+impulse change with time\cellcite{murray2017,wolff2020}; stable and dynamic codes coexist in prefrontal
+cortex\cellcite{sapountzis2022}, and in human visual cortex the code for a remembered location turns toward the coming eye
+movement\cellcite{li2023}. Retrieval can require the brain state present at encoding\cellcite{jovasevic2015,meyer2017}. Changes of
+excitability alone can break a decoder trained in one state, whereas a decoder trained across states keeps
+working\cellcite{haimerl2025}. Which part of a memory a change of state alters, the stored trace or its reading, has not been
+tested in a complete nervous system.
+
+In Alzheimer's disease, early memory loss can be a failure of access rather than of storage. In mouse models of early disease,
+activating engram cells recalls memories that natural cues no longer retrieve\cellcite{roy2016}, and activating parvalbumin
+interneurons restores retrieval\cellcite{park2024}. Neuronal hyperexcitability is an early feature of the
+disease\cellcite{zott2019,palop2016,li2024,okechukwu2026}, but lowering it has had mixed effects on cognition in
+patients\cellcite{bakker2012,vossel2021,faini2025}. In flies, amyloid-β42 (Aβ42) degrades the A-type potassium channel
+Kv4\cellcite{ping2015}, and the loss of Kv4 from mushroom-body neurons underlies part of the courtship memory deficit that Aβ42
+causes\cellcite{feng2018}. Why a lesion that spares new learning removes existing memories is not understood. Each of these
+questions could be asked of a connectome that learns, in which every state variable of every cell can be recorded and moved
+between brain states.
+
+Here, we trained a digital twin of the fly's nervous system: the complete wiring of one male animal, simulated cell by cell.
+It was trained on tasks rather than fitted to recorded activity, checked against fly physiology and replayed bit for bit, with
+every experiment declared before it ran. The model learns to plan moves and to remember a visual cue. Spikes write the cue into
+neuronal adaptation, which holds it silently until the next input reads it out. The trace is spread across the nervous system,
+and no ensemble of cells is more necessary than matched sets. The cells that hold it are enriched for transcripts of
+\gene{SK}, a calcium-activated potassium channel, in fly cell atlases. The learned readout uses the trace only at the delays it
+learned, because the same trace drives a different response at each delay. The wiring keeps the readout reachable under heavy
+cell loss, and training across excitability states widens access, as decoder theory predicts. A disease-like loss of potassium current
+after learning rewrites the trace and changes how it is read, so recall returns only in the state of learning, while learning
+under the loss is spared.

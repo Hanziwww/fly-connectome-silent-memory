@@ -1,0 +1,13 @@
+{
+  "exact_family_overlaps": [],
+  "checked_historical_records": 12,
+  "new_layouts": 34,
+  "sources": {
+    "archive\\experiments\\progressive\\20261001-single-seed01\\levels.json": "2e76a54632f270fada9712205d3fe59f068b96657ecfbceecf54760ed1edde12",
+    "runs\\linear-joint\\20261002-p03-01\\level.json": "e121ee61017cdc5f556828e45ba2f0b3d5f4efb3dfb81d8406719416a7e40bd7",
+    "runs\\linear-joint\\20261002-p05-01\\level.json": "35c5f70b98adf5871c2f0e5ec14f40ed986c7431dc42b433040f4857949e51dd",
+    "runs\\linear-joint\\20261002-p03-01\\previous-level.json": "185ae4275fe8fd686dcb160d7c8d4c064d87112c3df2cc363ab5f795aa005ab1",
+    "runs\\linear-joint\\20261002-p05-01\\previous-level.json": "e121ee61017cdc5f556828e45ba2f0b3d5f4efb3dfb81d8406719416a7e40bd7"
+  },
+  "meaning": "Exact canonical wall+goal layout overlap in the listed known P05-lineage task files; not an exhaustive lifetime state-exposure claim"
+}

@@ -1,0 +1,467 @@
+{
+ "created_unix": 1792515685.051428,
+ "pilot_runs": [
+  {
+   "learner": "M0-head_only",
+   "replicate": 1,
+   "dose": 0.5,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 404,
+   "healthy_solved": 18,
+   "healthy_updates": 348
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 1,
+   "dose": 1.0,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 400,
+   "healthy_solved": 18,
+   "healthy_updates": 348
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 1,
+   "dose": 1.5,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 300,
+   "healthy_solved": 18,
+   "healthy_updates": 348
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 1,
+   "dose": 2.0,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 368,
+   "healthy_solved": 18,
+   "healthy_updates": 348
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 2,
+   "dose": 0.5,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 376,
+   "healthy_solved": 18,
+   "healthy_updates": 312
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 2,
+   "dose": 1.0,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 380,
+   "healthy_solved": 18,
+   "healthy_updates": 312
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 2,
+   "dose": 1.5,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 276,
+   "healthy_solved": 18,
+   "healthy_updates": 312
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 2,
+   "dose": 2.0,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 408,
+   "healthy_solved": 18,
+   "healthy_updates": 312
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 3,
+   "dose": 0.5,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 360,
+   "healthy_solved": 18,
+   "healthy_updates": 376
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 3,
+   "dose": 1.0,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 360,
+   "healthy_solved": 18,
+   "healthy_updates": 376
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 3,
+   "dose": 1.5,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 324,
+   "healthy_solved": 18,
+   "healthy_updates": 376
+  },
+  {
+   "learner": "M0-head_only",
+   "replicate": 3,
+   "dose": 2.0,
+   "status": "learned_solved",
+   "solved": 18,
+   "updates": 380,
+   "healthy_solved": 18,
+   "healthy_updates": 376
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 1,
+   "dose": 0.5,
+   "status": "stagnation",
+   "solved": 12,
+   "updates": 588,
+   "healthy_solved": 15,
+   "healthy_updates": 524
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 1,
+   "dose": 1.0,
+   "status": "stagnation",
+   "solved": 15,
+   "updates": 588,
+   "healthy_solved": 15,
+   "healthy_updates": 524
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 1,
+   "dose": 1.5,
+   "status": "stagnation",
+   "solved": 13,
+   "updates": 624,
+   "healthy_solved": 15,
+   "healthy_updates": 524
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 1,
+   "dose": 2.0,
+   "status": "stagnation",
+   "solved": 16,
+   "updates": 1584,
+   "healthy_solved": 15,
+   "healthy_updates": 524
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 2,
+   "dose": 0.5,
+   "status": "stagnation",
+   "solved": 14,
+   "updates": 624,
+   "healthy_solved": 15,
+   "healthy_updates": 528
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 2,
+   "dose": 1.0,
+   "status": "stagnation",
+   "solved": 15,
+   "updates": 628,
+   "healthy_solved": 15,
+   "healthy_updates": 528
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 2,
+   "dose": 1.5,
+   "status": "stagnation",
+   "solved": 15,
+   "updates": 564,
+   "healthy_solved": 15,
+   "healthy_updates": 528
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 2,
+   "dose": 2.0,
+   "status": "stagnation",
+   "solved": 16,
+   "updates": 1512,
+   "healthy_solved": 15,
+   "healthy_updates": 528
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 3,
+   "dose": 0.5,
+   "status": "stagnation",
+   "solved": 14,
+   "updates": 656,
+   "healthy_solved": 16,
+   "healthy_updates": 600
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 3,
+   "dose": 1.0,
+   "status": "stagnation",
+   "solved": 14,
+   "updates": 620,
+   "healthy_solved": 16,
+   "healthy_updates": 600
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 3,
+   "dose": 1.5,
+   "status": "stagnation",
+   "solved": 14,
+   "updates": 628,
+   "healthy_solved": 16,
+   "healthy_updates": 600
+  },
+  {
+   "learner": "M0-joint",
+   "replicate": 3,
+   "dose": 2.0,
+   "status": "stagnation",
+   "solved": 16,
+   "updates": 1516,
+   "healthy_solved": 16,
+   "healthy_updates": 600
+  }
+ ],
+ "sd_solved_difference": 1.0179547554081032,
+ "sd_log_updates_difference": 0.3429855225330965,
+ "pilot_mean_log_updates_difference": 0.19018931449748863,
+ "target_solved_drop": 2.6999999999999997,
+ "curves": {
+  "solved": {
+   "target": 0.8,
+   "alpha": 0.05,
+   "n": 6,
+   "curve": [
+    {
+     "n": 3,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 0,
+     "power": 0.0,
+     "power_ci_low": 0.0,
+     "power_ci_high": 0.0018427397934059364,
+     "mc_se": 0.0
+    },
+    {
+     "n": 4,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 0,
+     "power": 0.0,
+     "power_ci_low": 0.0,
+     "power_ci_high": 0.0018427397934059364,
+     "mc_se": 0.0
+    },
+    {
+     "n": 5,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 0,
+     "power": 0.0,
+     "power_ci_low": 0.0,
+     "power_ci_high": 0.0018427397934059364,
+     "mc_se": 0.0
+    },
+    {
+     "n": 6,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 1956,
+     "power": 0.978,
+     "power_ci_low": 0.970577590517262,
+     "power_ci_high": 0.983970352830151,
+     "mc_se": 0.0032799390238234627
+    },
+    {
+     "n": 7,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 1999,
+     "power": 0.9995,
+     "power_ci_low": 0.997217360165341,
+     "power_ci_high": 0.9999873411761314,
+     "mc_se": 0.000499874984371065
+    },
+    {
+     "n": 8,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 2000,
+     "power": 1.0,
+     "power_ci_low": 0.9981572602065942,
+     "power_ci_high": 1.0,
+     "mc_se": 0.0
+    },
+    {
+     "n": 9,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 2000,
+     "power": 1.0,
+     "power_ci_low": 0.9981572602065942,
+     "power_ci_high": 1.0,
+     "mc_se": 0.0
+    },
+    {
+     "n": 10,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 2000,
+     "power": 1.0,
+     "power_ci_low": 0.9981572602065942,
+     "power_ci_high": 1.0,
+     "mc_se": 0.0
+    },
+    {
+     "n": 11,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 2000,
+     "power": 1.0,
+     "power_ci_low": 0.9981572602065942,
+     "power_ci_high": 1.0,
+     "mc_se": 0.0
+    },
+    {
+     "n": 12,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 2000,
+     "power": 1.0,
+     "power_ci_low": 0.9981572602065942,
+     "power_ci_high": 1.0,
+     "mc_se": 0.0
+    }
+   ]
+  },
+  "log_updates": {
+   "target": 0.8,
+   "alpha": 0.05,
+   "n": null,
+   "curve": [
+    {
+     "n": 3,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 0,
+     "power": 0.0,
+     "power_ci_low": 0.0,
+     "power_ci_high": 0.0018427397934059364,
+     "mc_se": 0.0
+    },
+    {
+     "n": 4,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 0,
+     "power": 0.0,
+     "power_ci_low": 0.0,
+     "power_ci_high": 0.0018427397934059364,
+     "mc_se": 0.0
+    },
+    {
+     "n": 5,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 0,
+     "power": 0.0,
+     "power_ci_low": 0.0,
+     "power_ci_high": 0.0018427397934059364,
+     "mc_se": 0.0
+    },
+    {
+     "n": 6,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 248,
+     "power": 0.124,
+     "power_ci_low": 0.10986482745633439,
+     "power_ci_high": 0.13924737692993697,
+     "mc_se": 0.007369667563737186
+    },
+    {
+     "n": 7,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 433,
+     "power": 0.2165,
+     "power_ci_low": 0.19862577839810586,
+     "power_ci_high": 0.235209120550465,
+     "mc_se": 0.00920944488012171
+    },
+    {
+     "n": 8,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 552,
+     "power": 0.276,
+     "power_ci_low": 0.25649898035444985,
+     "power_ci_high": 0.2961597712273228,
+     "mc_se": 0.009995599031573845
+    },
+    {
+     "n": 9,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 600,
+     "power": 0.3,
+     "power_ci_low": 0.27997158392831084,
+     "power_ci_high": 0.3206163504459875,
+     "mc_se": 0.010246950765959597
+    },
+    {
+     "n": 10,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 660,
+     "power": 0.33,
+     "power_ci_low": 0.30940412303786025,
+     "power_ci_high": 0.35109541768873476,
+     "mc_se": 0.01051427600931229
+    },
+    {
+     "n": 11,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 782,
+     "power": 0.391,
+     "power_ci_low": 0.369536981513043,
+     "power_ci_high": 0.41278313011871093,
+     "mc_se": 0.010911438951852316
+    },
+    {
+     "n": 12,
+     "n_sim": 2000,
+     "alpha": 0.05,
+     "rejections": 784,
+     "power": 0.392,
+     "power_ci_low": 0.3705257819670249,
+     "power_ci_high": 0.41379139068481907,
+     "mc_se": 0.010916409666186039
+    }
+   ]
+  }
+ },
+ "proposed_replicates": 6,
+ "note": "Proposal: extend regime B to this many replicates per dose and learner (replicates 4..n), healthy partners = X1 replicates of the same index. Committed before any extension run."
+}

@@ -1,0 +1,43 @@
+% The guide's index of supplemental files (the primary PDF first), with the titles and legends of the items outside it
+% (Gate C). Everything inside "uncounted" is a supplemental item legend: the Cell word count excludes it.
+\noindent\textbf{Document S1.} Figures S1--S7 and Table S1.\par
+\begin{uncounted}
+\medskip
+\noindent\textbf{Table S2. Every declared test the paper reports, related to Figures 1--7.} Each test with its family, where the
+paper reports it, its statistic and n, the estimate, \Pv{}, \Pv{} adjusted within the complete declared family, the family's
+size and correction, and whether it is primary or post hoc (Excel).\par
+\smallskip
+\noindent\textbf{Table S3. The run registry, related to Figures 1--7.} Every training and evaluation run with its configuration,
+its record and its outcome (Excel).\par
+\smallskip
+\noindent\textbf{Table S4. The single-cell panels, related to Figure 4.} The channel and marker genes with their FlyBase
+identifiers, and their values in every atlas unit (Excel).\par
+\smallskip
+\noindent\textbf{Data S1. Source data for Figures 1--7 and S1--S7.} The values behind every panel, one table per figure
+(.csv).\par
+\smallskip
+\noindent\textbf{Video S1. The trained connectome plans, move by move, related to Figure 1.} The final brain and readout solve
+the hardest planning map in its \val{L18} certified moves. Left, the board and the readout's choice among the four moves (the
+softmax of its logits; the chosen move white). Right, the unfolded CNS, with every cell that spikes in the move's \val{G12}-ms
+run in its group color. Below, live charts of the cells spiking per move, stacked by group, and of the readout's confidence in
+its move, with box pushes marked.\par
+\smallskip
+\noindent\textbf{Video S2. Write, hold, read: one memory trial, millisecond by millisecond, related to Figure 2.} Scene 1,
+readout trained, \val{G06}-ms delay with four input windows. Left and center, the cells spiking after cue 0 and after cue 1;
+right, the trace (adaptation, cue 1 minus cue 0) with the cells spiking differently in white; small boards show what the model
+sees. Live charts show, per ms, the cells spiking differently and the cells holding the trace, and the trace's strength against
+the adaptation's own decay (dashed), which it follows exactly once no cell spikes differently.\par
+\smallskip
+\noindent\textbf{Video S3. One trace, two readings, related to Figure 5.} The trained \val{G06}-ms and the untrained
+\val{H12}-ms delay side by side, phase by phase, the longer delay played faster. Each panel shows the trace with the cells
+spiking differently. Live charts show the cosine between the two trials' traces at matching moments, each trace's strength,
+and each cue's push toward its target at the first decision. The end card shows the decision-time patterns after \val{G06},
+\val{G01} and \val{H12}~ms with their cosines to the trained pattern.\par
+\smallskip
+\noindent\textbf{Video S4. Lost access, lost repair, related to Figure 7.} Scene 1, readout trained, lesion dose 1. First the
+regimes of \fig{7B} (healthy, the lesion after learning, learning under the lesion, relearning under it and late
+restoration), then the full state moved between brain states at the end of the delay, as in \fig{7J} (white frame). Each
+column shows the cue-1 history's spikes, the brain state at learning and test or at writing and reading, and both cues'
+histories on the board, ending in a solved or failed mark. Live charts show the cells spiking per ms and, per cue, the
+readout's probability of a correct move at each decision.\par
+\end{uncounted}

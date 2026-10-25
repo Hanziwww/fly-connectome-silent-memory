@@ -1,0 +1,6470 @@
+{
+ "note": "PubMed metadata from the PubMed tool (get_article_metadata), slimmed by build_bib.py",
+ "records": {
+  "10.1001/jamaneurol.2021.3310": {
+   "pmid": "34570177",
+   "pmc": "PMC8477304",
+   "doi": "10.1001/jamaneurol.2021.3310",
+   "title": "Effect of Levetiracetam on Cognition in Patients With Alzheimer Disease With and Without Epileptiform Activity: A Randomized Clinical Trial.",
+   "journal": "JAMA neurology",
+   "iso": "JAMA Neurol",
+   "authors": [
+    {
+     "last_name": "Vossel",
+     "fore_name": "Keith",
+     "initials": "K"
+    },
+    {
+     "last_name": "Ranasinghe",
+     "fore_name": "Kamalini G",
+     "initials": "KG"
+    },
+    {
+     "last_name": "Beagle",
+     "fore_name": "Alexander J",
+     "initials": "AJ"
+    },
+    {
+     "last_name": "La",
+     "fore_name": "Alice",
+     "initials": "A"
+    },
+    {
+     "last_name": "Ah Pook",
+     "fore_name": "Kasey",
+     "initials": "K"
+    },
+    {
+     "last_name": "Castro",
+     "fore_name": "Madelyn",
+     "initials": "M"
+    },
+    {
+     "last_name": "Mizuiri",
+     "fore_name": "Danielle",
+     "initials": "D"
+    },
+    {
+     "last_name": "Honma",
+     "fore_name": "Susanne M",
+     "initials": "SM"
+    },
+    {
+     "last_name": "Venkateswaran",
+     "fore_name": "Nisha",
+     "initials": "N"
+    },
+    {
+     "last_name": "Koestler",
+     "fore_name": "Mary",
+     "initials": "M"
+    },
+    {
+     "last_name": "Zhang",
+     "fore_name": "Wenbo",
+     "initials": "W"
+    },
+    {
+     "last_name": "Mucke",
+     "fore_name": "Lennart",
+     "initials": "L"
+    },
+    {
+     "last_name": "Howell",
+     "fore_name": "Michael J",
+     "initials": "MJ"
+    },
+    {
+     "last_name": "Possin",
+     "fore_name": "Katherine L",
+     "initials": "KL"
+    },
+    {
+     "last_name": "Kramer",
+     "fore_name": "Joel H",
+     "initials": "JH"
+    },
+    {
+     "last_name": "Boxer",
+     "fore_name": "Adam L",
+     "initials": "AL"
+    },
+    {
+     "last_name": "Miller",
+     "fore_name": "Bruce L",
+     "initials": "BL"
+    },
+    {
+     "last_name": "Nagarajan",
+     "fore_name": "Srikantan S",
+     "initials": "SS"
+    },
+    {
+     "last_name": "Kirsch",
+     "fore_name": "Heidi E",
+     "initials": "HE"
+    }
+   ],
+   "year": "2021",
+   "volume": "78",
+   "pages": "1345-1354"
+  },
+  "10.1002/(sici)1097-0258(19980430)17:8<891::aid-sim780>3.0.co;2-b": {
+   "pmid": "9595618",
+   "pmc": null,
+   "doi": "10.1002/(sici)1097-0258(19980430)17:8<891::aid-sim780>3.0.co;2-b",
+   "title": "Equivalence test and confidence interval for the difference in proportions for the paired-sample design.",
+   "journal": "Statistics in medicine",
+   "iso": "Stat Med",
+   "authors": [
+    {
+     "last_name": "Tango",
+     "fore_name": "T",
+     "initials": "T"
+    }
+   ],
+   "year": "1998",
+   "volume": "17",
+   "pages": "891-908"
+  },
+  "10.1002/epi4.70091": {
+   "pmid": "40608289",
+   "pmc": "PMC12362173",
+   "doi": "10.1002/epi4.70091",
+   "title": "Effect of levetiracetam on cognition in patients with cognitive decline: A systematic review and meta-analysis of randomized controlled trials.",
+   "journal": "Epilepsia open",
+   "iso": "Epilepsia Open",
+   "authors": [
+    {
+     "last_name": "Faini",
+     "fore_name": "Claudia",
+     "initials": "C"
+    },
+    {
+     "last_name": "Sen",
+     "fore_name": "Arjune",
+     "initials": "A"
+    },
+    {
+     "last_name": "Romoli",
+     "fore_name": "Michele",
+     "initials": "M"
+    }
+   ],
+   "year": "2025",
+   "volume": "10",
+   "pages": "1253-1259"
+  },
+  "10.1016/j.arr.2024.102468": {
+   "pmid": "39218080",
+   "pmc": null,
+   "doi": "10.1016/j.arr.2024.102468",
+   "title": "Structural and functional remodeling of neural networks in β-amyloid driven hippocampal hyperactivity.",
+   "journal": "Ageing research reviews",
+   "iso": "Ageing Res Rev",
+   "authors": [
+    {
+     "last_name": "Li",
+     "fore_name": "Jinquan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Liu",
+     "fore_name": "Yanjun",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Yin",
+     "fore_name": "Chuhui",
+     "initials": "C"
+    },
+    {
+     "last_name": "Zeng",
+     "fore_name": "Yan",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Mei",
+     "fore_name": "Yufei",
+     "initials": "Y"
+    }
+   ],
+   "year": "2024",
+   "volume": "101",
+   "pages": "102468"
+  },
+  "10.1016/j.cell.2018.05.057": {
+   "pmid": "29909982",
+   "pmc": "PMC6086935",
+   "doi": "10.1016/j.cell.2018.05.057",
+   "title": "A Single-Cell Transcriptome Atlas of the Aging Drosophila Brain.",
+   "journal": "Cell",
+   "iso": "Cell",
+   "authors": [
+    {
+     "last_name": "Davie",
+     "fore_name": "Kristofer"
+    },
+    {
+     "last_name": "Janssens",
+     "fore_name": "Jasper"
+    },
+    {
+     "last_name": "Koldere",
+     "fore_name": "Duygu"
+    },
+    {
+     "last_name": "De Waegeneer",
+     "fore_name": "Maxime"
+    },
+    {
+     "last_name": "Pech",
+     "fore_name": "Uli"
+    },
+    {
+     "last_name": "Kreft",
+     "fore_name": "Łukasz"
+    },
+    {
+     "last_name": "Aibar",
+     "fore_name": "Sara"
+    },
+    {
+     "last_name": "Makhzami",
+     "fore_name": "Samira"
+    },
+    {
+     "last_name": "Christiaens",
+     "fore_name": "Valerie"
+    },
+    {
+     "last_name": "Bravo González-Blas",
+     "fore_name": "Carmen"
+    },
+    {
+     "last_name": "Poovathingal",
+     "fore_name": "Suresh"
+    },
+    {
+     "last_name": "Hulselmans",
+     "fore_name": "Gert"
+    },
+    {
+     "last_name": "Spanier",
+     "fore_name": "Katina I"
+    },
+    {
+     "last_name": "Moerman",
+     "fore_name": "Thomas"
+    },
+    {
+     "last_name": "Vanspauwen",
+     "fore_name": "Bram"
+    },
+    {
+     "last_name": "Geurs",
+     "fore_name": "Sarah"
+    },
+    {
+     "last_name": "Voet",
+     "fore_name": "Thierry"
+    },
+    {
+     "last_name": "Lammertyn",
+     "fore_name": "Jeroen"
+    },
+    {
+     "last_name": "Thienpont",
+     "fore_name": "Bernard"
+    },
+    {
+     "last_name": "Liu",
+     "fore_name": "Sha"
+    },
+    {
+     "last_name": "Konstantinides",
+     "fore_name": "Nikos"
+    },
+    {
+     "last_name": "Fiers",
+     "fore_name": "Mark"
+    },
+    {
+     "last_name": "Verstreken",
+     "fore_name": "Patrik"
+    },
+    {
+     "last_name": "Aerts",
+     "fore_name": "Stein"
+    }
+   ],
+   "year": "2018",
+   "volume": "174",
+   "pages": "982-998.e20"
+  },
+  "10.1016/j.cell.2024.03.016": {
+   "pmid": "38729112",
+   "pmc": "PMC11106717",
+   "doi": "10.1016/j.cell.2024.03.016",
+   "title": "Neurotransmitter classification from electron microscopy images at synaptic sites in Drosophila melanogaster.",
+   "journal": "Cell",
+   "iso": "Cell",
+   "authors": [
+    {
+     "last_name": "Eckstein",
+     "fore_name": "Nils"
+    },
+    {
+     "last_name": "Bates",
+     "fore_name": "Alexander Shakeel"
+    },
+    {
+     "last_name": "Champion",
+     "fore_name": "Andrew"
+    },
+    {
+     "last_name": "Du",
+     "fore_name": "Michelle"
+    },
+    {
+     "last_name": "Yin",
+     "fore_name": "Yijie"
+    },
+    {
+     "last_name": "Schlegel",
+     "fore_name": "Philipp"
+    },
+    {
+     "last_name": "Lu",
+     "fore_name": "Alicia Kun-Yang"
+    },
+    {
+     "last_name": "Rymer",
+     "fore_name": "Thomson"
+    },
+    {
+     "last_name": "Finley-May",
+     "fore_name": "Samantha"
+    },
+    {
+     "last_name": "Paterson",
+     "fore_name": "Tyler"
+    },
+    {
+     "last_name": "Parekh",
+     "fore_name": "Ruchi"
+    },
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven"
+    },
+    {
+     "last_name": "Matsliah",
+     "fore_name": "Arie"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Szi-Chieh"
+    },
+    {
+     "last_name": "McKellar",
+     "fore_name": "Claire"
+    },
+    {
+     "last_name": "Sterling",
+     "fore_name": "Amy"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta"
+    },
+    {
+     "last_name": "Seung",
+     "fore_name": "Sebastian"
+    },
+    {
+     "last_name": "Murthy",
+     "fore_name": "Mala"
+    },
+    {
+     "last_name": "Hartenstein",
+     "fore_name": "Volker"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E"
+    },
+    {
+     "last_name": "Funke",
+     "fore_name": "Jan"
+    }
+   ],
+   "year": "2024",
+   "volume": "187",
+   "pages": "2574-2594.e23"
+  },
+  "10.1016/j.cell.2026.08.015": {
+   "pmid": "42691995",
+   "pmc": null,
+   "doi": "10.1016/j.cell.2026.08.015",
+   "title": "Sexual dimorphism in the complete Drosophila male central nervous system connectome.",
+   "journal": "Cell",
+   "iso": "Cell",
+   "authors": [
+    {
+     "last_name": "Berg",
+     "fore_name": "Stuart",
+     "initials": "S"
+    },
+    {
+     "last_name": "Beckett",
+     "fore_name": "Isabella R",
+     "initials": "IR"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta",
+     "initials": "M"
+    },
+    {
+     "last_name": "Schlegel",
+     "fore_name": "Philipp",
+     "initials": "P"
+    },
+    {
+     "last_name": "Januszewski",
+     "fore_name": "Michał",
+     "initials": "M"
+    },
+    {
+     "last_name": "Marin",
+     "fore_name": "Elizabeth C",
+     "initials": "EC"
+    },
+    {
+     "last_name": "Nern",
+     "fore_name": "Aljoscha",
+     "initials": "A"
+    },
+    {
+     "last_name": "Preibisch",
+     "fore_name": "Stephan",
+     "initials": "S"
+    },
+    {
+     "last_name": "Qiu",
+     "fore_name": "Wei",
+     "initials": "W"
+    },
+    {
+     "last_name": "Takemura",
+     "fore_name": "Shin-Ya",
+     "initials": "SY"
+    },
+    {
+     "last_name": "Fragniere",
+     "fore_name": "Alexandra M C",
+     "initials": "AMC"
+    },
+    {
+     "last_name": "Champion",
+     "fore_name": "Andrew S",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Adjavon",
+     "fore_name": "Diane-Yayra",
+     "initials": "DY"
+    },
+    {
+     "last_name": "Cook",
+     "fore_name": "Michael",
+     "initials": "M"
+    },
+    {
+     "last_name": "Gkantia",
+     "fore_name": "Marina",
+     "initials": "M"
+    },
+    {
+     "last_name": "Hayworth",
+     "fore_name": "Kenneth J",
+     "initials": "KJ"
+    },
+    {
+     "last_name": "Huang",
+     "fore_name": "Gary B",
+     "initials": "GB"
+    },
+    {
+     "last_name": "Katz",
+     "fore_name": "William T",
+     "initials": "WT"
+    },
+    {
+     "last_name": "Kämpf",
+     "fore_name": "Florian",
+     "initials": "F"
+    },
+    {
+     "last_name": "Lu",
+     "fore_name": "Zhiyuan",
+     "initials": "Z"
+    },
+    {
+     "last_name": "Ordish",
+     "fore_name": "Christopher",
+     "initials": "C"
+    },
+    {
+     "last_name": "Paterson",
+     "fore_name": "Tyler",
+     "initials": "T"
+    },
+    {
+     "last_name": "Stürner",
+     "fore_name": "Tomke",
+     "initials": "T"
+    },
+    {
+     "last_name": "Trautman",
+     "fore_name": "Eric T",
+     "initials": "ET"
+    },
+    {
+     "last_name": "Whittle",
+     "fore_name": "Catherine R",
+     "initials": "CR"
+    },
+    {
+     "last_name": "Burnett",
+     "fore_name": "Laura E",
+     "initials": "LE"
+    },
+    {
+     "last_name": "Hoeller",
+     "fore_name": "Judith",
+     "initials": "J"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Feng",
+     "initials": "F"
+    },
+    {
+     "last_name": "Loesche",
+     "fore_name": "Frank",
+     "initials": "F"
+    },
+    {
+     "last_name": "Morris",
+     "fore_name": "Billy J",
+     "initials": "BJ"
+    },
+    {
+     "last_name": "Pietzsch",
+     "fore_name": "Tobias",
+     "initials": "T"
+    },
+    {
+     "last_name": "Pleijzier",
+     "fore_name": "Markus W",
+     "initials": "MW"
+    },
+    {
+     "last_name": "Silva",
+     "fore_name": "Valeria",
+     "initials": "V"
+    },
+    {
+     "last_name": "Yin",
+     "fore_name": "Yijie",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Ali",
+     "fore_name": "Iris",
+     "initials": "I"
+    },
+    {
+     "last_name": "Badalamente",
+     "fore_name": "Griffin",
+     "initials": "G"
+    },
+    {
+     "last_name": "Bates",
+     "fore_name": "Alexander Shakeel",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Beresford",
+     "fore_name": "Rory J",
+     "initials": "RJ"
+    },
+    {
+     "last_name": "Bogovic",
+     "fore_name": "John",
+     "initials": "J"
+    },
+    {
+     "last_name": "Brooks",
+     "fore_name": "Paul",
+     "initials": "P"
+    },
+    {
+     "last_name": "Cachero",
+     "fore_name": "Sebastian",
+     "initials": "S"
+    },
+    {
+     "last_name": "Canino",
+     "fore_name": "Brandon S",
+     "initials": "BS"
+    },
+    {
+     "last_name": "Chaisrisawatsuk",
+     "fore_name": "Bhumpanya",
+     "initials": "B"
+    },
+    {
+     "last_name": "Clements",
+     "fore_name": "Jody",
+     "initials": "J"
+    },
+    {
+     "last_name": "Crowe",
+     "fore_name": "Arthur",
+     "initials": "A"
+    },
+    {
+     "last_name": "de Haan Vicente",
+     "fore_name": "Inês",
+     "initials": "I"
+    },
+    {
+     "last_name": "Dempsey",
+     "fore_name": "Georgia",
+     "initials": "G"
+    },
+    {
+     "last_name": "Donà",
+     "fore_name": "Erika",
+     "initials": "E"
+    },
+    {
+     "last_name": "Dos Santos",
+     "fore_name": "Márcia",
+     "initials": "M"
+    },
+    {
+     "last_name": "Dreher",
+     "fore_name": "Marisa",
+     "initials": "M"
+    },
+    {
+     "last_name": "Dunne",
+     "fore_name": "Christopher R",
+     "initials": "CR"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Finley-May",
+     "fore_name": "Samantha",
+     "initials": "S"
+    },
+    {
+     "last_name": "Flynn",
+     "fore_name": "Miriam A",
+     "initials": "MA"
+    },
+    {
+     "last_name": "Hameed",
+     "fore_name": "Imran",
+     "initials": "I"
+    },
+    {
+     "last_name": "Hopkins",
+     "fore_name": "Gary Patrick",
+     "initials": "GP"
+    },
+    {
+     "last_name": "Hubbard",
+     "fore_name": "Philip M",
+     "initials": "PM"
+    },
+    {
+     "last_name": "Kiassat",
+     "fore_name": "Ladann",
+     "initials": "L"
+    },
+    {
+     "last_name": "Kovalyak",
+     "fore_name": "Julie",
+     "initials": "J"
+    },
+    {
+     "last_name": "Lauchie",
+     "fore_name": "Shirley A",
+     "initials": "SA"
+    },
+    {
+     "last_name": "Leonard",
+     "fore_name": "Meghan",
+     "initials": "M"
+    },
+    {
+     "last_name": "Lohff",
+     "fore_name": "Alanna",
+     "initials": "A"
+    },
+    {
+     "last_name": "Longden",
+     "fore_name": "Kit D",
+     "initials": "KD"
+    },
+    {
+     "last_name": "Maldonado",
+     "fore_name": "Charli A",
+     "initials": "CA"
+    },
+    {
+     "last_name": "Moitra",
+     "fore_name": "Ilina",
+     "initials": "I"
+    },
+    {
+     "last_name": "Moon",
+     "fore_name": "Sung Soo",
+     "initials": "SS"
+    },
+    {
+     "last_name": "Mooney",
+     "fore_name": "Caroline",
+     "initials": "C"
+    },
+    {
+     "last_name": "Munnelly",
+     "fore_name": "Eva J",
+     "initials": "EJ"
+    },
+    {
+     "last_name": "Okeoma",
+     "fore_name": "Nneoma",
+     "initials": "N"
+    },
+    {
+     "last_name": "Olbris",
+     "fore_name": "Donald J",
+     "initials": "DJ"
+    },
+    {
+     "last_name": "Pai",
+     "fore_name": "Anika",
+     "initials": "A"
+    },
+    {
+     "last_name": "Patel",
+     "fore_name": "Birava",
+     "initials": "B"
+    },
+    {
+     "last_name": "Phillips",
+     "fore_name": "Emily M",
+     "initials": "EM"
+    },
+    {
+     "last_name": "Plaza",
+     "fore_name": "Stephen M",
+     "initials": "SM"
+    },
+    {
+     "last_name": "Richards",
+     "fore_name": "Alana",
+     "initials": "A"
+    },
+    {
+     "last_name": "Rivas Salinas",
+     "fore_name": "Jennifer",
+     "initials": "J"
+    },
+    {
+     "last_name": "Roberts",
+     "fore_name": "Ruairí J V",
+     "initials": "RJV"
+    },
+    {
+     "last_name": "Rogers",
+     "fore_name": "Edward M",
+     "initials": "EM"
+    },
+    {
+     "last_name": "Scott",
+     "fore_name": "Ashley L",
+     "initials": "AL"
+    },
+    {
+     "last_name": "Scuderi",
+     "fore_name": "Louis A",
+     "initials": "LA"
+    },
+    {
+     "last_name": "Seenivasan",
+     "fore_name": "Pavithraa",
+     "initials": "P"
+    },
+    {
+     "last_name": "Serratosa Capdevila",
+     "fore_name": "Laia",
+     "initials": "L"
+    },
+    {
+     "last_name": "Smith",
+     "fore_name": "Claire",
+     "initials": "C"
+    },
+    {
+     "last_name": "Svirskas",
+     "fore_name": "Rob",
+     "initials": "R"
+    },
+    {
+     "last_name": "Takemura",
+     "fore_name": "Satoko",
+     "initials": "S"
+    },
+    {
+     "last_name": "Tastekin",
+     "fore_name": "Ibrahim",
+     "initials": "I"
+    },
+    {
+     "last_name": "Thomson",
+     "fore_name": "Alexander",
+     "initials": "A"
+    },
+    {
+     "last_name": "Umayam",
+     "fore_name": "Lowell",
+     "initials": "L"
+    },
+    {
+     "last_name": "Walsh",
+     "fore_name": "John J",
+     "initials": "JJ"
+    },
+    {
+     "last_name": "Whittome",
+     "fore_name": "Holly",
+     "initials": "H"
+    },
+    {
+     "last_name": "Xu",
+     "fore_name": "C Shan",
+     "initials": "CS"
+    },
+    {
+     "last_name": "Yakal",
+     "fore_name": "Emily A",
+     "initials": "EA"
+    },
+    {
+     "last_name": "Yang",
+     "fore_name": "Tansy",
+     "initials": "T"
+    },
+    {
+     "last_name": "Zhao",
+     "fore_name": "Arthur",
+     "initials": "A"
+    },
+    {
+     "last_name": "George",
+     "fore_name": "Reed",
+     "initials": "R"
+    },
+    {
+     "last_name": "Jain",
+     "fore_name": "Viren",
+     "initials": "V"
+    },
+    {
+     "last_name": "Jayaraman",
+     "fore_name": "Vivek",
+     "initials": "V"
+    },
+    {
+     "last_name": "Korff",
+     "fore_name": "Wyatt",
+     "initials": "W"
+    },
+    {
+     "last_name": "Meissner",
+     "fore_name": "Geoffrey W",
+     "initials": "GW"
+    },
+    {
+     "last_name": "Romani",
+     "fore_name": "Sandro",
+     "initials": "S"
+    },
+    {
+     "last_name": "Funke",
+     "fore_name": "Jan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Knecht",
+     "fore_name": "Christopher",
+     "initials": "C"
+    },
+    {
+     "last_name": "Saalfeld",
+     "fore_name": "Stephan",
+     "initials": "S"
+    },
+    {
+     "last_name": "Scheffer",
+     "fore_name": "Louis K",
+     "initials": "LK"
+    },
+    {
+     "last_name": "Waddell",
+     "fore_name": "Scott",
+     "initials": "S"
+    },
+    {
+     "last_name": "Card",
+     "fore_name": "Gwyneth M",
+     "initials": "GM"
+    },
+    {
+     "last_name": "Ribeiro",
+     "fore_name": "Carlos",
+     "initials": "C"
+    },
+    {
+     "last_name": "Reiser",
+     "fore_name": "Michael B",
+     "initials": "MB"
+    },
+    {
+     "last_name": "Hess",
+     "fore_name": "Harald F",
+     "initials": "HF"
+    },
+    {
+     "last_name": "Rubin",
+     "fore_name": "Gerald M",
+     "initials": "GM"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    }
+   ],
+   "year": "2026",
+   "volume": "189",
+   "pages": "5504-5526.e15"
+  },
+  "10.1016/j.conb.2023.102809": {
+   "pmid": "37980802",
+   "pmc": null,
+   "doi": "10.1016/j.conb.2023.102809",
+   "title": "Fast Hebbian plasticity and working memory.",
+   "journal": "Current opinion in neurobiology",
+   "iso": "Curr Opin Neurobiol",
+   "authors": [
+    {
+     "last_name": "Lansner",
+     "fore_name": "Anders",
+     "initials": "A"
+    },
+    {
+     "last_name": "Fiebig",
+     "fore_name": "Florian",
+     "initials": "F"
+    },
+    {
+     "last_name": "Herman",
+     "fore_name": "Pawel",
+     "initials": "P"
+    }
+   ],
+   "year": "2023",
+   "volume": "83",
+   "pages": "102809"
+  },
+  "10.1016/j.cub.2016.12.056": {
+   "pmid": "28216314",
+   "pmc": null,
+   "doi": "10.1016/j.cub.2016.12.056",
+   "title": "Visual Working Memory Requires Permissive and Instructive NO/cGMP Signaling at Presynapses in the Drosophila Central Brain.",
+   "journal": "Current biology : CB",
+   "iso": "Curr Biol",
+   "authors": [
+    {
+     "last_name": "Kuntz",
+     "fore_name": "Sara",
+     "initials": "S"
+    },
+    {
+     "last_name": "Poeck",
+     "fore_name": "Burkhard",
+     "initials": "B"
+    },
+    {
+     "last_name": "Strauss",
+     "fore_name": "Roland",
+     "initials": "R"
+    }
+   ],
+   "year": "2017",
+   "volume": "27",
+   "pages": "613-623"
+  },
+  "10.1016/j.cub.2023.07.067": {
+   "pmid": "37595590",
+   "pmc": "PMC10528783",
+   "doi": "10.1016/j.cub.2023.07.067",
+   "title": "Neural population dynamics of human working memory.",
+   "journal": "Current biology : CB",
+   "iso": "Curr Biol",
+   "authors": [
+    {
+     "last_name": "Li",
+     "fore_name": "Hsin-Hung",
+     "initials": "HH"
+    },
+    {
+     "last_name": "Curtis",
+     "fore_name": "Clayton E",
+     "initials": "CE"
+    }
+   ],
+   "year": "2023",
+   "volume": "33",
+   "pages": "3775-3784.e4"
+  },
+  "10.1016/j.cub.2023.12.014": {
+   "pmid": "38157861",
+   "pmc": null,
+   "doi": "10.1016/j.cub.2023.12.014",
+   "title": "Memory encoding and retrieval by retrosplenial parvalbumin interneurons are impaired in Alzheimer's disease model mice.",
+   "journal": "Current biology : CB",
+   "iso": "Curr Biol",
+   "authors": [
+    {
+     "last_name": "Park",
+     "fore_name": "Kyerl",
+     "initials": "K"
+    },
+    {
+     "last_name": "Kohl",
+     "fore_name": "Michael M",
+     "initials": "MM"
+    },
+    {
+     "last_name": "Kwag",
+     "fore_name": "Jeehyun",
+     "initials": "J"
+    }
+   ],
+   "year": "2023",
+   "volume": "34",
+   "pages": "434-443.e4"
+  },
+  "10.1016/j.cub.2026.02.028": {
+   "pmid": "41844155",
+   "pmc": "PMC13075853",
+   "doi": "10.1016/j.cub.2026.02.028",
+   "title": "Sleep facilitates pattern separation through SK channel-mediated sparse coding.",
+   "journal": "Current biology : CB",
+   "iso": "Curr Biol",
+   "authors": [
+    {
+     "last_name": "Chen",
+     "fore_name": "Chien-Chun",
+     "initials": "CC"
+    },
+    {
+     "last_name": "Huang",
+     "fore_name": "Yu-Chun",
+     "initials": "YC"
+    },
+    {
+     "last_name": "Ortega",
+     "fore_name": "Antonio",
+     "initials": "A"
+    },
+    {
+     "last_name": "Suárez-Grimalt",
+     "fore_name": "Raquel",
+     "initials": "R"
+    },
+    {
+     "last_name": "Tedre",
+     "fore_name": "Erik",
+     "initials": "E"
+    },
+    {
+     "last_name": "Baz",
+     "fore_name": "El-Sayed",
+     "initials": "ES"
+    },
+    {
+     "last_name": "Wu",
+     "fore_name": "Yifan",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Lin",
+     "fore_name": "Andrew C",
+     "initials": "AC"
+    },
+    {
+     "last_name": "Liu",
+     "fore_name": "Sha",
+     "initials": "S"
+    }
+   ],
+   "year": "2026",
+   "volume": "36",
+   "pages": "1633-1643.e6"
+  },
+  "10.1016/j.expneurol.2025.115581": {
+   "pmid": "41325895",
+   "pmc": null,
+   "doi": "10.1016/j.expneurol.2025.115581",
+   "title": "Excitation-inhibition imbalance as a common thread linking early Alzheimer's disease with temporal lobe epilepsy.",
+   "journal": "Experimental neurology",
+   "iso": "Exp Neurol",
+   "authors": [
+    {
+     "last_name": "Okechukwu",
+     "fore_name": "Nwife Getrude",
+     "initials": "NG"
+    },
+    {
+     "last_name": "Zaccone",
+     "fore_name": "Claudio",
+     "initials": "C"
+    },
+    {
+     "last_name": "La Barbera",
+     "fore_name": "Livia",
+     "initials": "L"
+    },
+    {
+     "last_name": "Nobili",
+     "fore_name": "Annalisa",
+     "initials": "A"
+    },
+    {
+     "last_name": "D'Amelio",
+     "fore_name": "Marcello",
+     "initials": "M"
+    }
+   ],
+   "year": "2025",
+   "volume": "397",
+   "pages": "115581"
+  },
+  "10.1016/j.neuron.2008.02.030": {
+   "pmid": "18466750",
+   "pmc": "PMC2429849",
+   "doi": "10.1016/j.neuron.2008.02.030",
+   "title": "Homeostatic matching and nonlinear amplification at identified central synapses.",
+   "journal": "Neuron",
+   "iso": "Neuron",
+   "authors": [
+    {
+     "last_name": "Kazama",
+     "fore_name": "Hokto",
+     "initials": "H"
+    },
+    {
+     "last_name": "Wilson",
+     "fore_name": "Rachel I",
+     "initials": "RI"
+    }
+   ],
+   "year": "2008",
+   "volume": "58",
+   "pages": "401-13"
+  },
+  "10.1016/j.neuron.2012.03.023": {
+   "pmid": "22578498",
+   "pmc": "PMC3351697",
+   "doi": "10.1016/j.neuron.2012.03.023",
+   "title": "Reduction of hippocampal hyperactivity improves cognition in amnestic mild cognitive impairment.",
+   "journal": "Neuron",
+   "iso": "Neuron",
+   "authors": [
+    {
+     "last_name": "Bakker",
+     "fore_name": "Arnold",
+     "initials": "A"
+    },
+    {
+     "last_name": "Krauss",
+     "fore_name": "Gregory L",
+     "initials": "GL"
+    },
+    {
+     "last_name": "Albert",
+     "fore_name": "Marilyn S",
+     "initials": "MS"
+    },
+    {
+     "last_name": "Speck",
+     "fore_name": "Caroline L",
+     "initials": "CL"
+    },
+    {
+     "last_name": "Jones",
+     "fore_name": "Lauren R",
+     "initials": "LR"
+    },
+    {
+     "last_name": "Stark",
+     "fore_name": "Craig E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Yassa",
+     "fore_name": "Michael A",
+     "initials": "MA"
+    },
+    {
+     "last_name": "Bassett",
+     "fore_name": "Susan S",
+     "initials": "SS"
+    },
+    {
+     "last_name": "Shelton",
+     "fore_name": "Amy L",
+     "initials": "AL"
+    },
+    {
+     "last_name": "Gallagher",
+     "fore_name": "Michela",
+     "initials": "M"
+    }
+   ],
+   "year": "2012",
+   "volume": "74",
+   "pages": "467-74"
+  },
+  "10.1016/j.neuron.2017.05.021": {
+   "pmid": "28683265",
+   "pmc": "PMC5519140",
+   "doi": "10.1016/j.neuron.2017.05.021",
+   "title": "Toward a Neurocentric View of Learning.",
+   "journal": "Neuron",
+   "iso": "Neuron",
+   "authors": [
+    {
+     "last_name": "Titley",
+     "fore_name": "Heather K",
+     "initials": "HK"
+    },
+    {
+     "last_name": "Brunel",
+     "fore_name": "Nicolas",
+     "initials": "N"
+    },
+    {
+     "last_name": "Hansel",
+     "fore_name": "Christian",
+     "initials": "C"
+    }
+   ],
+   "year": "2017",
+   "volume": "95",
+   "pages": "19-32"
+  },
+  "10.1016/j.neuron.2020.10.006": {
+   "pmid": "33125872",
+   "pmc": null,
+   "doi": "10.1016/j.neuron.2020.10.006",
+   "title": "Transcriptional Programs of Circuit Assembly in the Drosophila Visual System.",
+   "journal": "Neuron",
+   "iso": "Neuron",
+   "authors": [
+    {
+     "last_name": "Kurmangaliyev",
+     "fore_name": "Yerbol Z",
+     "initials": "YZ"
+    },
+    {
+     "last_name": "Yoo",
+     "fore_name": "Juyoun",
+     "initials": "J"
+    },
+    {
+     "last_name": "Valdes-Aleman",
+     "fore_name": "Javier",
+     "initials": "J"
+    },
+    {
+     "last_name": "Sanfilippo",
+     "fore_name": "Piero",
+     "initials": "P"
+    },
+    {
+     "last_name": "Zipursky",
+     "fore_name": "S Lawrence",
+     "initials": "SL"
+    }
+   ],
+   "year": "2020",
+   "volume": "108",
+   "pages": "1045-1057.e6"
+  },
+  "10.1016/j.neuron.2025.04.017": {
+   "pmid": "40381615",
+   "pmc": "PMC12245608",
+   "doi": "10.1016/j.neuron.2025.04.017",
+   "title": "Distinct systemic impacts of Aβ42 and Tau revealed by whole-organism snRNA-seq.",
+   "journal": "Neuron",
+   "iso": "Neuron",
+   "authors": [
+    {
+     "last_name": "Park",
+     "fore_name": "Ye-Jin"
+    },
+    {
+     "last_name": "Lu",
+     "fore_name": "Tzu-Chiao"
+    },
+    {
+     "last_name": "Jackson",
+     "fore_name": "Tyler"
+    },
+    {
+     "last_name": "Goodman",
+     "fore_name": "Lindsey D"
+    },
+    {
+     "last_name": "Ran",
+     "fore_name": "Lindsey"
+    },
+    {
+     "last_name": "Chen",
+     "fore_name": "Jiaye"
+    },
+    {
+     "last_name": "Liang",
+     "fore_name": "Chung-Yi"
+    },
+    {
+     "last_name": "Harrison",
+     "fore_name": "Erin"
+    },
+    {
+     "last_name": "Ko",
+     "fore_name": "Christina"
+    },
+    {
+     "last_name": "Chen",
+     "fore_name": "Xi"
+    },
+    {
+     "last_name": "Wang",
+     "fore_name": "Baiping"
+    },
+    {
+     "last_name": "Hsu",
+     "fore_name": "Ao-Lin"
+    },
+    {
+     "last_name": "Ochoa",
+     "fore_name": "Elizabeth"
+    },
+    {
+     "last_name": "Bieniek",
+     "fore_name": "Kevin F"
+    },
+    {
+     "last_name": "Yamamoto",
+     "fore_name": "Shinya"
+    },
+    {
+     "last_name": "Zhu",
+     "fore_name": "Yi"
+    },
+    {
+     "last_name": "Zheng",
+     "fore_name": "Hui"
+    },
+    {
+     "last_name": "Qi",
+     "fore_name": "Yanyan"
+    },
+    {
+     "last_name": "Bellen",
+     "fore_name": "Hugo J"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Hongjie"
+    }
+   ],
+   "year": "2025",
+   "volume": "113",
+   "pages": "2065-2082.e8"
+  },
+  "10.1016/j.neuropharm.2024.109960": {
+   "pmid": "38631563",
+   "pmc": "PMC11792059",
+   "doi": "10.1016/j.neuropharm.2024.109960",
+   "title": "The small conductance Ca-activated Kchannel activator GW542573X impairs hippocampal memory in C57BL/6J mice.",
+   "journal": "Neuropharmacology",
+   "iso": "Neuropharmacology",
+   "authors": [
+    {
+     "last_name": "Rice",
+     "fore_name": "Claire A",
+     "initials": "CA"
+    },
+    {
+     "last_name": "Stackman",
+     "fore_name": "Robert W",
+     "initials": "RW"
+    }
+   ],
+   "year": "2024",
+   "volume": "252",
+   "pages": "109960"
+  },
+  "10.1016/j.neuroscience.2017.06.008": {
+   "pmid": "28627422",
+   "pmc": null,
+   "doi": "10.1016/j.neuroscience.2017.06.008",
+   "title": "Down-Regulation of K4 Channel in Drosophila Mushroom Body Neurons Contributes to Aβ42-Induced Courtship Memory Deficits.",
+   "journal": "Neuroscience",
+   "iso": "Neuroscience",
+   "authors": [
+    {
+     "last_name": "Feng",
+     "fore_name": "Ge",
+     "initials": "G"
+    },
+    {
+     "last_name": "Pang",
+     "fore_name": "Jie",
+     "initials": "J"
+    },
+    {
+     "last_name": "Yi",
+     "fore_name": "Xin",
+     "initials": "X"
+    },
+    {
+     "last_name": "Song",
+     "fore_name": "Qian",
+     "initials": "Q"
+    },
+    {
+     "last_name": "Zhang",
+     "fore_name": "Jiaxing",
+     "initials": "J"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Can",
+     "initials": "C"
+    },
+    {
+     "last_name": "He",
+     "fore_name": "Guang",
+     "initials": "G"
+    },
+    {
+     "last_name": "Ping",
+     "fore_name": "Yong",
+     "initials": "Y"
+    }
+   ],
+   "year": "2017",
+   "volume": "370",
+   "pages": "236-245"
+  },
+  "10.1016/j.tics.2015.05.004": {
+   "pmid": "26051384",
+   "pmc": "PMC4509720",
+   "doi": "10.1016/j.tics.2015.05.004",
+   "title": "'Activity-silent' working memory in prefrontal cortex: a dynamic coding framework.",
+   "journal": "Trends in cognitive sciences",
+   "iso": "Trends Cogn Sci",
+   "authors": [
+    {
+     "last_name": "Stokes",
+     "fore_name": "Mark G",
+     "initials": "MG"
+    }
+   ],
+   "year": "2015",
+   "volume": "19",
+   "pages": "394-405"
+  },
+  "10.1016/j.tics.2021.01.003": {
+   "pmid": "33551266",
+   "pmc": null,
+   "doi": "10.1016/j.tics.2021.01.003",
+   "title": "Is Activity Silent Working Memory Simply Episodic Memory?",
+   "journal": "Trends in cognitive sciences",
+   "iso": "Trends Cogn Sci",
+   "authors": [
+    {
+     "last_name": "Beukers",
+     "fore_name": "Andre O",
+     "initials": "AO"
+    },
+    {
+     "last_name": "Buschman",
+     "fore_name": "Timothy J",
+     "initials": "TJ"
+    },
+    {
+     "last_name": "Cohen",
+     "fore_name": "Jonathan D",
+     "initials": "JD"
+    },
+    {
+     "last_name": "Norman",
+     "fore_name": "Kenneth A",
+     "initials": "KA"
+    }
+   ],
+   "year": "2021",
+   "volume": "25",
+   "pages": "284-293"
+  },
+  "10.1016/j.xgen.2025.101103": {
+   "pmid": "41421361",
+   "pmc": "PMC7618732",
+   "doi": "10.1016/j.xgen.2025.101103",
+   "title": "A high-resolution atlas of the brain predicts lineage and birth order underlying neuronal identity.",
+   "journal": "Cell genomics",
+   "iso": "Cell Genom",
+   "authors": [
+    {
+     "last_name": "Allen",
+     "fore_name": "Aaron M",
+     "initials": "AM"
+    },
+    {
+     "last_name": "Neville",
+     "fore_name": "Megan C",
+     "initials": "MC"
+    },
+    {
+     "last_name": "Nojima",
+     "fore_name": "Tetsuya",
+     "initials": "T"
+    },
+    {
+     "last_name": "Alejevski",
+     "fore_name": "Faredin",
+     "initials": "F"
+    },
+    {
+     "last_name": "Agarwal",
+     "fore_name": "Devika",
+     "initials": "D"
+    },
+    {
+     "last_name": "Sims",
+     "fore_name": "David",
+     "initials": "D"
+    },
+    {
+     "last_name": "Goodwin",
+     "fore_name": "Stephen F",
+     "initials": "SF"
+    }
+   ],
+   "year": "2025",
+   "volume": "6",
+   "pages": "101103"
+  },
+  "10.1038/nature06864": {
+   "pmid": "18344978",
+   "pmc": "PMC2824883",
+   "doi": "10.1038/nature06864",
+   "title": "Lateral presynaptic inhibition mediates gain control in an olfactory circuit.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Olsen",
+     "fore_name": "Shawn R",
+     "initials": "SR"
+    },
+    {
+     "last_name": "Wilson",
+     "fore_name": "Rachel I",
+     "initials": "RI"
+    }
+   ],
+   "year": "2008",
+   "volume": "452",
+   "pages": "956-60"
+  },
+  "10.1038/nature07003": {
+   "pmid": "18509336",
+   "pmc": null,
+   "doi": "10.1038/nature07003",
+   "title": "Analysis of a spatial orientation memory in Drosophila.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Neuser",
+     "fore_name": "Kirsa",
+     "initials": "K"
+    },
+    {
+     "last_name": "Triphan",
+     "fore_name": "Tilman",
+     "initials": "T"
+    },
+    {
+     "last_name": "Mronz",
+     "fore_name": "Markus",
+     "initials": "M"
+    },
+    {
+     "last_name": "Poeck",
+     "fore_name": "Burkhard",
+     "initials": "B"
+    },
+    {
+     "last_name": "Strauss",
+     "fore_name": "Roland",
+     "initials": "R"
+    }
+   ],
+   "year": "2008",
+   "volume": "453",
+   "pages": "1244-7"
+  },
+  "10.1038/nature17172": {
+   "pmid": "26982728",
+   "pmc": "PMC4847731",
+   "doi": "10.1038/nature17172",
+   "title": "Memory retrieval by activating engram cells in mouse models of early Alzheimer's disease.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Roy",
+     "fore_name": "Dheeraj S",
+     "initials": "DS"
+    },
+    {
+     "last_name": "Arons",
+     "fore_name": "Autumn",
+     "initials": "A"
+    },
+    {
+     "last_name": "Mitchell",
+     "fore_name": "Teryn I",
+     "initials": "TI"
+    },
+    {
+     "last_name": "Pignatelli",
+     "fore_name": "Michele",
+     "initials": "M"
+    },
+    {
+     "last_name": "Ryan",
+     "fore_name": "Tomás J",
+     "initials": "TJ"
+    },
+    {
+     "last_name": "Tonegawa",
+     "fore_name": "Susumu",
+     "initials": "S"
+    }
+   ],
+   "year": "2016",
+   "volume": "531",
+   "pages": "508-12"
+  },
+  "10.1038/nn.3660": {
+   "pmid": "24561998",
+   "pmc": "PMC4000970",
+   "doi": "10.1038/nn.3660",
+   "title": "Sparse, decorrelated odor coding in the mushroom body enhances learned odor discrimination.",
+   "journal": "Nature neuroscience",
+   "iso": "Nat Neurosci",
+   "authors": [
+    {
+     "last_name": "Lin",
+     "fore_name": "Andrew C",
+     "initials": "AC"
+    },
+    {
+     "last_name": "Bygrave",
+     "fore_name": "Alexei M",
+     "initials": "AM"
+    },
+    {
+     "last_name": "de Calignon",
+     "fore_name": "Alix",
+     "initials": "A"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Tzumin",
+     "initials": "T"
+    },
+    {
+     "last_name": "Miesenböck",
+     "fore_name": "Gero",
+     "initials": "G"
+    }
+   ],
+   "year": "2014",
+   "volume": "17",
+   "pages": "559-68"
+  },
+  "10.1038/nn.3741": {
+   "pmid": "24908103",
+   "pmc": null,
+   "doi": "10.1038/nn.3741",
+   "title": "A spike-timing mechanism for action selection.",
+   "journal": "Nature neuroscience",
+   "iso": "Nat Neurosci",
+   "authors": [
+    {
+     "last_name": "von Reyn",
+     "fore_name": "Catherine R",
+     "initials": "CR"
+    },
+    {
+     "last_name": "Breads",
+     "fore_name": "Patrick",
+     "initials": "P"
+    },
+    {
+     "last_name": "Peek",
+     "fore_name": "Martin Y",
+     "initials": "MY"
+    },
+    {
+     "last_name": "Zheng",
+     "fore_name": "Grace Zhiyu",
+     "initials": "GZ"
+    },
+    {
+     "last_name": "Williamson",
+     "fore_name": "W Ryan",
+     "initials": "WR"
+    },
+    {
+     "last_name": "Yee",
+     "fore_name": "Alyson L",
+     "initials": "AL"
+    },
+    {
+     "last_name": "Leonardo",
+     "fore_name": "Anthony",
+     "initials": "A"
+    },
+    {
+     "last_name": "Card",
+     "fore_name": "Gwyneth M",
+     "initials": "GM"
+    }
+   ],
+   "year": "2014",
+   "volume": "17",
+   "pages": "962-70"
+  },
+  "10.1038/nn.4084": {
+   "pmid": "26280760",
+   "pmc": "PMC4880671",
+   "doi": "10.1038/nn.4084",
+   "title": "GABAergic mechanisms regulated by miR-33 encode state-dependent fear.",
+   "journal": "Nature neuroscience",
+   "iso": "Nat Neurosci",
+   "authors": [
+    {
+     "last_name": "Jovasevic",
+     "fore_name": "Vladimir",
+     "initials": "V"
+    },
+    {
+     "last_name": "Corcoran",
+     "fore_name": "Kevin A",
+     "initials": "KA"
+    },
+    {
+     "last_name": "Leaderbrand",
+     "fore_name": "Katherine",
+     "initials": "K"
+    },
+    {
+     "last_name": "Yamawaki",
+     "fore_name": "Naoki",
+     "initials": "N"
+    },
+    {
+     "last_name": "Guedea",
+     "fore_name": "Anita L",
+     "initials": "AL"
+    },
+    {
+     "last_name": "Chen",
+     "fore_name": "Helen J",
+     "initials": "HJ"
+    },
+    {
+     "last_name": "Shepherd",
+     "fore_name": "Gordon M G",
+     "initials": "GM"
+    },
+    {
+     "last_name": "Radulovic",
+     "fore_name": "Jelena",
+     "initials": "J"
+    }
+   ],
+   "year": "2015",
+   "volume": "18",
+   "pages": "1265-71"
+  },
+  "10.1038/nn.4546": {
+   "pmid": "28414333",
+   "pmc": "PMC5446784",
+   "doi": "10.1038/nn.4546",
+   "title": "Dynamic hidden states underlying working-memory-guided behavior.",
+   "journal": "Nature neuroscience",
+   "iso": "Nat Neurosci",
+   "authors": [
+    {
+     "last_name": "Wolff",
+     "fore_name": "Michael J",
+     "initials": "MJ"
+    },
+    {
+     "last_name": "Jochim",
+     "fore_name": "Janina",
+     "initials": "J"
+    },
+    {
+     "last_name": "Akyürek",
+     "fore_name": "Elkan G",
+     "initials": "EG"
+    },
+    {
+     "last_name": "Stokes",
+     "fore_name": "Mark G",
+     "initials": "MG"
+    }
+   ],
+   "year": "2017",
+   "volume": "20",
+   "pages": "864-871"
+  },
+  "10.1038/nn1639": {
+   "pmid": "16444270",
+   "pmc": null,
+   "doi": "10.1038/nn1639",
+   "title": "Variable channel expression in identified single and electrically coupled neurons in different animals.",
+   "journal": "Nature neuroscience",
+   "iso": "Nat Neurosci",
+   "authors": [
+    {
+     "last_name": "Schulz",
+     "fore_name": "David J",
+     "initials": "DJ"
+    },
+    {
+     "last_name": "Goaillard",
+     "fore_name": "Jean-Marc",
+     "initials": "JM"
+    },
+    {
+     "last_name": "Marder",
+     "fore_name": "Eve",
+     "initials": "E"
+    }
+   ],
+   "year": "2006",
+   "volume": "9",
+   "pages": "356-62"
+  },
+  "10.1038/nrn.2016.141": {
+   "pmid": "27829687",
+   "pmc": "PMC8162106",
+   "doi": "10.1038/nrn.2016.141",
+   "title": "Network abnormalities and interneuron dysfunction in Alzheimer disease.",
+   "journal": "Nature reviews. Neuroscience",
+   "iso": "Nat Rev Neurosci",
+   "authors": [
+    {
+     "last_name": "Palop",
+     "fore_name": "Jorge J",
+     "initials": "JJ"
+    },
+    {
+     "last_name": "Mucke",
+     "fore_name": "Lennart",
+     "initials": "L"
+    }
+   ],
+   "year": "2016",
+   "volume": "17",
+   "pages": "777-792"
+  },
+  "10.1038/s41467-021-26022-3": {
+   "pmid": "34608134",
+   "pmc": "PMC8490404",
+   "doi": "10.1038/s41467-021-26022-3",
+   "title": "Neural heterogeneity promotes robust learning.",
+   "journal": "Nature communications",
+   "iso": "Nat Commun",
+   "authors": [
+    {
+     "last_name": "Perez-Nieves",
+     "fore_name": "Nicolas",
+     "initials": "N"
+    },
+    {
+     "last_name": "Leung",
+     "fore_name": "Vincent C H",
+     "initials": "VCH"
+    },
+    {
+     "last_name": "Dragotti",
+     "fore_name": "Pier Luigi",
+     "initials": "PL"
+    },
+    {
+     "last_name": "Goodman",
+     "fore_name": "Dan F M",
+     "initials": "DFM"
+    }
+   ],
+   "year": "2021",
+   "volume": "12",
+   "pages": "5791"
+  },
+  "10.1038/s41467-022-29384-4": {
+   "pmid": "35379803",
+   "pmc": "PMC8980018",
+   "doi": "10.1038/s41467-022-29384-4",
+   "title": "Brain-wide mapping reveals that engrams for a single memory are distributed across multiple brain regions.",
+   "journal": "Nature communications",
+   "iso": "Nat Commun",
+   "authors": [
+    {
+     "last_name": "Roy",
+     "fore_name": "Dheeraj S",
+     "initials": "DS"
+    },
+    {
+     "last_name": "Park",
+     "fore_name": "Young-Gyun",
+     "initials": "YG"
+    },
+    {
+     "last_name": "Kim",
+     "fore_name": "Minyoung E",
+     "initials": "ME"
+    },
+    {
+     "last_name": "Zhang",
+     "fore_name": "Ying",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Ogawa",
+     "fore_name": "Sachie K",
+     "initials": "SK"
+    },
+    {
+     "last_name": "DiNapoli",
+     "fore_name": "Nicholas",
+     "initials": "N"
+    },
+    {
+     "last_name": "Gu",
+     "fore_name": "Xinyi",
+     "initials": "X"
+    },
+    {
+     "last_name": "Cho",
+     "fore_name": "Jae H",
+     "initials": "JH"
+    },
+    {
+     "last_name": "Choi",
+     "fore_name": "Heejin",
+     "initials": "H"
+    },
+    {
+     "last_name": "Kamentsky",
+     "fore_name": "Lee",
+     "initials": "L"
+    },
+    {
+     "last_name": "Martin",
+     "fore_name": "Jared",
+     "initials": "J"
+    },
+    {
+     "last_name": "Mosto",
+     "fore_name": "Olivia",
+     "initials": "O"
+    },
+    {
+     "last_name": "Aida",
+     "fore_name": "Tomomi",
+     "initials": "T"
+    },
+    {
+     "last_name": "Chung",
+     "fore_name": "Kwanghun",
+     "initials": "K"
+    },
+    {
+     "last_name": "Tonegawa",
+     "fore_name": "Susumu",
+     "initials": "S"
+    }
+   ],
+   "year": "2022",
+   "volume": "13",
+   "pages": "1799"
+  },
+  "10.1038/s41562-025-02235-0": {
+   "pmid": "40634665",
+   "pmc": "PMC12545176",
+   "doi": "10.1038/s41562-025-02235-0",
+   "title": "Unattended working memory items are coded by persistent activity in human medial temporal lobe neurons.",
+   "journal": "Nature human behaviour",
+   "iso": "Nat Hum Behav",
+   "authors": [
+    {
+     "last_name": "Paluch",
+     "fore_name": "K",
+     "initials": "K"
+    },
+    {
+     "last_name": "Magnuski",
+     "fore_name": "M",
+     "initials": "M"
+    },
+    {
+     "last_name": "Średniawa",
+     "fore_name": "W",
+     "initials": "W"
+    },
+    {
+     "last_name": "Ivanovski",
+     "fore_name": "D",
+     "initials": "D"
+    },
+    {
+     "last_name": "Rysz",
+     "fore_name": "A",
+     "initials": "A"
+    },
+    {
+     "last_name": "Służewska-Niedźwiedź",
+     "fore_name": "M",
+     "initials": "M"
+    },
+    {
+     "last_name": "Pasterski",
+     "fore_name": "T",
+     "initials": "T"
+    },
+    {
+     "last_name": "Fortuna",
+     "fore_name": "W",
+     "initials": "W"
+    },
+    {
+     "last_name": "Smarzewska",
+     "fore_name": "K",
+     "initials": "K"
+    },
+    {
+     "last_name": "Reinacher",
+     "fore_name": "P C",
+     "initials": "PC"
+    },
+    {
+     "last_name": "Kaczor",
+     "fore_name": "Sz",
+     "initials": "S"
+    },
+    {
+     "last_name": "Tabakow",
+     "fore_name": "P",
+     "initials": "P"
+    },
+    {
+     "last_name": "Babu",
+     "fore_name": "H",
+     "initials": "H"
+    },
+    {
+     "last_name": "Kamiński",
+     "fore_name": "J",
+     "initials": "J"
+    }
+   ],
+   "year": "2025",
+   "volume": "9",
+   "pages": "2099-2113"
+  },
+  "10.1038/s41586-020-2649-2": {
+   "pmid": "32939066",
+   "pmc": "PMC7759461",
+   "doi": "10.1038/s41586-020-2649-2",
+   "title": "Array programming with NumPy.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Harris",
+     "fore_name": "Charles R",
+     "initials": "CR"
+    },
+    {
+     "last_name": "Millman",
+     "fore_name": "K Jarrod",
+     "initials": "KJ"
+    },
+    {
+     "last_name": "van der Walt",
+     "fore_name": "Stéfan J",
+     "initials": "SJ"
+    },
+    {
+     "last_name": "Gommers",
+     "fore_name": "Ralf",
+     "initials": "R"
+    },
+    {
+     "last_name": "Virtanen",
+     "fore_name": "Pauli",
+     "initials": "P"
+    },
+    {
+     "last_name": "Cournapeau",
+     "fore_name": "David",
+     "initials": "D"
+    },
+    {
+     "last_name": "Wieser",
+     "fore_name": "Eric",
+     "initials": "E"
+    },
+    {
+     "last_name": "Taylor",
+     "fore_name": "Julian",
+     "initials": "J"
+    },
+    {
+     "last_name": "Berg",
+     "fore_name": "Sebastian",
+     "initials": "S"
+    },
+    {
+     "last_name": "Smith",
+     "fore_name": "Nathaniel J",
+     "initials": "NJ"
+    },
+    {
+     "last_name": "Kern",
+     "fore_name": "Robert",
+     "initials": "R"
+    },
+    {
+     "last_name": "Picus",
+     "fore_name": "Matti",
+     "initials": "M"
+    },
+    {
+     "last_name": "Hoyer",
+     "fore_name": "Stephan",
+     "initials": "S"
+    },
+    {
+     "last_name": "van Kerkwijk",
+     "fore_name": "Marten H",
+     "initials": "MH"
+    },
+    {
+     "last_name": "Brett",
+     "fore_name": "Matthew",
+     "initials": "M"
+    },
+    {
+     "last_name": "Haldane",
+     "fore_name": "Allan",
+     "initials": "A"
+    },
+    {
+     "last_name": "Del Río",
+     "fore_name": "Jaime Fernández",
+     "initials": "JF"
+    },
+    {
+     "last_name": "Wiebe",
+     "fore_name": "Mark",
+     "initials": "M"
+    },
+    {
+     "last_name": "Peterson",
+     "fore_name": "Pearu",
+     "initials": "P"
+    },
+    {
+     "last_name": "Gérard-Marchant",
+     "fore_name": "Pierre",
+     "initials": "P"
+    },
+    {
+     "last_name": "Sheppard",
+     "fore_name": "Kevin",
+     "initials": "K"
+    },
+    {
+     "last_name": "Reddy",
+     "fore_name": "Tyler",
+     "initials": "T"
+    },
+    {
+     "last_name": "Weckesser",
+     "fore_name": "Warren",
+     "initials": "W"
+    },
+    {
+     "last_name": "Abbasi",
+     "fore_name": "Hameer",
+     "initials": "H"
+    },
+    {
+     "last_name": "Gohlke",
+     "fore_name": "Christoph",
+     "initials": "C"
+    },
+    {
+     "last_name": "Oliphant",
+     "fore_name": "Travis E",
+     "initials": "TE"
+    }
+   ],
+   "year": "2020",
+   "volume": "585",
+   "pages": "357-362"
+  },
+  "10.1038/s41586-020-2879-3": {
+   "pmid": "33149298",
+   "pmc": "PMC7790857",
+   "doi": "10.1038/s41586-020-2879-3",
+   "title": "Neuronal diversity and convergence in a visual system developmental atlas.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Özel",
+     "fore_name": "Mehmet Neset"
+    },
+    {
+     "last_name": "Simon",
+     "fore_name": "Félix"
+    },
+    {
+     "last_name": "Jafari",
+     "fore_name": "Shadi"
+    },
+    {
+     "last_name": "Holguera",
+     "fore_name": "Isabel"
+    },
+    {
+     "last_name": "Chen",
+     "fore_name": "Yen-Chung"
+    },
+    {
+     "last_name": "Benhra",
+     "fore_name": "Najate"
+    },
+    {
+     "last_name": "El-Danaf",
+     "fore_name": "Rana Naja"
+    },
+    {
+     "last_name": "Kapuralin",
+     "fore_name": "Katarina"
+    },
+    {
+     "last_name": "Malin",
+     "fore_name": "Jennifer Amy"
+    },
+    {
+     "last_name": "Konstantinides",
+     "fore_name": "Nikolaos"
+    },
+    {
+     "last_name": "Desplan",
+     "fore_name": "Claude"
+    }
+   ],
+   "year": "2020",
+   "volume": "589",
+   "pages": "88-95"
+  },
+  "10.1038/s41586-024-07389-x": {
+   "pmid": "38926570",
+   "pmc": "PMC11348827",
+   "doi": "10.1038/s41586-024-07389-x",
+   "title": "Connectomic reconstruction of a female Drosophila ventral nerve cord.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Azevedo",
+     "fore_name": "Anthony",
+     "initials": "A"
+    },
+    {
+     "last_name": "Lesser",
+     "fore_name": "Ellen",
+     "initials": "E"
+    },
+    {
+     "last_name": "Phelps",
+     "fore_name": "Jasper S",
+     "initials": "JS"
+    },
+    {
+     "last_name": "Mark",
+     "fore_name": "Brandon",
+     "initials": "B"
+    },
+    {
+     "last_name": "Elabbady",
+     "fore_name": "Leila",
+     "initials": "L"
+    },
+    {
+     "last_name": "Kuroda",
+     "fore_name": "Sumiya",
+     "initials": "S"
+    },
+    {
+     "last_name": "Sustar",
+     "fore_name": "Anne",
+     "initials": "A"
+    },
+    {
+     "last_name": "Moussa",
+     "fore_name": "Anthony",
+     "initials": "A"
+    },
+    {
+     "last_name": "Khandelwal",
+     "fore_name": "Avinash",
+     "initials": "A"
+    },
+    {
+     "last_name": "Dallmann",
+     "fore_name": "Chris J",
+     "initials": "CJ"
+    },
+    {
+     "last_name": "Agrawal",
+     "fore_name": "Sweta",
+     "initials": "S"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Su-Yee J",
+     "initials": "SJ"
+    },
+    {
+     "last_name": "Pratt",
+     "fore_name": "Brandon",
+     "initials": "B"
+    },
+    {
+     "last_name": "Cook",
+     "fore_name": "Andrew",
+     "initials": "A"
+    },
+    {
+     "last_name": "Skutt-Kakaria",
+     "fore_name": "Kyobi",
+     "initials": "K"
+    },
+    {
+     "last_name": "Gerhard",
+     "fore_name": "Stephan",
+     "initials": "S"
+    },
+    {
+     "last_name": "Lu",
+     "fore_name": "Ran",
+     "initials": "R"
+    },
+    {
+     "last_name": "Kemnitz",
+     "fore_name": "Nico",
+     "initials": "N"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Kisuk",
+     "initials": "K"
+    },
+    {
+     "last_name": "Halageri",
+     "fore_name": "Akhilesh",
+     "initials": "A"
+    },
+    {
+     "last_name": "Castro",
+     "fore_name": "Manuel",
+     "initials": "M"
+    },
+    {
+     "last_name": "Ih",
+     "fore_name": "Dodam",
+     "initials": "D"
+    },
+    {
+     "last_name": "Gager",
+     "fore_name": "Jay",
+     "initials": "J"
+    },
+    {
+     "last_name": "Tammam",
+     "fore_name": "Marwan",
+     "initials": "M"
+    },
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven",
+     "initials": "S"
+    },
+    {
+     "last_name": "Collman",
+     "fore_name": "Forrest",
+     "initials": "F"
+    },
+    {
+     "last_name": "Schneider-Mizell",
+     "fore_name": "Casey",
+     "initials": "C"
+    },
+    {
+     "last_name": "Brittain",
+     "fore_name": "Derrick",
+     "initials": "D"
+    },
+    {
+     "last_name": "Jordan",
+     "fore_name": "Chris S",
+     "initials": "CS"
+    },
+    {
+     "last_name": "Dickinson",
+     "fore_name": "Michael",
+     "initials": "M"
+    },
+    {
+     "last_name": "Pacureanu",
+     "fore_name": "Alexandra",
+     "initials": "A"
+    },
+    {
+     "last_name": "Seung",
+     "fore_name": "H Sebastian",
+     "initials": "HS"
+    },
+    {
+     "last_name": "Macrina",
+     "fore_name": "Thomas",
+     "initials": "T"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Wei-Chung Allen",
+     "initials": "WA"
+    },
+    {
+     "last_name": "Tuthill",
+     "fore_name": "John C",
+     "initials": "JC"
+    }
+   ],
+   "year": "2024",
+   "volume": "631",
+   "pages": "360-368"
+  },
+  "10.1038/s41586-024-07558-y": {
+   "pmid": "39358518",
+   "pmc": "PMC11446842",
+   "doi": "10.1038/s41586-024-07558-y",
+   "title": "Neuronal wiring diagram of an adult brain.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven",
+     "initials": "S"
+    },
+    {
+     "last_name": "Matsliah",
+     "fore_name": "Arie",
+     "initials": "A"
+    },
+    {
+     "last_name": "Sterling",
+     "fore_name": "Amy R",
+     "initials": "AR"
+    },
+    {
+     "last_name": "Schlegel",
+     "fore_name": "Philipp",
+     "initials": "P"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Szi-Chieh",
+     "initials": "SC"
+    },
+    {
+     "last_name": "McKellar",
+     "fore_name": "Claire E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Lin",
+     "fore_name": "Albert",
+     "initials": "A"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta",
+     "initials": "M"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Yin",
+     "fore_name": "Yijie",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Silversmith",
+     "fore_name": "Will",
+     "initials": "W"
+    },
+    {
+     "last_name": "Schneider-Mizell",
+     "fore_name": "Casey",
+     "initials": "C"
+    },
+    {
+     "last_name": "Jordan",
+     "fore_name": "Chris S",
+     "initials": "CS"
+    },
+    {
+     "last_name": "Brittain",
+     "fore_name": "Derrick",
+     "initials": "D"
+    },
+    {
+     "last_name": "Halageri",
+     "fore_name": "Akhilesh",
+     "initials": "A"
+    },
+    {
+     "last_name": "Kuehner",
+     "fore_name": "Kai",
+     "initials": "K"
+    },
+    {
+     "last_name": "Ogedengbe",
+     "fore_name": "Oluwaseun",
+     "initials": "O"
+    },
+    {
+     "last_name": "Morey",
+     "fore_name": "Ryan",
+     "initials": "R"
+    },
+    {
+     "last_name": "Gager",
+     "fore_name": "Jay",
+     "initials": "J"
+    },
+    {
+     "last_name": "Kruk",
+     "fore_name": "Krzysztof",
+     "initials": "K"
+    },
+    {
+     "last_name": "Perlman",
+     "fore_name": "Eric",
+     "initials": "E"
+    },
+    {
+     "last_name": "Yang",
+     "fore_name": "Runzhe",
+     "initials": "R"
+    },
+    {
+     "last_name": "Deutsch",
+     "fore_name": "David",
+     "initials": "D"
+    },
+    {
+     "last_name": "Bland",
+     "fore_name": "Doug",
+     "initials": "D"
+    },
+    {
+     "last_name": "Sorek",
+     "fore_name": "Marissa",
+     "initials": "M"
+    },
+    {
+     "last_name": "Lu",
+     "fore_name": "Ran",
+     "initials": "R"
+    },
+    {
+     "last_name": "Macrina",
+     "fore_name": "Thomas",
+     "initials": "T"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Kisuk",
+     "initials": "K"
+    },
+    {
+     "last_name": "Bae",
+     "fore_name": "J Alexander",
+     "initials": "JA"
+    },
+    {
+     "last_name": "Mu",
+     "fore_name": "Shang",
+     "initials": "S"
+    },
+    {
+     "last_name": "Nehoran",
+     "fore_name": "Barak",
+     "initials": "B"
+    },
+    {
+     "last_name": "Mitchell",
+     "fore_name": "Eric",
+     "initials": "E"
+    },
+    {
+     "last_name": "Popovych",
+     "fore_name": "Sergiy",
+     "initials": "S"
+    },
+    {
+     "last_name": "Wu",
+     "fore_name": "Jingpeng",
+     "initials": "J"
+    },
+    {
+     "last_name": "Jia",
+     "fore_name": "Zhen",
+     "initials": "Z"
+    },
+    {
+     "last_name": "Castro",
+     "fore_name": "Manuel A",
+     "initials": "MA"
+    },
+    {
+     "last_name": "Kemnitz",
+     "fore_name": "Nico",
+     "initials": "N"
+    },
+    {
+     "last_name": "Ih",
+     "fore_name": "Dodam",
+     "initials": "D"
+    },
+    {
+     "last_name": "Bates",
+     "fore_name": "Alexander Shakeel",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Eckstein",
+     "fore_name": "Nils",
+     "initials": "N"
+    },
+    {
+     "last_name": "Funke",
+     "fore_name": "Jan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Collman",
+     "fore_name": "Forrest",
+     "initials": "F"
+    },
+    {
+     "last_name": "Bock",
+     "fore_name": "Davi D",
+     "initials": "DD"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    },
+    {
+     "last_name": "Seung",
+     "fore_name": "H Sebastian",
+     "initials": "HS"
+    },
+    {
+     "last_name": "Murthy",
+     "fore_name": "Mala",
+     "initials": "M"
+    }
+   ],
+   "year": "2024",
+   "volume": "634",
+   "pages": "124-138"
+  },
+  "10.1038/s41586-024-07686-5": {
+   "pmid": "39358521",
+   "pmc": "PMC11446831",
+   "doi": "10.1038/s41586-024-07686-5",
+   "title": "Whole-brain annotation and multi-connectome cell typing of Drosophila.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Schlegel",
+     "fore_name": "Philipp",
+     "initials": "P"
+    },
+    {
+     "last_name": "Yin",
+     "fore_name": "Yijie",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Bates",
+     "fore_name": "Alexander S",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven",
+     "initials": "S"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Brooks",
+     "fore_name": "Paul",
+     "initials": "P"
+    },
+    {
+     "last_name": "Han",
+     "fore_name": "Daniel S",
+     "initials": "DS"
+    },
+    {
+     "last_name": "Gkantia",
+     "fore_name": "Marina",
+     "initials": "M"
+    },
+    {
+     "last_name": "Dos Santos",
+     "fore_name": "Marcia",
+     "initials": "M"
+    },
+    {
+     "last_name": "Munnelly",
+     "fore_name": "Eva J",
+     "initials": "EJ"
+    },
+    {
+     "last_name": "Badalamente",
+     "fore_name": "Griffin",
+     "initials": "G"
+    },
+    {
+     "last_name": "Serratosa Capdevila",
+     "fore_name": "Laia",
+     "initials": "L"
+    },
+    {
+     "last_name": "Sane",
+     "fore_name": "Varun A",
+     "initials": "VA"
+    },
+    {
+     "last_name": "Fragniere",
+     "fore_name": "Alexandra M C",
+     "initials": "AMC"
+    },
+    {
+     "last_name": "Kiassat",
+     "fore_name": "Ladann",
+     "initials": "L"
+    },
+    {
+     "last_name": "Pleijzier",
+     "fore_name": "Markus W",
+     "initials": "MW"
+    },
+    {
+     "last_name": "Stürner",
+     "fore_name": "Tomke",
+     "initials": "T"
+    },
+    {
+     "last_name": "Tamimi",
+     "fore_name": "Imaan F M",
+     "initials": "IFM"
+    },
+    {
+     "last_name": "Dunne",
+     "fore_name": "Christopher R",
+     "initials": "CR"
+    },
+    {
+     "last_name": "Salgarella",
+     "fore_name": "Irene",
+     "initials": "I"
+    },
+    {
+     "last_name": "Javier",
+     "fore_name": "Alexandre",
+     "initials": "A"
+    },
+    {
+     "last_name": "Fang",
+     "fore_name": "Siqi",
+     "initials": "S"
+    },
+    {
+     "last_name": "Perlman",
+     "fore_name": "Eric",
+     "initials": "E"
+    },
+    {
+     "last_name": "Kazimiers",
+     "fore_name": "Tom",
+     "initials": "T"
+    },
+    {
+     "last_name": "Jagannathan",
+     "fore_name": "Sridhar R",
+     "initials": "SR"
+    },
+    {
+     "last_name": "Matsliah",
+     "fore_name": "Arie",
+     "initials": "A"
+    },
+    {
+     "last_name": "Sterling",
+     "fore_name": "Amy R",
+     "initials": "AR"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Szi-Chieh",
+     "initials": "SC"
+    },
+    {
+     "last_name": "McKellar",
+     "fore_name": "Claire E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta",
+     "initials": "M"
+    },
+    {
+     "last_name": "Seung",
+     "fore_name": "H Sebastian",
+     "initials": "HS"
+    },
+    {
+     "last_name": "Murthy",
+     "fore_name": "Mala",
+     "initials": "M"
+    },
+    {
+     "last_name": "Hartenstein",
+     "fore_name": "Volker",
+     "initials": "V"
+    },
+    {
+     "last_name": "Bock",
+     "fore_name": "Davi D",
+     "initials": "DD"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    }
+   ],
+   "year": "2024",
+   "volume": "634",
+   "pages": "139-152"
+  },
+  "10.1038/s41586-024-07763-9": {
+   "pmid": "39358519",
+   "pmc": "PMC11446845",
+   "doi": "10.1038/s41586-024-07763-9",
+   "title": "A Drosophila computational brain model reveals sensorimotor processing.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Shiu",
+     "fore_name": "Philip K",
+     "initials": "PK"
+    },
+    {
+     "last_name": "Sterne",
+     "fore_name": "Gabriella R",
+     "initials": "GR"
+    },
+    {
+     "last_name": "Spiller",
+     "fore_name": "Nico",
+     "initials": "N"
+    },
+    {
+     "last_name": "Franconville",
+     "fore_name": "Romain",
+     "initials": "R"
+    },
+    {
+     "last_name": "Sandoval",
+     "fore_name": "Andrea",
+     "initials": "A"
+    },
+    {
+     "last_name": "Zhou",
+     "fore_name": "Joie",
+     "initials": "J"
+    },
+    {
+     "last_name": "Simha",
+     "fore_name": "Neha",
+     "initials": "N"
+    },
+    {
+     "last_name": "Kang",
+     "fore_name": "Chan Hyuk",
+     "initials": "CH"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Seongbong",
+     "initials": "S"
+    },
+    {
+     "last_name": "Kim",
+     "fore_name": "Jinseop S",
+     "initials": "JS"
+    },
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven",
+     "initials": "S"
+    },
+    {
+     "last_name": "Matsliah",
+     "fore_name": "Arie",
+     "initials": "A"
+    },
+    {
+     "last_name": "Schlegel",
+     "fore_name": "Philipp",
+     "initials": "P"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Szi-Chieh",
+     "initials": "SC"
+    },
+    {
+     "last_name": "McKellar",
+     "fore_name": "Claire E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Sterling",
+     "fore_name": "Amy",
+     "initials": "A"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta",
+     "initials": "M"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Bates",
+     "fore_name": "Alexander Shakeel",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Eckstein",
+     "fore_name": "Nils",
+     "initials": "N"
+    },
+    {
+     "last_name": "Funke",
+     "fore_name": "Jan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    },
+    {
+     "last_name": "Murthy",
+     "fore_name": "Mala",
+     "initials": "M"
+    },
+    {
+     "last_name": "Bidaye",
+     "fore_name": "Salil S",
+     "initials": "SS"
+    },
+    {
+     "last_name": "Hampel",
+     "fore_name": "Stefanie",
+     "initials": "S"
+    },
+    {
+     "last_name": "Seeds",
+     "fore_name": "Andrew M",
+     "initials": "AM"
+    },
+    {
+     "last_name": "Scott",
+     "fore_name": "Kristin",
+     "initials": "K"
+    }
+   ],
+   "year": "2024",
+   "volume": "634",
+   "pages": "210-219"
+  },
+  "10.1038/s41586-024-07939-3": {
+   "pmid": "39261740",
+   "pmc": "PMC11525180",
+   "doi": "10.1038/s41586-024-07939-3",
+   "title": "Connectome-constrained networks predict neural activity across the fly visual system.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Lappalainen",
+     "fore_name": "Janne K",
+     "initials": "JK"
+    },
+    {
+     "last_name": "Tschopp",
+     "fore_name": "Fabian D",
+     "initials": "FD"
+    },
+    {
+     "last_name": "Prakhya",
+     "fore_name": "Sridhama",
+     "initials": "S"
+    },
+    {
+     "last_name": "McGill",
+     "fore_name": "Mason",
+     "initials": "M"
+    },
+    {
+     "last_name": "Nern",
+     "fore_name": "Aljoscha",
+     "initials": "A"
+    },
+    {
+     "last_name": "Shinomiya",
+     "fore_name": "Kazunori",
+     "initials": "K"
+    },
+    {
+     "last_name": "Takemura",
+     "fore_name": "Shin-Ya",
+     "initials": "SY"
+    },
+    {
+     "last_name": "Gruntman",
+     "fore_name": "Eyal",
+     "initials": "E"
+    },
+    {
+     "last_name": "Macke",
+     "fore_name": "Jakob H",
+     "initials": "JH"
+    },
+    {
+     "last_name": "Turaga",
+     "fore_name": "Srinivas C",
+     "initials": "SC"
+    }
+   ],
+   "year": "2024",
+   "volume": "634",
+   "pages": "1132-1140"
+  },
+  "10.1038/s41586-024-07968-y": {
+   "pmid": "39358527",
+   "pmc": "PMC11446825",
+   "doi": "10.1038/s41586-024-07968-y",
+   "title": "Network statistics of the whole-brain connectome of Drosophila.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Lin",
+     "fore_name": "Albert",
+     "initials": "A"
+    },
+    {
+     "last_name": "Yang",
+     "fore_name": "Runzhe",
+     "initials": "R"
+    },
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven",
+     "initials": "S"
+    },
+    {
+     "last_name": "Matsliah",
+     "fore_name": "Arie",
+     "initials": "A"
+    },
+    {
+     "last_name": "Sterling",
+     "fore_name": "Amy R",
+     "initials": "AR"
+    },
+    {
+     "last_name": "Schlegel",
+     "fore_name": "Philipp",
+     "initials": "P"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Szi-Chieh",
+     "initials": "SC"
+    },
+    {
+     "last_name": "McKellar",
+     "fore_name": "Claire E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta",
+     "initials": "M"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Bates",
+     "fore_name": "Alexander Shakeel",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Eckstein",
+     "fore_name": "Nils",
+     "initials": "N"
+    },
+    {
+     "last_name": "Funke",
+     "fore_name": "Jan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    },
+    {
+     "last_name": "Murthy",
+     "fore_name": "Mala",
+     "initials": "M"
+    }
+   ],
+   "year": "2024",
+   "volume": "634",
+   "pages": "153-165"
+  },
+  "10.1038/s41586-024-07982-0": {
+   "pmid": "39358526",
+   "pmc": "PMC11446844",
+   "doi": "10.1038/s41586-024-07982-0",
+   "title": "The fly connectome reveals a path to the effectome.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Pospisil",
+     "fore_name": "Dean A",
+     "initials": "DA"
+    },
+    {
+     "last_name": "Aragon",
+     "fore_name": "Max J",
+     "initials": "MJ"
+    },
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven",
+     "initials": "S"
+    },
+    {
+     "last_name": "Matsliah",
+     "fore_name": "Arie",
+     "initials": "A"
+    },
+    {
+     "last_name": "Sterling",
+     "fore_name": "Amy R",
+     "initials": "AR"
+    },
+    {
+     "last_name": "Schlegel",
+     "fore_name": "Philipp",
+     "initials": "P"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Szi-Chieh",
+     "initials": "SC"
+    },
+    {
+     "last_name": "McKellar",
+     "fore_name": "Claire E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta",
+     "initials": "M"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    },
+    {
+     "last_name": "Murthy",
+     "fore_name": "Mala",
+     "initials": "M"
+    },
+    {
+     "last_name": "Pillow",
+     "fore_name": "Jonathan W",
+     "initials": "JW"
+    }
+   ],
+   "year": "2024",
+   "volume": "634",
+   "pages": "201-209"
+  },
+  "10.1038/s41586-025-08925-z": {
+   "pmid": "40307549",
+   "pmc": "PMC12222017",
+   "doi": "10.1038/s41586-025-08925-z",
+   "title": "Comparative connectomics of Drosophila descending and ascending neurons.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Stürner",
+     "fore_name": "Tomke",
+     "initials": "T"
+    },
+    {
+     "last_name": "Brooks",
+     "fore_name": "Paul",
+     "initials": "P"
+    },
+    {
+     "last_name": "Serratosa Capdevila",
+     "fore_name": "Laia",
+     "initials": "L"
+    },
+    {
+     "last_name": "Morris",
+     "fore_name": "Billy J",
+     "initials": "BJ"
+    },
+    {
+     "last_name": "Javier",
+     "fore_name": "Alexandre",
+     "initials": "A"
+    },
+    {
+     "last_name": "Fang",
+     "fore_name": "Siqi",
+     "initials": "S"
+    },
+    {
+     "last_name": "Gkantia",
+     "fore_name": "Marina",
+     "initials": "M"
+    },
+    {
+     "last_name": "Cachero",
+     "fore_name": "Sebastian",
+     "initials": "S"
+    },
+    {
+     "last_name": "Beckett",
+     "fore_name": "Isabella R",
+     "initials": "IR"
+    },
+    {
+     "last_name": "Marin",
+     "fore_name": "Elizabeth C",
+     "initials": "EC"
+    },
+    {
+     "last_name": "Schlegel",
+     "fore_name": "Philipp",
+     "initials": "P"
+    },
+    {
+     "last_name": "Champion",
+     "fore_name": "Andrew S",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Moitra",
+     "fore_name": "Ilina",
+     "initials": "I"
+    },
+    {
+     "last_name": "Richards",
+     "fore_name": "Alana",
+     "initials": "A"
+    },
+    {
+     "last_name": "Klemm",
+     "fore_name": "Finja",
+     "initials": "F"
+    },
+    {
+     "last_name": "Kugel",
+     "fore_name": "Leonie",
+     "initials": "L"
+    },
+    {
+     "last_name": "Namiki",
+     "fore_name": "Shigehiro",
+     "initials": "S"
+    },
+    {
+     "last_name": "Cheong",
+     "fore_name": "Han S J",
+     "initials": "HSJ"
+    },
+    {
+     "last_name": "Kovalyak",
+     "fore_name": "Julie",
+     "initials": "J"
+    },
+    {
+     "last_name": "Tenshaw",
+     "fore_name": "Emily",
+     "initials": "E"
+    },
+    {
+     "last_name": "Parekh",
+     "fore_name": "Ruchi",
+     "initials": "R"
+    },
+    {
+     "last_name": "Phelps",
+     "fore_name": "Jasper S",
+     "initials": "JS"
+    },
+    {
+     "last_name": "Mark",
+     "fore_name": "Brandon",
+     "initials": "B"
+    },
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven",
+     "initials": "S"
+    },
+    {
+     "last_name": "Bates",
+     "fore_name": "Alexander S",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Matsliah",
+     "fore_name": "Arie",
+     "initials": "A"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Szi-Chieh",
+     "initials": "SC"
+    },
+    {
+     "last_name": "McKellar",
+     "fore_name": "Claire E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Sterling",
+     "fore_name": "Amy",
+     "initials": "A"
+    },
+    {
+     "last_name": "Seung",
+     "fore_name": "H Sebastian",
+     "initials": "HS"
+    },
+    {
+     "last_name": "Murthy",
+     "fore_name": "Mala",
+     "initials": "M"
+    },
+    {
+     "last_name": "Tuthill",
+     "fore_name": "John C",
+     "initials": "JC"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Wei-Chung Allen",
+     "initials": "WA"
+    },
+    {
+     "last_name": "Card",
+     "fore_name": "Gwyneth M",
+     "initials": "GM"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta",
+     "initials": "M"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    }
+   ],
+   "year": "2025",
+   "volume": "643",
+   "pages": "158-172"
+  },
+  "10.1038/s41586-025-09029-4": {
+   "pmid": "40267984",
+   "pmc": "PMC12310536",
+   "doi": "10.1038/s41586-025-09029-4",
+   "title": "Whole-body physics simulation of fruit fly locomotion.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Vaxenburg",
+     "fore_name": "Roman",
+     "initials": "R"
+    },
+    {
+     "last_name": "Siwanowicz",
+     "fore_name": "Igor",
+     "initials": "I"
+    },
+    {
+     "last_name": "Merel",
+     "fore_name": "Josh",
+     "initials": "J"
+    },
+    {
+     "last_name": "Robie",
+     "fore_name": "Alice A",
+     "initials": "AA"
+    },
+    {
+     "last_name": "Morrow",
+     "fore_name": "Carmen",
+     "initials": "C"
+    },
+    {
+     "last_name": "Novati",
+     "fore_name": "Guido",
+     "initials": "G"
+    },
+    {
+     "last_name": "Stefanidi",
+     "fore_name": "Zinovia",
+     "initials": "Z"
+    },
+    {
+     "last_name": "Both",
+     "fore_name": "Gert-Jan",
+     "initials": "GJ"
+    },
+    {
+     "last_name": "Card",
+     "fore_name": "Gwyneth M",
+     "initials": "GM"
+    },
+    {
+     "last_name": "Reiser",
+     "fore_name": "Michael B",
+     "initials": "MB"
+    },
+    {
+     "last_name": "Botvinick",
+     "fore_name": "Matthew M",
+     "initials": "MM"
+    },
+    {
+     "last_name": "Branson",
+     "fore_name": "Kristin M",
+     "initials": "KM"
+    },
+    {
+     "last_name": "Tassa",
+     "fore_name": "Yuval",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Turaga",
+     "fore_name": "Srinivas C",
+     "initials": "SC"
+    }
+   ],
+   "year": "2025",
+   "volume": "643",
+   "pages": "1312-1320"
+  },
+  "10.1038/s41586-026-10735-w": {
+   "pmid": "42259917",
+   "pmc": "PMC13518251",
+   "doi": "10.1038/s41586-026-10735-w",
+   "title": "Distributed control circuits across a brain-and-cord connectome.",
+   "journal": "Nature",
+   "iso": "Nature",
+   "authors": [
+    {
+     "last_name": "Bates",
+     "fore_name": "Alexander S",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Phelps",
+     "fore_name": "Jasper S",
+     "initials": "JS"
+    },
+    {
+     "last_name": "Kim",
+     "fore_name": "Minsu",
+     "initials": "M"
+    },
+    {
+     "last_name": "Yang",
+     "fore_name": "Helen H",
+     "initials": "HH"
+    },
+    {
+     "last_name": "Matsliah",
+     "fore_name": "Arie",
+     "initials": "A"
+    },
+    {
+     "last_name": "Ajabi",
+     "fore_name": "Zaki",
+     "initials": "Z"
+    },
+    {
+     "last_name": "Perlman",
+     "fore_name": "Eric",
+     "initials": "E"
+    },
+    {
+     "last_name": "Delgado",
+     "fore_name": "Kevin M",
+     "initials": "KM"
+    },
+    {
+     "last_name": "Osman",
+     "fore_name": "Mohammed Abdal Monium",
+     "initials": "MAM"
+    },
+    {
+     "last_name": "Salmon",
+     "fore_name": "Christopher K",
+     "initials": "CK"
+    },
+    {
+     "last_name": "Gager",
+     "fore_name": "Jay",
+     "initials": "J"
+    },
+    {
+     "last_name": "Silverman",
+     "fore_name": "Benjamin",
+     "initials": "B"
+    },
+    {
+     "last_name": "Renauld",
+     "fore_name": "Sophia",
+     "initials": "S"
+    },
+    {
+     "last_name": "Salman",
+     "fore_name": "Farzaan",
+     "initials": "F"
+    },
+    {
+     "last_name": "Patel",
+     "fore_name": "Janki",
+     "initials": "J"
+    },
+    {
+     "last_name": "Collie",
+     "fore_name": "Matthew F",
+     "initials": "MF"
+    },
+    {
+     "last_name": "Fan",
+     "fore_name": "Jingxuan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Pacheco",
+     "fore_name": "Diego A",
+     "initials": "DA"
+    },
+    {
+     "last_name": "Zhao",
+     "fore_name": "Yunzhi",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Zhang",
+     "fore_name": "Wenyi",
+     "initials": "W"
+    },
+    {
+     "last_name": "Serratosa Capdevila",
+     "fore_name": "Laia",
+     "initials": "L"
+    },
+    {
+     "last_name": "Roberts",
+     "fore_name": "Ruairí J V",
+     "initials": "RJV"
+    },
+    {
+     "last_name": "Munnelly",
+     "fore_name": "Eva J",
+     "initials": "EJ"
+    },
+    {
+     "last_name": "Griggs",
+     "fore_name": "Nina",
+     "initials": "N"
+    },
+    {
+     "last_name": "Langley",
+     "fore_name": "Helen",
+     "initials": "H"
+    },
+    {
+     "last_name": "Moya-Llamas",
+     "fore_name": "Borja",
+     "initials": "B"
+    },
+    {
+     "last_name": "Zhang",
+     "fore_name": "Zuoyu",
+     "initials": "Z"
+    },
+    {
+     "last_name": "Maloney",
+     "fore_name": "Ryan T",
+     "initials": "RT"
+    },
+    {
+     "last_name": "Yu",
+     "fore_name": "Szi-Chieh",
+     "initials": "SC"
+    },
+    {
+     "last_name": "Sterling",
+     "fore_name": "Amy R",
+     "initials": "AR"
+    },
+    {
+     "last_name": "Sorek",
+     "fore_name": "Marissa",
+     "initials": "M"
+    },
+    {
+     "last_name": "Kruk",
+     "fore_name": "Krzysztof",
+     "initials": "K"
+    },
+    {
+     "last_name": "Serafetinidis",
+     "fore_name": "Nikitas",
+     "initials": "N"
+    },
+    {
+     "last_name": "Dhawan",
+     "fore_name": "Serene",
+     "initials": "S"
+    },
+    {
+     "last_name": "Klemm",
+     "fore_name": "Finja",
+     "initials": "F"
+    },
+    {
+     "last_name": "Brooks",
+     "fore_name": "Paul",
+     "initials": "P"
+    },
+    {
+     "last_name": "Lesser",
+     "fore_name": "Ellen",
+     "initials": "E"
+    },
+    {
+     "last_name": "Jones",
+     "fore_name": "Jessica M",
+     "initials": "JM"
+    },
+    {
+     "last_name": "Pierce-Lundgren",
+     "fore_name": "Sara E",
+     "initials": "SE"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Su-Yee",
+     "initials": "SY"
+    },
+    {
+     "last_name": "Luo",
+     "fore_name": "Yichen",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Cook",
+     "fore_name": "Andrew P",
+     "initials": "AP"
+    },
+    {
+     "last_name": "McKim",
+     "fore_name": "Theresa H",
+     "initials": "TH"
+    },
+    {
+     "last_name": "Giakoumas",
+     "fore_name": "Dimitrios Stasi",
+     "initials": "DS"
+    },
+    {
+     "last_name": "Gorko",
+     "fore_name": "Benjamin",
+     "initials": "B"
+    },
+    {
+     "last_name": "Ellis-Joyce",
+     "fore_name": "Justin",
+     "initials": "J"
+    },
+    {
+     "last_name": "Zhang",
+     "fore_name": "Jiayi",
+     "initials": "J"
+    },
+    {
+     "last_name": "Kophs",
+     "fore_name": "Emily C",
+     "initials": "EC"
+    },
+    {
+     "last_name": "Falt",
+     "fore_name": "Tjalda",
+     "initials": "T"
+    },
+    {
+     "last_name": "Negron-Morales",
+     "fore_name": "Alexa M",
+     "initials": "AM"
+    },
+    {
+     "last_name": "Burke",
+     "fore_name": "Austin",
+     "initials": "A"
+    },
+    {
+     "last_name": "Hebditch",
+     "fore_name": "James",
+     "initials": "J"
+    },
+    {
+     "last_name": "Willie",
+     "fore_name": "Kyle P",
+     "initials": "KP"
+    },
+    {
+     "last_name": "Willie",
+     "fore_name": "Ryan",
+     "initials": "R"
+    },
+    {
+     "last_name": "Popovych",
+     "fore_name": "Sergiy",
+     "initials": "S"
+    },
+    {
+     "last_name": "Kemnitz",
+     "fore_name": "Nico",
+     "initials": "N"
+    },
+    {
+     "last_name": "Ih",
+     "fore_name": "Dodam",
+     "initials": "D"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Kisuk",
+     "initials": "K"
+    },
+    {
+     "last_name": "Lu",
+     "fore_name": "Ran",
+     "initials": "R"
+    },
+    {
+     "last_name": "Halageri",
+     "fore_name": "Akhilesh",
+     "initials": "A"
+    },
+    {
+     "last_name": "Bae",
+     "fore_name": "J Alexander",
+     "initials": "JA"
+    },
+    {
+     "last_name": "Jourdan",
+     "fore_name": "Ben",
+     "initials": "B"
+    },
+    {
+     "last_name": "Schwartzman",
+     "fore_name": "Gregory",
+     "initials": "G"
+    },
+    {
+     "last_name": "Demarest",
+     "fore_name": "Damian D",
+     "initials": "DD"
+    },
+    {
+     "last_name": "Behnke",
+     "fore_name": "Emily",
+     "initials": "E"
+    },
+    {
+     "last_name": "Bland",
+     "fore_name": "Doug",
+     "initials": "D"
+    },
+    {
+     "last_name": "Kristiansen",
+     "fore_name": "Anne",
+     "initials": "A"
+    },
+    {
+     "last_name": "Skelton",
+     "fore_name": "Jaime",
+     "initials": "J"
+    },
+    {
+     "last_name": "Stocks",
+     "fore_name": "Tom",
+     "initials": "T"
+    },
+    {
+     "last_name": "Garner",
+     "fore_name": "Dustin",
+     "initials": "D"
+    },
+    {
+     "last_name": "Hernandez",
+     "fore_name": "Anthony",
+     "initials": "A"
+    },
+    {
+     "last_name": "Kumar",
+     "fore_name": "Sandeep",
+     "initials": "S"
+    },
+    {
+     "last_name": "Daly",
+     "fore_name": "Kevin C",
+     "initials": "KC"
+    },
+    {
+     "last_name": "Dorkenwald",
+     "fore_name": "Sven",
+     "initials": "S"
+    },
+    {
+     "last_name": "Collman",
+     "fore_name": "Forrest",
+     "initials": "F"
+    },
+    {
+     "last_name": "Suver",
+     "fore_name": "Marie P",
+     "initials": "MP"
+    },
+    {
+     "last_name": "Fenk",
+     "fore_name": "Lisa M",
+     "initials": "LM"
+    },
+    {
+     "last_name": "Pankratz",
+     "fore_name": "Michael J",
+     "initials": "MJ"
+    },
+    {
+     "last_name": "Yao",
+     "fore_name": "Zepeng",
+     "initials": "Z"
+    },
+    {
+     "last_name": "Wang",
+     "fore_name": "Fei",
+     "initials": "F"
+    },
+    {
+     "last_name": "Huston",
+     "fore_name": "Stephen J",
+     "initials": "SJ"
+    },
+    {
+     "last_name": "Stürner",
+     "fore_name": "Tomke",
+     "initials": "T"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Seeds",
+     "fore_name": "Andrew M",
+     "initials": "AM"
+    },
+    {
+     "last_name": "Hampel",
+     "fore_name": "Stefanie",
+     "initials": "S"
+    },
+    {
+     "last_name": "Agrawal",
+     "fore_name": "Sweta",
+     "initials": "S"
+    },
+    {
+     "last_name": "Okubo",
+     "fore_name": "Tatsuo S",
+     "initials": "TS"
+    },
+    {
+     "last_name": "Zandawala",
+     "fore_name": "Meet",
+     "initials": "M"
+    },
+    {
+     "last_name": "Macrina",
+     "fore_name": "Thomas",
+     "initials": "T"
+    },
+    {
+     "last_name": "Adjavon",
+     "fore_name": "Diane-Yayra",
+     "initials": "DY"
+    },
+    {
+     "last_name": "Funke",
+     "fore_name": "Jan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Tuthill",
+     "fore_name": "John C",
+     "initials": "JC"
+    },
+    {
+     "last_name": "Azevedo",
+     "fore_name": "Anthony",
+     "initials": "A"
+    },
+    {
+     "last_name": "Seung",
+     "fore_name": "H Sebastian",
+     "initials": "HS"
+    },
+    {
+     "last_name": "de Bivort",
+     "fore_name": "Benjamin L",
+     "initials": "BL"
+    },
+    {
+     "last_name": "Murthy",
+     "fore_name": "Mala",
+     "initials": "M"
+    },
+    {
+     "last_name": "Drugowitsch",
+     "fore_name": "Jan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Wilson",
+     "fore_name": "Rachel I",
+     "initials": "RI"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Wei-Chung Allen",
+     "initials": "WA"
+    }
+   ],
+   "year": "2026",
+   "volume": "656",
+   "pages": "957-970"
+  },
+  "10.1038/s41592-019-0686-2": {
+   "pmid": "32015543",
+   "pmc": "PMC7056644",
+   "doi": "10.1038/s41592-019-0686-2",
+   "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python.",
+   "journal": "Nature methods",
+   "iso": "Nat Methods",
+   "authors": [
+    {
+     "last_name": "Virtanen",
+     "fore_name": "Pauli",
+     "initials": "P"
+    },
+    {
+     "last_name": "Gommers",
+     "fore_name": "Ralf",
+     "initials": "R"
+    },
+    {
+     "last_name": "Oliphant",
+     "fore_name": "Travis E",
+     "initials": "TE"
+    },
+    {
+     "last_name": "Haberland",
+     "fore_name": "Matt",
+     "initials": "M"
+    },
+    {
+     "last_name": "Reddy",
+     "fore_name": "Tyler",
+     "initials": "T"
+    },
+    {
+     "last_name": "Cournapeau",
+     "fore_name": "David",
+     "initials": "D"
+    },
+    {
+     "last_name": "Burovski",
+     "fore_name": "Evgeni",
+     "initials": "E"
+    },
+    {
+     "last_name": "Peterson",
+     "fore_name": "Pearu",
+     "initials": "P"
+    },
+    {
+     "last_name": "Weckesser",
+     "fore_name": "Warren",
+     "initials": "W"
+    },
+    {
+     "last_name": "Bright",
+     "fore_name": "Jonathan",
+     "initials": "J"
+    },
+    {
+     "last_name": "van der Walt",
+     "fore_name": "Stéfan J",
+     "initials": "SJ"
+    },
+    {
+     "last_name": "Brett",
+     "fore_name": "Matthew",
+     "initials": "M"
+    },
+    {
+     "last_name": "Wilson",
+     "fore_name": "Joshua",
+     "initials": "J"
+    },
+    {
+     "last_name": "Millman",
+     "fore_name": "K Jarrod",
+     "initials": "KJ"
+    },
+    {
+     "last_name": "Mayorov",
+     "fore_name": "Nikolay",
+     "initials": "N"
+    },
+    {
+     "last_name": "Nelson",
+     "fore_name": "Andrew R J",
+     "initials": "ARJ"
+    },
+    {
+     "last_name": "Jones",
+     "fore_name": "Eric",
+     "initials": "E"
+    },
+    {
+     "last_name": "Kern",
+     "fore_name": "Robert",
+     "initials": "R"
+    },
+    {
+     "last_name": "Larson",
+     "fore_name": "Eric",
+     "initials": "E"
+    },
+    {
+     "last_name": "Carey",
+     "fore_name": "C J",
+     "initials": "CJ"
+    },
+    {
+     "last_name": "Polat",
+     "fore_name": "İlhan",
+     "initials": "İ"
+    },
+    {
+     "last_name": "Feng",
+     "fore_name": "Yu",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Moore",
+     "fore_name": "Eric W",
+     "initials": "EW"
+    },
+    {
+     "last_name": "VanderPlas",
+     "fore_name": "Jake",
+     "initials": "J"
+    },
+    {
+     "last_name": "Laxalde",
+     "fore_name": "Denis",
+     "initials": "D"
+    },
+    {
+     "last_name": "Perktold",
+     "fore_name": "Josef",
+     "initials": "J"
+    },
+    {
+     "last_name": "Cimrman",
+     "fore_name": "Robert",
+     "initials": "R"
+    },
+    {
+     "last_name": "Henriksen",
+     "fore_name": "Ian",
+     "initials": "I"
+    },
+    {
+     "last_name": "Quintero",
+     "fore_name": "E A",
+     "initials": "EA"
+    },
+    {
+     "last_name": "Harris",
+     "fore_name": "Charles R",
+     "initials": "CR"
+    },
+    {
+     "last_name": "Archibald",
+     "fore_name": "Anne M",
+     "initials": "AM"
+    },
+    {
+     "last_name": "Ribeiro",
+     "fore_name": "Antônio H",
+     "initials": "AH"
+    },
+    {
+     "last_name": "Pedregosa",
+     "fore_name": "Fabian",
+     "initials": "F"
+    },
+    {
+     "last_name": "van Mulbregt",
+     "fore_name": "Paul",
+     "initials": "P"
+    }
+   ],
+   "year": "2020",
+   "volume": "17",
+   "pages": "261-272"
+  },
+  "10.1038/s41593-019-0414-3": {
+   "pmid": "31182866",
+   "pmc": "PMC7321806",
+   "doi": "10.1038/s41593-019-0414-3",
+   "title": "Circuit mechanisms for the maintenance and manipulation of information in working memory.",
+   "journal": "Nature neuroscience",
+   "iso": "Nat Neurosci",
+   "authors": [
+    {
+     "last_name": "Masse",
+     "fore_name": "Nicolas Y",
+     "initials": "NY"
+    },
+    {
+     "last_name": "Yang",
+     "fore_name": "Guangyu R",
+     "initials": "GR"
+    },
+    {
+     "last_name": "Song",
+     "fore_name": "H Francis",
+     "initials": "HF"
+    },
+    {
+     "last_name": "Wang",
+     "fore_name": "Xiao-Jing",
+     "initials": "XJ"
+    },
+    {
+     "last_name": "Freedman",
+     "fore_name": "David J",
+     "initials": "DJ"
+    }
+   ],
+   "year": "2019",
+   "volume": "22",
+   "pages": "1159-1167"
+  },
+  "10.1038/s41598-019-41695-z": {
+   "pmid": "30914743",
+   "pmc": "PMC6435756",
+   "doi": "10.1038/s41598-019-41695-z",
+   "title": "From Louvain to Leiden: guaranteeing well-connected communities.",
+   "journal": "Scientific reports",
+   "iso": "Sci Rep",
+   "authors": [
+    {
+     "last_name": "Traag",
+     "fore_name": "V A",
+     "initials": "VA"
+    },
+    {
+     "last_name": "Waltman",
+     "fore_name": "L",
+     "initials": "L"
+    },
+    {
+     "last_name": "van Eck",
+     "fore_name": "N J",
+     "initials": "NJ"
+    }
+   ],
+   "year": "2019",
+   "volume": "9",
+   "pages": "5233"
+  },
+  "10.1073/pnas.1619449114": {
+   "pmid": "28028221",
+   "pmc": "PMC5240715",
+   "doi": "10.1073/pnas.1619449114",
+   "title": "Stable population coding for working memory coexists with heterogeneous neural dynamics in prefrontal cortex.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "iso": "Proc Natl Acad Sci U S A",
+   "authors": [
+    {
+     "last_name": "Murray",
+     "fore_name": "John D",
+     "initials": "JD"
+    },
+    {
+     "last_name": "Bernacchia",
+     "fore_name": "Alberto",
+     "initials": "A"
+    },
+    {
+     "last_name": "Roy",
+     "fore_name": "Nicholas A",
+     "initials": "NA"
+    },
+    {
+     "last_name": "Constantinidis",
+     "fore_name": "Christos",
+     "initials": "C"
+    },
+    {
+     "last_name": "Romo",
+     "fore_name": "Ranulfo",
+     "initials": "R"
+    },
+    {
+     "last_name": "Wang",
+     "fore_name": "Xiao-Jing",
+     "initials": "XJ"
+    }
+   ],
+   "year": "2016",
+   "volume": "114",
+   "pages": "394-399"
+  },
+  "10.1073/pnas.1820730116": {
+   "pmid": "31243145",
+   "pmc": "PMC6628638",
+   "doi": "10.1073/pnas.1820730116",
+   "title": "Probing the limits of activity-silent non-conscious working memory.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "iso": "Proc Natl Acad Sci U S A",
+   "authors": [
+    {
+     "last_name": "Trübutschek",
+     "fore_name": "Darinka",
+     "initials": "D"
+    },
+    {
+     "last_name": "Marti",
+     "fore_name": "Sébastien",
+     "initials": "S"
+    },
+    {
+     "last_name": "Ueberschär",
+     "fore_name": "Henrik",
+     "initials": "H"
+    },
+    {
+     "last_name": "Dehaene",
+     "fore_name": "Stanislas",
+     "initials": "S"
+    }
+   ],
+   "year": "2019",
+   "volume": "116",
+   "pages": "14358-14367"
+  },
+  "10.1073/pnas.2106692119": {
+   "pmid": "35145024",
+   "pmc": "PMC8851551",
+   "doi": "10.1073/pnas.2106692119",
+   "title": "Self-healing codes: How stable neural populations can track continually reconfiguring neural representations.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "iso": "Proc Natl Acad Sci U S A",
+   "authors": [
+    {
+     "last_name": "Rule",
+     "fore_name": "Michael E",
+     "initials": "ME"
+    },
+    {
+     "last_name": "O'Leary",
+     "fore_name": "Timothy",
+     "initials": "T"
+    }
+   ],
+   "year": "2022",
+   "volume": "119",
+   "pages": null
+  },
+  "10.1073/pnas.2202564119": {
+   "pmid": "36161937",
+   "pmc": "PMC9546529",
+   "doi": "10.1073/pnas.2202564119",
+   "title": "Dynamic and stable population coding of attentional instructions coexist in the prefrontal cortex.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "iso": "Proc Natl Acad Sci U S A",
+   "authors": [
+    {
+     "last_name": "Sapountzis",
+     "fore_name": "Panagiotis",
+     "initials": "P"
+    },
+    {
+     "last_name": "Paneri",
+     "fore_name": "Sofia",
+     "initials": "S"
+    },
+    {
+     "last_name": "Papadopoulos",
+     "fore_name": "Sotirios",
+     "initials": "S"
+    },
+    {
+     "last_name": "Gregoriou",
+     "fore_name": "Georgia G",
+     "initials": "GG"
+    }
+   ],
+   "year": "2022",
+   "volume": "119",
+   "pages": "e2202564119"
+  },
+  "10.1073/pnas.2321501121": {
+   "pmid": "39503887",
+   "pmc": "PMC11572977",
+   "doi": "10.1073/pnas.2321501121",
+   "title": "Cholinergic regulation of dendritic Caspikes controls firing mode of hippocampal CA3 pyramidal neurons.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "iso": "Proc Natl Acad Sci U S A",
+   "authors": [
+    {
+     "last_name": "Kis",
+     "fore_name": "Noémi",
+     "initials": "N"
+    },
+    {
+     "last_name": "Lükő",
+     "fore_name": "Balázs",
+     "initials": "B"
+    },
+    {
+     "last_name": "Herédi",
+     "fore_name": "Judit",
+     "initials": "J"
+    },
+    {
+     "last_name": "Magó",
+     "fore_name": "Ádám",
+     "initials": "Á"
+    },
+    {
+     "last_name": "Erlinghagen",
+     "fore_name": "Bela",
+     "initials": "B"
+    },
+    {
+     "last_name": "Ahmadi",
+     "fore_name": "Mahboubeh",
+     "initials": "M"
+    },
+    {
+     "last_name": "Raus Balind",
+     "fore_name": "Snezana",
+     "initials": "S"
+    },
+    {
+     "last_name": "Irás",
+     "fore_name": "Mátyás",
+     "initials": "M"
+    },
+    {
+     "last_name": "Ujfalussy",
+     "fore_name": "Balázs B",
+     "initials": "BB"
+    },
+    {
+     "last_name": "Makara",
+     "fore_name": "Judit K",
+     "initials": "JK"
+    }
+   ],
+   "year": "2024",
+   "volume": "121",
+   "pages": "e2321501121"
+  },
+  "10.1101/lm.045542.117": {
+   "pmid": "28814463",
+   "pmc": "PMC5580530",
+   "doi": "10.1101/lm.045542.117",
+   "title": "Neurobiological correlates of state-dependent context fear.",
+   "journal": "Learning & memory (Cold Spring Harbor, N.Y.)",
+   "iso": "Learn Mem",
+   "authors": [
+    {
+     "last_name": "Meyer",
+     "fore_name": "Mariah A A",
+     "initials": "MAA"
+    },
+    {
+     "last_name": "Corcoran",
+     "fore_name": "Kevin A",
+     "initials": "KA"
+    },
+    {
+     "last_name": "Chen",
+     "fore_name": "Helen J",
+     "initials": "HJ"
+    },
+    {
+     "last_name": "Gallego",
+     "fore_name": "Sonia",
+     "initials": "S"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Guanguan",
+     "initials": "G"
+    },
+    {
+     "last_name": "Tiruveedhula",
+     "fore_name": "Veda V",
+     "initials": "VV"
+    },
+    {
+     "last_name": "Cook",
+     "fore_name": "James M",
+     "initials": "JM"
+    },
+    {
+     "last_name": "Radulovic",
+     "fore_name": "Jelena",
+     "initials": "J"
+    }
+   ],
+   "year": "2017",
+   "volume": "24",
+   "pages": "385-391"
+  },
+  "10.1126/science.1089035": {
+   "pmid": "14657498",
+   "pmc": null,
+   "doi": "10.1126/science.1089035",
+   "title": "Spatiotemporal rescue of memory dysfunction in Drosophila.",
+   "journal": "Science (New York, N.Y.)",
+   "iso": "Science",
+   "authors": [
+    {
+     "last_name": "McGuire",
+     "fore_name": "Sean E",
+     "initials": "SE"
+    },
+    {
+     "last_name": "Le",
+     "fore_name": "Phuong T",
+     "initials": "PT"
+    },
+    {
+     "last_name": "Osborn",
+     "fore_name": "Alexander J",
+     "initials": "AJ"
+    },
+    {
+     "last_name": "Matsumoto",
+     "fore_name": "Kunihiro",
+     "initials": "K"
+    },
+    {
+     "last_name": "Davis",
+     "fore_name": "Ronald L",
+     "initials": "RL"
+    }
+   ],
+   "year": "2003",
+   "volume": "302",
+   "pages": "1765-8"
+  },
+  "10.1126/science.1150769": {
+   "pmid": "18339943",
+   "pmc": null,
+   "doi": "10.1126/science.1150769",
+   "title": "Synaptic theory of working memory.",
+   "journal": "Science (New York, N.Y.)",
+   "iso": "Science",
+   "authors": [
+    {
+     "last_name": "Mongillo",
+     "fore_name": "Gianluigi",
+     "initials": "G"
+    },
+    {
+     "last_name": "Barak",
+     "fore_name": "Omri",
+     "initials": "O"
+    },
+    {
+     "last_name": "Tsodyks",
+     "fore_name": "Misha",
+     "initials": "M"
+    }
+   ],
+   "year": "2008",
+   "volume": "319",
+   "pages": "1543-6"
+  },
+  "10.1126/science.aaw4325": {
+   "pmid": "31896692",
+   "pmc": "PMC7577560",
+   "doi": "10.1126/science.aaw4325",
+   "title": "Memory engrams: Recalling the past and imagining the future.",
+   "journal": "Science (New York, N.Y.)",
+   "iso": "Science",
+   "authors": [
+    {
+     "last_name": "Josselyn",
+     "fore_name": "Sheena A",
+     "initials": "SA"
+    },
+    {
+     "last_name": "Tonegawa",
+     "fore_name": "Susumu",
+     "initials": "S"
+    }
+   ],
+   "year": "2020",
+   "volume": "367",
+   "pages": null
+  },
+  "10.1126/science.aay0198": {
+   "pmid": "31395777",
+   "pmc": "PMC6690382",
+   "doi": "10.1126/science.aay0198",
+   "title": "A vicious cycle of β amyloid-dependent neuronal hyperactivation.",
+   "journal": "Science (New York, N.Y.)",
+   "iso": "Science",
+   "authors": [
+    {
+     "last_name": "Zott",
+     "fore_name": "Benedikt",
+     "initials": "B"
+    },
+    {
+     "last_name": "Simon",
+     "fore_name": "Manuel M",
+     "initials": "MM"
+    },
+    {
+     "last_name": "Hong",
+     "fore_name": "Wei",
+     "initials": "W"
+    },
+    {
+     "last_name": "Unger",
+     "fore_name": "Felix",
+     "initials": "F"
+    },
+    {
+     "last_name": "Chen-Engerer",
+     "fore_name": "Hsing-Jung",
+     "initials": "HJ"
+    },
+    {
+     "last_name": "Frosch",
+     "fore_name": "Matthew P",
+     "initials": "MP"
+    },
+    {
+     "last_name": "Sakmann",
+     "fore_name": "Bert",
+     "initials": "B"
+    },
+    {
+     "last_name": "Walsh",
+     "fore_name": "Dominic M",
+     "initials": "DM"
+    },
+    {
+     "last_name": "Konnerth",
+     "fore_name": "Arthur",
+     "initials": "A"
+    }
+   ],
+   "year": "2019",
+   "volume": "365",
+   "pages": "559-565"
+  },
+  "10.1126/science.abk2432": {
+   "pmid": "35239393",
+   "pmc": "PMC8944923",
+   "doi": "10.1126/science.abk2432",
+   "title": "Fly Cell Atlas: A single-nucleus transcriptomic atlas of the adult fruit fly.",
+   "journal": "Science (New York, N.Y.)",
+   "iso": "Science",
+   "authors": [
+    {
+     "last_name": "Li",
+     "fore_name": "Hongjie",
+     "initials": "H"
+    },
+    {
+     "last_name": "Janssens",
+     "fore_name": "Jasper",
+     "initials": "J"
+    },
+    {
+     "last_name": "De Waegeneer",
+     "fore_name": "Maxime",
+     "initials": "M"
+    },
+    {
+     "last_name": "Kolluru",
+     "fore_name": "Sai Saroja",
+     "initials": "SS"
+    },
+    {
+     "last_name": "Davie",
+     "fore_name": "Kristofer",
+     "initials": "K"
+    },
+    {
+     "last_name": "Gardeux",
+     "fore_name": "Vincent",
+     "initials": "V"
+    },
+    {
+     "last_name": "Saelens",
+     "fore_name": "Wouter",
+     "initials": "W"
+    },
+    {
+     "last_name": "David",
+     "fore_name": "Fabrice P A",
+     "initials": "FPA"
+    },
+    {
+     "last_name": "Brbić",
+     "fore_name": "Maria",
+     "initials": "M"
+    },
+    {
+     "last_name": "Spanier",
+     "fore_name": "Katina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Leskovec",
+     "fore_name": "Jure",
+     "initials": "J"
+    },
+    {
+     "last_name": "McLaughlin",
+     "fore_name": "Colleen N",
+     "initials": "CN"
+    },
+    {
+     "last_name": "Xie",
+     "fore_name": "Qijing",
+     "initials": "Q"
+    },
+    {
+     "last_name": "Jones",
+     "fore_name": "Robert C",
+     "initials": "RC"
+    },
+    {
+     "last_name": "Brueckner",
+     "fore_name": "Katja",
+     "initials": "K"
+    },
+    {
+     "last_name": "Shim",
+     "fore_name": "Jiwon",
+     "initials": "J"
+    },
+    {
+     "last_name": "Tattikota",
+     "fore_name": "Sudhir Gopal",
+     "initials": "SG"
+    },
+    {
+     "last_name": "Schnorrer",
+     "fore_name": "Frank",
+     "initials": "F"
+    },
+    {
+     "last_name": "Rust",
+     "fore_name": "Katja",
+     "initials": "K"
+    },
+    {
+     "last_name": "Nystul",
+     "fore_name": "Todd G",
+     "initials": "TG"
+    },
+    {
+     "last_name": "Carvalho-Santos",
+     "fore_name": "Zita",
+     "initials": "Z"
+    },
+    {
+     "last_name": "Ribeiro",
+     "fore_name": "Carlos",
+     "initials": "C"
+    },
+    {
+     "last_name": "Pal",
+     "fore_name": "Soumitra",
+     "initials": "S"
+    },
+    {
+     "last_name": "Mahadevaraju",
+     "fore_name": "Sharvani",
+     "initials": "S"
+    },
+    {
+     "last_name": "Przytycka",
+     "fore_name": "Teresa M",
+     "initials": "TM"
+    },
+    {
+     "last_name": "Allen",
+     "fore_name": "Aaron M",
+     "initials": "AM"
+    },
+    {
+     "last_name": "Goodwin",
+     "fore_name": "Stephen F",
+     "initials": "SF"
+    },
+    {
+     "last_name": "Berry",
+     "fore_name": "Cameron W",
+     "initials": "CW"
+    },
+    {
+     "last_name": "Fuller",
+     "fore_name": "Margaret T",
+     "initials": "MT"
+    },
+    {
+     "last_name": "White-Cooper",
+     "fore_name": "Helen",
+     "initials": "H"
+    },
+    {
+     "last_name": "Matunis",
+     "fore_name": "Erika L",
+     "initials": "EL"
+    },
+    {
+     "last_name": "DiNardo",
+     "fore_name": "Stephen",
+     "initials": "S"
+    },
+    {
+     "last_name": "Galenza",
+     "fore_name": "Anthony",
+     "initials": "A"
+    },
+    {
+     "last_name": "O'Brien",
+     "fore_name": "Lucy Erin",
+     "initials": "LE"
+    },
+    {
+     "last_name": "Dow",
+     "fore_name": "Julian A T",
+     "initials": "JAT"
+    },
+    {
+     "last_name": "Jasper",
+     "fore_name": "Heinrich",
+     "initials": "H"
+    },
+    {
+     "last_name": "Oliver",
+     "fore_name": "Brian",
+     "initials": "B"
+    },
+    {
+     "last_name": "Perrimon",
+     "fore_name": "Norbert",
+     "initials": "N"
+    },
+    {
+     "last_name": "Deplancke",
+     "fore_name": "Bart",
+     "initials": "B"
+    },
+    {
+     "last_name": "Quake",
+     "fore_name": "Stephen R",
+     "initials": "SR"
+    },
+    {
+     "last_name": "Luo",
+     "fore_name": "Liqun",
+     "initials": "L"
+    },
+    {
+     "last_name": "Aerts",
+     "fore_name": "Stein",
+     "initials": "S"
+    },
+    {
+     "last_name": "Agarwal",
+     "fore_name": "Devika",
+     "initials": "D"
+    },
+    {
+     "last_name": "Ahmed-Braimah",
+     "fore_name": "Yasir",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Arbeitman",
+     "fore_name": "Michelle",
+     "initials": "M"
+    },
+    {
+     "last_name": "Ariss",
+     "fore_name": "Majd M",
+     "initials": "MM"
+    },
+    {
+     "last_name": "Augsburger",
+     "fore_name": "Jordan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Ayush",
+     "fore_name": "Kumar",
+     "initials": "K"
+    },
+    {
+     "last_name": "Baker",
+     "fore_name": "Catherine C",
+     "initials": "CC"
+    },
+    {
+     "last_name": "Banisch",
+     "fore_name": "Torsten",
+     "initials": "T"
+    },
+    {
+     "last_name": "Birker",
+     "fore_name": "Katja",
+     "initials": "K"
+    },
+    {
+     "last_name": "Bodmer",
+     "fore_name": "Rolf",
+     "initials": "R"
+    },
+    {
+     "last_name": "Bolival",
+     "fore_name": "Benjamin",
+     "initials": "B"
+    },
+    {
+     "last_name": "Brantley",
+     "fore_name": "Susanna E",
+     "initials": "SE"
+    },
+    {
+     "last_name": "Brill",
+     "fore_name": "Julie A",
+     "initials": "JA"
+    },
+    {
+     "last_name": "Brown",
+     "fore_name": "Nora C",
+     "initials": "NC"
+    },
+    {
+     "last_name": "Buehner",
+     "fore_name": "Norene A",
+     "initials": "NA"
+    },
+    {
+     "last_name": "Cai",
+     "fore_name": "Xiaoyu Tracy",
+     "initials": "XT"
+    },
+    {
+     "last_name": "Cardoso-Figueiredo",
+     "fore_name": "Rita",
+     "initials": "R"
+    },
+    {
+     "last_name": "Casares",
+     "fore_name": "Fernando",
+     "initials": "F"
+    },
+    {
+     "last_name": "Chang",
+     "fore_name": "Amy",
+     "initials": "A"
+    },
+    {
+     "last_name": "Clandinin",
+     "fore_name": "Thomas R",
+     "initials": "TR"
+    },
+    {
+     "last_name": "Crasta",
+     "fore_name": "Sheela",
+     "initials": "S"
+    },
+    {
+     "last_name": "Desplan",
+     "fore_name": "Claude",
+     "initials": "C"
+    },
+    {
+     "last_name": "Detweiler",
+     "fore_name": "Angela M",
+     "initials": "AM"
+    },
+    {
+     "last_name": "Dhakan",
+     "fore_name": "Darshan B",
+     "initials": "DB"
+    },
+    {
+     "last_name": "Donà",
+     "fore_name": "Erika",
+     "initials": "E"
+    },
+    {
+     "last_name": "Engert",
+     "fore_name": "Stefanie",
+     "initials": "S"
+    },
+    {
+     "last_name": "Floc'hlay",
+     "fore_name": "Swann",
+     "initials": "S"
+    },
+    {
+     "last_name": "George",
+     "fore_name": "Nancy",
+     "initials": "N"
+    },
+    {
+     "last_name": "González-Segarra",
+     "fore_name": "Amanda J",
+     "initials": "AJ"
+    },
+    {
+     "last_name": "Groves",
+     "fore_name": "Andrew K",
+     "initials": "AK"
+    },
+    {
+     "last_name": "Gumbin",
+     "fore_name": "Samantha",
+     "initials": "S"
+    },
+    {
+     "last_name": "Guo",
+     "fore_name": "Yanmeng",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Harris",
+     "fore_name": "Devon E",
+     "initials": "DE"
+    },
+    {
+     "last_name": "Heifetz",
+     "fore_name": "Yael",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Holtz",
+     "fore_name": "Stephen L",
+     "initials": "SL"
+    },
+    {
+     "last_name": "Horns",
+     "fore_name": "Felix",
+     "initials": "F"
+    },
+    {
+     "last_name": "Hudry",
+     "fore_name": "Bruno",
+     "initials": "B"
+    },
+    {
+     "last_name": "Hung",
+     "fore_name": "Ruei-Jiun",
+     "initials": "RJ"
+    },
+    {
+     "last_name": "Jan",
+     "fore_name": "Yuh Nung",
+     "initials": "YN"
+    },
+    {
+     "last_name": "Jaszczak",
+     "fore_name": "Jacob S",
+     "initials": "JS"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    },
+    {
+     "last_name": "Karkanias",
+     "fore_name": "Jim",
+     "initials": "J"
+    },
+    {
+     "last_name": "Karr",
+     "fore_name": "Timothy L",
+     "initials": "TL"
+    },
+    {
+     "last_name": "Katheder",
+     "fore_name": "Nadja Sandra",
+     "initials": "NS"
+    },
+    {
+     "last_name": "Kezos",
+     "fore_name": "James",
+     "initials": "J"
+    },
+    {
+     "last_name": "Kim",
+     "fore_name": "Anna A",
+     "initials": "AA"
+    },
+    {
+     "last_name": "Kim",
+     "fore_name": "Seung K",
+     "initials": "SK"
+    },
+    {
+     "last_name": "Kockel",
+     "fore_name": "Lutz",
+     "initials": "L"
+    },
+    {
+     "last_name": "Konstantinides",
+     "fore_name": "Nikolaos",
+     "initials": "N"
+    },
+    {
+     "last_name": "Kornberg",
+     "fore_name": "Thomas B",
+     "initials": "TB"
+    },
+    {
+     "last_name": "Krause",
+     "fore_name": "Henry M",
+     "initials": "HM"
+    },
+    {
+     "last_name": "Labott",
+     "fore_name": "Andrew Thomas",
+     "initials": "AT"
+    },
+    {
+     "last_name": "Laturney",
+     "fore_name": "Meghan",
+     "initials": "M"
+    },
+    {
+     "last_name": "Lehmann",
+     "fore_name": "Ruth",
+     "initials": "R"
+    },
+    {
+     "last_name": "Leinwand",
+     "fore_name": "Sarah",
+     "initials": "S"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Jiefu",
+     "initials": "J"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Joshua Shing Shun",
+     "initials": "JSS"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Kai",
+     "initials": "K"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Ke",
+     "initials": "K"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Liying",
+     "initials": "L"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Tun",
+     "initials": "T"
+    },
+    {
+     "last_name": "Litovchenko",
+     "fore_name": "Maria",
+     "initials": "M"
+    },
+    {
+     "last_name": "Liu",
+     "fore_name": "Han-Hsuan",
+     "initials": "HH"
+    },
+    {
+     "last_name": "Liu",
+     "fore_name": "Yifang",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Lu",
+     "fore_name": "Tzu-Chiao",
+     "initials": "TC"
+    },
+    {
+     "last_name": "Manning",
+     "fore_name": "Jonathan",
+     "initials": "J"
+    },
+    {
+     "last_name": "Mase",
+     "fore_name": "Anjeli",
+     "initials": "A"
+    },
+    {
+     "last_name": "Matera-Vatnick",
+     "fore_name": "Mikaela",
+     "initials": "M"
+    },
+    {
+     "last_name": "Matias",
+     "fore_name": "Neuza Reis",
+     "initials": "NR"
+    },
+    {
+     "last_name": "McDonough-Goldstein",
+     "fore_name": "Caitlin E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "McGeever",
+     "fore_name": "Aaron",
+     "initials": "A"
+    },
+    {
+     "last_name": "McLachlan",
+     "fore_name": "Alex D",
+     "initials": "AD"
+    },
+    {
+     "last_name": "Moreno-Roman",
+     "fore_name": "Paola",
+     "initials": "P"
+    },
+    {
+     "last_name": "Neff",
+     "fore_name": "Norma",
+     "initials": "N"
+    },
+    {
+     "last_name": "Neville",
+     "fore_name": "Megan",
+     "initials": "M"
+    },
+    {
+     "last_name": "Ngo",
+     "fore_name": "Sang",
+     "initials": "S"
+    },
+    {
+     "last_name": "Nielsen",
+     "fore_name": "Tanja",
+     "initials": "T"
+    },
+    {
+     "last_name": "O'Brien",
+     "fore_name": "Caitlin E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Osumi-Sutherland",
+     "fore_name": "David",
+     "initials": "D"
+    },
+    {
+     "last_name": "Özel",
+     "fore_name": "Mehmet Neset",
+     "initials": "MN"
+    },
+    {
+     "last_name": "Papatheodorou",
+     "fore_name": "Irene",
+     "initials": "I"
+    },
+    {
+     "last_name": "Petkovic",
+     "fore_name": "Maja",
+     "initials": "M"
+    },
+    {
+     "last_name": "Pilgrim",
+     "fore_name": "Clare",
+     "initials": "C"
+    },
+    {
+     "last_name": "Pisco",
+     "fore_name": "Angela Oliveira",
+     "initials": "AO"
+    },
+    {
+     "last_name": "Reisenman",
+     "fore_name": "Carolina",
+     "initials": "C"
+    },
+    {
+     "last_name": "Sanders",
+     "fore_name": "Erin Nicole",
+     "initials": "EN"
+    },
+    {
+     "last_name": "Dos Santos",
+     "fore_name": "Gilberto",
+     "initials": "G"
+    },
+    {
+     "last_name": "Scott",
+     "fore_name": "Kristin",
+     "initials": "K"
+    },
+    {
+     "last_name": "Sherlekar",
+     "fore_name": "Aparna",
+     "initials": "A"
+    },
+    {
+     "last_name": "Shiu",
+     "fore_name": "Philip",
+     "initials": "P"
+    },
+    {
+     "last_name": "Sims",
+     "fore_name": "David",
+     "initials": "D"
+    },
+    {
+     "last_name": "Sit",
+     "fore_name": "Rene V",
+     "initials": "RV"
+    },
+    {
+     "last_name": "Slaidina",
+     "fore_name": "Maija",
+     "initials": "M"
+    },
+    {
+     "last_name": "Smith",
+     "fore_name": "Harold E",
+     "initials": "HE"
+    },
+    {
+     "last_name": "Sterne",
+     "fore_name": "Gabriella",
+     "initials": "G"
+    },
+    {
+     "last_name": "Su",
+     "fore_name": "Yu-Han",
+     "initials": "YH"
+    },
+    {
+     "last_name": "Sutton",
+     "fore_name": "Daniel",
+     "initials": "D"
+    },
+    {
+     "last_name": "Tamayo",
+     "fore_name": "Marco",
+     "initials": "M"
+    },
+    {
+     "last_name": "Tan",
+     "fore_name": "Michelle",
+     "initials": "M"
+    },
+    {
+     "last_name": "Tastekin",
+     "fore_name": "Ibrahim",
+     "initials": "I"
+    },
+    {
+     "last_name": "Treiber",
+     "fore_name": "Christoph",
+     "initials": "C"
+    },
+    {
+     "last_name": "Vacek",
+     "fore_name": "David",
+     "initials": "D"
+    },
+    {
+     "last_name": "Vogler",
+     "fore_name": "Georg",
+     "initials": "G"
+    },
+    {
+     "last_name": "Waddell",
+     "fore_name": "Scott",
+     "initials": "S"
+    },
+    {
+     "last_name": "Wang",
+     "fore_name": "Wanpeng",
+     "initials": "W"
+    },
+    {
+     "last_name": "Wilson",
+     "fore_name": "Rachel I",
+     "initials": "RI"
+    },
+    {
+     "last_name": "Wolfner",
+     "fore_name": "Mariana F",
+     "initials": "MF"
+    },
+    {
+     "last_name": "Wong",
+     "fore_name": "Yiu-Cheung E",
+     "initials": "YE"
+    },
+    {
+     "last_name": "Xie",
+     "fore_name": "Anthony",
+     "initials": "A"
+    },
+    {
+     "last_name": "Xu",
+     "fore_name": "Jun",
+     "initials": "J"
+    },
+    {
+     "last_name": "Yamamoto",
+     "fore_name": "Shinya",
+     "initials": "S"
+    },
+    {
+     "last_name": "Yan",
+     "fore_name": "Jia",
+     "initials": "J"
+    },
+    {
+     "last_name": "Yao",
+     "fore_name": "Zepeng",
+     "initials": "Z"
+    },
+    {
+     "last_name": "Yoda",
+     "fore_name": "Kazuki",
+     "initials": "K"
+    },
+    {
+     "last_name": "Zhu",
+     "fore_name": "Ruijun",
+     "initials": "R"
+    },
+    {
+     "last_name": "Zinzen",
+     "fore_name": "Robert P",
+     "initials": "RP"
+    }
+   ],
+   "year": "2022",
+   "volume": "375",
+   "pages": "eabk2432"
+  },
+  "10.1126/science.adg0934": {
+   "pmid": "37319212",
+   "pmc": "PMC10829769",
+   "doi": "10.1126/science.adg0934",
+   "title": "Aging Fly Cell Atlas identifies exhaustive aging features at cellular resolution.",
+   "journal": "Science (New York, N.Y.)",
+   "iso": "Science",
+   "authors": [
+    {
+     "last_name": "Lu",
+     "fore_name": "Tzu-Chiao"
+    },
+    {
+     "last_name": "Brbić",
+     "fore_name": "Maria"
+    },
+    {
+     "last_name": "Park",
+     "fore_name": "Ye-Jin"
+    },
+    {
+     "last_name": "Jackson",
+     "fore_name": "Tyler"
+    },
+    {
+     "last_name": "Chen",
+     "fore_name": "Jiaye"
+    },
+    {
+     "last_name": "Kolluru",
+     "fore_name": "Sai Saroja"
+    },
+    {
+     "last_name": "Qi",
+     "fore_name": "Yanyan"
+    },
+    {
+     "last_name": "Katheder",
+     "fore_name": "Nadja Sandra"
+    },
+    {
+     "last_name": "Cai",
+     "fore_name": "Xiaoyu Tracy"
+    },
+    {
+     "last_name": "Lee",
+     "fore_name": "Seungjae"
+    },
+    {
+     "last_name": "Chen",
+     "fore_name": "Yen-Chung"
+    },
+    {
+     "last_name": "Auld",
+     "fore_name": "Niccole"
+    },
+    {
+     "last_name": "Liang",
+     "fore_name": "Chung-Yi"
+    },
+    {
+     "last_name": "Ding",
+     "fore_name": "Sophia H"
+    },
+    {
+     "last_name": "Welsch",
+     "fore_name": "Doug"
+    },
+    {
+     "last_name": "D'Souza",
+     "fore_name": "Samuel"
+    },
+    {
+     "last_name": "Pisco",
+     "fore_name": "Angela Oliveira"
+    },
+    {
+     "last_name": "Jones",
+     "fore_name": "Robert C"
+    },
+    {
+     "last_name": "Leskovec",
+     "fore_name": "Jure"
+    },
+    {
+     "last_name": "Lai",
+     "fore_name": "Eric C"
+    },
+    {
+     "last_name": "Bellen",
+     "fore_name": "Hugo J"
+    },
+    {
+     "last_name": "Luo",
+     "fore_name": "Liqun"
+    },
+    {
+     "last_name": "Jasper",
+     "fore_name": "Heinrich"
+    },
+    {
+     "last_name": "Quake",
+     "fore_name": "Stephen R"
+    },
+    {
+     "last_name": "Li",
+     "fore_name": "Hongjie"
+    }
+   ],
+   "year": "2023",
+   "volume": "380",
+   "pages": "eadg0934"
+  },
+  "10.1152/jn.00290.2023": {
+   "pmid": "37910532",
+   "pmc": "PMC11068397",
+   "doi": "10.1152/jn.00290.2023",
+   "title": "Decoding working memory information from neurons with and without persistent activity in the primate prefrontal cortex.",
+   "journal": "Journal of neurophysiology",
+   "iso": "J Neurophysiol",
+   "authors": [
+    {
+     "last_name": "Thrower",
+     "fore_name": "Lilianna",
+     "initials": "L"
+    },
+    {
+     "last_name": "Dang",
+     "fore_name": "Wenhao",
+     "initials": "W"
+    },
+    {
+     "last_name": "Jaffe",
+     "fore_name": "Rye G",
+     "initials": "RG"
+    },
+    {
+     "last_name": "Sun",
+     "fore_name": "Jasmine D",
+     "initials": "JD"
+    },
+    {
+     "last_name": "Constantinidis",
+     "fore_name": "Christos",
+     "initials": "C"
+    }
+   ],
+   "year": "2023",
+   "volume": "130",
+   "pages": "1392-1402"
+  },
+  "10.1162/jocn_a_01917": {
+   "pmid": "36122353",
+   "pmc": "PMC10158524",
+   "doi": "10.1162/jocn_a_01917",
+   "title": "Is There an Activity-silent Working Memory?",
+   "journal": "Journal of cognitive neuroscience",
+   "iso": "J Cogn Neurosci",
+   "authors": [
+    {
+     "last_name": "Oberauer",
+     "fore_name": "Klaus",
+     "initials": "K"
+    },
+    {
+     "last_name": "Awh",
+     "fore_name": "Edward",
+     "initials": "E"
+    }
+   ],
+   "year": "2022",
+   "volume": "34",
+   "pages": "2360-2374"
+  },
+  "10.1162/neco_a_01086": {
+   "pmid": "29652587",
+   "pmc": "PMC6118408",
+   "doi": "10.1162/neco_a_01086",
+   "title": "SuperSpike: Supervised Learning in Multilayer Spiking Neural Networks.",
+   "journal": "Neural computation",
+   "iso": "Neural Comput",
+   "authors": [
+    {
+     "last_name": "Zenke",
+     "fore_name": "Friedemann",
+     "initials": "F"
+    },
+    {
+     "last_name": "Ganguli",
+     "fore_name": "Surya",
+     "initials": "S"
+    }
+   ],
+   "year": "2018",
+   "volume": "30",
+   "pages": "1514-1541"
+  },
+  "10.1186/s13059-017-1382-0": {
+   "pmid": "29409532",
+   "pmc": "PMC5802054",
+   "doi": "10.1186/s13059-017-1382-0",
+   "title": "SCANPY: large-scale single-cell gene expression data analysis.",
+   "journal": "Genome biology",
+   "iso": "Genome Biol",
+   "authors": [
+    {
+     "last_name": "Wolf",
+     "fore_name": "F Alexander",
+     "initials": "FA"
+    },
+    {
+     "last_name": "Angerer",
+     "fore_name": "Philipp",
+     "initials": "P"
+    },
+    {
+     "last_name": "Theis",
+     "fore_name": "Fabian J",
+     "initials": "FJ"
+    }
+   ],
+   "year": "2018",
+   "volume": "19",
+   "pages": "15"
+  },
+  "10.1242/jeb.017574": {
+   "pmid": "18490395",
+   "pmc": null,
+   "doi": "10.1242/jeb.017574",
+   "title": "Energy limitation as a selective pressure on the evolution of sensory systems.",
+   "journal": "The Journal of experimental biology",
+   "iso": "J Exp Biol",
+   "authors": [
+    {
+     "last_name": "Niven",
+     "fore_name": "Jeremy E",
+     "initials": "JE"
+    },
+    {
+     "last_name": "Laughlin",
+     "fore_name": "Simon B",
+     "initials": "SB"
+    }
+   ],
+   "year": "2008",
+   "volume": "211",
+   "pages": "1792-804"
+  },
+  "10.1371/journal.pbio.3000625": {
+   "pmid": "32119658",
+   "pmc": "PMC7067474",
+   "doi": "10.1371/journal.pbio.3000625",
+   "title": "Drifting codes within a stable coding scheme for working memory.",
+   "journal": "PLoS biology",
+   "iso": "PLoS Biol",
+   "authors": [
+    {
+     "last_name": "Wolff",
+     "fore_name": "Michael J",
+     "initials": "MJ"
+    },
+    {
+     "last_name": "Jochim",
+     "fore_name": "Janina",
+     "initials": "J"
+    },
+    {
+     "last_name": "Akyürek",
+     "fore_name": "Elkan G",
+     "initials": "EG"
+    },
+    {
+     "last_name": "Buschman",
+     "fore_name": "Timothy J",
+     "initials": "TJ"
+    },
+    {
+     "last_name": "Stokes",
+     "fore_name": "Mark G",
+     "initials": "MG"
+    }
+   ],
+   "year": "2020",
+   "volume": "18",
+   "pages": "e3000625"
+  },
+  "10.1371/journal.pcbi.1007936": {
+   "pmid": "32516337",
+   "pmc": "PMC7282629",
+   "doi": "10.1371/journal.pcbi.1007936",
+   "title": "A functional spiking-neuron model of activity-silent working memory in humans based on calcium-mediated short-term synaptic plasticity.",
+   "journal": "PLoS computational biology",
+   "iso": "PLoS Comput Biol",
+   "authors": [
+    {
+     "last_name": "Pals",
+     "fore_name": "Matthijs",
+     "initials": "M"
+    },
+    {
+     "last_name": "Stewart",
+     "fore_name": "Terrence C",
+     "initials": "TC"
+    },
+    {
+     "last_name": "Akyürek",
+     "fore_name": "Elkan G",
+     "initials": "EG"
+    },
+    {
+     "last_name": "Borst",
+     "fore_name": "Jelmer P",
+     "initials": "JP"
+    }
+   ],
+   "year": "2020",
+   "volume": "16",
+   "pages": "e1007936"
+  },
+  "10.1371/journal.pgen.1005025": {
+   "pmid": "25774758",
+   "pmc": "PMC4361604",
+   "doi": "10.1371/journal.pgen.1005025",
+   "title": "Linking aβ42-induced hyperexcitability to neurodegeneration, learning and motor deficits, and a shorter lifespan in an Alzheimer's model.",
+   "journal": "PLoS genetics",
+   "iso": "PLoS Genet",
+   "authors": [
+    {
+     "last_name": "Ping",
+     "fore_name": "Yong",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Hahm",
+     "fore_name": "Eu-Teum",
+     "initials": "ET"
+    },
+    {
+     "last_name": "Waro",
+     "fore_name": "Girma",
+     "initials": "G"
+    },
+    {
+     "last_name": "Song",
+     "fore_name": "Qian",
+     "initials": "Q"
+    },
+    {
+     "last_name": "Vo-Ba",
+     "fore_name": "Dai-An",
+     "initials": "DA"
+    },
+    {
+     "last_name": "Licursi",
+     "fore_name": "Ashley",
+     "initials": "A"
+    },
+    {
+     "last_name": "Bao",
+     "fore_name": "Han",
+     "initials": "H"
+    },
+    {
+     "last_name": "Ganoe",
+     "fore_name": "Logan",
+     "initials": "L"
+    },
+    {
+     "last_name": "Finch",
+     "fore_name": "Kelly",
+     "initials": "K"
+    },
+    {
+     "last_name": "Tsunoda",
+     "fore_name": "Susan",
+     "initials": "S"
+    }
+   ],
+   "year": "2015",
+   "volume": "11",
+   "pages": "e1005025"
+  },
+  "10.1523/jneurosci.0846-23.2024": {
+   "pmid": "38561228",
+   "pmc": "PMC11112642",
+   "doi": "10.1523/jneurosci.0846-23.2024",
+   "title": "Intrinsic Neural Excitability Biases Allocation and Overlap of Memory Engrams.",
+   "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+   "iso": "J Neurosci",
+   "authors": [
+    {
+     "last_name": "Delamare",
+     "fore_name": "Geoffroy",
+     "initials": "G"
+    },
+    {
+     "last_name": "Tomé",
+     "fore_name": "Douglas Feitosa",
+     "initials": "DF"
+    },
+    {
+     "last_name": "Clopath",
+     "fore_name": "Claudia",
+     "initials": "C"
+    }
+   ],
+   "year": "2024",
+   "volume": "44",
+   "pages": null
+  },
+  "10.1523/jneurosci.1099-11.2011": {
+   "pmid": "21849538",
+   "pmc": "PMC3180869",
+   "doi": "10.1523/jneurosci.1099-11.2011",
+   "title": "Cellular-resolution population imaging reveals robust sparse coding in the Drosophila mushroom body.",
+   "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+   "iso": "J Neurosci",
+   "authors": [
+    {
+     "last_name": "Honegger",
+     "fore_name": "Kyle S",
+     "initials": "KS"
+    },
+    {
+     "last_name": "Campbell",
+     "fore_name": "Robert A A",
+     "initials": "RA"
+    },
+    {
+     "last_name": "Turner",
+     "fore_name": "Glenn C",
+     "initials": "GC"
+    }
+   ],
+   "year": "2011",
+   "volume": "31",
+   "pages": "11772-85"
+  },
+  "10.3389/fncel.2024.1440588": {
+   "pmid": "39144154",
+   "pmc": "PMC11322048",
+   "doi": "10.3389/fncel.2024.1440588",
+   "title": "Neural ensembles: role of intrinsic excitability and its plasticity.",
+   "journal": "Frontiers in cellular neuroscience",
+   "iso": "Front Cell Neurosci",
+   "authors": [
+    {
+     "last_name": "Hansel",
+     "fore_name": "Christian",
+     "initials": "C"
+    },
+    {
+     "last_name": "Yuste",
+     "fore_name": "Rafael",
+     "initials": "R"
+    }
+   ],
+   "year": "2024",
+   "volume": "18",
+   "pages": "1440588"
+  },
+  "10.3389/fncir.2021.696060": {
+   "pmid": "34366794",
+   "pmc": "PMC8334735",
+   "doi": "10.3389/fncir.2021.696060",
+   "title": "Persistent Activity During Working Memory From Front to Back.",
+   "journal": "Frontiers in neural circuits",
+   "iso": "Front Neural Circuits",
+   "authors": [
+    {
+     "last_name": "Curtis",
+     "fore_name": "Clayton E",
+     "initials": "CE"
+    },
+    {
+     "last_name": "Sprague",
+     "fore_name": "Thomas C",
+     "initials": "TC"
+    }
+   ],
+   "year": "2021",
+   "volume": "15",
+   "pages": "696060"
+  },
+  "10.3389/fnins.2026.1911198": {
+   "pmid": "42871902",
+   "pmc": "PMC13659455",
+   "doi": "10.3389/fnins.2026.1911198",
+   "title": "Connectomes: a re-emerging hub dataset for neuroscience.",
+   "journal": "Frontiers in neuroscience",
+   "iso": "Front Neurosci",
+   "authors": [
+    {
+     "last_name": "Kyllmann",
+     "fore_name": "Sebastian",
+     "initials": "S"
+    },
+    {
+     "last_name": "Keesey",
+     "fore_name": "Ian W",
+     "initials": "IW"
+    }
+   ],
+   "year": "2026",
+   "volume": "20",
+   "pages": "1911198"
+  },
+  "10.3758/bf03196157": {
+   "pmid": "11495110",
+   "pmc": null,
+   "doi": "10.3758/bf03196157",
+   "title": "Environmental context-dependent memory: a review and meta-analysis.",
+   "journal": "Psychonomic bulletin & review",
+   "iso": "Psychon Bull Rev",
+   "authors": [
+    {
+     "last_name": "Smith",
+     "fore_name": "S M",
+     "initials": "SM"
+    },
+    {
+     "last_name": "Vela",
+     "fore_name": "E",
+     "initials": "E"
+    }
+   ],
+   "year": "2001",
+   "volume": "8",
+   "pages": "203-20"
+  },
+  "10.7554/elife.02395": {
+   "pmid": "25139953",
+   "pmc": "PMC4135349",
+   "doi": "10.7554/elife.02395",
+   "title": "Shared mushroom body circuits underlie visual and olfactory memories in Drosophila.",
+   "journal": "eLife",
+   "iso": "Elife",
+   "authors": [
+    {
+     "last_name": "Vogt",
+     "fore_name": "Katrin",
+     "initials": "K"
+    },
+    {
+     "last_name": "Schnaitmann",
+     "fore_name": "Christopher",
+     "initials": "C"
+    },
+    {
+     "last_name": "Dylla",
+     "fore_name": "Kristina V",
+     "initials": "KV"
+    },
+    {
+     "last_name": "Knapek",
+     "fore_name": "Stephan",
+     "initials": "S"
+    },
+    {
+     "last_name": "Aso",
+     "fore_name": "Yoshinori",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Rubin",
+     "fore_name": "Gerald M",
+     "initials": "GM"
+    },
+    {
+     "last_name": "Tanimoto",
+     "fore_name": "Hiromu",
+     "initials": "H"
+    }
+   ],
+   "year": "2014",
+   "volume": "3",
+   "pages": "e02395"
+  },
+  "10.7554/elife.04493": {
+   "pmid": "26193122",
+   "pmc": "PMC4525104",
+   "doi": "10.7554/elife.04493",
+   "title": "Neuron hemilineages provide the functional ground plan for the Drosophila ventral nervous system.",
+   "journal": "eLife",
+   "iso": "Elife",
+   "authors": [
+    {
+     "last_name": "Harris",
+     "fore_name": "Robin M",
+     "initials": "RM"
+    },
+    {
+     "last_name": "Pfeiffer",
+     "fore_name": "Barret D",
+     "initials": "BD"
+    },
+    {
+     "last_name": "Rubin",
+     "fore_name": "Gerald M",
+     "initials": "GM"
+    },
+    {
+     "last_name": "Truman",
+     "fore_name": "James W",
+     "initials": "JW"
+    }
+   ],
+   "year": "2015",
+   "volume": "4",
+   "pages": null
+  },
+  "10.7554/elife.16135": {
+   "pmid": "27441388",
+   "pmc": "PMC4987137",
+   "doi": "10.7554/elife.16135",
+   "title": "Dopaminergic neurons write and update memories with cell-type-specific rules.",
+   "journal": "eLife",
+   "iso": "Elife",
+   "authors": [
+    {
+     "last_name": "Aso",
+     "fore_name": "Yoshinori",
+     "initials": "Y"
+    },
+    {
+     "last_name": "Rubin",
+     "fore_name": "Gerald M",
+     "initials": "GM"
+    }
+   ],
+   "year": "2016",
+   "volume": "5",
+   "pages": null
+  },
+  "10.7554/elife.50901": {
+   "pmid": "31939737",
+   "pmc": "PMC7034979",
+   "doi": "10.7554/elife.50901",
+   "title": "A genetic, genomic, and computational resource for exploring neural circuit function.",
+   "journal": "eLife",
+   "iso": "Elife",
+   "authors": [
+    {
+     "last_name": "Davis",
+     "fore_name": "Fred P"
+    },
+    {
+     "last_name": "Nern",
+     "fore_name": "Aljoscha"
+    },
+    {
+     "last_name": "Picard",
+     "fore_name": "Serge"
+    },
+    {
+     "last_name": "Reiser",
+     "fore_name": "Michael B"
+    },
+    {
+     "last_name": "Rubin",
+     "fore_name": "Gerald M"
+    },
+    {
+     "last_name": "Eddy",
+     "fore_name": "Sean R"
+    },
+    {
+     "last_name": "Henry",
+     "fore_name": "Gilbert L"
+    }
+   ],
+   "year": "2020",
+   "volume": "9",
+   "pages": null
+  },
+  "10.7554/elife.54074": {
+   "pmid": "32314735",
+   "pmc": "PMC7173974",
+   "doi": "10.7554/elife.54074",
+   "title": "A single-cell transcriptomic atlas of the adultventral nerve cord.",
+   "journal": "eLife",
+   "iso": "Elife",
+   "authors": [
+    {
+     "last_name": "Allen",
+     "fore_name": "Aaron M"
+    },
+    {
+     "last_name": "Neville",
+     "fore_name": "Megan C"
+    },
+    {
+     "last_name": "Birtles",
+     "fore_name": "Sebastian"
+    },
+    {
+     "last_name": "Croset",
+     "fore_name": "Vincent"
+    },
+    {
+     "last_name": "Treiber",
+     "fore_name": "Christoph Daniel"
+    },
+    {
+     "last_name": "Waddell",
+     "fore_name": "Scott"
+    },
+    {
+     "last_name": "Goodwin",
+     "fore_name": "Stephen F"
+    }
+   ],
+   "year": "2020",
+   "volume": "9",
+   "pages": null
+  },
+  "10.7554/elife.65459": {
+   "pmid": "34310281",
+   "pmc": "PMC8313230",
+   "doi": "10.7554/elife.65459",
+   "title": "Spike frequency adaptation supports network computations on temporally dispersed information.",
+   "journal": "eLife",
+   "iso": "Elife",
+   "authors": [
+    {
+     "last_name": "Salaj",
+     "fore_name": "Darjan",
+     "initials": "D"
+    },
+    {
+     "last_name": "Subramoney",
+     "fore_name": "Anand",
+     "initials": "A"
+    },
+    {
+     "last_name": "Kraisnikovic",
+     "fore_name": "Ceca",
+     "initials": "C"
+    },
+    {
+     "last_name": "Bellec",
+     "fore_name": "Guillaume",
+     "initials": "G"
+    },
+    {
+     "last_name": "Legenstein",
+     "fore_name": "Robert",
+     "initials": "R"
+    },
+    {
+     "last_name": "Maass",
+     "fore_name": "Wolfgang",
+     "initials": "W"
+    }
+   ],
+   "year": "2021",
+   "volume": "10",
+   "pages": null
+  },
+  "10.7554/elife.96084": {
+   "pmid": "42474298",
+   "pmc": "PMC13384506",
+   "doi": "10.7554/elife.96084",
+   "title": "Organization of circuits linking descending input to motor output in theMale Adult Nerve Cord connectome.",
+   "journal": "eLife",
+   "iso": "Elife",
+   "authors": [
+    {
+     "last_name": "Cheong",
+     "fore_name": "Han S J",
+     "initials": "HSJ"
+    },
+    {
+     "last_name": "Eichler",
+     "fore_name": "Katharina",
+     "initials": "K"
+    },
+    {
+     "last_name": "Stürner",
+     "fore_name": "Tomke",
+     "initials": "T"
+    },
+    {
+     "last_name": "Asinof",
+     "fore_name": "Samuel K",
+     "initials": "SK"
+    },
+    {
+     "last_name": "Champion",
+     "fore_name": "Andrew S",
+     "initials": "AS"
+    },
+    {
+     "last_name": "Marin",
+     "fore_name": "Elizabeth C",
+     "initials": "EC"
+    },
+    {
+     "last_name": "Oram",
+     "fore_name": "Tess B",
+     "initials": "TB"
+    },
+    {
+     "last_name": "Sumathipala",
+     "fore_name": "Marissa",
+     "initials": "M"
+    },
+    {
+     "last_name": "Venkatasubramanian",
+     "fore_name": "Lalanti",
+     "initials": "L"
+    },
+    {
+     "last_name": "Namiki",
+     "fore_name": "Shigehiro",
+     "initials": "S"
+    },
+    {
+     "last_name": "Siwanowicz",
+     "fore_name": "Igor",
+     "initials": "I"
+    },
+    {
+     "last_name": "Costa",
+     "fore_name": "Marta",
+     "initials": "M"
+    },
+    {
+     "last_name": "Berg",
+     "fore_name": "Stuart",
+     "initials": "S"
+    },
+    {
+     "last_name": "FlyEM Project Team",
+     "fore_name": "Janelia",
+     "initials": "J"
+    },
+    {
+     "last_name": "Jefferis",
+     "fore_name": "Gregory S X E",
+     "initials": "GSXE"
+    },
+    {
+     "last_name": "Card",
+     "fore_name": "Gwyneth M",
+     "initials": "GM"
+    }
+   ],
+   "year": "2026",
+   "volume": "13",
+   "pages": null
+  },
+  "pmid:10454381": {
+   "pmid": "10454381",
+   "pmc": "PMC311233",
+   "doi": "",
+   "title": "Drosophila mushroom bodies are dispensable for visual, tactile, and motor learning.",
+   "journal": "Learning & memory (Cold Spring Harbor, N.Y.)",
+   "iso": "Learn Mem",
+   "authors": [
+    {
+     "last_name": "Wolf",
+     "fore_name": "R",
+     "initials": "R"
+    },
+    {
+     "last_name": "Wittig",
+     "fore_name": "T",
+     "initials": "T"
+    },
+    {
+     "last_name": "Liu",
+     "fore_name": "L",
+     "initials": "L"
+    },
+    {
+     "last_name": "Wustmann",
+     "fore_name": "G",
+     "initials": "G"
+    },
+    {
+     "last_name": "Eyding",
+     "fore_name": "D",
+     "initials": "D"
+    },
+    {
+     "last_name": "Heisenberg",
+     "fore_name": "M",
+     "initials": "M"
+    }
+   ],
+   "year": "1998",
+   "volume": "5",
+   "pages": "166-78"
+  }
+ }
+}

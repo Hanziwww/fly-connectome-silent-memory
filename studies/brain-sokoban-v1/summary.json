@@ -1,0 +1,10 @@
+{
+  "completed_runs": 68,
+  "scheduled_pending": 31,
+  "difficulty_evaluated": 24,
+  "difficulty_verified_solved": 24,
+  "difficulty_new_acquisitions": 24,
+  "mechanism_models": 0,
+  "memory_layout_conditions": 0,
+  "overall_complete": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 9,
+  "reason": "T-SC1b H1 v2 nulls stratified by superclass and source",
+  "changes": {
+    "changed": "F14.SC.trace.v2 and F14.SC.trace.v2.secondary: label and mapping nulls within superclass x source strata (was superclass alone; tasks/sc-mapping-v2-design.json h1_v2.tests)",
+    "why": "The post hoc sensitivity of H1 v1 (F14.SC.trace.sensitivity, results/sc_trace_sensitivity_tests.csv) showed that carriers and other cells of a superclass map through different sources, whose z-scores are scaled separately: with superclass x source strata the v1 statistic sits at the null at the class and type + fuzzy levels (p 0.66, 0.80) and above it at the type level (p 0.005). The v1 tests stay as declared. No v2 data have been read.",
+    "testplan_sha256": "81b460de8b66f59af345bd9cfee697b94e058e9b8ade72ee0b7d4279a8fef06b",
+    "evidence": {
+      "file": "results/sc_trace_sensitivity_tests.csv",
+      "sha256": "46b64235128d1951269f1eb33002e8bfa41344cba9bb32151a54a08d00546a53"
+    }
+  },
+  "previous_sha256": "7fcf47cd82bdaf3ca80e2f378e236f9d352566e5b968ffa41dd5c743d57168d2",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792692983.1985986
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "status": "draft",
+  "title": "Learning, memory and movement in pathological and aged fly brains: credibility-screened interventions on the healthy connectome model",
+  "plan": "Plan v2: Phase 2 (systematic review, credibility rubric C1-C6, shortlist; gate G2) and Phase 3 (capacity experiments on the retained cases only)",
+  "frozen_inputs": [
+    "studies/brain-sokoban-v1"
+  ],
+  "literature": "literature/ (Phase 2a systematic review, maintained by the review itself)",
+  "credibility": {
+    "rubric": "C1-C6 (plan v2, Phase 2b)",
+    "scores": null,
+    "calibration": "operators/calibration.json",
+    "shortlist": null
+  },
+  "seed": null,
+  "unit": null,
+  "replicates": {
+    "definition": null,
+    "n_primary": null,
+    "pilot": null
+  },
+  "conditions": [],
+  "severities": null,
+  "targeting": null,
+  "regimes": [],
+  "rescues": [],
+  "families": "code/testplan.py",
+  "sources": {},
+  "draft_notes": [
+    "No capacity experiment runs before gate G2: the atlas, the credibility scores, the calibration and the shortlist are hash-frozen in this protocol first.",
+    "Conditions are the G2 shortlist only, each with its literature-calibrated intervention; rescues only where flies show them.",
+    "Declare the Holm primary family of each retained case, and the exploratory BH families, in code/testplan.py before any of their tests is computed.",
+    "Record input hashes with Study.protocol(sources=...), fill schedule.json and tasks/, lock the tasks (Study.lock_tasks), then register (Study.register).",
+    "Remove draft_notes at registration."
+  ],
+  "created_unix": null
+}

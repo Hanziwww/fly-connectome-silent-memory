@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 14,
+  "reason": "Phase 4 figure recordings, descriptive",
+  "changes": {
+    "why": "the v4 figure plan (user-approved 2026-10-22) needs two per-cell data sets that no run recorded",
+    "recordings": [
+      {
+        "code": "code/fig_divergence_cells.py",
+        "sha256": "f5b367d6875d51a5f649897bb5e005be861a9e7b7b385621a55edc01b11ec4b7",
+        "host": "GPU",
+        "what": "per-cell first spike-divergence time under the T-DY1 -3e-4 mV threshold shift (P05 brain, M0 input, timing 160 ms / 4 prefix windows, both cues)",
+        "check": "the per-ms count of differing cells must equal the recorded T-DY1 Hamming trajectory exactly",
+        "use": "Fig. 6D dark band"
+      },
+      {
+        "code": "code/sc_lineage_vnc_v3_export.py",
+        "sha256": "9fddd724feb5b4b72503b6267a257d979965d7d4f775d0333238679c28a3edd7",
+        "host": "CPU",
+        "what": "the declared v3 VNC bridge re-run with per-cell UMAP coordinates, Leiden cluster, published cluster and hemilineage unit",
+        "check": "cluster recovery, units and gates V1-V4 must equal runs/sc-lineage-vnc-v3 exactly",
+        "use": "Fig. 4C Rosetta view"
+      }
+    ],
+    "tests": "none; descriptive"
+  },
+  "previous_sha256": "7bc8ff22903b02ae762900c3cf2a2bc1742af9e29a07e1dc32c8d39c55873076",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792715004.416517
+}

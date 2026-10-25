@@ -1,0 +1,61 @@
+% The Cell manuscript: one source, two builds (submission, preprint). Build with build.py; it passes the mode and runs
+% XeLaTeX with --disable-installer (this TeX installation would otherwise download missing packages on the fly).
+\providecommand{\cellmode}{submission}
+\def\cellsize{12pt}\def\celltmp{preprint}\ifx\cellmode\celltmp\def\cellsize{11pt}\fi
+\documentclass[\cellsize, letterpaper]{article}
+\usepackage[\cellmode]{cellpress}
+\input{generated/values}
+\input{legends/figures}
+
+\begin{document}
+
+\input{front/title}
+\input{front/summary}
+\input{front/highlights}
+\input{front/inbrief}
+\input{front/keywords}
+\clearpage
+
+\section{Introduction}
+\input{body/introduction}
+
+\section{Results}
+\input{body/results}
+
+\section{Discussion}
+\input{body/discussion}
+
+\subsection{Limitations of the study}
+\input{body/limitations}
+
+\section{Resource availability}
+\input{back/resource}
+
+\section{Acknowledgments}
+\input{back/acknowledgments}
+
+\section{Author contributions}
+\input{back/contributions}
+
+\section{Declaration of interests}
+\input{back/interests}
+
+\section{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+\input{back/ai}
+
+\section{Supplemental information}
+\input{back/si_index}
+
+\clearpage
+\section{STAR Methods}
+\input{methods/star}
+
+\bibliography{refs}
+
+\ifcellpreprint\else
+  \section{Figure titles and legends}
+  \printlegend{1}\printlegend{2}\printlegend{3}\printlegend{4}\printlegend{5}\printlegend{6}\printlegend{7}
+  \figurepage{1}\figurepage{2}\figurepage{3}\figurepage{4}\figurepage{5}\figurepage{6}\figurepage{7}
+\fi
+
+\end{document}

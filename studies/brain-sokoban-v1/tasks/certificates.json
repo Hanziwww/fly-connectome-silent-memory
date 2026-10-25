@@ -1,0 +1,478 @@
+{
+  "D0-T0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 112,
+    "theoretical_states": 210,
+    "maximum_distance": 13,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 11,
+      "visited_states": 143,
+      "seconds": 0.0
+    }
+  },
+  "D0-T1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 45,
+    "theoretical_states": 132,
+    "maximum_distance": 10,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 9,
+      "visited_states": 34,
+      "seconds": 0.0
+    }
+  },
+  "D0-T2": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 78,
+    "theoretical_states": 182,
+    "maximum_distance": 11,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 10,
+      "visited_states": 73,
+      "seconds": 0.0
+    }
+  },
+  "D0-H": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 104,
+    "theoretical_states": 182,
+    "maximum_distance": 14,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 10,
+      "visited_states": 90,
+      "seconds": 0.0
+    }
+  },
+  "D1-T0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 72,
+    "theoretical_states": 156,
+    "maximum_distance": 13,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 13,
+      "visited_states": 137,
+      "seconds": 0.0
+    }
+  },
+  "D1-T1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 91,
+    "theoretical_states": 182,
+    "maximum_distance": 18,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 14,
+      "visited_states": 143,
+      "seconds": 0.0
+    }
+  },
+  "D1-T2": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 65,
+    "theoretical_states": 182,
+    "maximum_distance": 15,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 14,
+      "visited_states": 124,
+      "seconds": 0.0
+    }
+  },
+  "D1-H": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 104,
+    "theoretical_states": 182,
+    "maximum_distance": 15,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 15,
+      "visited_states": 64,
+      "seconds": 0.0
+    }
+  },
+  "D2-T0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 570,
+    "theoretical_states": 930,
+    "maximum_distance": 24,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 17,
+      "visited_states": 362,
+      "seconds": 0.0
+    }
+  },
+  "D2-T1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 467,
+    "theoretical_states": 870,
+    "maximum_distance": 33,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 21,
+      "visited_states": 598,
+      "seconds": 0.0
+    }
+  },
+  "D2-T2": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 246,
+    "theoretical_states": 812,
+    "maximum_distance": 23,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 18,
+      "visited_states": 344,
+      "seconds": 0.0
+    }
+  },
+  "D2-H": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 465,
+    "theoretical_states": 870,
+    "maximum_distance": 39,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 18,
+      "visited_states": 402,
+      "seconds": 0.0
+    }
+  },
+  "D3-T0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 5019,
+    "theoretical_states": 10962,
+    "maximum_distance": 49,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 25,
+      "visited_states": 1505,
+      "seconds": 0.0
+    }
+  },
+  "D3-T1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 6974,
+    "theoretical_states": 12180,
+    "maximum_distance": 35,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 26,
+      "visited_states": 1673,
+      "seconds": 0.0
+    }
+  },
+  "D3-T2": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 268,
+    "theoretical_states": 10962,
+    "maximum_distance": 27,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 26,
+      "visited_states": 1315,
+      "seconds": 0.0
+    }
+  },
+  "D3-H": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 8940,
+    "theoretical_states": 14880,
+    "maximum_distance": 36,
+    "seconds": 0.01600000000325963,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 25,
+      "visited_states": 3127,
+      "seconds": 0.0
+    }
+  },
+  "D4-T0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 3809,
+    "theoretical_states": 10962,
+    "maximum_distance": 40,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 28,
+      "visited_states": 1803,
+      "seconds": 0.015000000013969839
+    }
+  },
+  "D4-T1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 2152,
+    "theoretical_states": 10962,
+    "maximum_distance": 30,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 29,
+      "visited_states": 3430,
+      "seconds": 0.0
+    }
+  },
+  "D4-T2": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 3397,
+    "theoretical_states": 9828,
+    "maximum_distance": 47,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 33,
+      "visited_states": 4410,
+      "seconds": 0.01600000000325963
+    }
+  },
+  "D4-H": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 3389,
+    "theoretical_states": 12180,
+    "maximum_distance": 34,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 30,
+      "visited_states": 5735,
+      "seconds": 0.01600000000325963
+    }
+  },
+  "D5-T0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 510,
+    "theoretical_states": 39732,
+    "maximum_distance": 50,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 37,
+      "visited_states": 756,
+      "seconds": 0.0
+    }
+  },
+  "D5-T1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 1232,
+    "theoretical_states": 37023,
+    "maximum_distance": 54,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 34,
+      "visited_states": 371,
+      "seconds": 0.0
+    }
+  },
+  "D5-T2": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 1196,
+    "theoretical_states": 34440,
+    "maximum_distance": 55,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 34,
+      "visited_states": 461,
+      "seconds": 0.0
+    }
+  },
+  "D5-H": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 339,
+    "theoretical_states": 37023,
+    "maximum_distance": 41,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 37,
+      "visited_states": 347,
+      "seconds": 0.0
+    }
+  },
+  "D6-T0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 2456,
+    "theoretical_states": 543004,
+    "maximum_distance": 44,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 42,
+      "visited_states": 7879,
+      "seconds": 0.015000000013969839
+    }
+  },
+  "D6-T1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 707,
+    "theoretical_states": 493640,
+    "maximum_distance": 50,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 41,
+      "visited_states": 1274,
+      "seconds": 0.0
+    }
+  },
+  "D6-T2": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 1232,
+    "theoretical_states": 543004,
+    "maximum_distance": 57,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 46,
+      "visited_states": 1435,
+      "seconds": 0.0
+    }
+  },
+  "D6-H": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 304,
+    "theoretical_states": 493640,
+    "maximum_distance": 41,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 40,
+      "visited_states": 462,
+      "seconds": 0.0
+    }
+  },
+  "D7-T0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 10738,
+    "theoretical_states": 543004,
+    "maximum_distance": 112,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 60,
+      "visited_states": 3243,
+      "seconds": 0.0
+    }
+  },
+  "D7-T1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 1223,
+    "theoretical_states": 447720,
+    "maximum_distance": 51,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 49,
+      "visited_states": 481,
+      "seconds": 0.0
+    }
+  },
+  "D7-T2": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 1169,
+    "theoretical_states": 543004,
+    "maximum_distance": 51,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 50,
+      "visited_states": 808,
+      "seconds": 0.0
+    }
+  },
+  "D7-H": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 976,
+    "theoretical_states": 447720,
+    "maximum_distance": 58,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 57,
+      "visited_states": 666,
+      "seconds": 0.0
+    }
+  },
+  "C0": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 54,
+    "theoretical_states": 132,
+    "maximum_distance": 17,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 16,
+      "visited_states": 76,
+      "seconds": 0.0
+    }
+  },
+  "C1": {
+    "exact": true,
+    "complete": true,
+    "solvable_states": 432,
+    "theoretical_states": 9828,
+    "maximum_distance": 28,
+    "seconds": 0.0,
+    "forward": {
+      "verified": true,
+      "optimal_steps": 24,
+      "visited_states": 869,
+      "seconds": 0.0
+    }
+  }
+}

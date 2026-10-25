@@ -1,0 +1,408 @@
+{
+  "name": "fly-connectome-silent-memory",
+  "version": "1.0.0",
+  "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China",
+  "doi_records_core": "10.5281/zenodo.23629827",
+  "doi_records_extended": "10.5281/zenodo.23629835",
+  "doi_code": "",
+  "doi_biorxiv": "",
+  "doi_article": "",
+  "authors": [
+    {
+      "order": 1,
+      "name": "Han Wang",
+      "family_name": "Wang",
+      "given_names": "Han",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": true,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 2
+    },
+    {
+      "order": 2,
+      "name": "Joe Yeong Poh Sheng",
+      "family_name": "Yeong",
+      "given_names": "Joe Poh Sheng",
+      "email": "",
+      "affiliations": [
+        2,
+        3
+      ],
+      "equal_contribution": true,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 3
+    },
+    {
+      "order": 3,
+      "name": "Yunhua Zhao",
+      "family_name": "Zhao",
+      "given_names": "Yunhua",
+      "email": "",
+      "affiliations": [
+        4
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 4
+    },
+    {
+      "order": 4,
+      "name": "Yuhui Zhao",
+      "family_name": "Zhao",
+      "given_names": "Yuhui",
+      "email": "",
+      "affiliations": [
+        5
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 5
+    },
+    {
+      "order": 5,
+      "name": "Zizhong Yu",
+      "family_name": "Yu",
+      "given_names": "Zizhong",
+      "email": "",
+      "affiliations": [
+        6
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 6
+    },
+    {
+      "order": 6,
+      "name": "Xiaoyu Liu",
+      "family_name": "Liu",
+      "given_names": "Xiaoyu",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 7
+    },
+    {
+      "order": 7,
+      "name": "Ruoyun He",
+      "family_name": "He",
+      "given_names": "Ruoyun",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 8
+    },
+    {
+      "order": 8,
+      "name": "Huikuan Chen",
+      "family_name": "Chen",
+      "given_names": "Huikuan",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 9
+    },
+    {
+      "order": 9,
+      "name": "Ting Liu",
+      "family_name": "Liu",
+      "given_names": "Ting",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 10
+    },
+    {
+      "order": 10,
+      "name": "Ye Tian",
+      "family_name": "Tian",
+      "given_names": "Ye",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 11
+    },
+    {
+      "order": 11,
+      "name": "Weibang Chen",
+      "family_name": "Chen",
+      "given_names": "Weibang",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 12
+    },
+    {
+      "order": 12,
+      "name": "Yao Cai",
+      "family_name": "Cai",
+      "given_names": "Yao",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 13
+    },
+    {
+      "order": 13,
+      "name": "Yue Xu",
+      "family_name": "Xu",
+      "given_names": "Yue",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 14
+    },
+    {
+      "order": 14,
+      "name": "Hongyu Ning",
+      "family_name": "Ning",
+      "given_names": "Hongyu",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 15
+    },
+    {
+      "order": 15,
+      "name": "Xuanhe Hou",
+      "family_name": "Hou",
+      "given_names": "Xuanhe",
+      "email": "",
+      "affiliations": [
+        7
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 16
+    },
+    {
+      "order": 16,
+      "name": "Lingpin Pang",
+      "family_name": "Pang",
+      "given_names": "Lingpin",
+      "email": "",
+      "affiliations": [
+        8
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 17
+    },
+    {
+      "order": 17,
+      "name": "Danxian Jiang",
+      "family_name": "Jiang",
+      "given_names": "Danxian",
+      "email": "",
+      "affiliations": [
+        1
+      ],
+      "equal_contribution": false,
+      "corresponding": false,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 18
+    },
+    {
+      "order": 18,
+      "name": "Huafeng Liu",
+      "family_name": "Liu",
+      "given_names": "Huafeng",
+      "email": "liuhf@gdmu.edu.cn",
+      "affiliations": [
+        9
+      ],
+      "equal_contribution": false,
+      "corresponding": true,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 19
+    },
+    {
+      "order": 19,
+      "name": "Junfeng Hao",
+      "family_name": "Hao",
+      "given_names": "Junfeng",
+      "email": "ygzhjf85@gmail.com",
+      "affiliations": [
+        10,
+        11
+      ],
+      "equal_contribution": false,
+      "corresponding": true,
+      "lead_contact": false,
+      "source_sheet": "中文",
+      "source_row": 20
+    },
+    {
+      "order": 20,
+      "name": "Chunjie Tian",
+      "family_name": "Tian",
+      "given_names": "Chunjie",
+      "email": "tianchunjie@gdmu.edu.cn",
+      "affiliations": [
+        1,
+        10,
+        12
+      ],
+      "equal_contribution": false,
+      "corresponding": true,
+      "lead_contact": true,
+      "source_sheet": "中文",
+      "source_row": 21
+    }
+  ],
+  "creators": [
+    {
+      "name": "Wang, Han",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Yeong, Joe Poh Sheng",
+      "affiliation": "Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore; Department of Anatomical Pathology, Singapore General Hospital, Singapore"
+    },
+    {
+      "name": "Zhao, Yunhua",
+      "affiliation": "Department of Neurology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China"
+    },
+    {
+      "name": "Zhao, Yuhui",
+      "affiliation": "Guangdong Key Laboratory of Age-Related Cardiac and Cerebral Diseases, Institute of Neurology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524001, China"
+    },
+    {
+      "name": "Yu, Zizhong",
+      "affiliation": "Shanghai Xieai Ze'an Traditional Chinese Medicine Hospital, Shanghai, China"
+    },
+    {
+      "name": "Liu, Xiaoyu",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "He, Ruoyun",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Chen, Huikuan",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Liu, Ting",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Tian, Ye",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Chen, Weibang",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Cai, Yao",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Xu, Yue",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Ning, Hongyu",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Hou, Xuanhe",
+      "affiliation": "Department of Radiation Oncology (MAASTRO), GROW - Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, the Netherlands"
+    },
+    {
+      "name": "Pang, Lingpin",
+      "affiliation": "Emergency Medical Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China"
+    },
+    {
+      "name": "Jiang, Danxian",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China"
+    },
+    {
+      "name": "Liu, Huafeng",
+      "affiliation": "Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases, Zhanjiang, Guangdong 524001, China"
+    },
+    {
+      "name": "Hao, Junfeng",
+      "affiliation": "Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases, Key Laboratory of Prevention and Management of Chronic Kidney Disease of Zhanjiang City, Institute of Nephrology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524001, Guangdong, China; Department of Family Medicine, Shengjing Hospital of China Medical University, Shenyang 110022, Liaoning, China"
+    },
+    {
+      "name": "Tian, Chunjie",
+      "affiliation": "Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China; Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases, Key Laboratory of Prevention and Management of Chronic Kidney Disease of Zhanjiang City, Institute of Nephrology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524001, Guangdong, China; Otolaryngology Research Center, Guangdong Medical University Affiliated Hospital, Zhanjiang 524000, Guangdong, China"
+    }
+  ],
+  "author_form": "**Authors (in order).**\n\n| Order | Name | Affiliations | Role | Email |\n|---:|---|---|---|---|\n| 1 | Han Wang | 1 | Co-first author |  |\n| 2 | Joe Yeong Poh Sheng | 2, 3 | Co-first author |  |\n| 3 | Yunhua Zhao | 4 | Author |  |\n| 4 | Yuhui Zhao | 5 | Author |  |\n| 5 | Zizhong Yu | 6 | Author |  |\n| 6 | Xiaoyu Liu | 1 | Author |  |\n| 7 | Ruoyun He | 1 | Author |  |\n| 8 | Huikuan Chen | 1 | Author |  |\n| 9 | Ting Liu | 1 | Author |  |\n| 10 | Ye Tian | 1 | Author |  |\n| 11 | Weibang Chen | 1 | Author |  |\n| 12 | Yao Cai | 1 | Author |  |\n| 13 | Yue Xu | 1 | Author |  |\n| 14 | Hongyu Ning | 1 | Author |  |\n| 15 | Xuanhe Hou | 7 | Author |  |\n| 16 | Lingpin Pang | 8 | Author |  |\n| 17 | Danxian Jiang | 1 | Author |  |\n| 18 | Huafeng Liu | 9 | Corresponding author | liuhf@gdmu.edu.cn |\n| 19 | Junfeng Hao | 10, 11 | Corresponding author | ygzhjf85@gmail.com |\n| 20 | Chunjie Tian | 1, 10, 12 | Corresponding author; Lead contact | tianchunjie@gdmu.edu.cn |\n\n**Affiliations.**\n\n1. Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524000, Guangdong, China\n2. Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore\n3. Department of Anatomical Pathology, Singapore General Hospital, Singapore\n4. Department of Neurology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, China\n5. Guangdong Key Laboratory of Age-Related Cardiac and Cerebral Diseases, Institute of Neurology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524001, China\n6. Shanghai Xieai Ze'an Traditional Chinese Medicine Hospital, Shanghai, China\n7. Department of Radiation Oncology (MAASTRO), GROW - Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, the Netherlands\n8. Emergency Medical Center, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, China\n9. Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases, Zhanjiang, Guangdong 524001, China\n10. Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases, Key Laboratory of Prevention and Management of Chronic Kidney Disease of Zhanjiang City, Institute of Nephrology, Affiliated Hospital of Guangdong Medical University, Zhanjiang 524001, Guangdong, China\n11. Department of Family Medicine, Shengjing Hospital of China Medical University, Shenyang 110022, Liaoning, China\n12. Otolaryngology Research Center, Guangdong Medical University Affiliated Hospital, Zhanjiang 524000, Guangdong, China\n\n**Equal contribution.** Han Wang and Joe Yeong Poh Sheng contributed equally.\n\n**Correspondence.** Huafeng Liu (liuhf@gdmu.edu.cn); Junfeng Hao (ygzhjf85@gmail.com); Chunjie Tian (tianchunjie@gdmu.edu.cn).\n\n**Lead contact.** Chunjie Tian (tianchunjie@gdmu.edu.cn).",
+  "funding_statement": "This work was supported by the National Natural Science Foundation of China (grant nos. 82160215, 81660174, and 82271169); the Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases (grant no. 2022B1212030003); the Research Startup Funds for High-level Talents in the Affiliated Hospital of Guangdong Medical University (grant no. GCC20220013); the College Students' Innovative Entrepreneurial Training Plan Program (grant no. S202510571025); and the 2025 Artificial Intelligence-Enabled Medical Device Innovation Task (Open Competition Mechanism, project no. 2025-AISJK-02007).",
+  "ai_statement": "During the preparation of this work, the authors used Claude (Anthropic) solely for language review. The authors reviewed and edited the manuscript and take full responsibility for its content.",
+  "lead_contact": "Chunjie Tian",
+  "lead_contact_email": "tianchunjie@gdmu.edu.cn",
+  "contributions_statement": "Han Wang, Joe Yeong Poh Sheng, and Chunjie Tian conceived and designed all studies. Han Wang wrote all code, performed all analyses, generated all figures and videos, and prepared all supplemental materials. Joe Yeong Poh Sheng contributed to writing the manuscript. The other authors reviewed and revised the manuscript. All authors reviewed and approved the final manuscript and take responsibility for its content.",
+  "competing_interests": "The authors declare no competing interests.",
+  "code_repository": "https://github.com/Hanziwww/fly-connectome-silent-memory",
+  "data_access": "restricted",
+  "preprint_license": "CC BY-NC-ND 4.0"
+}

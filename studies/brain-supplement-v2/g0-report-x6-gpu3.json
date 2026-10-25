@@ -1,0 +1,72 @@
+{
+ "tolerance": 0.001,
+ "runs": "studies\\brain-supplement-v2\\runs\\g0-x6-gpu3",
+ "environment": {
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-119-generic-x86_64-with-glibc2.35",
+  "torch": "2.12.1+cu130",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "capability": [
+   12,
+   0
+  ],
+  "started_unix": 1792457337.3633418
+ },
+ "p05": {
+  "status_mixed": "solved",
+  "steps_mixed": 34,
+  "steps_recorded": 34,
+  "status_float64": "solved",
+  "steps_float64": 34,
+  "same_actions_mixed_float64": true,
+  "max_abs_logit_difference_mixed_float64": 0.0,
+  "seconds_mixed": 0.6690041571855545,
+  "seconds_float64": 0.5461814403533936,
+  "ok": true
+ },
+ "memory": {
+  "remote-dynamic-M0-head_only": {
+   "histories": 18,
+   "ok_histories": 18,
+   "max_abs_logit_difference": 0.0,
+   "seconds": 7.263830188661814,
+   "ok": true,
+   "failures": []
+  },
+  "remote-dynamic-M0-joint": {
+   "histories": 18,
+   "ok_histories": 18,
+   "max_abs_logit_difference": 0.0,
+   "seconds": 13.6691888384521,
+   "ok": true,
+   "failures": []
+  },
+  "supp-M0-visibility": {
+   "histories": 36,
+   "ok_histories": 36,
+   "max_abs_logit_difference": 0.0,
+   "seconds": 7.31632299348712,
+   "ok": true,
+   "failures": []
+  },
+  "supp-S1-ring-brain": {
+   "histories": 18,
+   "ok_histories": 18,
+   "max_abs_logit_difference": 0.0,
+   "seconds": 15.012356601655483,
+   "ok": true,
+   "failures": []
+  },
+  "supp-S2-context-brain": {
+   "histories": 36,
+   "ok_histories": 36,
+   "max_abs_logit_difference": 0.0,
+   "seconds": 36.16469971835613,
+   "ok": true,
+   "failures": []
+  }
+ },
+ "models_passing": 5,
+ "passed": true
+}

@@ -1,0 +1,173 @@
+% cellpress.sty -- layout of this paper's Cell manuscript (submission, preprint) and its Supplemental PDF (Document S1).
+% Written for XeLaTeX. Options: submission (default), preprint, si; authoryear switches the citation style (default numbered).
+% The rules it follows are the Cell author guide's (manuscript/paper/README.md lists them).
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cellpress}[2026/10/24 Cell manuscript layout]
+
+\newif\ifcell@preprint
+\newif\ifcell@si
+\newif\ifcell@authoryear
+\newif\ifcellpreprint                                 % public copies for the manuscript files
+\newif\ifcellsi
+\DeclareOption{submission}{}
+\DeclareOption{preprint}{\cell@preprinttrue\cellpreprinttrue}
+\DeclareOption{si}{\cell@sitrue\cellsitrue}
+\DeclareOption{authoryear}{\cell@authoryeartrue}
+\ProcessOptions\relax
+
+\RequirePackage{iftex}
+\RequireXeTeX
+\RequirePackage{fontspec}
+\IfFontExistsTF{Arial}{\setmainfont{Arial}\setsansfont{Arial}}{%
+  \setmainfont{arial.ttf}[Path=C:/Windows/Fonts/, BoldFont=arialbd.ttf, ItalicFont=ariali.ttf, BoldItalicFont=arialbi.ttf]}
+\RequirePackage[american]{babel}
+\RequirePackage{amsmath}
+\RequirePackage{geometry}
+\RequirePackage{setspace}
+\RequirePackage{graphicx}
+\RequirePackage{xcolor}
+\RequirePackage{etoolbox}
+\RequirePackage{enumitem}
+\RequirePackage{titlesec}
+\RequirePackage{booktabs}
+\RequirePackage{tabularx}
+\RequirePackage{longtable}
+\RequirePackage{ragged2e}
+\RequirePackage[hyphens]{url}
+
+% ---- page, spacing, line numbers ------------------------------------------------------------------------------------------
+\ifcell@si
+  \geometry{letterpaper, margin=18mm}
+  \pagestyle{empty}                                  % Document S1: no title, authors or page numbers (the guide)
+  \setstretch{1.0}
+\else\ifcell@preprint
+  \geometry{letterpaper, margin=18mm}                % 180-mm text block: the 174-mm figures at full size
+  \setstretch{1.15}
+\else
+  \geometry{letterpaper, margin=1in}
+  \doublespacing
+  \RequirePackage[pagewise]{lineno}
+  \AtBeginDocument{\linenumbers}
+\fi\fi
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0pt}
+\setcounter{secnumdepth}{0}
+\raggedbottom
+
+% ---- headings: main sections in capitals, Results and STAR Methods sub-headings in bold --------------------------------------
+\titleformat{\section}{\normalfont\bfseries\raggedright}{}{0pt}{\MakeUppercase}
+\titleformat{\subsection}{\normalfont\bfseries\raggedright}{}{0pt}{}
+\titleformat{\subsubsection}{\normalfont\bfseries\itshape\raggedright}{}{0pt}{}
+\titlespacing*{\section}{0pt}{2.0ex plus .5ex}{1.0ex}
+\titlespacing*{\subsection}{0pt}{1.6ex plus .4ex}{0.6ex}
+\titlespacing*{\subsubsection}{0pt}{1.2ex plus .3ex}{0.4ex}
+\setlist{nosep, leftmargin=1.5em}
+
+% ---- the text's own macros ------------------------------------------------------------------------------------------------
+% Call-outs, in the Cell form: (Figure 2E), (Figures 2B and 2C), (Figures 2B-2D), (Figure S2A), (Video S2), (Table S2)
+\newcommand{\fig}[1]{Figure~#1}
+\newcommand{\figs}[2]{Figures~#1 and~#2}
+\newcommand{\figr}[2]{Figures~#1\textendash #2}
+\newcommand{\video}[1]{Video~#1}
+\newcommand{\tab}[1]{Table~#1}
+\newcommand{\dataS}[1]{Data~#1}
+\newcommand{\gene}[1]{\textit{#1}}
+\newcommand{\Pv}{\textit{P}}                          % P as the figures write it
+% Numbers come from manuscript/writing/number_ledger.csv through generated/values.tex (build_macros.py)
+\newcommand{\cellval}[2]{\expandafter\def\csname cell@val@#1\endcsname{#2}}
+\newcommand{\val}[1]{\ifcsname cell@val@#1\endcsname\csname cell@val@#1\endcsname
+  \else\PackageError{cellpress}{No ledger value #1}{Rebuild the ledger and values.tex}\fi}
+% Fields only the author can fill (the build lists every one left) and parts not yet drafted
+\newcommand{\tofill}[1]{\textcolor{red!70!black}{[#1]}}
+\newcommand{\todraft}[1]{\par\noindent\textcolor{gray}{[To be drafted at #1.]}\par}
+% Text that the Cell word count excludes (supplemental item legends); the checker reads these markers
+\newenvironment{uncounted}{}{}
+% Software versions and accession-like identifiers, printed as written (the number check skips them)
+\newcommand{\ident}[1]{#1}
+% The key resources table of STAR Methods, in the Cell form (REAGENT or RESOURCE, SOURCE, IDENTIFIER), across pages; single
+% spaced and without line numbers (lineno numbers a repeated head wrongly). In the submission, where lineno is loaded, the
+% page break inside the table logs one "ignored error: Infinite glue shrinkage" from lineno's output routine; the pages are
+% set correctly (the preprint, without lineno, logs none).
+\newenvironment{krt}{\par\ifdefined\nolinenumbers\nolinenumbers\fi\begingroup\singlespacing\small
+  \setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}\renewcommand{\arraystretch}{1.15}%
+  \begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.40\linewidth}>{\raggedright\arraybackslash}p{0.21\linewidth}%
+    >{\raggedright\arraybackslash}p{0.33\linewidth}@{}}
+  \toprule\textbf{REAGENT or RESOURCE} & \textbf{SOURCE} & \textbf{IDENTIFIER}\\\midrule\endhead
+  \bottomrule\endlastfoot}{\end{longtable}\endgroup\par\ifcell@si\else\ifcell@preprint\else\linenumbers\fi\fi}
+\newcommand{\krtgroup}[1]{\multicolumn{3}{@{}l}{\textbf{#1}}\\*}% a group heading stays with its first row
+
+% ---- figures and legends --------------------------------------------------------------------------------------------------
+% \deflegend{N}{Title}{Body} stores a legend once; \printlegend{N} typesets "Figure N. Title" and the body. The submission
+% prints all legends after the references and then the figures, one per page; the preprint prints each figure with its legend
+% after its Results section; Document S1 prints each Figure S with its title and legend.
+\newcommand{\deflegend}[3]{\csgdef{cell@lt@#1}{#2}\csgdef{cell@lb@#1}{#3}}
+\newcommand{\printlegend}[1]{%
+  \par\medskip\noindent\textbf{Figure~#1. \csuse{cell@lt@#1}}%
+  \ifcsdef{cell@rel@#1}{\textbf{, related to Figure~\csuse{cell@rel@#1}}}{}%
+  \par\noindent\csuse{cell@lb@#1}\par}
+\newcommand{\relatedto}[2]{\csgdef{cell@rel@#1}{#2}}
+\newcommand{\figfile}[1]{%
+  \ifcsdef{cell@file@#1}{\csuse{cell@file@#1}}{\PackageError{cellpress}{No file for Figure #1}{}}}
+\newcommand{\setfigfile}[2]{\csgdef{cell@file@#1}{#2}}
+% Draft builds and the submission's text file (\cellnofigures: Cell takes each figure as its own file) leave the figures out
+\newcommand{\figurepage}[1]{\ifdefined\celldraft\else\ifdefined\cellnofigures\else\cell@figurepage{#1}\fi\fi}
+\newcommand{\cell@figurepage}[1]{%                       % one figure at its printed size (174 mm wide), on its own page
+  \clearpage
+  \newgeometry{letterpaper, margin=15mm}
+  \ifdefined\nolinenumbers\nolinenumbers\fi
+  \noindent\textbf{Figure~#1}\par\smallskip
+  \noindent\includegraphics{\figfile{#1}}\par
+  \clearpage
+  \restoregeometry
+  \ifcell@preprint\else\ifcell@si\else\linenumbers\fi\fi}
+\newcommand{\figurewithlegend}[1]{\figurepage{#1}\begin{singlespace}\small\printlegend{#1}\end{singlespace}\clearpage}
+% After each Results section: the preprint shows its figure there; the submission keeps figures at the end
+\newcommand{\resultsfigure}[1]{\ifcell@preprint\figurewithlegend{#1}\fi}
+% Document S1: one supplemental figure with its title above and its legend below (the guide's form); when the legend does
+% not fit under the figure it moves whole to the next page, under the title again, instead of splitting
+\newsavebox{\cell@legbox}
+\newsavebox{\cell@figbox}
+\newlength{\cell@need}
+\newcommand{\cell@sititle}[1]{\noindent\textbf{Figure~#1. \csuse{cell@lt@#1}, related to Figure~\csuse{cell@rel@#1}}\par}
+\newcommand{\sifigure}[1]{%
+  \clearpage
+  \sbox{\cell@figbox}{\includegraphics{\figfile{#1}}}%
+  \sbox{\cell@legbox}{\parbox[t]{\textwidth}{\noindent\csuse{cell@lb@#1}}}%
+  \setlength{\cell@need}{\ht\cell@figbox}\addtolength{\cell@need}{\dp\cell@figbox}%
+  \addtolength{\cell@need}{\ht\cell@legbox}\addtolength{\cell@need}{\dp\cell@legbox}%
+  \addtolength{\cell@need}{4\baselineskip}%
+  \cell@sititle{#1}\smallskip
+  \noindent\usebox{\cell@figbox}\par\medskip
+  \ifdim\cell@need>\textheight\clearpage\cell@sititle{#1}\smallskip\fi
+  \noindent\usebox{\cell@legbox}\par}
+
+% ---- references: numbered superscripts in citation order (default) or author-year --------------------------------------------
+% natbib with our BibTeX styles (cellnum.bst numbered, cellay.bst author-year; both derived from natbib's unsrtnat.bst):
+% "Surname, I., Surname, I.J., ..., et al. (Year). Title. Journal Volume, pages. https://doi.org/...". biblatex is not used
+% (it needs the logreq package, which this TeX installation lacks).
+% Cite with \cellcite{keys} BEFORE the punctuation: numbered mode puts the superscript after it ("brain.^1,2"); author-year
+% mode gives "brain (Dorkenwald et al., 2024)."
+\ifcell@authoryear
+  \RequirePackage[round,authoryear]{natbib}
+  \bibliographystyle{cellay}
+  \newcommand{\cellcite}[1]{\ \citep{#1}}
+\else
+  \RequirePackage[super,sort&compress,comma]{natbib}
+  \bibliographystyle{cellnum}
+  % \futurelet, not \@ifnextchar: \@ifnextchar skips spaces while it looks ahead, so it swallowed the space after a citation
+  % in mid-sentence ("states^14can be read out")
+  \newcommand{\cellcite}[1]{\def\cell@keys{#1}\futurelet\cell@next\cell@citecheck}
+  \def\cell@citecheck{\let\cell@do\cell@citehere
+    \ifx\cell@next.\let\cell@do\cell@citeafter\fi \ifx\cell@next,\let\cell@do\cell@citeafter\fi
+    \ifx\cell@next;\let\cell@do\cell@citeafter\fi \ifx\cell@next:\let\cell@do\cell@citeafter\fi
+    \cell@do}
+  \def\cell@citehere{\expandafter\cite\expandafter{\cell@keys}}
+  \def\cell@citeafter#1{#1\expandafter\cite\expandafter{\cell@keys}}
+\fi
+\setlength{\bibsep}{0pt plus 0.3ex}
+\renewcommand{\bibnumfmt}[1]{#1.}                     % "1." as in the Cell reference list
+\renewcommand{\bibfont}{\raggedright}                 % no stretched lines around long DOIs
+
+% ---- links last ------------------------------------------------------------------------------------------------------------
+\RequirePackage[hidelinks]{hyperref}
+\urlstyle{same}

@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "precision": "mixed",
+  "cue_gradient_norm": 2.724508762359619,
+  "full_vs_recomputed_gradient_max_abs": 4.76837158203125e-07,
+  "independent_batch_probe_equivalent": true,
+  "full_state_restore_exact": true,
+  "resume_records": [
+    "runs\\benchmark-fp64-b16-C0\\resume.pt",
+    "runs\\benchmark-v2-fp32-b16-C0\\resume.pt",
+    "runs\\benchmark-v2-fp64-b16-C0\\resume.pt",
+    "runs\\benchmark-v3-fp32-b16-C0\\resume.pt",
+    "runs\\benchmark-v3-fp32-b16-C1\\resume.pt",
+    "runs\\benchmark-v3-fp32-b8-C0\\resume.pt",
+    "runs\\benchmark-v3-fp32-b8-C1\\resume.pt",
+    "runs\\benchmark-v3-fp64-b16-C1\\resume.pt",
+    "runs\\benchmark-v3-mixed-b16-C0\\resume.pt",
+    "runs\\benchmark-v3-mixed-b16-C1\\resume.pt"
+  ],
+  "frozen_cache_invalidation": true,
+  "scientific_recording_shape": [
+    40,
+    4,
+    167106
+  ],
+  "transient_intervention_restored": true,
+  "dynamic_training_steps": [
+    {
+      "condition": "joint",
+      "loss": 1.8243436813354492,
+      "gradient_norm": 56.70492489031516,
+      "head_gradient_norm": 54.43113708496094,
+      "core_gradient_norm": 15.89653491973877,
+      "delay_ms": 0,
+      "prefix_windows": 0
+    },
+    {
+      "condition": "reset",
+      "loss": 1.79304438829422,
+      "gradient_norm": 20.523182584572208,
+      "head_gradient_norm": 18.684518814086914,
+      "core_gradient_norm": 8.490570068359375,
+      "delay_ms": 0,
+      "prefix_windows": 0
+    },
+    {
+      "condition": "head_only",
+      "loss": 1.8243436813354492,
+      "gradient_norm": 54.43113708496094,
+      "head_gradient_norm": 54.43113708496094,
+      "core_gradient_norm": 0.0,
+      "delay_ms": 0,
+      "prefix_windows": 0
+    },
+    {
+      "condition": "gru",
+      "loss": 1.1737996935844421,
+      "gradient_norm": 1.771607518196106,
+      "head_gradient_norm": 1.771607518196106,
+      "core_gradient_norm": 0.0,
+      "delay_ms": 0,
+      "prefix_windows": 0
+    }
+  ],
+  "peak_allocated_gib": 1.579892635345459
+}

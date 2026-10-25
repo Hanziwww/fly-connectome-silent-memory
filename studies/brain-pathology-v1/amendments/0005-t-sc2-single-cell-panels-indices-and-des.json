@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 5,
+  "reason": "T-SC2 single-cell panels, indices and designs",
+  "changes": {
+    "added_task_file": {
+      "file": "tasks/sc-panels-v1.json",
+      "sha256": "7cae914e452b56517cb6f01f3479a4039e334f28ac99f5f8ea4e1c2a82ef03f9"
+    },
+    "why": "Single-cell study, T-SC2: panels pinned to FlyBase IDs, the indices and the designs of T-SC3 (H1), T-SC4b (AD-FCA), T-SC4 (Kv4-weighted C01) and T-SC6 (intrinsic variants) fixed with the F14.SC.* families before any of their values or tests is computed.",
+    "families": {
+      "F14.SC.trace": 2,
+      "F14.SC.trace.secondary": 22,
+      "F14.SC.adfca.pan": 4,
+      "F14.SC.adfca": 192,
+      "F14.SC.kv4": 8,
+      "F14.SC.kv4.equivalence": 8,
+      "F14.SC.variant": 3,
+      "F14.SC.variant.secondary": 11
+    },
+    "gate_scb": "if the F14.SC.trace label test (test 1) is not significant after Holm and no F14.SC.kv4 test is, stop at annotation and report (T-SC6 not run)",
+    "deviations_from_plan": {
+      "adfca": "outcomes restricted to Shal and the adaptation index (the other panel genes descriptive); a separate Holm family for the pan-neuronal unit",
+      "kv4": "equivalence and difference as two Holm families; T19 restoration on the regime B checkpoints is descriptive (evaluation only)",
+      "variant": "tests mirror the T-DY2 measures (net use, lock, ED50, adaptation clear)"
+    }
+  },
+  "previous_sha256": "083c0ad9a0d6d85327c8bdb9e051dd6ca42075c5aded8734c8df7bcff84e5533",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792689744.6016076
+}

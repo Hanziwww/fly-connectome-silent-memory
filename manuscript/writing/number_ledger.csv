@@ -1,0 +1,304 @@
+id,section,statement,value,unit,display,file,column,row
+L01,Summary; Results 1,neurons in the model,167106.0,,"167,106",manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section network, quantity neurons"
+L02,Results 1,"stored connectome entries, millions (fixed connections)",25.5786,million,25.6,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"network, stored_connectome_entries"
+L03,Results 1,visual input cells,3200.0,,"3,200",manuscript/results/main/fig1/fig1a_model_specification.csv,value,"network, input_cells"
+G12,Video legends,"the decision window, one simulation per move (ms)",40.0,ms,40,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"simulation, decision_window"
+L04,Results 1,readout cells,4096.0,,"4,096",manuscript/results/main/fig1/fig1a_model_specification.csv,value,"network, observed_cells"
+L05,Results 1,trained gains and thresholds,35310.0,,"35,310",manuscript/results/main/fig1/fig1b_parameter_budget.csv,n_elements,"model_kind connectome_linear, component brain (sum)"
+L06,Results 1,trained readout weights,2052.0,,"2,052",manuscript/results/main/fig1/fig1b_parameter_budget.csv,n_elements,"connectome_linear, readout, trainable_in_joint (sum)"
+L07,Results 1,share of readout cells one synapse from the visual input,0.867919921875,,87%,manuscript/results/plan_v2/graph_paths.csv,targets_reached_within_k,"pathway visual inputs -> readout, k 1"
+L08,Results 1,readout cells with a direct input synapse,3555.0,,"3,555",manuscript/results/plan_v2/fig6_routes.csv,hops_0,"role readout, hops_0 = 1 (count)"
+L09,Results 1,maps in the planning ladder,24.0,,24,manuscript/results/plan_v2/x10_maps.csv,map,distinct maps
+L10,Results 1,replicate sets,6.0,,6,manuscript/results/plan_v2/x10_maps.csv,replicate,distinct replicate sets
+L11,Results 1,"Spearman rho, learning cost vs difficulty, lowest set",0.917319495035182,,0.917,manuscript/results/plan_v2/tests.csv,estimate,"family F13.X10.fig2, replicate sets (min)"
+L12,Results 1,"Spearman rho, highest set",0.9486286460600784,,0.949,manuscript/results/plan_v2/tests.csv,estimate,"family F13.X10.fig2, replicate sets (max)"
+L13,Results 1,maps solved by the final brain with the final readout,24.0,,24,manuscript/results/plan_v2/x9_pairings.csv,solved,combination 11 (sum)
+L14,Results 1,most maps solved by any other pairing,3.0,,3,manuscript/results/plan_v2/x9_pairings.csv,solved,combinations other than 11 (max of sums)
+L15,Results 1,replicates of the four memory learners,34.0,,34,manuscript/results/plan_v2/x1_runs.csv,replicate,rows
+L19,Figure legends,replicates of each scene-1 learner,10.0,,10,manuscript/results/plan_v2/x1_runs.csv,replicate,rows per scene and trained parameters (max)
+L20,Figure legends,replicates of each scene-2 and scene-3 learner,7.0,,7,manuscript/results/plan_v2/x1_runs.csv,replicate,rows per scene and trained parameters (min)
+L16,Results 1,"Holm P, trained use and lock, lowest",0.00390625,,0.0039,manuscript/results/plan_v2/tests.csv,p_adjusted,families F13.X1.lock and .trained (min)
+L17,Results 1,"Holm P, trained use and lock, highest",0.015625,,0.016,manuscript/results/plan_v2/tests.csv,p_adjusted,families F13.X1.lock and .trained (max)
+H01,Results 2,"last differential spike after cue offset, earliest learner (ms)",22.0,ms,22,manuscript/results/plan_v2/fig2_delay_end_summary.csv,last_differential_spike_ms_after_cue_offset,four learners (min)
+H02,Results 2,"the same, latest learner (ms)",42.0,ms,42,manuscript/results/plan_v2/fig2_delay_end_summary.csv,last_differential_spike_ms_after_cue_offset,four learners (max)
+H03,Results 2,cells holding the trace at the end of the delay,2769.0,,"2,769",manuscript/results/plan_v2/trial_timecourse.csv,trace_cells,ms 200 (sum over superclasses)
+H04,Results 2,"adaptation decay time constant, lowest (ms)",199.99963537997263,ms,200,manuscript/results/followup/fu4_state_summary.csv,tau_eff_adapt_ms,all models (min)
+H05,Results 2,"adaptation decay time constant, highest (ms)",201.61421860259765,ms,202,manuscript/results/followup/fu4_state_summary.csv,tau_eff_adapt_ms,all models (max)
+H06,Results 2,"decision-time drive from synapses, lowest share over all timings",0.7709476881737997,,77%,manuscript/results/followup/fu9_drive_split.csv,share_drive_synaptic,"four learners, hidden goal (min)"
+H07,Results 2,timings per learner,35.0,,35,manuscript/results/followup/fu9_drive_split.csv,"delay_ms, prefix_windows",rows per learner and context (max)
+H08,Results 2,"cosine of the transplanted with the native decision difference (full state, from 20 ms)",0.9999997525239868,,1.000,manuscript/results/plan_v2/fig2_transplant.csv,full_state_cosine,delay_ms >= 20 (min)
+H09,Results 2,"Holm P, opposite-cue swaps, lowest",0.000732421875,,7.3 × 10^−4,manuscript/results/plan_v2/tests.csv,p_adjusted,family F13.X5.swap (min)
+H10,Results 2,"Holm P, opposite-cue swaps, highest",0.007537841796875,,0.0075,manuscript/results/plan_v2/tests.csv,p_adjusted,family F13.X5.swap (max)
+H11,Results 2,"ms without a differential spike in the 640-ms delay, shortest",598.0,ms,598,manuscript/results/followup/fu4_state_dynamics.csv,energy_spikes,"four learners, delay 640 ms, prefix 4: delay end minus last nonzero ms (min)"
+H12,Results 2,the longest delay (ms),640.0,ms,640,manuscript/results/followup/fu4_state_dynamics.csv,delay_ms,max
+H13,Results 2,share of the cue drive into readout types from types that held the trace,0.7349034587759639,,73%,manuscript/results/plan_v2/fig2_cue_flow_edges.csv,abs_drive,"post a readout type, pre held the trace (fig2_cue_flow_types.hold > 0) over all"
+H14,Results 2,share of cell types that held the trace,0.11768209666439755,,12%,manuscript/results/plan_v2/fig2_cue_flow_types.csv,hold,hold > 0 (share of types)
+D01,Results 3,"ensemble internal connections over the mean of its 20 matched sets, scene 1",1.6676448449278367,,1.7,manuscript/results/plan_v2/fig3_set_wiring.csv,internal_connections,scene 1: ensemble / mean(matched)
+D02,Results 3,"ensemble internal connections over the mean of its 20 matched sets, scene 2",2.5284851748090937,,2.5,manuscript/results/plan_v2/fig3_set_wiring.csv,internal_connections,scene 2: ensemble / mean(matched)
+D03,Results 3,cells in the scene-1 ensemble (top 1%),1672.0,,"1,672",manuscript/results/plan_v2/fig3_set_wiring.csv,cells,"scene 1, ensemble"
+D04,Results 3,"Holm P, silencing the ensemble",1.0,,1.00,manuscript/results/plan_v2/tests.csv,p_adjusted,family F13.X6.ensemble (min)
+D05,Results 3,"Holm P, cutting its internal synapses",0.8488616943359375,,0.85,manuscript/results/plan_v2/tests.csv,p_adjusted,family F13.X7.edges (min)
+D06,Results 3,trained histories solved by the healthy network,116.0,,116,manuscript/results/plan_v2/fig3_removals.csv,solved,kind healthy
+D07,Results 3,trained histories,126.0,,126,manuscript/results/plan_v2/fig3_removals.csv,histories,kind healthy
+D08,Results 3,"TOST Holm P, populations removed equal healthy",0.0200372837091688,,0.020,manuscript/results/plan_v2/tests.csv,p_adjusted,family F12.dependency.equivalence (max)
+D09,Results 3,"share of the cue difference in the readout cells, scene 1",0.1152487930760907,,12%,manuscript/results/plan_v2/fig3_cue_energy.csv,share_of_cue_energy,"circuit readout cells, scene 1"
+D10,Results 3,"readout-cell enrichment of the cue, lowest scene",4.701846878850885,,4.7,manuscript/results/plan_v2/fig3_cue_energy.csv,enrichment,readout cells (min)
+D11,Results 3,"readout-cell enrichment of the cue, highest scene",6.559537375293033,,6.6,manuscript/results/plan_v2/fig3_cue_energy.csv,enrichment,readout cells (max)
+D12,Results 3,runs under the connection-rule variants that learn,24.0,,24,manuscript/results/plan_v2/fig3_structure.csv,learned,learned true (count)
+D13,Results 3,connection-rule variants,8.0,,8,manuscript/results/plan_v2/fig3_structure.csv,variant,distinct variants
+M01,Results 4,"adjusted P against matched sets, highest",0.0003999600039996,,4.0 × 10^−4,manuscript/results/plan_v2/fig4_trace_tests.csv,p_adjusted,null matched sets (max)
+M02,Results 4,"adjusted P of SK against the mapping null, lowest",0.0307969203079692,,0.031,manuscript/results/plan_v2/fig4_trace_tests.csv,p_adjusted,"null mapping, SK (min)"
+M03,Results 4,"adjusted P of SK against the mapping null, highest",0.044995500449955,,0.045,manuscript/results/plan_v2/fig4_trace_tests.csv,p_adjusted,"null mapping, SK (max)"
+M04,Results 4,"Spearman rho, carrier share vs SK across hemilineages",0.45454545454545453,,0.45,manuscript/results/plan_v2/fig4_hemilineages.csv,"carrier_share, z_SK",21 units
+M05,Results 4,VNC hemilineages in the bridge,21.0,,21,manuscript/results/plan_v2/fig4_hemilineages.csv,unit,rows
+M06,Results 4,hemilineages whose transcriptome transmitter equals the EM transmitter,21.0,,21,manuscript/results/plan_v2/fig4_hemilineages.csv,"em_transmitter, transcriptome_transmitter",equal (count)
+M07,Results 4,"Spearman rho, published vs recovered atlas cluster sizes",0.8176302981803484,,0.82,manuscript/results/plan_v2/fig4_bridge_clusters.csv,"published_cells, recovered_cells",120 clusters
+M08,Results 4,scene-1 carriers mapped at the cell-type tier,0.0736793,,7%,manuscript/results/plan_v2/fig4_coverage.csv,type_or_fuzzy,trace carriers (m0)
+M09,Results 4,scene-1 carriers mapped with the hemilineage tiers,0.323875,,32%,manuscript/results/plan_v2/fig4_coverage.csv,type_lineage,trace carriers (m0)
+M10,Results 4,VNC carriers mapped,0.543014,,54%,manuscript/results/plan_v2/fig4_coverage.csv,type_lineage,"trace carriers (m0), VNC compartment"
+M11,Results 4,"share of a carrier type's cue drive into readout types, lowest",0.7724793285777382,,77%,manuscript/results/plan_v2/fig4_access_tiles.csv,drive_to_readout_share,four types (min)
+M12,Results 4,"the same, highest",0.8866361976229232,,89%,manuscript/results/plan_v2/fig4_access_tiles.csv,drive_to_readout_share,four types (max)
+M13,Results 4,carrier types with split-GAL4 lines shown,4.0,,4,manuscript/results/plan_v2/fig4_access_tiles.csv,type,rows
+M14,Results 4,heterogeneous runs,10.0,,10,manuscript/results/plan_v2/fig4_heterogeneity.csv,replicate,rows
+M15,Results 4,"Holm P, memory, lock and mechanism in heterogeneous brains",0.0029296875,,0.0029,manuscript/results/plan_v2/tests.csv,p_adjusted,family F14.SC.variant (max)
+A01,Results 5,trained timings,9.0,,9,manuscript/results/plan_v2/fig5_timings.csv,trained,"fixed timings, distinct trained timings"
+A02,Results 5,net use at the trained timings (every replicate),1.0,,1,manuscript/results/plan_v2/fig5_timings.csv,net_use,"fixed timings, trained (min)"
+A03,Results 5,mean net use at the untrained timings,-0.0038461538461538464,,−0.004,manuscript/results/plan_v2/fig5_timings.csv,net_use,"fixed timings, untrained (mean)"
+A04,Results 5,timings in the grid,35.0,,35,manuscript/results/plan_v2/fig5_timings.csv,"delay_ms, prefix_windows","fixed timings, distinct timings"
+A05,Results 5,"Holm P, the lock (scene 1, readout trained)",0.00390625,,0.0039,manuscript/results/plan_v2/tests.csv,p_adjusted,"family F13.X1.lock, M0-head_only"
+A06,Results 5,scenes,9.0,,9,manuscript/results/plan_v2/fig5_scenes.csv,scene,distinct scenes
+A07,Results 5,runs with a positive lock,66.0,,66,manuscript/results/plan_v2/fig5_scenes.csv,lock,lock > 0 (count)
+A08,Results 5,runs,66.0,,66,manuscript/results/plan_v2/fig5_scenes.csv,lock,rows
+A09,Results 5,cosine of the 320-ms with the trained 160-ms decision pattern,-0.6960786214663601,,−0.70,manuscript/results/plan_v2/fig5_decision_cosines.csv,cosine,"timing_a dv_d320_p4_mv, timing_b dv_d160_p4_mv"
+A10,Results 5,share of the strongest 1% of cells that change sign between 160 and 320 ms,0.9192583732057417,,92%,manuscript/results/plan_v2/fig5_decision_cells.csv,"dv_d160_p4_mv, dv_d320_p4_mv",top 1% by |dv at 160 ms|: sign(320) = -sign(160) (share)
+A11,Results 5,"median adaptation trace at the decision, untrained timings",3460.5668237059417,,"3,461",manuscript/results/plan_v2/fig5_record_outcomes.csv,adaptation_energy_decision,"scene 1, readout trained, untrained (median)"
+A12,Results 5,the same at trained timings,2278.7153439936283,,"2,279",manuscript/results/plan_v2/fig5_record_outcomes.csv,adaptation_energy_decision,"scene 1, readout trained, trained (median)"
+A13,Results 5,"Holm P, the push collapses at untrained timings (both scene-1 learners)",0.0161983801619838,,0.016,manuscript/results/stats/statistical_tests.csv,p_value,"family F11.timing.differential, Holm within the family; the two scene-1 learners (max)"
+A14,Results 5,"push of the injected trace at the trained delays, lowest",2.796352728658301,,+2.8,manuscript/results/plan_v2/fig5_drift_margin.csv,margin_shift,"prefix 4, trained delays (min)"
+A15,Results 5,"the same, highest",3.000892031628176,,+3.0,manuscript/results/plan_v2/fig5_drift_margin.csv,margin_shift,"prefix 4, trained delays (max)"
+A16,Results 5,"jittered minus fixed training, untrained use inside the jitter range",0.2904761904761904,,+0.29,manuscript/results/plan_v2/tests.csv,estimate,"F13.X3.descriptive, untrained_inside_net_use"
+A17,Results 5,the same outside the range (640 ms),0.02,,+0.02,manuscript/results/plan_v2/tests.csv,estimate,"F13.X3.descriptive, untrained_outside_net_use"
+E01,Results 6,readout cells reachable with 90% of the other cells removed,0.99853515625,,99.85%,manuscript/results/plan_v2/fig6_routes_summary.csv,readout_reachable,share_removed 0.9
+E02,Results 6,"cells on routes, intact",116326.0,,"116,326",manuscript/results/plan_v2/fig6_routes_summary.csv,route_cells,share_removed 0
+E03,Results 6,"cells on routes, 90% removed",11219.0,,"11,219",manuscript/results/plan_v2/fig6_routes_summary.csv,route_cells,share_removed 0.9
+E04,Results 6,three-step routes kept at 90% removal,0.4022812543276517,,0.40,manuscript/results/plan_v2/fig6_routes_summary.csv,walks3_relative,share_removed 0.9
+E05,Results 6,"cell types carrying routes, intact",10185.0,,"10,185",manuscript/results/plan_v2/fig6_route_types.csv,traffic_0,traffic_0 > 0 (count)
+E06,Results 6,"cell types carrying routes, 90% removed",3060.0,,"3,060",manuscript/results/plan_v2/fig6_route_types.csv,traffic_90,traffic_90 > 0 (count)
+E07,Results 6,single extra spikes that leave nothing at the decision,17.0,,17,manuscript/results/plan_v2/fig6_kicks.csv,hamming_decision,= 0 (count)
+E08,Results 6,single extra spikes given,20.0,,20,manuscript/results/plan_v2/fig6_kicks.csv,kicked_cell,rows
+E09,Results 6,"mean rate for threshold changes up to 1 mV, lowest (Hz)",0.3491795659065246,Hz,0.35,manuscript/results/plan_v2/fig6_rate.csv,mean_rate_hz,"source memory task, analysed learner; shift_mv >= -1 (min)"
+E10,Results 6,"the same, highest (Hz)",0.560736894607544,Hz,0.56,manuscript/results/plan_v2/fig6_rate.csv,mean_rate_hz,"source memory task, analysed learner; shift_mv >= -1 (max)"
+E20,Results 6,threshold lowering from which the network runs away (mV),6.5,mV,6.5,manuscript/results/plan_v2/fig6_rate.csv,runaway_from_mv,first row (sign reversed)
+E11,Results 6,"access window, training across states over one state (fold)",9.754566451066284,,9.8,manuscript/results/plan_v2/fig6_robust_summary.csv,estimate,"ED50 ratio, across states / one state"
+E12,Results 6,"its 95% interval, low",8.50057954979758,,8.5,manuscript/results/plan_v2/fig6_robust_summary.csv,ci_low,"ED50 ratio, across states / one state"
+E13,Results 6,"its 95% interval, high",11.284674054769134,,11.3,manuscript/results/plan_v2/fig6_robust_summary.csv,ci_high,"ED50 ratio, across states / one state"
+E21,Figure legends,runs trained at one state,10.0,,10,manuscript/results/plan_v2/fig6_robust.csv,replicate,training one state (rows)
+E22,Figure legends,runs trained across states,5.0,,5,manuscript/results/plan_v2/fig6_robust.csv,replicate,training across states (rows)
+G11,Results 6,"the coverage of the bootstrap intervals (E12-E13, E18-E19)",0.95,,95%,manuscript/results/plan_v2/fig6_robust_summary.csv,"ci_low, ci_high",the documented coverage of ci_low and ci_high (95% bootstrap interval)
+E17,Results 6,"cell-loss tolerance, training across states over one state (fold; geometric mean)",2.217701523867756,,2.2,manuscript/results/plan_v2/fig6_robust_summary.csv,estimate,"removal ED50 ratio, across states / one state"
+E18,Results 6,"its 95% interval, low",1.5899069689803484,,1.6,manuscript/results/plan_v2/fig6_robust_summary.csv,ci_low,"removal ED50 ratio, across states / one state"
+E19,Results 6,"its 95% interval, high",3.888059601914083,,3.9,manuscript/results/plan_v2/fig6_robust_summary.csv,ci_high,"removal ED50 ratio, across states / one state"
+E14,Results 6,"memory under 1-microvolt jitter, across states (mean)",0.6222222222222222,,0.62,manuscript/results/plan_v2/fig6_robust.csv,memory_under_jitter,training across states (mean)
+E15,Results 6,"memory under 1-microvolt jitter, one state (mean)",0.14999999999999997,,0.15,manuscript/results/plan_v2/fig6_robust.csv,memory_under_jitter,training one state (mean)
+E16,Results 6,"Holm P, training across states widens the window",0.0033300033300033,,0.0033,manuscript/results/plan_v2/tests.csv,p_adjusted,"family F14.DY.robust, th0.001:ed50-c01"
+Q01,Results 7,fly pathologies screened,24.0,,24,manuscript/results/plan_v2/fig7_funnel.csv,cases,first stage
+Q02,Results 7,credible cases retained,4.0,,4,manuscript/results/plan_v2/fig7_funnel.csv,cases,last stage
+Q03,Results 7,"trained histories solved after the lesion (dose 1, readout trained)",7.0,,7,manuscript/results/plan_v2/fig7_lost_access.csv,trained_solved,"regime lesion after learning, readout, dose 1 (mean)"
+Q04,Results 7,trained histories,18.0,,18,manuscript/results/plan_v2/fig7_lost_access.csv,trained_histories,regime lesion after learning (first)
+Q05,Results 7,"Holm P, memory falls with lesion dose",0.0007738541666666,,7.7 × 10^−4,manuscript/results/plan_v2/tests.csv,p_adjusted,"family F12.C01.primary, memory dose trend"
+Q06,Results 7,runs of learning under the lesion,48.0,,48,manuscript/results/plan_v2/fig7_lost_access.csv,replicate,regime learning under the lesion (rows)
+Q07,Results 7,"trained histories solved when learning under the lesion, readout trained (lowest run)",18.0,,18,manuscript/results/plan_v2/fig7_lost_access.csv,trained_solved,"learning under the lesion, readout (min)"
+Q08,Results 7,share of the loss recovered by retraining the readout,0.41463432400932393,,0.41,manuscript/results/plan_v2/fig7_relearning.csv,recovery_fraction,readout (mean)
+Q09,Results 7,"trained histories solved after late restoration (dose 1, readout trained)",8.333333333333334,,8.3,manuscript/results/plan_v2/fig7_restoration.csv,trained_solved_restored,"readout, dose 1 (mean)"
+Q10,Results 7,"BH P, late restoration removes access, highest",0.0432852506637573,,0.043,manuscript/results/plan_v2/tests.csv,p_adjusted,family F12.rescue (max)
+Q25,Figure legends,runs of late restoration,24.0,,24,manuscript/results/plan_v2/fig7_restoration.csv,replicate,rows
+Q26,Figure legends,runs of relearning with the readout retrained,12.0,,12,manuscript/results/plan_v2/fig7_relearning.csv,replicate,trained_parameters readout (rows)
+Q11,Results 7,Abeta42-induced change of pan-neuronal Shal mRNA (log2),0.1331550458225895,log2,+0.13,manuscript/results/plan_v2/tests.csv,estimate,"F14.SC.adfca.pan, Abeta42 Shal"
+Q12,Results 7,"cells above 100 Hz under the Shal-patterned lesion at 1.5-2x, lowest",0.2193697413617703,,22%,manuscript/results/plan_v2/fig7_shal_runaway.csv,share_above_100hz,"Shal patterns, dose 1.5-2 (min)"
+Q13,Results 7,"the same, highest",0.4587627015187964,,46%,manuscript/results/plan_v2/fig7_shal_runaway.csv,share_above_100hz,"Shal patterns, dose 1.5-2 (max)"
+Q14,Results 7,"Kenyon-cell odor response under the ageing operator at 0.5x, of healthy (min over the two brains)",0.869199,,0.87,manuscript/results/plan_v2/fig7_aging.csv,kc_ratio,dose 0.5 (min)
+Q15,Results 7,"Kenyon-cell odor response under the ageing operator at 0.5x, of healthy (max over the two brains)",0.893443,,0.89,manuscript/results/plan_v2/fig7_aging.csv,kc_ratio,dose 0.5 (max)
+Q16,Results 7,"Kenyon-cell odor response under the ageing operator at 1x, of healthy (min over the two brains)",0.771446,,0.77,manuscript/results/plan_v2/fig7_aging.csv,kc_ratio,dose 1 (min)
+Q17,Results 7,"Kenyon-cell odor response under the ageing operator at 1x, of healthy (max over the two brains)",0.789441,,0.79,manuscript/results/plan_v2/fig7_aging.csv,kc_ratio,dose 1 (max)
+Q18,Results 7,"Kenyon-cell odor response under the ageing operator at 1.5x, of healthy (min over the two brains)",0.692688,,0.69,manuscript/results/plan_v2/fig7_aging.csv,kc_ratio,dose 1.5 (min)
+Q19,Results 7,"Kenyon-cell odor response under the ageing operator at 1.5x, of healthy (max over the two brains)",0.72162,,0.72,manuscript/results/plan_v2/fig7_aging.csv,kc_ratio,dose 1.5 (max)
+Q20,Results 7,healthy bits of cue per decision,0.7318763278269359,bits,0.73,manuscript/results/plan_v2/fig7_energy.csv,cue_bits_per_decision,healthy
+Q21,Results 7,"spikes per trial under the pan-neuronal lesion, fold of healthy, lowest",1.8730140029128663,,1.9,manuscript/results/plan_v2/fig7_energy.csv,spikes_per_trial,pan-neuronal case over healthy (min)
+Q22,Results 7,"the same, highest",77.31283109444034,,77,manuscript/results/plan_v2/fig7_energy.csv,spikes_per_trial,pan-neuronal case over healthy (max)
+Q23,Results 7,"bits per decision under the pan-neuronal lesion, lowest",0.0120297407866746,bits,0.01,manuscript/results/plan_v2/fig7_energy.csv,cue_bits_per_decision,pan-neuronal case (min)
+Q24,Results 7,"the same, highest",0.0390913571217444,bits,0.04,manuscript/results/plan_v2/fig7_energy.csv,cue_bits_per_decision,pan-neuronal case (max)
+K18,Figure legends,readouts trained healthy in the lesion link,10.0,,10,manuscript/results/plan_v2/link_outcomes.csv,replicate,trained healthy (distinct)
+K19,Figure legends,readouts trained under the lesion at dose 1,6.0,,6,manuscript/results/plan_v2/link_outcomes.csv,replicate,"trained under the lesion, dose 1 (distinct)"
+K01,Results 7,"trained histories solved with the learning state at both ends (every readout trained healthy or under the lesion, min)",18.0,,18,manuscript/results/plan_v2/link_outcomes.csv,solved,learning state at both ends (min)
+K02,Results 7,"the most solved with a mismatch at either end (dose 1, max)",12.0,,12,manuscript/results/plan_v2/link_outcomes.csv,solved,"mismatched, dose 1 (max)"
+K03,Results 7,"trained histories solved, trained healthy: written healthy, read lesioned (dose 1, mean)",11.3,,11.3,manuscript/results/plan_v2/link_outcomes.csv,solved,"trained healthy: written healthy, read lesioned (mean)"
+K04,Results 7,"trained histories solved, trained healthy: written lesioned, read healthy (dose 1, mean)",9.4,,9.4,manuscript/results/plan_v2/link_outcomes.csv,solved,"trained healthy: written lesioned, read healthy (mean)"
+K05,Results 7,"trained histories solved, trained under the lesion: written healthy, read lesioned (dose 1, mean)",10.166666666666666,,10.2,manuscript/results/plan_v2/link_outcomes.csv,solved,"trained under the lesion: written healthy, read lesioned (mean)"
+K06,Results 7,"trained histories solved, trained under the lesion: written lesioned, read healthy (dose 1, mean)",9.5,,9.5,manuscript/results/plan_v2/link_outcomes.csv,solved,"trained under the lesion: written lesioned, read healthy (mean)"
+K07,Results 7,cosine of the trace written under the lesion with the healthy trace (median over timings; lowest dose value),0.0274756853035372,,0.03,manuscript/results/plan_v2/link_cosines.csv,cosine,"trace, H-H vs Ld-Ld (median; min over doses)"
+K08,Results 7,"the same, highest",0.0461638522716265,,0.05,manuscript/results/plan_v2/link_cosines.csv,cosine,trace (median; max over doses)
+K09,Results 7,"cosine of the decision-time pattern when the healthy trace is read under the lesion, with its healthy reading (median; min)",-0.0013303954417596,,0.00,manuscript/results/plan_v2/link_cosines.csv,cosine,"window_v, H-H vs H-Ld (median; min over doses)"
+K10,Results 7,"the same, highest",0.1159094203416787,,0.12,manuscript/results/plan_v2/link_cosines.csv,cosine,window_v (median; max over doses)
+K11,Results 7,"cells holding the trace under the lesion, lowest dose (median over timings)",4683.0,,"4,683",manuscript/results/plan_v2/link_states.csv,trace_cells,Ld-Ld (median; min)
+K12,Results 7,"the same, highest dose",39285.0,,"39,285",manuscript/results/plan_v2/link_states.csv,trace_cells,Ld-Ld (median; max)
+K13,Results 7,cells spiking differently in the second half of the 160-ms delay at the lowest dose,0.0,,0,manuscript/results/plan_v2/link_states.csv,delay_differ_cells,"L0.5-L0.5, delay 160"
+K14,Results 7,the same at dose 1,11240.0,,"11,240",manuscript/results/plan_v2/link_states.csv,delay_differ_cells,"L1-L1, delay 160"
+K15,Results 7,"Holm P, F15.link, lesion-trained readouts: read in the learning state beats written in it",0.0002999700029997,,3.0 × 10^−4,manuscript/results/plan_v2/tests.csv,p_adjusted,"F15.link, lesion-trained"
+K16,Results 7,"Holm P, F15.link, healthy-trained readouts: read in the learning state beats written in it",0.9990234375,,1.00,manuscript/results/plan_v2/tests.csv,p_adjusted,"F15.link, healthy-trained"
+K17,Results 7,"Holm P, F15.link, relearned readouts: read in the learning state beats written in it",0.255859375,,0.26,manuscript/results/plan_v2/tests.csv,p_adjusted,"F15.link, relearned"
+G01,Results 5,the untrained delay compared with the trained 160 ms (ms),320.0,ms,320,manuscript/results/plan_v2/fig5_decision_cosines.csv,timing_a,dv_d320_p4_mv
+G02,Results 6,share of the other cells removed,0.9,,90%,manuscript/results/plan_v2/fig6_routes_summary.csv,share_removed,max
+G03,Results 7,rate above which a cell counts as runaway (Hz),100.0,Hz,100,manuscript/results/plan_v2/fig7_shal_runaway.csv,share_above_100hz,column definition
+G04,Results 7,"lesion dose, the lower of the runaway range (x calibrated)",1.5,,1.5,manuscript/results/plan_v2/fig7_shal_runaway.csv,dose,1.5
+G05,Results 7,"lesion dose, the upper of the runaway range (x calibrated)",2.0,,2,manuscript/results/plan_v2/fig7_shal_runaway.csv,dose,max
+G06,Figure legends,the trained delay of scene 1 (ms),160.0,ms,160,manuscript/results/plan_v2/fig5_decision_cosines.csv,timing_b,dv_d160_p4_mv
+G07,Figure legends,"share of the other cells removed, the lowest level",0.3,,30%,manuscript/results/plan_v2/fig6_routes_summary.csv,share_removed,the lowest level above 0
+G08,Figure legends,"share of the other cells removed, the middle level",0.6,,60%,manuscript/results/plan_v2/fig6_routes_summary.csv,share_removed,the second level above 0
+D14,Results 3,matched sets per ensemble,20.0,,20,manuscript/results/plan_v2/fig3_set_wiring.csv,set,"scene 1, sets other than the ensemble (count)"
+D15,Results 3,the ensemble's share of the model's cells,0.010005625172046485,,1%,manuscript/results/plan_v2/fig3_set_wiring.csv,cells,scene 1 ensemble over all neurons
+G09,Results 6,the bound of the threshold changes that E09-E10 summarize (mV),1.0,mV,1,manuscript/results/plan_v2/fig6_rate.csv,shift_mv,"memory task, analysed learner; shift_mv >= -1 (the filter of E09-E10)"
+G10,Results 7,the lowest lesion dose of the lesion link (x calibrated),0.5,,0.5,manuscript/results/plan_v2/link_states.csv,condition_code,Ld-Ld doses (min)
+L18,Video S1,moves of the final brain and readout on the hardest map (its certified optimum),60.0,,60,manuscript/results/plan_v2/video_planning_moves.csv,move,rows
+Sdt,STAR Methods,integration step (ms),1.0,ms,1,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section simulation, quantity time_step"
+Svrest,STAR Methods,resting and reset potential (mV),-52.0,mV,−52,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity v_rest"
+Svth,STAR Methods,spike threshold (mV),-45.0,mV,−45,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity v_th"
+Staum,STAR Methods,membrane time constant (ms),20.0,ms,20,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity tau_m"
+Staus,STAR Methods,synaptic time constant (ms),5.0,ms,5,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity tau_syn"
+Stref,STAR Methods,refractory period (ms),2.2,ms,2.2,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity t_ref"
+Sdelay,STAR Methods,synaptic delay (ms),1.8,ms,1.8,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity delay"
+Swsyn,STAR Methods,weight per synapse (mV),0.275,mV,0.275,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity w_syn"
+Sjump,STAR Methods,adaptation increment per spike (mV),1.5,mV,1.5,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity adapt_jump"
+Stauad,STAR Methods,adaptation time constant (ms),200.0,ms,200,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity adapt_tau"
+Sstdcells,STAR Methods,cells with short-term depression,2952.0,,"2,952",manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity cells_with_nonzero_depression"
+Sstdu,STAR Methods,resource used per spike at depressing terminals,0.2000000029802322,,0.2,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity max_depression_u"
+Sstdtau,STAR Methods,recovery time constant of the depression resource (ms),300.0,ms,300,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity std_tau"
+Scap,STAR Methods,synapse cap per connection,60.0,,60,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity conn_cap"
+Sstg,STAR Methods,gain between cells of one type,0.1,,0.1,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity same_type_gain"
+Snormref,STAR Methods,input synapses above which unitary weights are scaled down,5000.0,,"5,000",manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section lif, quantity input_norm_ref"
+Sdrive,STAR Methods,input current per unit board value (mV),18.0,mV,18,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section simulation, quantity input_drive"
+Spools,STAR Methods,readout groups,256.0,,256,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section readout, quantity populations"
+Spoolsize,STAR Methods,cells per readout group,16.0,,16,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section readout, quantity cells_per_population"
+Sfcur,STAR Methods,time of the synaptic-input feature (ms),14.0,ms,14,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section readout, quantity feature_snapshot_current_ms"
+Sfvolt,STAR Methods,time of the voltage feature (ms),40.0,ms,40,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section readout, quantity feature_snapshot_voltage_ms"
+Sfeat,STAR Methods,readout features,512.0,,512,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section readout, quantity feature_dim"
+Sclip,STAR Methods,feature clip (standard deviations),10.0,,10,manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section readout, quantity feature_clip"
+Sgroups,STAR Methods,groups of trained parameters,11770.0,,"11,770",manuscript/results/main/fig1/fig1a_model_specification.csv,value,"section network, quantity shared_parameter_groups"
+Spathdn,STAR Methods,"rule gain, descending neurons onto the ventral nerve cord",3.0,,3,flybrain/flybrain/brain.py,DEFAULT_PATH_GAIN,"entry 1, factor"
+Spathvp,STAR Methods,"rule gain, visual projection onto descending neurons",2.0,,2,flybrain/flybrain/brain.py,DEFAULT_PATH_GAIN,"entry 2, factor"
+Spathgf,STAR Methods,"rule gain, LC4 and LPLC2 onto DNp01",3.0,,3,flybrain/flybrain/brain.py,DEFAULT_TYPE_PATH_GAIN,"entry 1, factor"
+Ssurr,STAR Methods,steepness of the surrogate spike derivative (per mV),25.0,,25,flybrain/flybrain/brain.py,_SurrogateSpike.backward,1 / (1 + beta |v|)^2
+Sinper,STAR Methods,input cells per board channel and cell,8.0,,8,sokoban/lib/brain_model.py,FullBrain.encode,repeat_interleave factor
+Sgainlo,STAR Methods,lower bound of the trained gains,0.8,,0.8,sokoban/lib/brain_model.py,Core.project,clamp of the log gains
+Sgainhi,STAR Methods,upper bound of the trained gains,1.25,,1.25,sokoban/lib/brain_model.py,Core.project,clamp of the log gains
+Sthr,STAR Methods,bound of the trained threshold offsets (mV),1.0,mV,1,sokoban/lib/brain_model.py,Core.project,threshold_mv clamp
+Slrbrain,STAR Methods,learning rate of the brain parameters,0.0001,,10^−4,manuscript/results/methods/m1_hyperparameters.csv,value,"scope study_protocol, parameter core_lr"
+Slrhead,STAR Methods,learning rate of the readout,0.0003,,3 × 10^−4,manuscript/results/methods/m1_hyperparameters.csv,value,"scope study_protocol, parameter head_lr"
+Sclipbrain,STAR Methods,"gradient-norm clip, brain",1.0,,1,manuscript/results/methods/m1_hyperparameters.csv,value,"scope optimization, parameter gradient_clip_brain"
+Sclipread,STAR Methods,"gradient-norm clip, readout",5.0,,5,manuscript/results/methods/m1_hyperparameters.csv,value,"scope optimization, parameter gradient_clip_readout"
+Sbatch,STAR Methods,boards per recomputed batch,16.0,,16,manuscript/results/methods/m1_hyperparameters.csv,value,"scope optimization, parameter batch_boards"
+Stol,STAR Methods,tolerance of the recomputed features,1e-05,,10^−5,manuscript/results/methods/m1_hyperparameters.csv,value,"scope optimization, parameter recompute_tolerance_mixed_fp64"
+Smaxmoves,STAR Methods,move limit of a rollout,512.0,,512,manuscript/results/methods/m1_hyperparameters.csv,value,"scope curriculum, parameter action_ceiling"
+Sseed,STAR Methods,training seed,10.0,,10,studies/brain-sokoban-v1/protocol.json,seed,
+Stiers,STAR Methods,tiers of the planning ladder,8.0,,8,studies/brain-sokoban-v1/protocol.json,tiers,rows
+Sboardlo,STAR Methods,smallest board (cells across),6.0,,6,studies/brain-sokoban-v1/protocol.json,tiers,column 1 (min)
+Sboardhi,STAR Methods,largest board (cells across),10.0,,10,studies/brain-sokoban-v1/protocol.json,tiers,column 1 (max)
+Sboxlo,STAR Methods,fewest boxes,1.0,,1,studies/brain-sokoban-v1/protocol.json,tiers,column 2 (min)
+Sboxhi,STAR Methods,most boxes,3.0,,3,studies/brain-sokoban-v1/protocol.json,tiers,column 2 (max)
+Soptlo,STAR Methods,shortest certified optimum (moves),9.0,,9,studies/brain-sokoban-v1/protocol.json,tiers,column 3 (min)
+Ssteps,STAR Methods,updates per behavioral assessment,4.0,,4,studies/brain-sokoban-v1/protocol.json,steps_per_assessment,
+Sseg1,STAR Methods,wall-clock segment 1 (min),20.0,min,20,studies/brain-sokoban-v1/protocol.json,segments_seconds,entry 1 / 60
+Sseg2,STAR Methods,wall-clock segment 2 (min),40.0,min,40,studies/brain-sokoban-v1/protocol.json,segments_seconds,entry 2 / 60
+Sseg3,STAR Methods,wall-clock segment 3 (min),80.0,min,80,studies/brain-sokoban-v1/protocol.json,segments_seconds,entry 3 / 60
+Sprog,STAR Methods,margin progress needed to extend a run,0.02,,0.02,studies/brain-sokoban-v1/protocol.json,minimum_margin_progress,
+Sdel1,STAR Methods,memory-task delay 1 (ms),0.0,ms,0,studies/brain-sokoban-v1/protocol.json,delay_ms,entry 1
+Sdel2,STAR Methods,memory-task delay 2 (ms),20.0,ms,20,studies/brain-sokoban-v1/protocol.json,delay_ms,entry 2
+Sdel3,STAR Methods,memory-task delay 3 (ms),40.0,ms,40,studies/brain-sokoban-v1/protocol.json,delay_ms,entry 3
+Sdel4,STAR Methods,memory-task delay 4 (ms),80.0,ms,80,studies/brain-sokoban-v1/protocol.json,delay_ms,entry 4
+Sdel5,STAR Methods,memory-task delay 5 (ms),160.0,ms,160,studies/brain-sokoban-v1/protocol.json,delay_ms,entry 5
+Sdel6,STAR Methods,memory-task delay 6 (ms),320.0,ms,320,studies/brain-sokoban-v1/protocol.json,delay_ms,entry 6
+Sdel7,STAR Methods,memory-task delay 7 (ms),640.0,ms,640,studies/brain-sokoban-v1/protocol.json,delay_ms,entry 7
+Spfx1,STAR Methods,"input windows, option 1",0.0,,0,studies/brain-sokoban-v1/protocol.json,prefix_windows,entry 1
+Spfx2,STAR Methods,"input windows, option 2",1.0,,1,studies/brain-sokoban-v1/protocol.json,prefix_windows,entry 2
+Spfx3,STAR Methods,"input windows, option 3",2.0,,2,studies/brain-sokoban-v1/protocol.json,prefix_windows,entry 3
+Spfx4,STAR Methods,"input windows, option 4",4.0,,4,studies/brain-sokoban-v1/protocol.json,prefix_windows,entry 4
+Spfx5,STAR Methods,"input windows, option 5",8.0,,8,studies/brain-sokoban-v1/protocol.json,prefix_windows,entry 5
+Starget,STAR Methods,target margin at the new start,0.1,,0.10,sokoban/hybrid_tasks.py,TARGET,
+Stemp,STAR Methods,softplus temperature,0.25,,0.25,sokoban/hybrid_tasks.py,TEMPERATURE,
+Sfloor,STAR Methods,margin floor of learned decisions,0.03,,0.03,sokoban/hybrid_tasks.py,ANCHOR_FLOOR,
+Sjit,STAR Methods,readout noise of a replicate (fraction of each tensor's SD),0.1,,0.1,studies/brain-supplement-v2/code/replicate_training.py,JITTER_SD,
+Sjitwin,STAR Methods,"input windows of jittered training, the option not in the protocol",6.0,,6,studies/brain-supplement-v2/code/x3_jittered_training.py,PREFIXES,entry 5
+Skc,STAR Methods,Kenyon cells,4064.0,,"4,064",manuscript/results/plan_v2/fig3_cue_energy.csv,cells,circuit Kenyon cells
+Saln,STAR Methods,GABAergic antennal-lobe local neurons,147.0,,147,manuscript/results/plan_v2/fig3_cue_energy.csv,cells,circuit GABAergic ALLNs
+Snullsets,STAR Methods,null sets per removed population,10.0,,10,studies/brain-pathology-v1/code/phase3_dependency_prepare.py,N_NULL,
+Sstglo,STAR Methods,"same-type gain, low variant",0.05,,0.05,studies/brain-pathology-v1/code/variants.py,VARIANTS,same-type-0.05
+Sstghi,STAR Methods,"same-type gain, high variant",0.2,,0.2,studies/brain-pathology-v1/code/variants.py,VARIANTS,same-type-0.2
+Scaplo,STAR Methods,"connection cap, low variant",30.0,,30,studies/brain-pathology-v1/code/variants.py,VARIANTS,conn-cap-30
+Scaphi,STAR Methods,"connection cap, high variant",120.0,,120,studies/brain-pathology-v1/code/variants.py,VARIANTS,conn-cap-120
+Sthsd,STAR Methods,SD of the per-episode threshold offset when training across states (microvolts),1.0,uV,1,studies/brain-pathology-v1/code/dy2_perturbation.py,CONDITIONS,"th0.001, threshold_sd_mv x 1000"
+Sheldq,STAR Methods,held-out threshold offsets (multiples of the SD),0.6744897501960817,,0.674,studies/brain-pathology-v1/code/dy2_perturbation.py,QUARTILE,
+Sed,STAR Methods,memory use at which the access window and cell-loss tolerance are read,0.5,,0.5,studies/brain-pathology-v1/code/analyze_dy2.py,THRESHOLD,
+Shvg,STAR Methods,variable genes of the bridge,2246.0,,"2,246",studies/brain-pathology-v1/results/sc_lineage_vnc_v3_gates.json,variable_genes,
+Spcs,STAR Methods,principal components of the bridge,45.0,,45,studies/brain-pathology-v1/code/sc_lineage_vnc_v3.py,N_PCS,
+Sres,STAR Methods,Leiden resolution of the bridge,17.903159774927406,,17.9,studies/brain-pathology-v1/results/sc_lineage_vnc_v3_gates.json,leiden_resolution,
+Sclus,STAR Methods,Leiden clusters of the bridge,240.0,,240,studies/brain-pathology-v1/results/sc_lineage_vnc_v3_gates.json,leiden_clusters,
+Sgenes,STAR Methods,genes of the declared panel,42.0,,42,studies/brain-pathology-v1/tasks/sc-panels-v1.json,panels.genes,entries
+Shetlo,STAR Methods,"adaptation scaling, lowest third of the adaptation index",0.5,,0.5,studies/brain-pathology-v1/tasks/sc-variant-lesion.json,value,spec 1
+Shethi,STAR Methods,"adaptation scaling, highest third",1.5,,1.5,studies/brain-pathology-v1/tasks/sc-variant-lesion.json,value,spec 2
+Stypes,STAR Methods,mapped cell types ranked by the adaptation index,609.0,,609,studies/brain-pathology-v1/tasks/sc-variant-design.json,tertiles.types,
+Shetn,STAR Methods,scene-2 runs per heterogeneous brain,5.0,,5,studies/brain-pathology-v1/tasks/sc-variant-design.json,runs,"brain variant, family S1 (count)"
+Scal,STAR Methods,threshold offset of the Kv4 loss at dose 1 (mV),-3.2200164795446717,mV,−3.22,studies/brain-pathology-v1/runs/phase2-credibility/p05/c5_c6.json,calibration_rheobase.offset_mv,
+Sramp,STAR Methods,ramp-current ratio of the model at dose 1,0.5648648648648648,,0.565,studies/brain-pathology-v1/runs/phase2-credibility/p05/c5_c6.json,calibration_rheobase.ramp_current_ratio,
+Srampfly,STAR Methods,ramp-current ratio of Abeta42 flies,0.54,,0.54,studies/brain-pathology-v1/runs/phase2-credibility/p05/c5_c6.json,calibration_rheobase.reported_current_ratio,
+Skcloss,STAR Methods,share of Kenyon cells removed at dose 1 (late Abeta42),0.17,,17%,studies/brain-pathology-v1/runs/phase2-credibility/p05/c5_c6.json,C04.rows,"dose 1, value"
+Sfxrel,STAR Methods,release factor of GABAergic antennal-lobe local neurons at dose 1 (fragile X),0.5,,0.5,studies/brain-pathology-v1/runs/phase2-credibility/p05/c5_c6.json,C13.rows,"dose 1, value"
+Srepb,STAR Methods,"replicates per dose and learner, learning under the lesion",6.0,,6,manuscript/results/plan_v2/fig7_lost_access.csv,replicate,regime learning under the lesion (max)
+Supd,STAR Methods,updates of relearning,100.0,,100,studies/brain-pathology-v1/code/phase3_regime_c.py,UPDATES,
+Sfolds,STAR Methods,cross-validation folds of the olfactory decoder,6.0,,6,studies/brain-pathology-v1/code/phase3_olfactory.py,FOLDS,
+Snperm,STAR Methods,draws of the case-comparison null,10000.0,,"10,000",studies/brain-pathology-v1/code/phase3_comparison.py,N_PERM,
+Srelearn,STAR Methods,relearned readouts per dose in the lesion link,3.0,,3,studies/brain-pathology-v1/tasks/lesion-link-design.json,readouts,"kind relearned, dose 1 (count)"
+Sexact,STAR Methods,largest n resolved by exact enumeration,20.0,,20,manuscript/analysis/msa/stats.py,exact tests,if n <= N
+Sdraws,STAR Methods,draws of a resampling test,10000.0,,"10,000",manuscript/analysis/msa/stats.py,N_RESAMPLES,
+Smargin,STAR Methods,equivalence margin (percentage points),5.0,pp,5,studies/brain-pathology-v1/code/analyze_batch2.py,MARGIN,x 100
+Sx8runs,STAR Methods,runs from a neutral brain that learned,24.0,,24,studies/brain-supplement-v2/results/x8_runs.csv,status,learned_solved (count)
+Sx8p,STAR Methods,"stratified log-rank P, readout alone vs brain and readout from a neutral brain",6.25e-05,,6.3 × 10^−5,studies/brain-supplement-v2/results/x8_tests.csv,p_value,family F13.X8.primary
+Sstag0,STAR Methods,"runs stopped by stagnation, M0-joint",9.0,,9,studies/brain-supplement-v2/results/campaign_x1_summary.csv,planned - learned_solved,learner M0-joint
+Sstag1,STAR Methods,"runs stopped by stagnation, S1-head_only",3.0,,3,studies/brain-supplement-v2/results/campaign_x1_summary.csv,planned - learned_solved,learner S1-head_only
+Sstag2,STAR Methods,"runs stopped by stagnation, S2-head_only",7.0,,7,studies/brain-supplement-v2/results/campaign_x1_summary.csv,planned - learned_solved,learner S2-head_only
+Sheldout,STAR Methods,held-out planning maps,8.0,,8,manuscript/results/main/fig2/fig2e_zero_update_transfer.csv,denominator,row_type summary_heldout (every model)
+Sstages,STAR Methods,stage checkpoints replayed from the original start,650.0,,650,studies/brain-supplement-v2/results/x9_stages.csv,rows,
+Sadaptonly,STAR Methods,"cosine of the adaptation-only transplant with the native decision (160 ms, 4 windows)",0.3309336557563514,,0.33,studies/brain-supplement-v2/runs/g4-linear-response/result.json,adapt_eps1_cos,"prefix 4, delay 160"
+Sx4sig,STAR Methods,models whose cue shift beats norm-matched scrambles (Holm),2.0,,2,studies/brain-supplement-v2/results/x4_x5_tests.csv,p_value,"family F13.X4.content, Holm-adjusted < 0.05 (count)"
+Sx4n,STAR Methods,models of the scramble test,6.0,,6,studies/brain-supplement-v2/results/x4_x5_tests.csv,p_value,family F13.X4.content (rows)
+Svisp,STAR Methods,"P, hidden vs visible target under swaps",0.375,,0.38,studies/brain-supplement-v2/results/x4_x5_tests.csv,p_value,family F13.X5.visibility
+Sdeplo,STAR Methods,"extra cost of matched random removal over the populations, lowest (percentage points)",23.05555555555555,pp,23,studies/brain-pathology-v1/results/batch2_tests.csv,estimate x 100,family F12.dependency.null (min)
+Sdephi,STAR Methods,"the same, highest (percentage points)",36.11111111111111,pp,36,studies/brain-pathology-v1/results/batch2_tests.csv,estimate x 100,family F12.dependency.null (max)
+Sdnsolved,STAR Methods,trained histories solved with every descending neuron removed,57.0,,57,studies/brain-pathology-v1/results/dependency_conditions.csv,solved,condition descending-1
+So14lo,STAR Methods,"untrained net use at same-type gain 0.05, lowest run",0.1923076923076923,,+0.19,studies/brain-pathology-v1/results/o14_runs.csv,untrained_net_use,variant same-type-0.05 (min)
+So14hi,STAR Methods,"the same, highest run",0.3461538461538461,,+0.35,studies/brain-pathology-v1/results/o14_runs.csv,untrained_net_use,variant same-type-0.05 (max)
+Smaplo,STAR Methods,"adjusted P, adaptation index against the mapping null, lowest",0.0681931806819318,,0.068,manuscript/results/plan_v2/tests.csv,p_adjusted,"F14.SC.trace.v2*, *:A:mapping-null (min)"
+Smaphi,STAR Methods,"the same, highest",0.1368863113688631,,0.14,manuscript/results/plan_v2/tests.csv,p_adjusted,"F14.SC.trace.v2*, *:A:mapping-null (max)"
+Shetplo,STAR Methods,"adjusted P, heterogeneous vs null brain (untrained use, lock, access window), lowest",0.0912419623719933,,0.091,manuscript/results/plan_v2/tests.csv,p_adjusted,"F14.SC.variant.secondary, variant vs null brain (min)"
+Shetphi,STAR Methods,"the same, highest",0.1415151755709031,,0.14,manuscript/results/plan_v2/tests.csv,p_adjusted,"F14.SC.variant.secondary, variant vs null brain (max)"
+Shets1p,STAR Methods,"adjusted P, heterogeneous brain in scene 2",0.0572916666666666,,0.057,manuscript/results/plan_v2/tests.csv,p_adjusted,"F14.SC.variant.secondary, variant S1"
+Sx3cost,STAR Methods,fall in trained-timing use with jittered training (absolute),0.2333333333333333,,0.23,manuscript/results/plan_v2/tests.csv,estimate,"F13.X3.descriptive, trained_net_use"
+Sx3upd,STAR Methods,extra updates of jittered training,1089.6,,"1,090",manuscript/results/plan_v2/tests.csv,estimate,"F13.X3.descriptive, updates"
+Sjointun,STAR Methods,"Holm P, untrained use of the scene-1 brain-and-readout learner",0.0810546875,,0.081,manuscript/results/plan_v2/tests.csv,p_adjusted,"F13.X1.untrained, M0-joint"
+Sed50lo,STAR Methods,"threshold lowering that halves memory use, lowest replicate (microvolts)",0.1732050807568,uV,0.17,studies/brain-pathology-v1/results/dy2_models.csv,ed50_c01_mv x 1000,group x1 (min)
+Sed50hi,STAR Methods,"the same, highest replicate (microvolts)",0.2498049532966,uV,0.25,studies/brain-pathology-v1/results/dy2_models.csv,ed50_c01_mv x 1000,group x1 (max)
+Sdy2tr,STAR Methods,"trained net use, training across threshold states (mean)",0.888888888888889,,0.89,studies/brain-pathology-v1/results/dy2_models.csv,trained_net_use,condition th0.001 (mean)
+Sdy2un,STAR Methods,"untrained net use, training across threshold states (mean)",0.10769230769230767,,0.11,studies/brain-pathology-v1/results/dy2_models.csv,untrained_net_use,condition th0.001 (mean)
+Sdy2upd,STAR Methods,"updates, training across states over training in one state (ratio of means)",3.556372549019608,,3.6,studies/brain-pathology-v1/results/dy2_models.csv,updates,condition th0.001 over group x1 (means)
+Srate0lo,STAR Methods,"mean task rate for threshold lowerings up to 3 microvolts, lowest (Hz)",0.3491795659065246,Hz,0.35,studies/brain-pathology-v1/results/dy1_memory.csv,task_mean_hz,|shift_mv| <= 0.003 (min)
+Srate0hi,STAR Methods,"the same, highest (Hz)",0.3701542615890503,Hz,0.37,studies/brain-pathology-v1/results/dy1_memory.csv,task_mean_hz,|shift_mv| <= 0.003 (max)
+Sdy1h,STAR Methods,"share of trained histories solved, healthy",0.9206349206349206,,0.92,studies/brain-pathology-v1/results/dy1_memory.csv,solved_share,condition healthy
+Sdy1sa,STAR Methods,the smaller threshold lowering of the micro series (mV),0.0001,mV,10^−4,studies/brain-pathology-v1/results/dy1_memory.csv,shift_mv,"micro, first"
+Sdy1a,STAR Methods,share solved at that lowering,0.8412698412698413,,0.84,studies/brain-pathology-v1/results/dy1_memory.csv,solved_share,shift_mv -0.0001
+Sdy1sb,STAR Methods,the next lowering of the micro series (mV),0.0003,mV,3 × 10^−4,studies/brain-pathology-v1/results/dy1_memory.csv,shift_mv,"micro, second"
+Sdy1b,STAR Methods,share solved at that lowering,0.626984126984127,,0.63,studies/brain-pathology-v1/results/dy1_memory.csv,solved_share,shift_mv -0.0003
+Sdosemin,STAR Methods,smallest lowering of the low dose extension (mV),0.0100625,mV,0.01,studies/brain-pathology-v1/results/dy1_memory.csv,shift_mv,"source low extension, dose > 0 (min |shift|)"
+Sdivuv,STAR Methods,persistent threshold lowering of the divergence record (microvolts),0.3,uV,0.3,studies/brain-pathology-v1/runs/fig-divergence-cells/d160-p4-cue0.json,shift_mv,x -1000
+Sdivcells,STAR Methods,cells diverged by the end of the first decision,4659.0,,"4,659",studies/brain-pathology-v1/runs/fig-divergence-cells/d160-p4-cue0.json,cells_diverged,
+Sdivms,STAR Methods,first divergence after input resumed (ms),11.0,ms,11,studies/brain-pathology-v1/results/dy1_divergence.csv,first_divergent_ms - delay_ms,"threshold 0.0003 mV, 160 ms, 4 windows, cue 0"
+Sed50rm,STAR Methods,share of cells whose random removal halves behavior (logistic fit),0.0013011227665385,,0.13%,studies/brain-pathology-v1/results/phase4_dose_fits.csv,ed50,"set main + low (post hoc), series random removal"
+Sjointrec,STAR Methods,"recovered share, relearning with the brain minus the readout alone",-0.2909714128464128,,−0.29,manuscript/results/plan_v2/tests.csv,estimate,"F12.regimeC, joint minus readout-only"
+Sregbp,STAR Methods,smallest adjusted P of the per-dose tests of learning under the lesion,0.1875,,0.19,manuscript/results/plan_v2/tests.csv,p_adjusted,F12.regimeB (min)

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "study": "brain-supplement-v2",
+  "status": "draft",
+  "title": "Supplementary analyses and experiments that test the frozen paper's claims",
+  "plan": "Plan v2: Phase 1B (CPU analyses on saved data) and Phase 1C (GPU experiments X1-X10 with pre-registered softening rules)",
+  "frozen_inputs": [
+    "studies/brain-sokoban-v1"
+  ],
+  "seed": null,
+  "unit": null,
+  "replicates": {
+    "definition": null,
+    "n_primary": null,
+    "pilot": null
+  },
+  "experiments": [],
+  "softening_rules": [],
+  "families": "code/testplan.py",
+  "backend": {
+    "reference": null,
+    "precision": null,
+    "memory_cap_gib": null
+  },
+  "sources": {},
+  "draft_notes": [
+    "Fill seed, unit and the replicate definition before registration.",
+    "List the experiments with their designs and primary statistics, and the softening rules verbatim.",
+    "Declare the test families in code/testplan.py before any of their tests is computed.",
+    "Record input hashes with Study.protocol(sources=...), fill schedule.json and tasks/, lock the tasks (Study.lock_tasks), then register (Study.register).",
+    "Remove draft_notes at registration."
+  ],
+  "created_unix": null
+}

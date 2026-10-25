@@ -1,0 +1,12 @@
+{
+  "finalizer_pid": 50016,
+  "runner_launcher_pid": 36916,
+  "study_supervisor_pid": 22476,
+  "purpose": "fresh final analysis after the resumed study process exits",
+  "stdout": "final-analysis-resume-20261002T112711Z.log",
+  "stderr": "final-analysis-resume-20261002T112711Z.err",
+  "resumed_by": "explicit_user_request",
+  "resume_started_utc": "20261002T112711Z",
+  "supervisor_stdout": "supervisor-resume-20261002T112711Z.log",
+  "supervisor_stderr": "supervisor-resume-20261002T112711Z.err"
+}

@@ -1,0 +1,13 @@
+{
+  "created_unix": 1790903436.9999104,
+  "selection": "fixed RNG + geometry + exact solver; no brain calls",
+  "files": {
+    "certificates.json": "f17bdbc0b3cc98042b4961e5962c7dd2c464da80de034f812b0722fca48e51ee",
+    "levels.json": "1153aa0c9f52c85379e1942f91960e450a2b587d129e93d705389c8e8c7da7f4",
+    "matched-bank.json": "9fd6fb85774d5b786adc37f39badca1b51b7f372d132fd3a77e336a9faec00f3",
+    "variants.json": "9a63b97c43c200c4cc19f84796347ddc3ed3abd79982f281808a4e780bb78196"
+  },
+  "training_maps": 24,
+  "heldout_layouts": 8,
+  "calibration_maps": 2
+}

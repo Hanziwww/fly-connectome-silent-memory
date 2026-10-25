@@ -1,0 +1,681 @@
+{
+  "status": "complete",
+  "candidates": [
+    {
+      "id": "fp64-b16",
+      "precision": "float64",
+      "batch": 16,
+      "eligible": true,
+      "total_training_seconds": 912.4231501000468,
+      "total_wall_seconds": 922.0066047000582
+    },
+    {
+      "id": "fp32-b16",
+      "precision": "float32",
+      "batch": 16,
+      "eligible": false,
+      "total_training_seconds": 256.0639403000241,
+      "total_wall_seconds": 265.16078769997694
+    },
+    {
+      "id": "fp32-b8",
+      "precision": "float32",
+      "batch": 8,
+      "eligible": false,
+      "total_training_seconds": 415.0278004000429,
+      "total_wall_seconds": 424.5657871000003
+    },
+    {
+      "id": "mixed-b16",
+      "precision": "mixed",
+      "batch": 16,
+      "eligible": true,
+      "total_training_seconds": 494.2421751000802,
+      "total_wall_seconds": 503.21586430002935
+    }
+  ],
+  "results": [
+    {
+      "id": "benchmark-v2-fp64-b16-C0",
+      "pid": 44488,
+      "config": {
+        "id": "benchmark-v2-fp64-b16-C0",
+        "task": "C0",
+        "condition": {
+          "name": "joint",
+          "train_core": true,
+          "train_head": true,
+          "loss": "recovery",
+          "schedule": "suffix",
+          "initialization": "p05",
+          "structure": "real",
+          "state_mode": "reset",
+          "model": "brain_linear"
+        },
+        "module": "benchmark",
+        "parent": null,
+        "seed": 10,
+        "source": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\runs\\linear-joint\\20261002-p05-01\\model.pt",
+        "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+        "precision": "float64",
+        "batch": 16,
+        "segments_seconds": [
+          1200,
+          2400,
+          4800
+        ],
+        "code_version": "e81b2ffe80a48b25fa22c721c7bdb1ac0c93df08400cd426bcfffd81e1b5c678",
+        "task_lock_sha256": "3eceefd4ff6d3202b65b3cc60680017b07c2bf147dbb61d90dbe6a53d9acacbb"
+      },
+      "status": "learned_solved",
+      "initialization_seconds": 4.197279400017578,
+      "training_seconds": 52.69343990000198,
+      "updates": 28,
+      "promotions": 14,
+      "depth": 15,
+      "phase": 0,
+      "final_solved": true,
+      "final_steps": 16,
+      "training_compute": {
+        "forward_calls": 172,
+        "neuron_ms": 18395028480,
+        "gradient_forward_calls": 28,
+        "transfer_seconds": 0.013271200354211032
+      },
+      "assessments": 22,
+      "parameter_changes": {
+        "core": {
+          "pre_log_gain": {
+            "changed": 1735,
+            "l2": 0.03674668662278978
+          },
+          "post_log_gain": {
+            "changed": 11110,
+            "l2": 0.08424103484544614
+          },
+          "threshold_mv": {
+            "changed": 11448,
+            "l2": 0.09632886636250644
+          }
+        },
+        "head": {
+          "mean": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "scale": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "proposal.weight": {
+            "changed": 1972,
+            "l2": 0.11782761361851496
+          },
+          "proposal.bias": {
+            "changed": 4,
+            "l2": 0.0052795087227205115
+          }
+        }
+      },
+      "model_sha256": "4fad49a883d41530ba6ca67387979676f4399a460b92de8b44a565339c20a9ee",
+      "condition": "joint",
+      "task": "C0",
+      "family": "c0f298453ed3f544998b",
+      "wall_seconds": 57.79571810003836,
+      "resources": {
+        "peak_allocated_gib": 4.394086837768555,
+        "peak_reserved_gib": 4.931640625
+      }
+    },
+    {
+      "id": "benchmark-v3-fp32-b16-C0",
+      "pid": 35588,
+      "config": {
+        "id": "benchmark-v3-fp32-b16-C0",
+        "task": "C0",
+        "condition": {
+          "name": "joint",
+          "train_core": true,
+          "train_head": true,
+          "loss": "recovery",
+          "schedule": "suffix",
+          "initialization": "p05",
+          "structure": "real",
+          "state_mode": "reset",
+          "model": "brain_linear"
+        },
+        "module": "benchmark",
+        "parent": null,
+        "seed": 10,
+        "source": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\runs\\linear-joint\\20261002-p05-01\\model.pt",
+        "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+        "precision": "float32",
+        "batch": 16,
+        "segments_seconds": [
+          1200,
+          2400,
+          4800
+        ],
+        "code_version": "48107d6a16c572c6ea7d026378cbfb55a05957372aac5bff1fb1f37c12bbd4e4",
+        "task_lock_sha256": "3eceefd4ff6d3202b65b3cc60680017b07c2bf147dbb61d90dbe6a53d9acacbb"
+      },
+      "status": "learned_solved",
+      "initialization_seconds": 3.78243379999185,
+      "training_seconds": 28.794736000010744,
+      "updates": 28,
+      "promotions": 14,
+      "depth": 15,
+      "phase": 0,
+      "final_solved": true,
+      "final_steps": 16,
+      "training_compute": {
+        "forward_calls": 172,
+        "neuron_ms": 18395028480,
+        "gradient_forward_calls": 28,
+        "transfer_seconds": 0.008906400005798787
+      },
+      "assessments": 22,
+      "parameter_changes": {
+        "core": {
+          "pre_log_gain": {
+            "changed": 1735,
+            "l2": 0.03674668271530379
+          },
+          "post_log_gain": {
+            "changed": 11110,
+            "l2": 0.08424108160206084
+          },
+          "threshold_mv": {
+            "changed": 11448,
+            "l2": 0.0963289253142435
+          }
+        },
+        "head": {
+          "mean": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "scale": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "proposal.weight": {
+            "changed": 1972,
+            "l2": 0.11782752655004057
+          },
+          "proposal.bias": {
+            "changed": 4,
+            "l2": 0.005279505972379823
+          }
+        }
+      },
+      "model_sha256": "9bf6e545f3a4a7607d99b9cdec36aa380a840cd7f97fe95212a9508f8511a38c",
+      "condition": "joint",
+      "task": "C0",
+      "family": "c0f298453ed3f544998b",
+      "wall_seconds": 33.353326399985235,
+      "resources": {
+        "peak_allocated_gib": 3.5029077529907227,
+        "peak_reserved_gib": 4.091796875
+      }
+    },
+    {
+      "id": "benchmark-v3-fp32-b8-C0",
+      "pid": 5748,
+      "config": {
+        "id": "benchmark-v3-fp32-b8-C0",
+        "task": "C0",
+        "condition": {
+          "name": "joint",
+          "train_core": true,
+          "train_head": true,
+          "loss": "recovery",
+          "schedule": "suffix",
+          "initialization": "p05",
+          "structure": "real",
+          "state_mode": "reset",
+          "model": "brain_linear"
+        },
+        "module": "benchmark",
+        "parent": null,
+        "seed": 10,
+        "source": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\runs\\linear-joint\\20261002-p05-01\\model.pt",
+        "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+        "precision": "float32",
+        "batch": 8,
+        "segments_seconds": [
+          1200,
+          2400,
+          4800
+        ],
+        "code_version": "48107d6a16c572c6ea7d026378cbfb55a05957372aac5bff1fb1f37c12bbd4e4",
+        "task_lock_sha256": "3eceefd4ff6d3202b65b3cc60680017b07c2bf147dbb61d90dbe6a53d9acacbb"
+      },
+      "status": "learned_solved",
+      "initialization_seconds": 3.82482679997338,
+      "training_seconds": 36.6000430000131,
+      "updates": 28,
+      "promotions": 14,
+      "depth": 15,
+      "phase": 0,
+      "final_solved": true,
+      "final_steps": 16,
+      "training_compute": {
+        "forward_calls": 207,
+        "neuron_ms": 11069101440,
+        "gradient_forward_calls": 40,
+        "transfer_seconds": 0.012889300181996077
+      },
+      "assessments": 22,
+      "parameter_changes": {
+        "core": {
+          "pre_log_gain": {
+            "changed": 1735,
+            "l2": 0.03674669534204629
+          },
+          "post_log_gain": {
+            "changed": 11110,
+            "l2": 0.08424091613742692
+          },
+          "threshold_mv": {
+            "changed": 11448,
+            "l2": 0.09632881603214358
+          }
+        },
+        "head": {
+          "mean": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "scale": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "proposal.weight": {
+            "changed": 1972,
+            "l2": 0.11782757314382711
+          },
+          "proposal.bias": {
+            "changed": 4,
+            "l2": 0.0052795081845842425
+          }
+        }
+      },
+      "model_sha256": "73dfd0b73c856675b4eaeea3cfd3205386aff367f8111d1a87c30e6d7af3707a",
+      "condition": "joint",
+      "task": "C0",
+      "family": "c0f298453ed3f544998b",
+      "wall_seconds": 41.26020100002643,
+      "resources": {
+        "peak_allocated_gib": 2.545053482055664,
+        "peak_reserved_gib": 2.888671875
+      }
+    },
+    {
+      "id": "benchmark-v3-mixed-b16-C0",
+      "pid": 50168,
+      "config": {
+        "id": "benchmark-v3-mixed-b16-C0",
+        "task": "C0",
+        "condition": {
+          "name": "joint",
+          "train_core": true,
+          "train_head": true,
+          "loss": "recovery",
+          "schedule": "suffix",
+          "initialization": "p05",
+          "structure": "real",
+          "state_mode": "reset",
+          "model": "brain_linear"
+        },
+        "module": "benchmark",
+        "parent": null,
+        "seed": 10,
+        "source": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\runs\\linear-joint\\20261002-p05-01\\model.pt",
+        "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+        "precision": "mixed",
+        "batch": 16,
+        "segments_seconds": [
+          1200,
+          2400,
+          4800
+        ],
+        "code_version": "2342c1befa630fa98d3ccaf3604d496843711691ebe0cd095404de94fe6a7e57",
+        "task_lock_sha256": "3eceefd4ff6d3202b65b3cc60680017b07c2bf147dbb61d90dbe6a53d9acacbb"
+      },
+      "status": "learned_solved",
+      "initialization_seconds": 3.7277316000545397,
+      "training_seconds": 35.68180340004619,
+      "updates": 28,
+      "promotions": 14,
+      "depth": 15,
+      "phase": 0,
+      "final_solved": true,
+      "final_steps": 16,
+      "training_compute": {
+        "forward_calls": 172,
+        "neuron_ms": 18395028480,
+        "gradient_forward_calls": 28,
+        "transfer_seconds": 0.008138399745803326
+      },
+      "assessments": 22,
+      "parameter_changes": {
+        "core": {
+          "pre_log_gain": {
+            "changed": 1735,
+            "l2": 0.03674668638240962
+          },
+          "post_log_gain": {
+            "changed": 11110,
+            "l2": 0.08424103540279906
+          },
+          "threshold_mv": {
+            "changed": 11448,
+            "l2": 0.09632886840746367
+          }
+        },
+        "head": {
+          "mean": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "scale": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "proposal.weight": {
+            "changed": 1972,
+            "l2": 0.11782761070725378
+          },
+          "proposal.bias": {
+            "changed": 4,
+            "l2": 0.0052795093031621195
+          }
+        }
+      },
+      "model_sha256": "7bc96fe7cd2311d9f3ab2f9d94ddaf804d251792e9c15006d95273e2d2bd7ac3",
+      "condition": "joint",
+      "task": "C0",
+      "family": "c0f298453ed3f544998b",
+      "wall_seconds": 40.15952890005428,
+      "resources": {
+        "peak_allocated_gib": 3.346439838409424,
+        "peak_reserved_gib": 3.611328125
+      }
+    },
+    {
+      "id": "benchmark-v3-mixed-b16-C1",
+      "pid": 44696,
+      "config": {
+        "id": "benchmark-v3-mixed-b16-C1",
+        "task": "C1",
+        "condition": {
+          "name": "joint",
+          "train_core": true,
+          "train_head": true,
+          "loss": "recovery",
+          "schedule": "suffix",
+          "initialization": "p05",
+          "structure": "real",
+          "state_mode": "reset",
+          "model": "brain_linear"
+        },
+        "module": "benchmark",
+        "parent": null,
+        "seed": 10,
+        "source": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\runs\\linear-joint\\20261002-p05-01\\model.pt",
+        "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+        "precision": "mixed",
+        "batch": 16,
+        "segments_seconds": [
+          1200,
+          2400,
+          4800
+        ],
+        "code_version": "2342c1befa630fa98d3ccaf3604d496843711691ebe0cd095404de94fe6a7e57",
+        "task_lock_sha256": "3eceefd4ff6d3202b65b3cc60680017b07c2bf147dbb61d90dbe6a53d9acacbb"
+      },
+      "status": "learned_solved",
+      "initialization_seconds": 3.7333269999944605,
+      "training_seconds": 458.560371700034,
+      "updates": 372,
+      "promotions": 23,
+      "depth": 24,
+      "phase": 0,
+      "final_solved": true,
+      "final_steps": 26,
+      "training_compute": {
+        "forward_calls": 2030,
+        "neuron_ms": 217104115200,
+        "gradient_forward_calls": 556,
+        "transfer_seconds": 0.10410190135007724
+      },
+      "assessments": 117,
+      "parameter_changes": {
+        "core": {
+          "pre_log_gain": {
+            "changed": 1659,
+            "l2": 0.17321474986549126
+          },
+          "post_log_gain": {
+            "changed": 11029,
+            "l2": 0.3440842956119535
+          },
+          "threshold_mv": {
+            "changed": 11452,
+            "l2": 0.3253895464227056
+          }
+        },
+        "head": {
+          "mean": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "scale": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "proposal.weight": {
+            "changed": 1972,
+            "l2": 0.4347745913572515
+          },
+          "proposal.bias": {
+            "changed": 4,
+            "l2": 0.003383482158613783
+          }
+        }
+      },
+      "model_sha256": "fa15c8555b1a2976e72e4e71c2e7602ff875ad6efa06cc05982f4d482432149a",
+      "condition": "joint",
+      "task": "C1",
+      "family": "e6dc76acdce5ac712a68",
+      "wall_seconds": 463.05633539997507,
+      "resources": {
+        "peak_allocated_gib": 3.346493721008301,
+        "peak_reserved_gib": 3.6015625
+      }
+    },
+    {
+      "id": "benchmark-v3-fp32-b8-C1",
+      "pid": 11744,
+      "config": {
+        "id": "benchmark-v3-fp32-b8-C1",
+        "task": "C1",
+        "condition": {
+          "name": "joint",
+          "train_core": true,
+          "train_head": true,
+          "loss": "recovery",
+          "schedule": "suffix",
+          "initialization": "p05",
+          "structure": "real",
+          "state_mode": "reset",
+          "model": "brain_linear"
+        },
+        "module": "benchmark",
+        "parent": null,
+        "seed": 10,
+        "source": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\runs\\linear-joint\\20261002-p05-01\\model.pt",
+        "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+        "precision": "float32",
+        "batch": 8,
+        "segments_seconds": [
+          1200,
+          2400,
+          4800
+        ],
+        "code_version": "48107d6a16c572c6ea7d026378cbfb55a05957372aac5bff1fb1f37c12bbd4e4",
+        "task_lock_sha256": "3eceefd4ff6d3202b65b3cc60680017b07c2bf147dbb61d90dbe6a53d9acacbb"
+      },
+      "status": "numerical_error",
+      "initialization_seconds": 3.9558739999774843,
+      "error": "FloatingPointError('Same-config feature recomputation mismatch: 0.5927681922912598 > 0.001')",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\cc\\Documents\\ChatGPT\\brain\\studies\\brain-sokoban-v1\\code\\execution.py\", line 70, in run_worker\n    result['initialization_seconds']=time.perf_counter()-t\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\cc\\Documents\\ChatGPT\\brain\\studies\\brain-sokoban-v1\\code\\training.py\", line 214, in fit\n    last_gradient=gradients(encoder,head,data,cond,state['updates'],check)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\cc\\Documents\\ChatGPT\\brain\\studies\\brain-sokoban-v1\\code\\training.py\", line 80, in gradients\n    if discrepancy>tolerance:raise FloatingPointError(f'Same-config feature recomputation mismatch: {discrepancy} > {tolerance}')\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFloatingPointError: Same-config feature recomputation mismatch: 0.5927681922912598 > 0.001\n",
+      "wall_seconds": 383.3055860999739,
+      "resources": {
+        "peak_allocated_gib": 2.5450615882873535,
+        "peak_reserved_gib": 2.888671875
+      },
+      "training_seconds": 378.4277574000298,
+      "updates": 222,
+      "timing_source": "preserved resume checkpoint after failure"
+    },
+    {
+      "id": "benchmark-v3-fp32-b16-C1",
+      "pid": 33424,
+      "config": {
+        "id": "benchmark-v3-fp32-b16-C1",
+        "task": "C1",
+        "condition": {
+          "name": "joint",
+          "train_core": true,
+          "train_head": true,
+          "loss": "recovery",
+          "schedule": "suffix",
+          "initialization": "p05",
+          "structure": "real",
+          "state_mode": "reset",
+          "model": "brain_linear"
+        },
+        "module": "benchmark",
+        "parent": null,
+        "seed": 10,
+        "source": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\runs\\linear-joint\\20261002-p05-01\\model.pt",
+        "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+        "precision": "float32",
+        "batch": 16,
+        "segments_seconds": [
+          1200,
+          2400,
+          4800
+        ],
+        "code_version": "f03eabd5e995c37579307d65cc19f5cf6251c1e5574f435dbb6d0e258789c98a",
+        "task_lock_sha256": "9a94d0e32dcbc9073c945d7a9f51043e4d56074d97e9f2a403e7d62ad7a9b2f0"
+      },
+      "status": "numerical_error",
+      "initialization_seconds": 3.6877410000306554,
+      "error": "FloatingPointError('Same-config feature recomputation mismatch: 0.43741726875305176 > 0.001')",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\cc\\Documents\\ChatGPT\\brain\\studies\\brain-sokoban-v1\\code\\execution.py\", line 71, in run_worker\n    result.update(fit(encoder,head,level,config,out,check))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\cc\\Documents\\ChatGPT\\brain\\studies\\brain-sokoban-v1\\code\\training.py\", line 218, in fit\n    last_gradient=gradients(encoder,head,data,cond,state['updates'],check)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\cc\\Documents\\ChatGPT\\brain\\studies\\brain-sokoban-v1\\code\\training.py\", line 80, in gradients\n    if discrepancy>tolerance:raise FloatingPointError(f'Same-config feature recomputation mismatch: {discrepancy} > {tolerance}')\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFloatingPointError: Same-config feature recomputation mismatch: 0.43741726875305176 > 0.001\n",
+      "wall_seconds": 231.8074612999917,
+      "resources": {
+        "peak_allocated_gib": 3.502915382385254,
+        "peak_reserved_gib": 4.091796875
+      },
+      "training_seconds": 227.26920430001337,
+      "updates": 221,
+      "timing_source": "preserved resume checkpoint after failure"
+    },
+    {
+      "id": "benchmark-v3-fp64-b16-C1",
+      "pid": 51364,
+      "config": {
+        "id": "benchmark-v3-fp64-b16-C1",
+        "task": "C1",
+        "condition": {
+          "name": "joint",
+          "train_core": true,
+          "train_head": true,
+          "loss": "recovery",
+          "schedule": "suffix",
+          "initialization": "p05",
+          "structure": "real",
+          "state_mode": "reset",
+          "model": "brain_linear"
+        },
+        "module": "benchmark",
+        "parent": null,
+        "seed": 10,
+        "source": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\runs\\linear-joint\\20261002-p05-01\\model.pt",
+        "source_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+        "precision": "float64",
+        "batch": 16,
+        "segments_seconds": [
+          1200,
+          2400,
+          4800
+        ],
+        "code_version": "7b31e26454ce85a6cc8ed34d546025ff5943f98f8d2629c59f26bbc273632a54",
+        "task_lock_sha256": "9a94d0e32dcbc9073c945d7a9f51043e4d56074d97e9f2a403e7d62ad7a9b2f0"
+      },
+      "status": "learned_solved",
+      "initialization_seconds": 3.7079522000276484,
+      "training_seconds": 859.7297102000448,
+      "updates": 444,
+      "promotions": 21,
+      "depth": 22,
+      "phase": 0,
+      "final_solved": true,
+      "final_steps": 24,
+      "training_compute": {
+        "forward_calls": 2410,
+        "neuron_ms": 257744294400,
+        "gradient_forward_calls": 700,
+        "transfer_seconds": 0.10726159944897518
+      },
+      "assessments": 133,
+      "parameter_changes": {
+        "core": {
+          "pre_log_gain": {
+            "changed": 1678,
+            "l2": 0.18803547851005883
+          },
+          "post_log_gain": {
+            "changed": 11052,
+            "l2": 0.3698699692030086
+          },
+          "threshold_mv": {
+            "changed": 11452,
+            "l2": 0.3533575326580985
+          }
+        },
+        "head": {
+          "mean": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "scale": {
+            "changed": 0,
+            "l2": 0.0
+          },
+          "proposal.weight": {
+            "changed": 1972,
+            "l2": 0.4785216238882155
+          },
+          "proposal.bias": {
+            "changed": 4,
+            "l2": 0.0026520041393854597
+          }
+        }
+      },
+      "model_sha256": "7a2b78070228a66fddc031ca95ee2330cd0435d2a0caba2461c403a5db693d11",
+      "condition": "joint",
+      "task": "C1",
+      "family": "e6dc76acdce5ac712a68",
+      "wall_seconds": 864.2108866000199,
+      "resources": {
+        "peak_allocated_gib": 4.3947672843933105,
+        "peak_reserved_gib": 4.91015625
+      }
+    }
+  ]
+}

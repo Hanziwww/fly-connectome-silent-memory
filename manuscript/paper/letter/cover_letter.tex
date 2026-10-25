@@ -1,0 +1,72 @@
+% The cover letter to Cell's editors (build.py letter). Its claims are the paper's own (Summary, Highlights, Introduction,
+% Discussion); its numbers come from the ledger. Marked fields are the author's to fill before submission.
+\documentclass[11pt, letterpaper]{article}
+\usepackage{fontspec}
+\IfFontExistsTF{Arial}{\setmainfont{Arial}}{%
+  \setmainfont{arial.ttf}[Path=C:/Windows/Fonts/, BoldFont=arialbd.ttf, ItalicFont=ariali.ttf, BoldItalicFont=arialbi.ttf]}
+\usepackage[american]{babel}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7\baselineskip}
+\setlist{nosep, leftmargin=1.5em, topsep=0pt}
+\pagestyle{empty}
+% the paper's macros that the letter uses (cellpress.sty)
+\newcommand{\cellval}[2]{\expandafter\def\csname cell@val@#1\endcsname{#2}}
+\makeatletter
+\newcommand{\val}[1]{\ifcsname cell@val@#1\endcsname\csname cell@val@#1\endcsname
+  \else\PackageError{cover letter}{No ledger value #1}{Rebuild the ledger and values.tex}\fi}
+\makeatother
+\newcommand{\tofill}[1]{\textcolor{red!70!black}{[#1]}}
+\newcommand{\gene}[1]{\textit{#1}}
+\input{generated/values}
+
+\begin{document}
+October 25, 2026
+
+Dear Editors,
+
+We are pleased to submit the Article ``Brain state locks silent memories in a trained fly connectome'' for consideration at
+\textit{Cell}.
+
+Complete connectomes now map every synapse of an insect's brain and nerve cord, but whether a fixed wiring diagram can learn
+demanding behavior, and what its memories consist of, has not been tested: models built on connectomes have been run without
+training or trained within one sensory pathway. We trained a spiking model of the entire male \textit{Drosophila} central
+nervous system, \val{L01} neurons wired as in the male connectome, to plan moves and to remember a visual cue, and dissected the
+memory cell by cell. The study makes three findings.
+\begin{itemize}
+  \item \textbf{A fixed connectome learns.} Training tunes neuronal parameters and a readout, never the wiring, and the model
+  learns both tasks.
+  \item \textbf{Working memory is held silently in neuronal adaptation.} Spikes write the cue into adaptation, which holds it
+  without extra firing until the next input reads it out. The cells that hold the trace are enriched for transcripts of the
+  calcium-activated potassium channel \gene{SK} in fly cell atlases.
+  \item \textbf{Recall is locked to the brain state of learning.} The learned readout uses the trace only at the delays it
+  learned, because the same trace drives a different response at another delay. A disease-like loss of Kv4 potassium current
+  after learning, modeled on the loss that amyloid-β42 causes in flies, rewrites the trace and changes how it is read:
+  recall fails, while learning in the new state is spared.
+\end{itemize}
+
+These results join three questions that are usually asked apart: what holds an activity-silent memory, why retrieval depends
+on the state of the brain, and why early neurodegeneration can impair access to memories that are still stored. They also show
+a connectome at work as an experimental system. Every state variable of every cell can be recorded and moved between brain
+states, the model replays bit for bit, and every experiment was declared before it ran. The Discussion turns the findings into
+six predictions that can be tested in flies with existing genetic tools.
+
+The core and extended simulation records, trained models, and result tables are deposited at Zenodo
+(\href{https://doi.org/10.5281/zenodo.23629827}{10.5281/zenodo.23629827}; \href{https://doi.org/10.5281/zenodo.23629835}{10.5281/zenodo.23629835}), with restricted access during peer review. The lead contact can provide access to editors and reviewers. The code is publicly available at
+\url{https://github.com/Hanziwww/fly-connectome-silent-memory}. The authors have approved posting a preprint on bioRxiv under the CC BY-NC-ND 4.0 license.
+This manuscript is not under consideration by any other journal. All authors have approved the final manuscript and agree to its submission.
+
+Thank you for considering this work.
+
+Sincerely,
+
+Chunjie Tian, on behalf of all authors\\
+Corresponding author and lead contact\\
+Department of Otorhinolaryngology, Affiliated Hospital of Guangdong Medical University\\
+Zhanjiang 524000, Guangdong, China\\
+\href{mailto:tianchunjie@gdmu.edu.cn}{tianchunjie@gdmu.edu.cn}
+\end{document}

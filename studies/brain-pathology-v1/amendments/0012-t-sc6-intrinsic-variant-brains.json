@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 12,
+  "reason": "T-SC6 intrinsic variant brains",
+  "changes": {
+    "trigger": "Gate SC-B (tasks/sc-panels-v1.json): H1 v1 null, but F14.SC.kv4 significant at doses 1.5 and 2 (Holm), so T-SC6 runs as declared",
+    "added_task_files": {
+      "sc-variant-lesion.json": "c87ca07f5106094900ab4a343ba1f34ec75546fdcd0bbb4ba3612d0467b6a30d",
+      "sc-variant-null-lesion.json": "ca88bd51c24c453c0a8ad219cf9d3b5429fe18bd6d92e512f79e53bb863a5ec3",
+      "sc-variant-design.json": "e6707c371bc27b4890b9da0ace90e575763bd871724e3774df9e588c942cec8e"
+    },
+    "design": {
+      "tertiles": {
+        "q1": 0.248395,
+        "q2": 0.336107,
+        "types": 609,
+        "low": 278,
+        "middle": 147,
+        "high": 184
+      },
+      "cells": {
+        "variant": {
+          "x0.5": 56728,
+          "x1": 1948,
+          "x1.5": 25702
+        },
+        "null": {
+          "x0.5": 45199,
+          "x1": 17396,
+          "x1.5": 21783
+        }
+      },
+      "runs": 30
+    }
+  },
+  "previous_sha256": "d07285b34c9b5609509cfeff7a6622b8c0daa56153f548eaef262d366b1bc670",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792698960.352388
+}

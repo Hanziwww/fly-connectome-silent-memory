@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "joint-brain-linear-v1",
+  "established": "2026-10-02",
+  "status": "formal",
+  "description": "Full connectome brain and affine activity readout trained simultaneously with a reverse suffix curriculum",
+  "current_run": "runs/linear-joint/20261002-p05-01",
+  "retained_results": [
+    {
+      "task": "P03",
+      "run": "runs/linear-joint/20261002-p03-01",
+      "model_sha256": "87c7a2017cb0da316dac1b20ca8d1e1007f97005dc61e990947033694e75b82a",
+      "moves": 22
+    },
+    {
+      "task": "P05",
+      "run": "runs/linear-joint/20261002-p05-01",
+      "model_sha256": "864a2b342f966607db295c1818b303077db6ce4e23916bf71c1b954c9c01eefa",
+      "moves": 34
+    }
+  ],
+  "seed": 10,
+  "training_entrypoint": "sokoban/run_linear_next.py",
+  "viewer_entrypoint": "sokoban/serve_joint.py",
+  "objective": "Any autonomous solution from the original start",
+  "shortest_path_required": false,
+  "old_task_retention_gate": false,
+  "training_authorization": "Only start a new explicitly requested run; organization does not start training"
+}

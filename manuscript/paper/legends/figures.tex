@@ -1,0 +1,136 @@
+% Main figures: files and legends (Gate C). Each legend's title is the figure's title (its build docstring) and its claim;
+% the body says what each panel plots, its n, its summary marks, its test and correction, and the scale bars. The facts
+% come from the figure source data (manuscript/writing/legend_facts.py); the main legends count toward the 7,000 words.
+\setfigfile{1}{../figures/v4/main/fig1.pdf}
+\setfigfile{2}{../figures/v4/main/fig2.pdf}
+\setfigfile{3}{../figures/v4/main/fig3.pdf}
+\setfigfile{4}{../figures/v4/main/fig4.pdf}
+\setfigfile{5}{../figures/v4/main/fig5.pdf}
+\setfigfile{6}{../figures/v4/main/fig6.pdf}
+\setfigfile{7}{../figures/v4/main/fig7.pdf}
+
+\deflegend{1}{A whole-CNS connectome learns to plan and to remember}{%
+(A) The unfolded CNS of the model: every located cell body, colored by superclass group. Scale bar, 100~μm.
+(B) The interface: the visual input cells (white), the arbors of the \val{L04} readout cells and the giant fiber DNp01; insets,
+an input cell (LC12) and a readout cell (i2 MN). Scale bars, 100~μm; insets, 20~μm (LC12) and 50~μm (i2 MN).
+(C and D) One memory trial (scene 1, readout trained, cue 0): the cells that spike in the cue, the delay and the input (C), and
+the cells spiking per ms by group (D).
+(E) The model at a glance: input and readout pathways, fixed and trained parameters, and the readout cells by their shortest
+route from the input.
+(F) The tasks: three of the \val{L09} planning maps with their optimal moves, and the delayed-cue protocol with its \val{A01}
+trained of \val{A04} timings.
+(G) Learning cost against certified difficulty, \val{L09} maps in \val{L10} replicate sets; lines, least-squares fits on log
+axes; inset, Spearman ρ per set with permutation tests.
+(H) Maps solved by each pairing of brain and readout checkpoints; McNemar tests, BH-adjusted.
+(I) Net memory use at trained (filled) and untrained (open) timings in \val{L15} replicates of four learners (\val{L19},
+\val{L19}, \val{L20} and \val{L20}), joined by replicate; bars, medians; exact sign-flip tests of the lock (trained minus
+untrained use), Holm-adjusted.
+See also Figure~S1 and Video~S1.}
+
+\deflegend{2}{Working memory is held in an activity-silent intrinsic trace}{%
+(A) One trial (scene 1, readout trained, \val{G06}-ms delay), ms by ms: cells with a voltage difference between the cues (log
+scale) and cells holding the adaptation trace, by group.
+(B) Cells that spike only after cue 0 or only after cue 1, with the cells per ms above; shaded, none.
+(C) The trace (adaptation, cue 1 minus cue 0) at five moments of the trial; white, cells spiking differently. Scale bar,
+100~μm.
+(D) Decay of the cue difference by state variable, relative to early in the delay; lines, exponential fits (time constants
+over four learners).
+(E) The share of the voltage difference from adaptation at the end of the delay and from synaptic input at the first decision,
+four learners, after the \val{G06}-ms (filled) and \val{H12}-ms (open) delay.
+(F) Transplants of the full state or of adaptation alone at the end of the delay: cosine with the native decision state.
+(G) Trained histories solved with the own or the other cue's state, all trained timings, four learners; exact tests,
+Holm-adjusted.
+(H) Top, the synaptic share of the decision-time drive at all \val{H07} timings, four learners; dashed, the minimum. Bottom,
+the cue drive into readout types from types that held the trace, by region; dashed, their share of types.
+(I) Cumulative differential spikes through the \val{H12}-ms delay, four learners.
+(J) The trace at the decision by delay and prefix input; the line without input is the fitted decay.
+(K) The cue drive at the first decision between cell types of the brain (above) and ventral nerve cord (below): width, drive;
+color and arrowhead, the sender's transmitter; gold, types that held the trace; outlined, readout types.
+See also Figure~S2 and Video~S2.}
+
+\deflegend{3}{The trace is distributed, and no circuit is special}{%
+(A) The scene-1 cue ensemble (the \val{D15} of cells with the largest cue difference at the decision) beside three of its
+\val{D14} matched sets, which share its cell types, distance from the input, degree and readout role; right, four cue-tuned
+cell types. Scale bars, 100~μm and 50~μm (cell types).
+(B) The ensemble's connections as a matrix (sources down, targets across) with its densest block enlarged, and its internal
+connections by source group against the mean of its \val{D14} matched sets, two scenes.
+(C) Silencing the ensemble at the decision: the change in decision margin relative to the matched sets' mean (gray, each
+matched set), ensembles of two scenes tested in both; one-sided tests, Holm-adjusted.
+(D) Removing the ensemble's internal synapses, against matched synapses, as in (C).
+(E) Whole populations removed: trained histories solved of \val{D07}; dashed, healthy; equivalence tests (TOST),
+Holm-adjusted.
+(F) Maps of the cue difference at the decision, and each circuit's share of the cue against its share of cells, three scenes.
+(G) Where three connection rules act, and trained histories solved under each variant rule (three runs each), healthy
+(filled) and under the pan-neuronal Kv4 lesion (open).
+See also Figure~S3.}
+
+\deflegend{4}{Trace-carrying cells have a molecular signature: \gene{SK}}{%
+(A) Three channel transcripts (\gene{SK}, \gene{Shal}, \gene{slo}) painted on the connectome from each cell's atlas unit:
+bright, cell type; dim, hemilineage; dimmer, class; gray, unmapped.
+(B) The trace carriers of scene 1 (cells holding the trace at the first decision), by \gene{SK}.
+(C) The ventral nerve cord atlas joined to the connectome through \val{M05} hemilineages, ordered by \gene{SK}.
+(D) Carrier enrichment in \gene{SK} and in the adaptation index, against matched sets and a mapping-shuffle null, four
+learners and the ventral nerve cord alone (open), in null SD; adjusted \Pv{} from the declared families.
+(E) Carrier share against \gene{SK} across \val{M05} hemilineages.
+(F) Scene-1 carriers mapped by cell type, with hemilineages, and in the ventral nerve cord.
+(G) Carrier share and the channel panel across hemilineages: color, z score; size, share of cells detected.
+(H) Validation of the bridge: recovered against published cluster sizes, connectome against atlas cells per hemilineage, and
+the transmitters and markers that agree.
+(I) Carrier types with split-GAL4 lines: each type on the brain, its carriers among its cells, the share of its cue drive into
+readout types and its channel strip.
+(J) Brains with homogeneous or atlas-informed heterogeneous adaptation, \val{M14} runs each: net memory use joined by run, and
+the change when adaptation is removed or states are swapped; bars, medians; exact tests, Holm- and BH-adjusted.
+See also Figure~S4.}
+
+\deflegend{5}{Access to the memory is locked to the timing of learning}{%
+(A) The cue difference in membrane voltage at the first decision after four delays, with each pattern's angle and cosine to
+the trained \val{G06}-ms pattern. Scale bar, 100~μm.
+(B) Net memory use on the grid of delay and prefix input, mean of \val{L19} replicates; outlined, trained timings.
+(C) The lock (trained minus untrained use) per run in nine scenes, the trained scenes and their variants; bars, medians; exact
+sign-flip tests, Holm-adjusted.
+(D) Trained against untrained timings, two learners: the adaptation trace at the decision, the cue difference in the readout
+input and the push toward the correct target; bars, medians; exact tests, Holm-adjusted.
+(E) Each cell's cue difference after \val{G06} against \val{G01}~ms; black, the strongest \val{D15} of cells.
+(F) Decision geometry at every timing: the push toward the correct target against the push shared by both cues.
+(G) One trace pattern injected at seven delays: the cosine between response directions, and each response's push; shaded,
+trained delays.
+(H) Training at fixed or jittered timings: untrained use by delay (lines, means of \val{L19} replicates; dots, replicates),
+and per replicate inside and outside the jittered range; two-sided sign-flip tests, Holm-adjusted.
+See also Figure~S5 and Video~S3.}
+
+\deflegend{6}{The wiring is robust; access follows the trained states}{%
+(A) Cells on routes (walks of two or three synapses from the visual input to the readout), intact and after random removal of
+\val{G07}, \val{G08} and \val{G02} of the other cells; color, routes through each cell. Scale bar, 100~μm.
+(B) Readout cells reachable and routes kept under random or hubs-first removal, and the readout cells by shortest route.
+(C) Single extra spikes in five cells at two delays: three kicked cells with their partners, and the cells changed at the
+decision.
+(D) Mean firing rate against a uniform lowering of the threshold; shaded, runaway.
+(E) Training across threshold states (\val{E22} runs) against training at one state (\val{E21}): access window and cell-loss
+tolerance relative to the median at one state, and memory under held-out threshold jitter. Bars, geometric means (window,
+tolerance) and means (memory); open, beyond the tested range; exact tests, Holm- and BH-adjusted.
+(F) The same mechanism in both: the change in net use when adaptation is cleared or states are swapped.
+(G) The route network by cell class: strands by transmitter; darker cores, the routes left after \val{G02} removal.
+(H) The cumulative share of routes across cell types ranked by traffic, and the cell types carrying routes at each level, by
+class.
+See also Figure~S6.}
+
+\deflegend{7}{Disease steals access, not memories}{%
+(A) The credibility screen of fly pathologies (Table~S1).
+(B) Four regimes: the brain state at learning and at test, and the trained histories solved of \val{Q04} (dose 1, readout
+trained).
+(C) Trained histories solved after a lesion and when learning under it, by dose, two learners; lines, means; Page trend tests,
+Holm-adjusted.
+(D) Relearning after the lesion: trained histories solved after readout updates, by dose (\val{Q26} runs).
+(E) Late restoration of excitability after learning under the lesion (\val{Q25} runs); exact tests, BH-adjusted.
+(F) Phenotype profiles of the four credible cases by dose, and where each acts; comparison and equivalence (TOST) tests,
+Holm-adjusted.
+(G) Disease on the brain: \gene{Shal} transcripts under Aβ42, firing under the uniform Kv4 loss, the Kv4 loss patterned by
+\gene{Shal}, and the aging operator. Scale bar, 100~μm.
+(H) Task firing rate under the uniform and the \gene{Shal}-patterned Kv4 loss, by dose.
+(I) Trained histories solved by learners trained under the uniform lesion: as learned, under the \gene{Shal} pattern and with
+excitability restored.
+(J) Recall needs the learning state at both ends. Left, trained histories solved when the trace is written in one state and
+read in another (the full state moved at the end of the delay), dose 1; means of readouts trained healthy (\val{K18}) or under
+the lesion (\val{K19}). Right, across doses, the cosine with the healthy brain of the stored trace and of the healthy trace's
+reading (median and range over the trained timings), and the cells holding the trace (median).
+See also Figure~S7 and Video~S4.}

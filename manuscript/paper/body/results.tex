@@ -1,0 +1,168 @@
+% Results (Gate B): seven sections, one per main figure; each heading is that figure's title (check_tex.py checks it). Every
+% number is a ledger value (\val), every main panel is called out, procedures are in the past tense and findings in the
+% present. In the preprint each section is followed by its figure and legend (\resultsfigure).
+
+\subsection{A whole-CNS connectome learns to plan and to remember}
+
+We built a spiking model of the complete central nervous system (CNS) of a male fly from its connectome\cellcite{berg2026}:
+\val{L01} leaky integrate-and-fire neurons with spike-frequency adaptation, joined by \val{L02} million fixed connections
+(\figs{1A}{1B}). Training could change \val{L05} gains and thresholds, set per cell type, and the \val{L06} weights of a linear
+readout, but never the wiring (\fig{1E}). The model sees each task through \val{L03} visual input cells, and \val{L08} of its
+\val{L04} readout cells (\val{L07}) receive a synapse directly from them (\fig{1E}). Training reached the whole CNS: it changed
+the output gains of nearly every cell, in every division (\figr{S1A}{S1C}).
+
+We trained the model on two tasks (\fig{1F}). To plan, it pushes boxes onto targets in a ladder of \val{L09} maps of rising
+difficulty, each with a certified optimal solution. To remember, it is shown which of two targets is cued, holds the cue through
+a blank delay of up to \val{H12}~ms and then, from the board without the target, pushes the box toward the cued one. During a
+memory trial, cells throughout the CNS spike in the cue and the input, and few spike in the delay (\figs{1C}{1D}).
+
+The model learns both tasks reproducibly. Learning cost tracked the certified difficulty of the maps in all \val{L10} replicate
+sets (Spearman ρ = \val{L11} to \val{L12}; \fig{1G}; \figs{S1D}{S1E}). The final brain with the final readout solves all
+\val{L13} maps, whereas no other pairing of brain and readout checkpoints solves more than \val{L14} (\fig{1H}), so brain and
+readout learned together; \video{S1} shows the hardest map solved in its \val{L18} certified moves. In the memory task, training
+used \val{A01} of \val{A04} combinations of delay and input timing. We scored each timing by net memory use: \val{A02} when the
+model solves the histories of both cues, 0 when it solves only one, as a model that ignores the cue would, and $-$\val{A02} when
+it solves neither. We trained four learners: the readout alone or the brain and readout in scene 1, and the readout alone
+in scenes 2 and 3, two further board layouts of the task. In all \val{L15} replicates of the four learners, the model uses the
+cue at the trained timings and not at the others (Holm-adjusted \Pv{} = \val{L16} to \val{L17}; \fig{1I}), and every run
+replays bit for bit (\fig{S1I}). We next asked how a network without a dedicated memory circuit holds the cue through the
+silent delay.
+\resultsfigure{1}
+
+\subsection{Working memory is held in an activity-silent intrinsic trace}
+
+To find where the cue is held, we recorded every state variable of every cell through single trials (\fig{2A}; \video{S2}).
+Spikes that tell the two cues apart stop \val{H01} to \val{H02}~ms after the cue ends in the four learners (\fig{2B};
+\fig{S2A}), yet the cue persists. In the trial of \fig{2A}, \val{H03} cells hold a difference in spike-frequency adaptation
+between the cues through the delay (\fig{2C}; \fig{S2C}). Of all state variables, only adaptation keeps the cue, and its
+difference decays with the adaptation time constant of \val{H04} to \val{H05}~ms (\fig{2D}; \fig{S2D}). Holding the trace costs
+no spikes: in none of the four learners does a cell spike differently during the last \val{H11}~ms of the \val{H12}-ms delay
+(\fig{2I}; \fig{S2H}).
+
+The next input reads the trace out. At the end of the delay the cue difference in membrane voltage comes from adaptation, but at
+the decision it comes from synaptic input (\fig{2E}), and at least \val{H06} of the decision-time drive is synaptic at all
+\val{H07} timings (\fig{2H}; \fig{S2E}). Input also renews the trace, which otherwise decays as fitted (\fig{2J}).
+
+The trace is sufficient and specific. Moving the full state at the end of the delay into another trial recreates the native
+decision (cosine \val{H08}; \fig{2F}; \fig{S2F}). Swapping the states of the two cues flips the decisions at all trained timings
+in all four learners (Holm-adjusted \Pv{} = \val{H09} to \val{H10}; \fig{2G}). The input reads the trace through the
+cells that hold it: the \val{H14} of cell types that held the trace supply \val{H13} of the cue drive into readout types, in the
+brain and the ventral nerve cord alike (\figs{2H}{2K}). The cue at the decision is spread over many cells in every learner
+(\fig{S2B}). We next asked where in the CNS the trace sits, and whether any circuit is special.
+\resultsfigure{2}
+
+\subsection{The trace is distributed, and no circuit is special}
+
+Memories are often assigned to ensembles of cells\cellcite{roy2022}. We took the \val{D15} of cells that carry the most cue
+difference at the decision as the cue ensemble of each of two scenes (\val{D03} cells in scene 1; \fig{3A}; \fig{S3A}). The
+ensemble is densely wired, with \val{D01} and \val{D02} times the internal connections of \val{D14} matched sets in the two
+scenes (\fig{3B}), and it is made of the same cell groups as the rest of the CNS (\fig{S3B}).
+
+Yet the ensemble is not necessary. Silencing it at the decision changes the decision no more than silencing matched sets
+(Holm-adjusted \Pv{} = \val{D04}; \fig{3C}), and cutting its internal synapses does no more than cutting matched synapses
+(\Pv{} = \val{D05}; \fig{3D}; \fig{S3C}). Whole populations are dispensable: with half or all of the Kenyon cells or the
+antennal-lobe inhibitory neurons removed, the network solves the trained histories that the healthy network solves, \val{D06}
+of \val{D07} (equivalence test, Holm-adjusted \Pv{} = \val{D08}; \fig{3E}; \fig{S3D}).
+
+The cue concentrates where it is read, not in olfactory circuits: the readout cells carry \val{D09} of the cue difference,
+\val{D10} to \val{D11} times their share of cells (\fig{3F}). None of this depends on how the connectome becomes a network. All
+\val{D12} runs learn under \val{D13} sets of connection rules, and the signatures of healthy circuits hold under each (\fig{3G};
+\fig{S3E}). If no circuit is special, the cells that hold the trace might still share a property, and we asked what marks them.
+\resultsfigure{3}
+
+\subsection{Trace-carrying cells have a molecular signature: \gene{SK}}
+
+To ask what marks the cells that hold the trace, we joined published single-cell atlases of the fly brain and ventral nerve
+cord\cellcite{davie2018,ozel2021,davis2020,lu2023,park2025,allen2020} to the connectome, by cell type and, in the ventral nerve cord, through
+\val{M05} hemilineages (\figr{4A}{4C}; \figs{S4A}{S4B}). The join reproduces the atlas clusters (Spearman ρ = \val{M07}) and the
+fast transmitter predicted from electron microscopy\cellcite{eckstein2024} in \val{M06} of \val{M05} hemilineages (\fig{4H};
+\figr{S4C}{S4E}). It maps \val{M09} of the trace carriers (the cells that hold the trace at the first decision), up from \val{M08} by
+cell type alone, and \val{M10} in the ventral
+nerve cord (\fig{4F}).
+
+As we declared before testing, the carriers are enriched for \gene{SK}, which encodes a small-conductance calcium-activated
+potassium channel. Carriers exceed matched sets in \gene{SK} and in an adaptation index (adjusted \Pv{} ≤ \val{M01}), and
+\gene{SK} exceeds a null that shuffles the mapping (adjusted \Pv{} = \val{M02} to \val{M03}; \fig{4D}; \fig{S4F}). The ventral
+nerve cord, whose data never shaped the prediction, confirms it: across \val{M05} hemilineages, the share of carriers rises with
+\gene{SK} (Spearman ρ = \val{M04}; \fig{4E}), against the background of the full channel panel (\fig{4G}).
+
+The carriers are accessible in the fly. Four carrier cell types with split-GAL4 driver lines send \val{M11} to \val{M12} of
+their cue drive into readout types (\fig{4I}), and the cue reaches the motor neurons through \gene{SK}-rich hemilineages
+(\fig{S4G}). Adaptation that varies from cell to cell, as the atlases suggest, leaves the mechanism intact: brains with
+atlas-informed heterogeneity keep the memory, its lock to the trained timings and the silent trace in all \val{M14} runs
+(Holm-adjusted \Pv{} = \val{M15}; \fig{4J}). If the trace is the memory, something else must decide when it can be read.
+\resultsfigure{4}
+
+\subsection{Access to the memory is locked to the timing of learning}
+
+The readout uses the trace only at the timings it was trained on. Net memory use is \val{A02} at all \val{A01} trained timings
+in every replicate and averages \val{A03} at the other timings (Holm-adjusted \Pv{} = \val{A05}; \fig{5B}; \fig{S5B}), and the
+lock holds in \val{A07} of \val{A08} runs across nine scenes (\fig{5C}).
+
+The lock is not a loss of the trace. At untrained timings the trace reaching the decision is no smaller (median size \val{A11}
+against \val{A12} at trained timings), but its push toward the correct target collapses (Holm-adjusted \Pv{} = \val{A13};
+\fig{5D}; \fig{S5C}). After the untrained \val{G01}-ms delay, the decision-time pattern is nearly the mirror image of the
+trained \val{G06}-ms pattern (cosine \val{A09}; \fig{5A}; \fig{S5A}), and \val{A10} of the strongest cells change sign
+(\fig{5E}; \fig{S5D}). In the space of decisions, trained timings push toward the correct target, and untrained timings do not
+(\fig{5F}).
+
+The cause is a drift in how the trace is read. Injected at seven delays, one fixed trace pattern pushes toward the target only at
+the trained delays (\val{A14} to \val{A15}; \fig{5G}; \fig{S5E}). The operator that turns the trace into a push therefore changes
+with delay while the trace persists, and we call this operator drift. Every cell group turns with it (\fig{S5D}).
+Training across jittered timings widens use inside the jittered range (\val{A16}) but not beyond it (\val{A17}; \fig{5H}; \fig{S5F}), and \video{S3} shows one trace read at a trained
+and an untrained delay. We next asked whether access is also locked to the network's excitability.
+\resultsfigure{5}
+
+\subsection{The wiring is robust; access follows the trained states}
+
+The connectome keeps the readout within reach. With \val{G02} of the other cells removed at random, \val{E01} of the readout
+cells remain reachable from the visual input, while the cells on routes fall from \val{E02} to \val{E03} (\figs{6A}{6B};
+\figs{S6A}{S6B}). Routes thin through every cell class, but none breaks: three-step routes fall to \val{E04} of intact, and
+\val{E06} of \val{E05} cell types still carry them (\figs{6G}{6H}; \fig{S6G}).
+
+The dynamics are stable. A single extra spike leaves nothing at the decision in \val{E07} of \val{E08} kicks (\fig{6C};
+\fig{S6C}), and the mean firing rate stays between \val{E09} and \val{E10}~Hz for threshold changes of up to \val{G09}~mV
+(\fig{6D}).
+
+Access follows the states of training. Decoder theory predicts that a readout trained across excitability states keeps working
+where one trained in a single state fails\cellcite{haimerl2025}, and the model bears this out. Training across threshold states
+widens the access window \val{E11}-fold (\val{G11} interval \val{E12} to \val{E13}; Holm-adjusted \Pv{} = \val{E16}). It also
+keeps memory under threshold jitter (\val{E14} against \val{E15}) and raises tolerance to cell loss \val{E17}-fold (\val{E18}
+to \val{E19}; \fig{6E}; \figs{S6D}{S6E}). The mechanism is the same in both: a silent adaptation trace read by the input
+(\fig{6F}). We then asked what happens when disease shifts the state after learning.
+\resultsfigure{6}
+
+\subsection{Disease steals access, not memories}
+
+We screened \val{Q01} fly pathologies for credible operators, requiring published evidence, a mechanism the model can express,
+healthy circuits that match the fly and the fly phenotype reproduced in two brains (\fig{7A}; \fig{S7B}; \tab{S1}). Of these,
+\val{Q02} passed, and only one reaches visual memory: the pan-neuronal loss of the A-type potassium channel Kv4 that Aβ42 causes
+in flies\cellcite{ping2015} (\fig{7F}).
+
+A lesion after learning removes access, whereas learning under it is spared (\fig{7B}). At dose 1, the strength that reproduces the
+fly phenotype, the Kv4-loss lesion lowers the trained histories that the learned readout solves from \val{Q04} to \val{Q03},
+and memory falls with dose (Holm-adjusted \Pv{} = \val{Q05}; \fig{7C}; \fig{S7C}). Readouts trained in the lesioned brain solve \val{Q07} of \val{Q04} in every one of
+\val{Q06} runs (\fig{7C}; \fig{S7D}). Retraining the readout after the lesion recovers \val{Q08} of the loss (\fig{7D};
+\fig{S7E}), but restoring excitability late, after learning under the lesion, removes access again and leaves \val{Q09} of
+\val{Q04} (BH-adjusted \Pv{} ≤ \val{Q10}; \fig{7E}; \fig{S7F}). Memories learned under one lesion pattern are likewise lost
+under another (\fig{7I}).
+
+An atlas of Aβ42 flies constrains how the lesion acts: neuronal \gene{Shal} transcripts rise in it (\val{Q11}
+log\textsubscript{2})\cellcite{park2025}, so the Kv4 loss must arise after transcription (\fig{7G}). Patterned by \gene{Shal}, the lesion drives
+\val{Q12} to \val{Q13} of cells above \val{G03}~Hz at \val{G04} to \val{G05} times the dose (\fig{7H}; \figr{S7H}{S7J}).
+
+To ask whether the lesion damages the stored trace or its reading, we moved the full state of each trial at the end of the delay
+between the healthy and the lesioned brain (\fig{7J}; \video{S4}). Recall needs the learning state at both ends. Readouts solve
+all \val{K01} trained histories when the trace is written and read in the state of learning, and at most \val{K02} when either
+end differs. At dose 1, a healthy trace read under the lesion gives \val{K03} of \val{Q04} and a lesion-written trace read in
+health \val{K04}; for readouts trained under the lesion, these are \val{K05} and \val{K06}.
+
+The lesion changes both ends. It writes the trace into \val{K11} to \val{K12} cells instead of \val{H03}, nearly orthogonal to
+the healthy trace (cosine \val{K07} to \val{K08}). The hold stays silent only at the lowest dose: \val{K13} cells spike
+differently late in the delay at dose \val{G10}, against \val{K14} at dose 1. Read under the lesion, the same healthy
+trace evokes a decision-time pattern nearly orthogonal to its healthy reading (median cosine \val{K09} to \val{K10}). The
+lesioned brain also spends more for less: across doses, a trial costs \val{Q21} to \val{Q22} times the spikes of a healthy trial for \val{Q23}
+to \val{Q24} bits about the cue, against \val{Q20} bits in health (\fig{S7I}). An aging operator built from transcripts of the
+aging fly\cellcite{lu2023} dims Kenyon-cell odor responses with its strength (\fig{S7K}). In the model, memory failure is a
+change of state at writing and at reading, not a loss of storage.
+\resultsfigure{7}

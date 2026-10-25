@@ -1,0 +1,27 @@
+# Settings of the remote GPU host for tools/remote (plan v2).
+# Copy this file to remote.toml at the project root; that copy is machine-specific and never committed.
+#
+# No credentials go here. The address, user, port and key belong in the Host entry of ~/.ssh/config
+# (tools/remote/README.md); keys such as password, identity_file, user or port are refused.
+
+host = "pro6000"                    # Host alias in ~/.ssh/config (key-based login)
+remote_root = "/data/flybrain"      # absolute path of the project mirror on the remote host
+python = ".venv-linux/bin/python"   # interpreter for research.py, relative to remote_root (MIGRATION/setup_linux.py)
+# agent_python = "python3"          # stdlib interpreter for transfers; works before the venv exists
+# ssh = "ssh"                       # local OpenSSH client (Windows: C:\Windows\System32\OpenSSH\ssh.exe)
+# connect_timeout = 20              # seconds
+
+# Paths left out of code pushes (git pathspecs relative to the project root). Data the studies need is pushed
+# explicitly with --data/--path; the bulky archive and manuscript outputs stay local.
+exclude = ["archive", "manuscript", "MIGRATION/MANIFEST.jsonl", "MIGRATION/REMOVED-MEMBERS.json",
+           "MIGRATION/ENGLISH-CHANGES.json"]
+
+[gpu]
+lanes = [0]                         # CUDA device indices the queue may use
+slots_per_lane = 1                  # concurrent workers per device (plan v2 Phase 0b(e): 2-4 after benchmarking)
+memory_cap_gib = 40                 # allocator cap per worker slot (STUDYKIT_MEMORY_CAP_GIB)
+device_memory_gib = 95              # checks slots_per_lane x memory_cap_gib; nvidia-smi shows the total (96 GB card)
+free_reserve_gib = 1                # free device memory required beyond the caps before a worker starts
+
+[disk]
+min_free_gib = 300                  # pushes and new workers stop below this much free remote disk

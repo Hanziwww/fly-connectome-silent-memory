@@ -1,0 +1,251 @@
+{
+ "task": "T-SC6 intrinsic variants (tasks/sc-panels-v1.json variant; Gate SC-B passed through F14.SC.kv4 at doses 1.5-2)",
+ "declared": "2026-10-22, before any T-SC6 run",
+ "mapping": "mapping v1 (amendment 0004), any tier; per type the adaptation index A of its best unit (results/sc_unit_values.csv)",
+ "tertiles": {
+  "q1": 0.248395,
+  "q2": 0.336107,
+  "types": 609,
+  "low": 278,
+  "middle": 147,
+  "high": 184
+ },
+ "cells": {
+  "variant": {
+   "x0.5": 56728,
+   "x1": 1948,
+   "x1.5": 25702
+  },
+  "null": {
+   "x0.5": 45199,
+   "x1": 17396,
+   "x1.5": 21783
+  }
+ },
+ "null_seed": 20261022,
+ "lesion_files": {
+  "variant": {
+   "file": "tasks/sc-variant-lesion.json",
+   "sha256": "c87ca07f5106094900ab4a343ba1f34ec75546fdcd0bbb4ba3612d0467b6a30d"
+  },
+  "null": {
+   "file": "tasks/sc-variant-null-lesion.json",
+   "sha256": "ca88bd51c24c453c0a8ad219cf9d3b5429fe18bd6d92e512f79e53bb863a5ec3"
+  }
+ },
+ "runs": [
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 0,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r0"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 1,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r1"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 2,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r2"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 3,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r3"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 4,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r4"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 5,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r5"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 6,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r6"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 7,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r7"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 8,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r8"
+  },
+  {
+   "brain": "variant",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 9,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-M0-r9"
+  },
+  {
+   "brain": "variant",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 0,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-S1-r0"
+  },
+  {
+   "brain": "variant",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 1,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-S1-r1"
+  },
+  {
+   "brain": "variant",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 2,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-S1-r2"
+  },
+  {
+   "brain": "variant",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 3,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-S1-r3"
+  },
+  {
+   "brain": "variant",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 4,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-variant-S1-r4"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 0,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r0"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 1,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r1"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 2,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r2"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 3,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r3"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 4,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r4"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 5,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r5"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 6,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r6"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 7,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r7"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 8,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r8"
+  },
+  {
+   "brain": "null",
+   "family": "M0",
+   "model": "remote-dynamic-M0-head_only",
+   "replicate": 9,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-M0-r9"
+  },
+  {
+   "brain": "null",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 0,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-S1-r0"
+  },
+  {
+   "brain": "null",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 1,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-S1-r1"
+  },
+  {
+   "brain": "null",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 2,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-S1-r2"
+  },
+  {
+   "brain": "null",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 3,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-S1-r3"
+  },
+  {
+   "brain": "null",
+   "family": "S1",
+   "model": "supp-S1-ring-brain",
+   "replicate": 4,
+   "out": "studies/brain-pathology-v1/runs/sc-variant-null-S1-r4"
+  }
+ ],
+ "training": "replicate_training.py --model <model> --replicate r --out <run> --lesion <brain file>, then --verify (the X1 protocol: timing order seed 1000 + r, readout jitter seed 2000 + r; the frozen trainers and stopping rules)",
+ "evaluation": "sc_variant_evaluate.py: as-trained (all 35 timings; must reproduce the run verification), adaptation clear and swap at decision onset (prefix-0 trained timings), and for M0 the C01 shifts of dy2_evaluate.SHIFTS_MV on top of the variant (trained timings); net use, lock and C01 ED50 as in tasks/dy2-design.json",
+ "references": "X1 M0 readout-only r0-r9 (results/dy2_models.csv); S1 tests are within the variant brain"
+}

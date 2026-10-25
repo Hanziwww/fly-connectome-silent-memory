@@ -1,0 +1,1632 @@
+[
+  {
+    "id": "difficulty-D0-T0",
+    "task": "D0-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D0-T1",
+    "task": "D0-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D0-T2",
+    "task": "D0-T2",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D1-T0",
+    "task": "D1-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D1-T1",
+    "task": "D1-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D1-T2",
+    "task": "D1-T2",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D2-T0",
+    "task": "D2-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D2-T1",
+    "task": "D2-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D2-T2",
+    "task": "D2-T2",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D3-T0",
+    "task": "D3-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D3-T1",
+    "task": "D3-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D3-T2",
+    "task": "D3-T2",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D4-T0",
+    "task": "D4-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D4-T1",
+    "task": "D4-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D4-T2",
+    "task": "D4-T2",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D5-T0",
+    "task": "D5-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D5-T1",
+    "task": "D5-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D5-T2",
+    "task": "D5-T2",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D6-T0",
+    "task": "D6-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D6-T1",
+    "task": "D6-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D6-T2",
+    "task": "D6-T2",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D7-T0",
+    "task": "D7-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D7-T1",
+    "task": "D7-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "difficulty-D7-T2",
+    "task": "D7-T2",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "difficulty",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-frozen",
+    "task": "D1-T0",
+    "condition": {
+      "name": "frozen",
+      "train_core": false,
+      "train_head": false,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-alternating",
+    "task": "D1-T0",
+    "condition": {
+      "name": "alternating",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear",
+      "update_mode": "alternating"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-head_only",
+    "task": "D1-T0",
+    "condition": {
+      "name": "head_only",
+      "train_core": false,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-entry_ce",
+    "task": "D1-T0",
+    "condition": {
+      "name": "entry_ce",
+      "train_core": true,
+      "train_head": true,
+      "loss": "entry_ce",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-brain_only",
+    "task": "D1-T0",
+    "condition": {
+      "name": "brain_only",
+      "train_core": true,
+      "train_head": false,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-demonstration",
+    "task": "D1-T0",
+    "condition": {
+      "name": "demonstration",
+      "train_core": true,
+      "train_head": true,
+      "loss": "demonstration_ce",
+      "schedule": "demonstration",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-no_recovery",
+    "task": "D1-T0",
+    "condition": {
+      "name": "no_recovery",
+      "train_core": true,
+      "train_head": true,
+      "loss": "entry_only",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-weight_shuffle",
+    "task": "D1-T0",
+    "condition": {
+      "name": "weight_shuffle",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "weight_shuffle",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-board_mlp",
+    "task": "D1-T0",
+    "condition": {
+      "name": "board_mlp",
+      "train_core": false,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "board_mlp"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-rewired",
+    "task": "D1-T0",
+    "condition": {
+      "name": "rewired",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "rewired",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D1-neutral",
+    "task": "D1-T0",
+    "condition": {
+      "name": "neutral",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-neutral",
+    "task": "D3-T0",
+    "condition": {
+      "name": "neutral",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-rewired",
+    "task": "D3-T0",
+    "condition": {
+      "name": "rewired",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "rewired",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-frozen",
+    "task": "D3-T0",
+    "condition": {
+      "name": "frozen",
+      "train_core": false,
+      "train_head": false,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-weight_shuffle",
+    "task": "D3-T0",
+    "condition": {
+      "name": "weight_shuffle",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "weight_shuffle",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-demonstration",
+    "task": "D3-T0",
+    "condition": {
+      "name": "demonstration",
+      "train_core": true,
+      "train_head": true,
+      "loss": "demonstration_ce",
+      "schedule": "demonstration",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-brain_only",
+    "task": "D3-T0",
+    "condition": {
+      "name": "brain_only",
+      "train_core": true,
+      "train_head": false,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-entry_ce",
+    "task": "D3-T0",
+    "condition": {
+      "name": "entry_ce",
+      "train_core": true,
+      "train_head": true,
+      "loss": "entry_ce",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-alternating",
+    "task": "D3-T0",
+    "condition": {
+      "name": "alternating",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear",
+      "update_mode": "alternating"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-head_only",
+    "task": "D3-T0",
+    "condition": {
+      "name": "head_only",
+      "train_core": false,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-board_mlp",
+    "task": "D3-T0",
+    "condition": {
+      "name": "board_mlp",
+      "train_core": false,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "board_mlp"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D3-no_recovery",
+    "task": "D3-T0",
+    "condition": {
+      "name": "no_recovery",
+      "train_core": true,
+      "train_head": true,
+      "loss": "entry_only",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-entry_ce",
+    "task": "D5-T0",
+    "condition": {
+      "name": "entry_ce",
+      "train_core": true,
+      "train_head": true,
+      "loss": "entry_ce",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-board_mlp",
+    "task": "D5-T0",
+    "condition": {
+      "name": "board_mlp",
+      "train_core": false,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "board_mlp"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-head_only",
+    "task": "D5-T0",
+    "condition": {
+      "name": "head_only",
+      "train_core": false,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-no_recovery",
+    "task": "D5-T0",
+    "condition": {
+      "name": "no_recovery",
+      "train_core": true,
+      "train_head": true,
+      "loss": "entry_only",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-neutral",
+    "task": "D5-T0",
+    "condition": {
+      "name": "neutral",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-demonstration",
+    "task": "D5-T0",
+    "condition": {
+      "name": "demonstration",
+      "train_core": true,
+      "train_head": true,
+      "loss": "demonstration_ce",
+      "schedule": "demonstration",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-brain_only",
+    "task": "D5-T0",
+    "condition": {
+      "name": "brain_only",
+      "train_core": true,
+      "train_head": false,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-weight_shuffle",
+    "task": "D5-T0",
+    "condition": {
+      "name": "weight_shuffle",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "weight_shuffle",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-rewired",
+    "task": "D5-T0",
+    "condition": {
+      "name": "rewired",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "rewired",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-frozen",
+    "task": "D5-T0",
+    "condition": {
+      "name": "frozen",
+      "train_core": false,
+      "train_head": false,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D5-alternating",
+    "task": "D5-T0",
+    "condition": {
+      "name": "alternating",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear",
+      "update_mode": "alternating"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-neutral",
+    "task": "D7-T0",
+    "condition": {
+      "name": "neutral",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-alternating",
+    "task": "D7-T0",
+    "condition": {
+      "name": "alternating",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear",
+      "update_mode": "alternating"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-frozen",
+    "task": "D7-T0",
+    "condition": {
+      "name": "frozen",
+      "train_core": false,
+      "train_head": false,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-weight_shuffle",
+    "task": "D7-T0",
+    "condition": {
+      "name": "weight_shuffle",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "weight_shuffle",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-board_mlp",
+    "task": "D7-T0",
+    "condition": {
+      "name": "board_mlp",
+      "train_core": false,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "board_mlp"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-brain_only",
+    "task": "D7-T0",
+    "condition": {
+      "name": "brain_only",
+      "train_core": true,
+      "train_head": false,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-head_only",
+    "task": "D7-T0",
+    "condition": {
+      "name": "head_only",
+      "train_core": false,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-entry_ce",
+    "task": "D7-T0",
+    "condition": {
+      "name": "entry_ce",
+      "train_core": true,
+      "train_head": true,
+      "loss": "entry_ce",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-no_recovery",
+    "task": "D7-T0",
+    "condition": {
+      "name": "no_recovery",
+      "train_core": true,
+      "train_head": true,
+      "loss": "entry_only",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-demonstration",
+    "task": "D7-T0",
+    "condition": {
+      "name": "demonstration",
+      "train_core": true,
+      "train_head": true,
+      "loss": "demonstration_ce",
+      "schedule": "demonstration",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "control-D7-rewired",
+    "task": "D7-T0",
+    "condition": {
+      "name": "rewired",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "rewired",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "controls",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "curriculum-D1",
+    "task": "D1-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "curriculum",
+    "parent": "difficulty-D0-T0",
+    "seed": 10
+  },
+  {
+    "id": "curriculum-D2",
+    "task": "D2-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "curriculum",
+    "parent": "curriculum-D1",
+    "seed": 10
+  },
+  {
+    "id": "curriculum-D3",
+    "task": "D3-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "curriculum",
+    "parent": "curriculum-D2",
+    "seed": 10
+  },
+  {
+    "id": "curriculum-D4",
+    "task": "D4-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "curriculum",
+    "parent": "curriculum-D3",
+    "seed": 10
+  },
+  {
+    "id": "curriculum-D5",
+    "task": "D5-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "curriculum",
+    "parent": "curriculum-D4",
+    "seed": 10
+  },
+  {
+    "id": "curriculum-D6",
+    "task": "D6-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "curriculum",
+    "parent": "curriculum-D5",
+    "seed": 10
+  },
+  {
+    "id": "curriculum-D7",
+    "task": "D7-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "curriculum",
+    "parent": "curriculum-D6",
+    "seed": 10
+  },
+  {
+    "id": "transfer-D1",
+    "task": "D1-H",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "transfer",
+    "parent": "difficulty-D1-T0",
+    "seed": 10
+  },
+  {
+    "id": "transfer-D1-neutral",
+    "task": "D1-H",
+    "condition": {
+      "name": "neutral",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "transfer",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "transfer-D3",
+    "task": "D3-H",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "transfer",
+    "parent": "difficulty-D3-T0",
+    "seed": 10
+  },
+  {
+    "id": "transfer-D3-neutral",
+    "task": "D3-H",
+    "condition": {
+      "name": "neutral",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "transfer",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "transfer-D5",
+    "task": "D5-H",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "transfer",
+    "parent": "difficulty-D5-T0",
+    "seed": 10
+  },
+  {
+    "id": "transfer-D5-neutral",
+    "task": "D5-H",
+    "condition": {
+      "name": "neutral",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "transfer",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "transfer-D7",
+    "task": "D7-H",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "transfer",
+    "parent": "difficulty-D7-T0",
+    "seed": 10
+  },
+  {
+    "id": "transfer-D7-neutral",
+    "task": "D7-H",
+    "condition": {
+      "name": "neutral",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "neutral",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "transfer",
+    "parent": null,
+    "seed": 10
+  },
+  {
+    "id": "memory-similar-B",
+    "task": "D1-T0-S0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "parameter_memory",
+    "parent": "difficulty-D1-T0",
+    "seed": 10,
+    "probe_tasks": [
+      "D1-T0"
+    ]
+  },
+  {
+    "id": "memory-similar-A2",
+    "task": "D1-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "parameter_memory",
+    "parent": "memory-similar-B",
+    "seed": 10,
+    "restore_from": "difficulty-D1-T0",
+    "probe_tasks": [
+      "D1-T0",
+      "D1-T0-S0"
+    ]
+  },
+  {
+    "id": "memory-different-medium-B",
+    "task": "D3-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "parameter_memory",
+    "parent": "difficulty-D3-T0",
+    "seed": 10,
+    "probe_tasks": [
+      "D3-T0"
+    ]
+  },
+  {
+    "id": "memory-different-medium-A2",
+    "task": "D3-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "parameter_memory",
+    "parent": "memory-different-medium-B",
+    "seed": 10,
+    "restore_from": "difficulty-D3-T0",
+    "probe_tasks": [
+      "D3-T0",
+      "D3-T1"
+    ]
+  },
+  {
+    "id": "memory-different-hard-B",
+    "task": "D7-T1",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "parameter_memory",
+    "parent": "difficulty-D5-T0",
+    "seed": 10,
+    "probe_tasks": [
+      "D5-T0"
+    ]
+  },
+  {
+    "id": "memory-different-hard-A2",
+    "task": "D5-T0",
+    "condition": {
+      "name": "joint",
+      "train_core": true,
+      "train_head": true,
+      "loss": "recovery",
+      "schedule": "suffix",
+      "initialization": "p05",
+      "structure": "real",
+      "state_mode": "reset",
+      "model": "brain_linear"
+    },
+    "module": "parameter_memory",
+    "parent": "memory-different-hard-B",
+    "seed": 10,
+    "restore_from": "difficulty-D5-T0",
+    "probe_tasks": [
+      "D5-T0",
+      "D7-T1"
+    ]
+  }
+]

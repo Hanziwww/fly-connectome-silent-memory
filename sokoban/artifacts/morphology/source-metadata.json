@@ -1,0 +1,22 @@
+{
+  "source_page": "https://male-cns.janelia.org/download/",
+  "release": "MaleCNS v1.0",
+  "license": "CC BY 4.0",
+  "skeleton_units_nm": 1,
+  "synapse_units_nm": 8,
+  "builder_extra_dependency": "mmh3==5.2.0",
+  "source_metadata": [
+    {
+      "file": "skeletons-info.json",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/segmentation/skeletons-malecns/skeletons-precomputed/info",
+      "bytes": 36,
+      "sha256": "7a09a33463d511086f4592cabd3eb68737ed56ae7f74dfd99b9f41393bfe0c77"
+    },
+    {
+      "file": "synapses/info.json",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/male-cns-v1.0-synapses-precomputed/info",
+      "bytes": 9221,
+      "sha256": "78b5607bdf3380e037e3edd84aded38a92d6e6ece644ac9f49613d6cd18bdb7c"
+    }
+  ]
+}

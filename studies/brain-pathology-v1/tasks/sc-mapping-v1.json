@@ -1,0 +1,680 @@
+{
+ "task": "T-SC1 mapping v1 (single-cell study; manuscript/SINGLE_CELL_INTEGRATION_PLAN.md M1-M5; plan approved 2026-10-22)",
+ "declared": "2026-10-22, after the mapping and before any model analysis of the single-cell study (no adaptation index, H1, operator or panel value computed)",
+ "host": "rtx5090x4, .venv-sc (code/requirements-sc.txt)",
+ "code": {
+  "code/sc_common.py": "db7f67739ff80bb11dcb0f89ed502cb9ef6396ad5670a832a11f1778e747ae10",
+  "code/sc_model_cells.py": "0ee558cae63274e83e9f4ecb9952ac7bd4555bd31ca9a4fd09482da6a3361038",
+  "code/sc_mapping.py": "0d59d7540ed25d6e42f503f4d485fbe01b2647804ba98d6a21d7e74c3844346a",
+  "code/sc_lock_mapping.py": "4d7b1c7f9c23f12a35208ae7eeb7bf5a5ba7627412635a703215bec7fd1e5435",
+  "code/requirements-sc.txt": "dafe5220f59561b41c30407367a2244cb7c88efec0b83f5382069cc335163a3d"
+ },
+ "provenance": {
+  "code": {
+   "studies/brain-pathology-v1/code/sc_mapping.py": "0d59d7540ed25d6e42f503f4d485fbe01b2647804ba98d6a21d7e74c3844346a",
+   "studies/brain-pathology-v1/code/sc_common.py": "db7f67739ff80bb11dcb0f89ed502cb9ef6396ad5670a832a11f1778e747ae10"
+  },
+  "python": "3.12.3",
+  "packages": {
+   "numpy": "2.5.4",
+   "scipy": "1.18.1",
+   "pandas": "3.0.6",
+   "anndata": "0.13.4",
+   "h5py": "3.16.0",
+   "pyarrow": "26.0.0",
+   "openpyxl": "3.1.5"
+  },
+  "inputs": {
+   "data/external/GSE116969/GSE116969_dataTable3.genes_x_samples_TPM.coding_genes.txt.gz": {
+    "bytes": 6513528,
+    "sha256": "5c035c18b531995e2fe1b56109c1c8550628b678d305b6942b9e073bf37a3181"
+   },
+   "data/external/GSE142787/GSE142787_Log_normalized_average_expression.xlsx": {
+    "bytes": 145820714,
+    "sha256": "44999534dd706c2c06686718fbbf982d99743138b45e435620603a3d3646b259"
+   },
+   "data/external/GSE107451/GSE107451_DGRP-551_w1118_WholeBrain_57k_0d_1d_3d_6d_9d_15d_30d_50d_10X_DGEM_MEX.mtx.tsv.tar.gz": {
+    "bytes": 219256938,
+    "sha256": "5beaf1378736a41b8668cf8ae1816900b491aeba44a0aeeca71480d80d5d7ca6"
+   },
+   "data/external/GSE107451/GSE107451_DGRP-551_w1118_WholeBrain_57k_Metadata.tsv.gz": {
+    "bytes": 4642833,
+    "sha256": "bb0e13e263d182b819df3e4bebfde77e267c070a30ec5d68ba19bd9a19c46cc9"
+   },
+   "data/external/GSE218661/GSE218661_adata_head_S_v1.0.h5ad.gz": {
+    "bytes": 560392809,
+    "sha256": "87806164b17db4d28c2923980b583d644aabf9f068720dde106143516c3eaab9"
+   },
+   "runtime/sc/derived/GSE218661_adata_head_S_v1.0.h5ad": {
+    "bytes": 1724402624,
+    "sha256": "99719dafb1300d3f96975792e1f0da3a516ee5e75f54fdf1751414e5b49111e4"
+   },
+   "data/external/GSE261656/GSE261656_adata_adfca_head_v1.0.h5ad": {
+    "bytes": 6091257101,
+    "sha256": "c56932692f0291ab0bd50fa322d437e66841f0973fcf7146037a07f1e7861de5"
+   },
+   "studies/brain-pathology-v1/inputs/sc_model_cells.parquet": {
+    "bytes": 4928576,
+    "sha256": "de685801e33b8543fea96baa675cc5ebfe72e32bc4de3313e822cf063fa3faab"
+   },
+   "flybrain/flybrain/data/type_map_davis2020.csv": {
+    "bytes": 36746,
+    "sha256": "0eea30fd96aebe92cee0a87a70a5030cd6db99c1ea2617b20323a88e615f0e76"
+   },
+   "flybrain/flybrain/data/type_map_ozel2021.csv": {
+    "bytes": 36341,
+    "sha256": "016aafe329e10b5e90c11ddaf27c63f54f6ada66466b020cb52bb66a2868bc44"
+   },
+   "flybrain/flybrain/data/type_map_central.csv": {
+    "bytes": 294922,
+    "sha256": "c1a0d9e6fa8302a158492b9f0f6d0031b41e163b4fbd3f5aaf5c9bbf41f03173"
+   },
+   "flybrain/flybrain/data/expression_central.csv": {
+    "bytes": 224775,
+    "sha256": "272d248bd62ae2789e322cd277d629abb4b9a6f8c081f7f8f38935e7742a3b36"
+   }
+  },
+  "inputs_checked": [
+   "data/external/GSE116969/GSE116969_dataTable3.genes_x_samples_TPM.coding_genes.txt.gz",
+   "data/external/GSE142787/GSE142787_Log_normalized_average_expression.xlsx",
+   "data/external/GSE107451/GSE107451_DGRP-551_w1118_WholeBrain_57k_0d_1d_3d_6d_9d_15d_30d_50d_10X_DGEM_MEX.mtx.tsv.tar.gz",
+   "data/external/GSE107451/GSE107451_DGRP-551_w1118_WholeBrain_57k_Metadata.tsv.gz",
+   "data/external/GSE218661/GSE218661_adata_head_S_v1.0.h5ad.gz",
+   "data/external/GSE261656/GSE261656_adata_adfca_head_v1.0.h5ad",
+   "studies/brain-pathology-v1/inputs/sc_model_cells.parquet",
+   "flybrain/flybrain/data/type_map_davis2020.csv",
+   "flybrain/flybrain/data/type_map_ozel2021.csv",
+   "flybrain/flybrain/data/type_map_central.csv",
+   "flybrain/flybrain/data/expression_central.csv"
+  ]
+ },
+ "sources": {
+  "davis2020": "GSE116969 dataTable3: driver-line samples grouped by type (250 samples; 16 mock, no-driver, bead and Tm1 protocol controls excluded); mean log1p(TPM)",
+  "ozel2021": "GSE142787 Adult sheet: published log-normalised cluster averages",
+  "davie2018": "GSE107451 57k whole brain: mean log1p(cp10k) and detection fraction per annotation; reproduces flybrain's expression_central.csv to rounding",
+  "afca2023": "GSE218661 Aging Fly Cell Atlas head: mean of the published log1p(cp10k) and detection fraction per afca_annotation (all ages and sexes)",
+  "adfca2025": "GSE261656 AD Fly Cell Atlas head, control samples: umi_counts -> log1p(cp10k) per adfca_annotation",
+  "not_used": "D3 Kurmangaliyev 2020 (matrix not downloaded; Ozel covers the adult optic lobe); D5 lineage route (see lineage)"
+ },
+ "tiers": "flybrain type maps (exact, alias, fuzzy, class); best tier per cell, then source order davis2020 > ozel2021 > davie2018 > afca2023 > adfca2025; fca2022 labels applied to both FCA-derived atlases",
+ "lineage": "No lineage tier (M2): Allen et al. 2026 (D5) Tables S2-S5 name central-brain types by transmitter (Achl_000 ...) and carry no hemilineage labels, so the planned route Allen type -> hemilineage -> itoleeHl cannot be built (manuscript/SINGLE_CELL_T-SC0_SEARCH.md). The approved fallback applies: the central brain stays at class level. The adult VNC atlas (Allen et al. 2020, GSE141807) gives hemilineages per cluster only (eLife source data; no per-cell labels deposited) and would reach at most the VNC share of the trace carriers (about 45%), below the gate; it is not used.",
+ "outputs": {
+  "runs/sc-mapping/cell_candidates.parquet": {
+   "bytes": 1960215,
+   "sha256": "9fd288da11e9cc3e18b0b60aa5e387da19b53916be9091e505ac611915371074"
+  },
+  "runs/sc-mapping/cell_map.parquet": {
+   "bytes": 5121768,
+   "sha256": "6cca23fbab960bc511965e4d2c8fdbbbb856a1bbea28de90494e3939176b821b"
+  },
+  "runs/sc-mapping/coverage.csv": {
+   "bytes": 3744,
+   "sha256": "a4a844e845d16131410826690d0ecba3f3ac989c90dd76801ab8ef5b742e5f77"
+  },
+  "runs/sc-mapping/mapping_qc.csv": {
+   "bytes": 2729,
+   "sha256": "8685545aeb83d05e6cf3da9ab67d8a91692d91313d5ad059141665332cd9d905"
+  },
+  "runs/sc-mapping/provenance.json": {
+   "bytes": 2686,
+   "sha256": "094028b051a5b74f1a95d44b56cbc3d05d2a3b43353053c53cb013db505d1f06"
+  },
+  "runs/sc-mapping/unit_sizes.csv": {
+   "bytes": 14787,
+   "sha256": "5ec0d4cbc12570285d0b659a51a34c38301819ed712cf028dadda27adbbcabb1"
+  },
+  "runs/sc-mapping/units_adfca2025_frac.parquet": {
+   "bytes": 17276098,
+   "sha256": "ec31c9e03f3f35d3e03eb8a680e42673c3b72223cfc1b0509f466f2e4d297075"
+  },
+  "runs/sc-mapping/units_adfca2025_mean.parquet": {
+   "bytes": 17432748,
+   "sha256": "f24e4d700be53d98117dbc536078abffee08fd916397fb4c34c955149b0b500e"
+  },
+  "runs/sc-mapping/units_afca2023_frac.parquet": {
+   "bytes": 17188894,
+   "sha256": "39ac01c3a01fc23a9cadfd04ccec95f6dad2fa6534d2b6a5f007fe7a14e2d31b"
+  },
+  "runs/sc-mapping/units_afca2023_mean.parquet": {
+   "bytes": 17252970,
+   "sha256": "2aff513d910c0232ad57243a3521376e1e14c0e2f196f5173f3a0e6b61eff537"
+  },
+  "runs/sc-mapping/units_davie2018_frac.parquet": {
+   "bytes": 18126512,
+   "sha256": "a67b72c05464ab61295a8f1ecfa1e9e9243311850d5642593681705c798ff90e"
+  },
+  "runs/sc-mapping/units_davie2018_mean.parquet": {
+   "bytes": 18319896,
+   "sha256": "23f687d2f3b67d3801a97ab6967b497b4a2f612a180f2b32eba1719d856bca0a"
+  },
+  "runs/sc-mapping/units_davis2020_mean.parquet": {
+   "bytes": 17838640,
+   "sha256": "94d7313c56839e7fd9256e2dba569cc92a8d4f3c6b36782009dd594d7ee46f62"
+  },
+  "runs/sc-mapping/units_ozel2021_mean.parquet": {
+   "bytes": 20816752,
+   "sha256": "7e8640889dc7385d7b5f11bb26390950175f24774067a280975eb7f25914a1b8"
+  }
+ },
+ "qc": {
+  "davis_samples": "{\"samples\": 250, \"controls\": [\"L1L2_aFLAG_beads_rep1\", \"L1L2_aFLAG_beads_rep2\", \"Tm1_d1_capture1_rep1\", \"Tm1_d1_capture1_rep2\", \"Tm1_d1_input_rep1\", \"Tm1_d1_input_rep2\", \"Tm1_d1_mock1_rep1\", \"Tm1_d1_mock1_rep2\", \"Tm1_d1_mock2_rep1\", \"Tm1_d1_mock2_rep2\", \"mock2_rep1\", \"mock2_rep2\", \"no_driver_aGFP_beads_rep1\", \"no_driver_aGFP_beads_rep2\", \"no_driver_aGFP_beads_rep3\", \"no_driver_aGFP_beads_rep4\"]}",
+  "davie_barcodes": "{\"barcode_key\": \"new_barcode\", \"cells\": 56902}",
+  "afca_log1p_cp10k": "{\"expm1_row_sum_median\": 10000.0, \"expm1_row_sum_p05\": 9999.9990234375, \"expm1_row_sum_p95\": 10000.0009765625}",
+  "map_units_present_davis2020": "143/143 map rows; 92 units",
+  "map_units_present_ozel2021": "90/90 map rows; 63 units",
+  "map_units_present_davie2018": "580/580 map rows; 50 units",
+  "map_units_present_afca2023": "446/483 map rows; 56 units",
+  "map_units_present_adfca2025": "202/483 map rows; 50 units",
+  "davie_vs_flybrain_expression_central": "116/116 units x 52 genes: max abs diff 5.06e-05 (values rounded to 1e-4); cell counts differ in 0 units",
+  "transmitter_concordance_davis2020": "59/62 type-level map rows (EM transmitter known)",
+  "transmitter_concordance_ozel2021": "42/44 type-level map rows (EM transmitter known)",
+  "transmitter_concordance_davie2018": "15/16 type-level map rows (EM transmitter known)",
+  "transmitter_concordance_afca2023": "34/36 type-level map rows (EM transmitter known)",
+  "transmitter_concordance_adfca2025": "35/36 type-level map rows (EM transmitter known)",
+  "marker_Kenyon cells_davis2020": "mean z of ['ey', 'Pka-C1'] over 7 mapped units: 2.34",
+  "marker_Kenyon cells_davie2018": "mean z of ['ey', 'Pka-C1'] over 3 mapped units: 4.68",
+  "marker_projection neurons_davie2018": "mean z of ['acj6'] over 9 mapped units: 1.45",
+  "marker_ring neurons (GABAergic)_davie2018": "mean z of ['Gad1', 'VGAT'] over 1 mapped units: 3.06",
+  "marker_Kenyon cells_afca2023": "mean z of ['ey', 'Pka-C1'] over 4 mapped units: 2.72",
+  "marker_projection neurons_afca2023": "mean z of ['acj6'] over 1 mapped units: 1.86",
+  "marker_ring neurons (GABAergic)_afca2023": "mean z of ['Gad1', 'VGAT'] over 1 mapped units: 2.43",
+  "marker_Kenyon cells_adfca2025": "mean z of ['ey', 'Pka-C1'] over 3 mapped units: 3.78",
+  "marker_ring neurons (GABAergic)_adfca2025": "mean z of ['Gad1', 'VGAT'] over 1 mapped units: 2.32",
+  "cross_source_davis2020_vs_ozel2021": "47 matched unit pairs: median rho 0.545; 978 mismatched pairs: median 0.453",
+  "cross_source_davie2018_vs_afca2023": "34 matched unit pairs: median rho 0.668; 958 mismatched pairs: median 0.573",
+  "cross_source_afca2023_vs_adfca2025": "47 matched unit pairs: median rho 0.931; 976 mismatched pairs: median 0.812",
+  "cross_source_davie2018_vs_adfca2025": "33 matched unit pairs: median rho 0.538; 960 mismatched pairs: median 0.470"
+ },
+ "coverage": [
+  {
+   "cell_set": "all",
+   "cells": 167106,
+   "exact": 0.2881883355,
+   "alias": 0.0376707,
+   "fuzzy": 0.1499407562,
+   "class": 0.0291371944,
+   "unmapped": 0.4950630139,
+   "type_level": 0.3258590356,
+   "type_or_fuzzy": 0.4757997917,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "optic lobe (ol_*)",
+   "cells": 95488,
+   "exact": 0.4709492292,
+   "alias": 0.0451889243,
+   "fuzzy": 0.2247716991,
+   "class": 0.0033197889,
+   "unmapped": 0.2557703586,
+   "type_level": 0.5161381535,
+   "type_or_fuzzy": 0.7409098525,
+   "gate_sc_a_type_level": true
+  },
+  {
+   "cell_set": "central brain (non-OL, non-VNC)",
+   "cells": 47545,
+   "exact": 0.0670522663,
+   "alias": 0.0416447576,
+   "fuzzy": 0.0755705121,
+   "class": 0.0952571248,
+   "unmapped": 0.7204753392,
+   "type_level": 0.1086970239,
+   "type_or_fuzzy": 0.184267536,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "VNC with ascending and descending",
+   "cells": 24073,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.0,
+   "class": 0.0009554272,
+   "unmapped": 0.9990445728,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.0,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "visual projection",
+   "cells": 9201,
+   "exact": 0.3447451364,
+   "alias": 0.0,
+   "fuzzy": 0.0442343224,
+   "class": 0.0004347354,
+   "unmapped": 0.6105858059,
+   "type_level": 0.3447451364,
+   "type_or_fuzzy": 0.3889794588,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "central-brain intrinsic",
+   "cells": 32160,
+   "exact": 0.0,
+   "alias": 0.0615671642,
+   "fuzzy": 0.0984763682,
+   "class": 0.0361940299,
+   "unmapped": 0.8037624378,
+   "type_level": 0.0615671642,
+   "type_or_fuzzy": 0.1600435323,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "VNC intrinsic",
+   "cells": 13151,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.0,
+   "class": 0.0,
+   "unmapped": 1.0,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.0,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "descending neurons",
+   "cells": 1314,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.0,
+   "class": 0.0175038052,
+   "unmapped": 0.9824961948,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.0,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "ascending neurons",
+   "cells": 1846,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.0,
+   "class": 0.0,
+   "unmapped": 1.0,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.0,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "readout cells",
+   "cells": 4096,
+   "exact": 0.0634765625,
+   "alias": 0.0002441406,
+   "fuzzy": 0.0092773438,
+   "class": 0.0144042969,
+   "unmapped": 0.9125976562,
+   "type_level": 0.0637207031,
+   "type_or_fuzzy": 0.0729980469,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "visual input cells",
+   "cells": 3200,
+   "exact": 0.3540625,
+   "alias": 0.0,
+   "fuzzy": 0.04375,
+   "class": 0.000625,
+   "unmapped": 0.6015625,
+   "type_level": 0.3540625,
+   "type_or_fuzzy": 0.3978125,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "Kenyon cells",
+   "cells": 4064,
+   "exact": 0.0,
+   "alias": 0.4146161417,
+   "fuzzy": 0.5848917323,
+   "class": 0.000492126,
+   "unmapped": 0.0,
+   "type_level": 0.4146161417,
+   "type_or_fuzzy": 0.999507874,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "ring neurons (ER)",
+   "cells": 282,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.0,
+   "class": 0.9113475177,
+   "unmapped": 0.0886524823,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.0,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "central complex (class CX)",
+   "cells": 2950,
+   "exact": 0.0,
+   "alias": 0.0630508475,
+   "fuzzy": 0.1128813559,
+   "class": 0.1189830508,
+   "unmapped": 0.7050847458,
+   "type_level": 0.0630508475,
+   "type_or_fuzzy": 0.1759322034,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "antennal-lobe projection neurons (ALPN)",
+   "cells": 686,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.3192419825,
+   "class": 0.6749271137,
+   "unmapped": 0.0058309038,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.3192419825,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "dopaminergic (DAN)",
+   "cells": 340,
+   "exact": 0.0,
+   "alias": 0.2882352941,
+   "fuzzy": 0.6411764706,
+   "class": 0.0705882353,
+   "unmapped": 0.0,
+   "type_level": 0.2882352941,
+   "type_or_fuzzy": 0.9294117647,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "mushroom-body output (MBON)",
+   "cells": 97,
+   "exact": 0.0,
+   "alias": 0.1134020619,
+   "fuzzy": 0.0,
+   "class": 0.8865979381,
+   "unmapped": 0.0,
+   "type_level": 0.1134020619,
+   "type_or_fuzzy": 0.1134020619,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "adaptation difference > 0 (m0)",
+   "cells": 6379,
+   "exact": 0.0685060354,
+   "alias": 0.0,
+   "fuzzy": 0.0051732246,
+   "class": 0.0153629095,
+   "unmapped": 0.9109578304,
+   "type_level": 0.0685060354,
+   "type_or_fuzzy": 0.0736792601,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "top 1% adaptation difference (m0)",
+   "cells": 1681,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.000594884,
+   "class": 0.0220107079,
+   "unmapped": 0.9773944081,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.000594884,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "adaptation difference > 0 (m0_joint)",
+   "cells": 6198,
+   "exact": 0.0692158761,
+   "alias": 0.0,
+   "fuzzy": 0.0051629558,
+   "class": 0.0164569216,
+   "unmapped": 0.9091642465,
+   "type_level": 0.0692158761,
+   "type_or_fuzzy": 0.0743788319,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "top 1% adaptation difference (m0_joint)",
+   "cells": 1678,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.0005959476,
+   "class": 0.0274135876,
+   "unmapped": 0.9719904648,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.0005959476,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "adaptation difference > 0 (m0vis)",
+   "cells": 6379,
+   "exact": 0.0685060354,
+   "alias": 0.0,
+   "fuzzy": 0.0051732246,
+   "class": 0.0153629095,
+   "unmapped": 0.9109578304,
+   "type_level": 0.0685060354,
+   "type_or_fuzzy": 0.0736792601,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "top 1% adaptation difference (m0vis)",
+   "cells": 1681,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.000594884,
+   "class": 0.0220107079,
+   "unmapped": 0.9773944081,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.000594884,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "adaptation difference > 0 (s1)",
+   "cells": 6188,
+   "exact": 0.0563994829,
+   "alias": 0.0,
+   "fuzzy": 0.0045248869,
+   "class": 0.0174531351,
+   "unmapped": 0.9216224952,
+   "type_level": 0.0563994829,
+   "type_or_fuzzy": 0.0609243697,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "top 1% adaptation difference (s1)",
+   "cells": 1682,
+   "exact": 0.0053507729,
+   "alias": 0.0,
+   "fuzzy": 0.0,
+   "class": 0.0142687277,
+   "unmapped": 0.9803804994,
+   "type_level": 0.0053507729,
+   "type_or_fuzzy": 0.0053507729,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "adaptation difference > 0 (s2)",
+   "cells": 5925,
+   "exact": 0.0717299578,
+   "alias": 0.0,
+   "fuzzy": 0.0043881857,
+   "class": 0.017721519,
+   "unmapped": 0.9061603376,
+   "type_level": 0.0717299578,
+   "type_or_fuzzy": 0.0761181435,
+   "gate_sc_a_type_level": false
+  },
+  {
+   "cell_set": "top 1% adaptation difference (s2)",
+   "cells": 1672,
+   "exact": 0.0,
+   "alias": 0.0,
+   "fuzzy": 0.0,
+   "class": 0.014354067,
+   "unmapped": 0.985645933,
+   "type_level": 0.0,
+   "type_or_fuzzy": 0.0,
+   "gate_sc_a_type_level": false
+  }
+ ],
+ "gate_sca": {
+  "rule": "type level (exact, alias or fuzzy) >= 50% of the question's cells, else class level with the limitation stated",
+  "questions": [
+   {
+    "question": "Q1 H1: trace carriers, M0 readout-only (primary)",
+    "family": "F14.SC.trace",
+    "cell_set": "adaptation difference > 0 (m0)",
+    "cells": 6379,
+    "exact_alias": 0.0685,
+    "type_or_fuzzy": 0.0737,
+    "any_tier": 0.089,
+    "unmapped": 0.911,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "H1 at class level (any tier) on the mapped carriers; type-only and type+fuzzy as sensitivity; limitation stated"
+   },
+   {
+    "question": "Q1 H1: trace carriers, M0 joint",
+    "family": "F14.SC.trace (secondary)",
+    "cell_set": "adaptation difference > 0 (m0_joint)",
+    "cells": 6198,
+    "exact_alias": 0.0692,
+    "type_or_fuzzy": 0.0744,
+    "any_tier": 0.0908,
+    "unmapped": 0.9092,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "as primary"
+   },
+   {
+    "question": "Q1 H1: trace carriers, shared readout",
+    "family": "F14.SC.trace (secondary)",
+    "cell_set": "adaptation difference > 0 (m0vis)",
+    "cells": 6379,
+    "exact_alias": 0.0685,
+    "type_or_fuzzy": 0.0737,
+    "any_tier": 0.089,
+    "unmapped": 0.911,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "as primary"
+   },
+   {
+    "question": "Q1 H1: trace carriers, S1",
+    "family": "F14.SC.trace (secondary)",
+    "cell_set": "adaptation difference > 0 (s1)",
+    "cells": 6188,
+    "exact_alias": 0.0564,
+    "type_or_fuzzy": 0.0609,
+    "any_tier": 0.0784,
+    "unmapped": 0.9216,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "as primary"
+   },
+   {
+    "question": "Q1 H1: trace carriers, S2",
+    "family": "F14.SC.trace (secondary)",
+    "cell_set": "adaptation difference > 0 (s2)",
+    "cells": 5925,
+    "exact_alias": 0.0717,
+    "type_or_fuzzy": 0.0761,
+    "any_tier": 0.0938,
+    "unmapped": 0.9062,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "as primary"
+   },
+   {
+    "question": "Q2 Kv4-weighted C01 (SC2)",
+    "family": "F14.SC.kv4",
+    "cell_set": "all",
+    "cells": 167106,
+    "exact_alias": 0.3259,
+    "type_or_fuzzy": 0.4758,
+    "any_tier": 0.5049,
+    "unmapped": 0.4951,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "Shal weight per mapped cell (any tier); unmapped cells take the class mean or the global mean (two declared imputations); limitation stated"
+   },
+   {
+    "question": "Q3 aging operator (SC3)",
+    "family": "G2 rules",
+    "cell_set": "all",
+    "cells": 167106,
+    "exact_alias": 0.3259,
+    "type_or_fuzzy": 0.4758,
+    "any_tier": 0.5049,
+    "unmapped": 0.4951,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "class level by design (per-class age changes); limitation stated"
+   },
+   {
+    "question": "Q4 annotation: readout cells",
+    "family": "descriptive",
+    "cell_set": "readout cells",
+    "cells": 4096,
+    "exact_alias": 0.0637,
+    "type_or_fuzzy": 0.073,
+    "any_tier": 0.0874,
+    "unmapped": 0.9126,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "descriptive at every tier; coverage reported"
+   },
+   {
+    "question": "Q4 annotation: ring neurons",
+    "family": "descriptive",
+    "cell_set": "ring neurons (ER)",
+    "cells": 282,
+    "exact_alias": 0.0,
+    "type_or_fuzzy": 0.0,
+    "any_tier": 0.9113,
+    "unmapped": 0.0887,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "descriptive at class level"
+   },
+   {
+    "question": "Q4 annotation: optic lobe",
+    "family": "descriptive",
+    "cell_set": "optic lobe (ol_*)",
+    "cells": 95488,
+    "exact_alias": 0.5161,
+    "type_or_fuzzy": 0.7409,
+    "any_tier": 0.7442,
+    "unmapped": 0.2558,
+    "type_level_passes": true,
+    "level": "type",
+    "decision": "proceeds at type level"
+   },
+   {
+    "question": "Q4 annotation: Kenyon cells",
+    "family": "descriptive",
+    "cell_set": "Kenyon cells",
+    "cells": 4064,
+    "exact_alias": 0.4146,
+    "type_or_fuzzy": 0.9995,
+    "any_tier": 1.0,
+    "unmapped": 0.0,
+    "type_level_passes": true,
+    "level": "type",
+    "decision": "proceeds at type level"
+   },
+   {
+    "question": "Q5 intrinsic variants (SC4)",
+    "family": "F14.SC.variant",
+    "cell_set": "all",
+    "cells": 167106,
+    "exact_alias": 0.3259,
+    "type_or_fuzzy": 0.4758,
+    "any_tier": 0.5049,
+    "unmapped": 0.4951,
+    "type_level_passes": false,
+    "level": "class",
+    "decision": "adaptation scale from the index for mapped cells (any tier); unmapped cells x1 (declared); limitation stated"
+   }
+  ]
+ },
+ "limitations": [
+  "91% of the M0 trace carriers (cells with a decision-time adaptation difference at delay 160 ms, prefix 4) are unmapped at any tier: 37% are VNC intrinsic and 32% central-brain intrinsic cells, which no source resolves; H1 speaks for the mapped carriers (mostly visual projection and optic-lobe cells) only",
+  "about half of all model cells are unmapped, so cell-type operators (Kv4 weighting, intrinsic variants) act on the mapped half and use declared imputations elsewhere",
+  "single-nucleus and single-cell sources differ in depth; detection under 10% is flagged in the panels (M3)"
+ ]
+}

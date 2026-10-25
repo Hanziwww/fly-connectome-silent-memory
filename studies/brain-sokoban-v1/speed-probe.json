@@ -1,0 +1,58 @@
+[
+  {
+    "deterministic": false,
+    "column_major": false,
+    "seconds": [
+      0.10462589998496696,
+      0.05616360000567511,
+      0.060325900034513324,
+      0.0629348999937065
+    ],
+    "repeated_inference": 3.814697265625e-06,
+    "forward_vs_gradient": 3.814697265625e-06,
+    "repeated_gradient": 3.814697265625e-06,
+    "layout": "torch.sparse_csr"
+  },
+  {
+    "deterministic": true,
+    "column_major": false,
+    "seconds": [
+      0.14210549998097122,
+      0.06241810001665726,
+      0.061746700026560575,
+      0.062392399995587766
+    ],
+    "repeated_inference": 3.814697265625e-06,
+    "forward_vs_gradient": 5.7220458984375e-06,
+    "repeated_gradient": 3.814697265625e-06,
+    "layout": "torch.sparse_csr"
+  },
+  {
+    "deterministic": false,
+    "column_major": true,
+    "seconds": [
+      0.16796859999885783,
+      0.1669469999615103,
+      0.1649986999691464,
+      0.16502730001229793
+    ],
+    "repeated_inference": 3.814697265625e-06,
+    "forward_vs_gradient": 7.62939453125e-06,
+    "repeated_gradient": 7.62939453125e-06,
+    "layout": "torch.sparse_csr"
+  },
+  {
+    "deterministic": true,
+    "column_major": true,
+    "seconds": [
+      0.1709663999499753,
+      0.17016500001773238,
+      0.17088369996054098,
+      0.17015750001883134
+    ],
+    "repeated_inference": 7.62939453125e-06,
+    "forward_vs_gradient": 3.814697265625e-06,
+    "repeated_gradient": 3.814697265625e-06,
+    "layout": "torch.sparse_csr"
+  }
+]

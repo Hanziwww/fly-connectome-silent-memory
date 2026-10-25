@@ -1,0 +1,11 @@
+{
+  "seconds": [
+    2.283943700022064,
+    2.2594103000010364,
+    2.2579625999787822,
+    2.2734494999749586
+  ],
+  "repeated_inference": 0.0,
+  "forward_vs_gradient": 0.0,
+  "repeated_gradient": 0.0
+}

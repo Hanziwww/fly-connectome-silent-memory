@@ -1,0 +1,1393 @@
+[
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/segment_properties/info",
+    "file": "brain\\labels.json",
+    "bytes": 3034,
+    "sha256": "9955cc05c4409366b65cabdc87482f8226b48ba78dd45b6824da758803ce2f7d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/segment_properties/info",
+    "file": "vnc\\labels.json",
+    "bytes": 1093,
+    "sha256": "9cfc17752b5feb97c005dc352d339aa85b1646f43ec806084eacc06460321ca5"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/1:0",
+    "file": "brain\\1-manifest.json",
+    "bytes": 43,
+    "sha256": "62e22fb7ac5eb3f4af64c4a34cab783474f2188f093f54687603a8ef16749b75"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AL%28L%29.ngmesh",
+    "file": "brain\\1-AL(L).ngmesh",
+    "bytes": 1440196,
+    "sha256": "02c3c529bc6cc4d4e0d120853319c3cd13f78189ddec622473b3b550748f80ce"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/2:0",
+    "file": "brain\\2-manifest.json",
+    "bytes": 43,
+    "sha256": "18f2e40f78e52757bc13404823e1e9efdc5fedaa721b752a59f751510bcbe875"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AL%28R%29.ngmesh",
+    "file": "brain\\2-AL(R).ngmesh",
+    "bytes": 1456168,
+    "sha256": "eb847795903d6267517c19e8e75b4a6f98dc4d48afe539a144ae3865a819a83a"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/3:0",
+    "file": "brain\\3-manifest.json",
+    "bytes": 44,
+    "sha256": "1f36ade3e73de2e177720eb4bde7ee8599b2a2a68ed58d53bf45fafba7ffe3a3"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AME%28L%29.ngmesh",
+    "file": "brain\\AME(L).ngmesh",
+    "bytes": 190636,
+    "sha256": "d92eaf1b5fbf590e67386e13be0874bc328d2fe9de97667b4c5f80f60c2ab7e0"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/4:0",
+    "file": "brain\\4-manifest.json",
+    "bytes": 44,
+    "sha256": "71b47a1fc69b6784b66eadc12b8a3a8d046b8c5e6cc80f13469cd0a61bd4b6f1"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AME%28R%29.ngmesh",
+    "file": "brain\\AME(R).ngmesh",
+    "bytes": 319540,
+    "sha256": "65fa91bb1cb18232f40c3968440e1c69461ee244af90c4b51b1ce2b757653059"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/5:0",
+    "file": "brain\\5-manifest.json",
+    "bytes": 45,
+    "sha256": "c0221d587380224903e343eb7818465a0796ad5e91f8f157f421d4f08745286e"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AMMC%28L%29.ngmesh",
+    "file": "brain\\AMMC(L).ngmesh",
+    "bytes": 1566952,
+    "sha256": "d671cb1878c3b697d563a290586abec84d78d8bf8474b7217393f904d1dcdd9e"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/6:0",
+    "file": "brain\\6-manifest.json",
+    "bytes": 45,
+    "sha256": "853a375129a47417caf5c922aaf100b0ee9d24fcd980475221f45088dfe26d74"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AMMC%28R%29.ngmesh",
+    "file": "brain\\AMMC(R).ngmesh",
+    "bytes": 1692328,
+    "sha256": "97ffb59c97aa81354168adfb040d313846f8a6ab45ec645b3011b0a3b196d942"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/7:0",
+    "file": "brain\\7-manifest.json",
+    "bytes": 45,
+    "sha256": "4b8ea23e9241a9aeb5e9b5fa3f8e809a7c6219ac30ae7a1b10ee6a2c99d8dede"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AOTU%28L%29.ngmesh",
+    "file": "brain\\AOTU(L).ngmesh",
+    "bytes": 472840,
+    "sha256": "b5ab7a1331074bbd22179e8a15f48256ed020c435bf40c4f259cfbc2482d4333"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/8:0",
+    "file": "brain\\8-manifest.json",
+    "bytes": 45,
+    "sha256": "327fbde15ecdb2216556e1985714b8500338344a935c879d543a3b731f686062"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AOTU%28R%29.ngmesh",
+    "file": "brain\\AOTU(R).ngmesh",
+    "bytes": 606208,
+    "sha256": "8dba06050f59b5b4fc4d9fadeaa5d10b480abc4bfceefc12d41b0af9fb17f4cf"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/9:0",
+    "file": "brain\\9-manifest.json",
+    "bytes": 44,
+    "sha256": "a81e68e731c448fe939b540f34062158550305e676e3d75e8665e25779990485"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/ATL%28L%29.ngmesh",
+    "file": "brain\\ATL(L).ngmesh",
+    "bytes": 329680,
+    "sha256": "30c527cae8ed2ba8bcebea95e3318767de605fabdd53b75fae50540f3d7272c6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/10:0",
+    "file": "brain\\10-manifest.json",
+    "bytes": 44,
+    "sha256": "23260c5794b15d96f75247e150696efe4885198fb2a03956094d070b6dc78a3e"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/ATL%28R%29.ngmesh",
+    "file": "brain\\ATL(R).ngmesh",
+    "bytes": 320248,
+    "sha256": "4fbb700d9c395ef863219d9284475bf6cc6cd48098fbe0c2ebc56b7b6825bf10"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/11:0",
+    "file": "brain\\11-manifest.json",
+    "bytes": 45,
+    "sha256": "76351d7fd564a16a87dd0b58a49a86dec23c3345b4e89b56d82266f96451ded7"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AVLP%28L%29.ngmesh",
+    "file": "brain\\AVLP(L).ngmesh",
+    "bytes": 2758300,
+    "sha256": "569cb3b550a25b2a052d650e8839de19857633eb49d7387ee771d146b4a470bf"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/12:0",
+    "file": "brain\\12-manifest.json",
+    "bytes": 45,
+    "sha256": "91b183d96ce6a68d3bc851607191712d6327a35239701e24dd16aac92cee7090"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AVLP%28R%29.ngmesh",
+    "file": "brain\\AVLP(R).ngmesh",
+    "bytes": 2492152,
+    "sha256": "2d9f5b52808aa3576301a424c5a36f71bed5c8ad60047fa2265dd74630409cec"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/13:0",
+    "file": "brain\\13-manifest.json",
+    "bytes": 43,
+    "sha256": "b774a7ee675d17059149317303cc1bb7eacb87ab7e0a39ede4e83f2ab5b8aa4c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/BU%28L%29.ngmesh",
+    "file": "brain\\BU(L).ngmesh",
+    "bytes": 263800,
+    "sha256": "f4e75d9f9a45d6d08685035b56ef282fd8a8f96dc6f2a4411d1edd23fd2f62f6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/14:0",
+    "file": "brain\\14-manifest.json",
+    "bytes": 43,
+    "sha256": "d963de4fe337aee6ee505e3260680cb0cfc7e59ddecb089a66b15f0a8cb813f6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/BU%28R%29.ngmesh",
+    "file": "brain\\BU(R).ngmesh",
+    "bytes": 240772,
+    "sha256": "964051de5d20c09ddbff39cb450d12563615ba974f8289073018b777b0393e61"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/15:0",
+    "file": "brain\\15-manifest.json",
+    "bytes": 43,
+    "sha256": "93bf74fe6e3c11d180e2d5e9c8621bf7e2820762fc5465440ec080d452e20125"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/CA%28L%29.ngmesh",
+    "file": "brain\\CA(L).ngmesh",
+    "bytes": 584236,
+    "sha256": "9def9fc7f81442da03b9b86a3bf0ab59ce3d8bbec0c00cd5708610943e24f6e6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/16:0",
+    "file": "brain\\16-manifest.json",
+    "bytes": 43,
+    "sha256": "1989994238b0a43d02ab21e859725e615cf8a00d58f69a642235d1703ebd8ad6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/CA%28R%29.ngmesh",
+    "file": "brain\\CA(R).ngmesh",
+    "bytes": 716692,
+    "sha256": "3a04c836830de9256f76a368bfd7347778fb5dec35a8ecd24551eae2237ef11a"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/17:0",
+    "file": "brain\\17-manifest.json",
+    "bytes": 44,
+    "sha256": "eeb9f3959ecf2f1583430173a055554f7dcec02acf33b1db57da162d3a86cc94"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/CAN%28L%29.ngmesh",
+    "file": "brain\\CAN(L).ngmesh",
+    "bytes": 283036,
+    "sha256": "843303d3f1c0e9e6b00bfc92bd1108387d7bd91bbfb3b19bd458a4796fd3d12d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/18:0",
+    "file": "brain\\18-manifest.json",
+    "bytes": 44,
+    "sha256": "52b99773bd90f4fc300dd2066a48b4d07ade9ea9dcc81c8172b546e396045ba8"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/CAN%28R%29.ngmesh",
+    "file": "brain\\CAN(R).ngmesh",
+    "bytes": 304432,
+    "sha256": "f5b7df03c005d51fdf056c156eb256c5cd5b85db1ef6b1e172ef49d8aff58436"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/19:0",
+    "file": "brain\\19-manifest.json",
+    "bytes": 44,
+    "sha256": "0f55030e52482269d52063267dd7376f621618b21750ca27bc63442e940906e5"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/CRE%28L%29.ngmesh",
+    "file": "brain\\CRE(L).ngmesh",
+    "bytes": 1486108,
+    "sha256": "c0cf2722cfb29782bd9a0269aec8b91c3cff2c8cfb9aaea90ddef0eb21cd2d6b"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/20:0",
+    "file": "brain\\20-manifest.json",
+    "bytes": 44,
+    "sha256": "342fae5018f3bca28111a65b0d38a1ff057c04a1dc29d8e3db8360d58720a5a1"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/CRE%28R%29.ngmesh",
+    "file": "brain\\CRE(R).ngmesh",
+    "bytes": 1501444,
+    "sha256": "5961dd525b39b840df8668a140dcf92e5a2ff632f5c1220f1b906ae20463ce20"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/21:0",
+    "file": "brain\\21-manifest.json",
+    "bytes": 40,
+    "sha256": "40379d5630b85b648698f08a2cf781d9cede694afe84e609f6548148128d2426"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/EB.ngmesh",
+    "file": "brain\\EB.ngmesh",
+    "bytes": 654736,
+    "sha256": "3f3f385ea6a92bbd84720b206e56c20eae6a987375c8f4381005846abb2f3582"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/22:0",
+    "file": "brain\\22-manifest.json",
+    "bytes": 44,
+    "sha256": "f7c270df5c20685c950cacfde4bd996d5b6ef63dd3508457546376cb5ba18bde"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/EPA%28L%29.ngmesh",
+    "file": "brain\\EPA(L).ngmesh",
+    "bytes": 494260,
+    "sha256": "1afc1c4c77d62efb5bfe7c0de26ca0bc1d8aeca4d748aed64c3434bc407f25f3"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/23:0",
+    "file": "brain\\23-manifest.json",
+    "bytes": 44,
+    "sha256": "6e823c5b054c9abfef08e7508a7d40c9cc1f752a60a7ced12931673bb9ffaec0"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/EPA%28R%29.ngmesh",
+    "file": "brain\\EPA(R).ngmesh",
+    "bytes": 427084,
+    "sha256": "0ed98be4beb2f521bc8f5f2dc35773aebfa444168bee662ce5d518af2d3cec5d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/24:0",
+    "file": "brain\\24-manifest.json",
+    "bytes": 40,
+    "sha256": "2d447aa1994ad4ce13fae1d6ddbe3cf71ad1e64439b0223df13a27b2ce79471d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/FB.ngmesh",
+    "file": "brain\\FB.ngmesh",
+    "bytes": 1456072,
+    "sha256": "f14a159df5c41cf16e2121bfbdff2ca588b29a6c01ded1460993fa5ed2a01141"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/25:0",
+    "file": "brain\\25-manifest.json",
+    "bytes": 44,
+    "sha256": "4217e533205aff373040bb92ef3ee590098c381f88c753ea8ebcc1b559204a5f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/FLA%28L%29.ngmesh",
+    "file": "brain\\FLA(L).ngmesh",
+    "bytes": 797428,
+    "sha256": "982b9cbc6864a031db3cbed433fdf823266a7f349f7b9b1d6ad1f81cf691f50d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/26:0",
+    "file": "brain\\26-manifest.json",
+    "bytes": 44,
+    "sha256": "8d5ec3de97b13eb89e0bd9fb147e8cef23ecec80c61ef5f77f334fbde4addf33"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/FLA%28R%29.ngmesh",
+    "file": "brain\\FLA(R).ngmesh",
+    "bytes": 808624,
+    "sha256": "9249cdb402b989f6581b2dff1a99609e15ac2fb34ef2c98ea4b14d71e9992dba"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/27:0",
+    "file": "brain\\27-manifest.json",
+    "bytes": 43,
+    "sha256": "a4a79268ce278292ec645b641139bab8e1aff13c972edf9cddf6e61854ece5e7"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/GA%28L%29.ngmesh",
+    "file": "brain\\GA(L).ngmesh",
+    "bytes": 62524,
+    "sha256": "fc9007894ad261a7d10aa641c3e3a92dedeffb15a3152497ceffea7b073d7640"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/28:0",
+    "file": "brain\\28-manifest.json",
+    "bytes": 43,
+    "sha256": "5bc3081438c81e78b2a66dd8686844c8fd45bb5aadfdf5a004260c358d656481"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/GA%28R%29.ngmesh",
+    "file": "brain\\GA(R).ngmesh",
+    "bytes": 77308,
+    "sha256": "479d5a184c3ac6dd2c5bb425f326d1091acce5e39c95fc8798875b214b86c75f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/29:0",
+    "file": "brain\\29-manifest.json",
+    "bytes": 41,
+    "sha256": "3c256b3ffbf521e3e0b392b29aac04d96223ce2b4839a7ecff27ad993bfc9312"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/GNG.ngmesh",
+    "file": "brain\\GNG.ngmesh",
+    "bytes": 9529984,
+    "sha256": "0ca33df0fe19b5d11c83c5e411e2fbcd93a4d62396ff1e3f54fc8a6b9a48e48c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/30:0",
+    "file": "brain\\30-manifest.json",
+    "bytes": 44,
+    "sha256": "064f04d3d1fed54b38f7da615ef915e26589321bed7260c9273740ef964a6b11"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/GOR%28L%29.ngmesh",
+    "file": "brain\\GOR(L).ngmesh",
+    "bytes": 583432,
+    "sha256": "6714619b2a1fcf29cc12fbe64e6907b3cd59a0b7b633a36819862edb671ea601"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/31:0",
+    "file": "brain\\31-manifest.json",
+    "bytes": 44,
+    "sha256": "c76c1b7bc3bb5662e56296e9d3a58a77307b08ce2764d106755189f407c350e7"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/GOR%28R%29.ngmesh",
+    "file": "brain\\GOR(R).ngmesh",
+    "bytes": 517228,
+    "sha256": "26ca938d31c8d226c339185b997c367356c7c77bce89f3e6c94cb6abe4c62719"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/32:0",
+    "file": "brain\\32-manifest.json",
+    "bytes": 40,
+    "sha256": "c8cc2ea1c3eb3c8402c75bd44dabcfe831ec8b4532772fa8dfc81856d452f9f0"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/IB.ngmesh",
+    "file": "brain\\IB.ngmesh",
+    "bytes": 1542436,
+    "sha256": "599d01c93a71f7b0b05564d988401a52093e1938d101bd36e83d442efcbc3cdc"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/33:0",
+    "file": "brain\\33-manifest.json",
+    "bytes": 44,
+    "sha256": "19b37bf6117f4e8a4315250d7583af94e4eb3252184686b4775f143f36df726d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/ICL%28L%29.ngmesh",
+    "file": "brain\\ICL(L).ngmesh",
+    "bytes": 1524448,
+    "sha256": "5c513853ef2659792ebaa8239dcf10e2412ab883372db83f54c2b165ee806d5f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/34:0",
+    "file": "brain\\34-manifest.json",
+    "bytes": 44,
+    "sha256": "6ede99abfc7c4c2da5ccf944ae87097791386e36624c3e4428acfe91c5d580b6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/ICL%28R%29.ngmesh",
+    "file": "brain\\ICL(R).ngmesh",
+    "bytes": 1469548,
+    "sha256": "8d8c943b42a91eb4ba7d76db606dcef9fc30bdf76026b5a782de2ea488748d2f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/35:0",
+    "file": "brain\\35-manifest.json",
+    "bytes": 44,
+    "sha256": "13c27c900a9912227a56132ab9b8348c4bfbdb89e2b838f2225067f35110ac7f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/IPS%28L%29.ngmesh",
+    "file": "brain\\IPS(L).ngmesh",
+    "bytes": 1301224,
+    "sha256": "36c04b698680deb81aec5bf9c99177035a3e246be831951d0fbfec06deb12aa4"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/36:0",
+    "file": "brain\\36-manifest.json",
+    "bytes": 44,
+    "sha256": "584e8408e588905690ae07bf341c212334a1ba88e65367e39771ee2c6af068c0"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/IPS%28R%29.ngmesh",
+    "file": "brain\\IPS(R).ngmesh",
+    "bytes": 1400704,
+    "sha256": "e858f7064e55e9ef45ed07f46bdbb4ec4f6412ac38105f5255610d0bd6887bbe"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/37:0",
+    "file": "brain\\37-manifest.json",
+    "bytes": 43,
+    "sha256": "5b3d14299e8bde9dd3d5e24efae27f8488deed3468716334767be23af8b4eeae"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LA%28L%29.ngmesh",
+    "file": "brain\\LA(L).ngmesh",
+    "bytes": 3556612,
+    "sha256": "fc52a2a0274478232f383b00a0607c2c7534dd18390897a291804a8625218208"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/38:0",
+    "file": "brain\\38-manifest.json",
+    "bytes": 43,
+    "sha256": "4dfa86fed124b01b59f744cce497a1131d294670218ee5a3c9b78dd37a5db83b"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LA%28R%29.ngmesh",
+    "file": "brain\\LA(R).ngmesh",
+    "bytes": 2892052,
+    "sha256": "483b9148217e0ff2990bf2aca62738a71f5fb0202fbcd3a1038a0bdfb99104f2"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/39:0",
+    "file": "brain\\39-manifest.json",
+    "bytes": 44,
+    "sha256": "d91cd3ab7c60324a2c989ee6aaef159247ce1ce5467502ae7b2c29c0adf7450e"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LAL%28L%29.ngmesh",
+    "file": "brain\\LAL(L).ngmesh",
+    "bytes": 1475368,
+    "sha256": "590fef3345c3ad285b5fe93c10353a7cdba4db12f4fea20a279a6e1994788733"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/40:0",
+    "file": "brain\\40-manifest.json",
+    "bytes": 44,
+    "sha256": "55395c94e1cab5c4f45636df46708680807a9c48033b2454e56cd8c041e0ad42"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LAL%28R%29.ngmesh",
+    "file": "brain\\LAL(R).ngmesh",
+    "bytes": 1355200,
+    "sha256": "66d4bf4b6d5836ea0974f49fc807b4cbc173e0bda0d55af17f5b59eecb7793bb"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/41:0",
+    "file": "brain\\41-manifest.json",
+    "bytes": 43,
+    "sha256": "46e9575e97c465095cddc0affa01401cc1da0fbc5f1e71e06215c3cf10d48582"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LH%28L%29.ngmesh",
+    "file": "brain\\LH(L).ngmesh",
+    "bytes": 1440352,
+    "sha256": "f63dea1c7dfe97a6d2a2fd91888cd6b8e14ab8979a7c6bc0e9ddf06dccaa8158"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/42:0",
+    "file": "brain\\42-manifest.json",
+    "bytes": 43,
+    "sha256": "2e1f2a6de46701f9ef602635be1368b48f036dc069ac238256440b4fc6f80618"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LH%28R%29.ngmesh",
+    "file": "brain\\LH(R).ngmesh",
+    "bytes": 1406932,
+    "sha256": "85118c1c26f756b0dcad328a76c4d837c0c9efd2ec042d04d7db70494e08c9c8"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/43:0",
+    "file": "brain\\43-manifest.json",
+    "bytes": 43,
+    "sha256": "d64d4cc6ddf0366bd6219f6e17952e0c18ec1f9c2908ea53fa4fd2f347835582"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LO%28L%29.ngmesh",
+    "file": "brain\\LO(L).ngmesh",
+    "bytes": 4054408,
+    "sha256": "6d48143de082841ff4c3ba2e8802f51d8622212d162fb6c27b2b43d6c9689424"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/44:0",
+    "file": "brain\\44-manifest.json",
+    "bytes": 43,
+    "sha256": "d01674ad0d4244aa9e853cc3bf05759882426b78c2b492c78d1fd95d2da2bf07"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LO%28R%29.ngmesh",
+    "file": "brain\\LO(R).ngmesh",
+    "bytes": 3547480,
+    "sha256": "554ff91f89fc81e444ff5f5a8ce5ebc43f80a6440b3701d4f439929a39880171"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/45:0",
+    "file": "brain\\45-manifest.json",
+    "bytes": 44,
+    "sha256": "8bbaee16ee57097312338d6ce8c421b90bf82c02a75e9d6c058c99fa5800888e"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LOP%28L%29.ngmesh",
+    "file": "brain\\LOP(L).ngmesh",
+    "bytes": 3918856,
+    "sha256": "a2febfd508678d5b373b8b8275d6158c93c80583024b9ed44fb5096ee944047c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/46:0",
+    "file": "brain\\46-manifest.json",
+    "bytes": 44,
+    "sha256": "26b8beda6a00ed8e982e7afcd2c20437e91d3d8ef9b6b8b367a701a8553edf5e"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/LOP%28R%29.ngmesh",
+    "file": "brain\\LOP(R).ngmesh",
+    "bytes": 1898116,
+    "sha256": "dae3ba763760bbf1c4f7e1a23027c3b4463da5b6095a8dd0bb12218051ec8b1c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/47:0",
+    "file": "brain\\47-manifest.json",
+    "bytes": 43,
+    "sha256": "eb27f9199467eb8ad10c18af104d6442a7d4a890b55a66fe4bac8d83fefdc33f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/ME%28L%29.ngmesh",
+    "file": "brain\\ME(L).ngmesh",
+    "bytes": 10264264,
+    "sha256": "c58dc35e34b52db11caf6a3bf328689acf2233bd2b3987e49d8a32ec5fd6c81a"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/48:0",
+    "file": "brain\\48-manifest.json",
+    "bytes": 43,
+    "sha256": "7041b7bb91c217b9a9df76241b77809875d45daa0f762d77e0987ed57588140d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/ME%28R%29.ngmesh",
+    "file": "brain\\ME(R).ngmesh",
+    "bytes": 7520308,
+    "sha256": "f3996c42a7211915b64ef679e238c727e15792e60ef34917f17b19027f66ac94"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/49:0",
+    "file": "brain\\49-manifest.json",
+    "bytes": 40,
+    "sha256": "05c950fd40735267d26a3962817e03919b1d2b08a91e3972a871dbb0140d6024"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/NO.ngmesh",
+    "file": "brain\\NO.ngmesh",
+    "bytes": 215836,
+    "sha256": "5b2d88300f5b217abf87dcbf4fcda06f90d8c22fb3ddf9007b1061552dd0b7d6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/50:0",
+    "file": "brain\\50-manifest.json",
+    "bytes": 40,
+    "sha256": "64ceb70daa54fb02b862858c9cc5e3d0f5697e3d6cbc7fd8f892d3f5e64e70dc"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/PB.ngmesh",
+    "file": "brain\\PB.ngmesh",
+    "bytes": 574300,
+    "sha256": "93314b04a52d498f7b60f2f2ea5e91ef9d5c36d9ad7c32a4f52d127299eba0ba"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/51:0",
+    "file": "brain\\51-manifest.json",
+    "bytes": 44,
+    "sha256": "dbf1bea15b6c00657948292743a91d24554682fe676e39196c60b717b5034aa7"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/PED%28L%29.ngmesh",
+    "file": "brain\\PED(L).ngmesh",
+    "bytes": 461452,
+    "sha256": "fa6bd76349c8dbaed77c74539860c0d4ca435b47c3e941f4aa022bb55dbec18f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/52:0",
+    "file": "brain\\52-manifest.json",
+    "bytes": 44,
+    "sha256": "3e96272eb0a468ef2c82d18bb51b78aeafeb9e4e7042e6a2a8ea161b8bceabc4"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/PED%28R%29.ngmesh",
+    "file": "brain\\PED(R).ngmesh",
+    "bytes": 456040,
+    "sha256": "16472d13861d828aa336538efdaf2816727d8439ca397de8a52997531834a107"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/53:0",
+    "file": "brain\\53-manifest.json",
+    "bytes": 44,
+    "sha256": "d6cf9390740a24d77b55db717863b3cacb9e47464e0514c8ebbae7eaca2ff70a"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/PLP%28L%29.ngmesh",
+    "file": "brain\\PLP(L).ngmesh",
+    "bytes": 2112844,
+    "sha256": "4963680bca23d3c7e54efba658831ed101609f61f965f39e795227d1fda58d69"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/54:0",
+    "file": "brain\\54-manifest.json",
+    "bytes": 44,
+    "sha256": "45691ee6255c7286d2fe9ef0db611e60e7d389d6a1e4660b55b2876dd4290a32"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/PLP%28R%29.ngmesh",
+    "file": "brain\\PLP(R).ngmesh",
+    "bytes": 2350264,
+    "sha256": "3a57e93e8058826b4cffb0d89517165c7915c907e39c4a6701e30ac693bf25b6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/55:0",
+    "file": "brain\\55-manifest.json",
+    "bytes": 41,
+    "sha256": "ced34003709a57d6a64bb26e9673cae251c4a3187c06aa8545fccddb4843d342"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/PRW.ngmesh",
+    "file": "brain\\PRW.ngmesh",
+    "bytes": 1187404,
+    "sha256": "ebad05f31b7e30a4284f9e9a1b9be45c193b411438e8309904d3e07348bcc72b"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/56:0",
+    "file": "brain\\56-manifest.json",
+    "bytes": 45,
+    "sha256": "7b3bff3b63ec9c25567fb3c766c4884ddc15f3757f2e9fc3ff0afbac1ff05d7d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/PVLP%28L%29.ngmesh",
+    "file": "brain\\PVLP(L).ngmesh",
+    "bytes": 2315200,
+    "sha256": "e978a41d62dab72040685bd079e3794b129c0167eecab5daad3951b6f01ca899"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/57:0",
+    "file": "brain\\57-manifest.json",
+    "bytes": 45,
+    "sha256": "b79354d5a8fb9abdd34f7601fde9b5845b0a37d171ef96cce6db9e3454fb61e0"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/PVLP%28R%29.ngmesh",
+    "file": "brain\\PVLP(R).ngmesh",
+    "bytes": 2181784,
+    "sha256": "d445ebb1342a03d9d7da8c1bea0355c001fb36c9f2fdcbbe34a127cf6579996f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/58:0",
+    "file": "brain\\58-manifest.json",
+    "bytes": 44,
+    "sha256": "e4fd84fdbe63021d5bf5d35de3b3675913179055a324d08b672bdbf97b358fe3"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/ROB%28L%29.ngmesh",
+    "file": "brain\\ROB(L).ngmesh",
+    "bytes": 44536,
+    "sha256": "d3b4b766a0f5b0292fd543113798a0a9077864cd4d2b727e3fd950761b830cf4"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/59:0",
+    "file": "brain\\59-manifest.json",
+    "bytes": 44,
+    "sha256": "8943e0818014ce0aff18ae2b508f3aca2f3b3b883c1219a94521fb55ecb9e1ca"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/ROB%28R%29.ngmesh",
+    "file": "brain\\ROB(R).ngmesh",
+    "bytes": 38716,
+    "sha256": "4181350a47ccf13f5fe1b9c35ce09b17e6c520cb33fa1f31fc3d93e2328d3fca"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/60:0",
+    "file": "brain\\60-manifest.json",
+    "bytes": 44,
+    "sha256": "d77860653829a4c2c5d368fd118a41837cbc74e312c3fdb8fc630e7f610c7809"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/RUB%28L%29.ngmesh",
+    "file": "brain\\RUB(L).ngmesh",
+    "bytes": 39448,
+    "sha256": "e592b09cc5c92f1bc7dde172266c5a0251e84e7d58b9792599c1030bc67934a9"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/61:0",
+    "file": "brain\\61-manifest.json",
+    "bytes": 44,
+    "sha256": "3e6b8afabb6b31d46648eaa8da308c3272a9a3ee168123b4df454c6fb1e20aa1"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/RUB%28R%29.ngmesh",
+    "file": "brain\\RUB(R).ngmesh",
+    "bytes": 38620,
+    "sha256": "de049791cec5542729a9e99458b65a53d453eb6b3b0f51c2222795b1877aa8bf"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/62:0",
+    "file": "brain\\62-manifest.json",
+    "bytes": 41,
+    "sha256": "90737dfe00ac3a0f4c24b325e7f8eeddd9791cd58b60712f8d0ed4e1a444d450"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SAD.ngmesh",
+    "file": "brain\\SAD.ngmesh",
+    "bytes": 6746176,
+    "sha256": "4a53174d2ea22eb296b6638e1073e5de4e79c173c93c8db4674de70aa1947108"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/63:0",
+    "file": "brain\\63-manifest.json",
+    "bytes": 44,
+    "sha256": "8b371f6d4bc66e6be25819b8f73cf4dbc89af79eea99761d58a5cd4df80cfb31"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SCL%28L%29.ngmesh",
+    "file": "brain\\SCL(L).ngmesh",
+    "bytes": 1534120,
+    "sha256": "44dccaf21279e32dc6ac6c0f7bf26802823f84b3e697bfe27862adb329d662d3"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/64:0",
+    "file": "brain\\64-manifest.json",
+    "bytes": 44,
+    "sha256": "0f7ad65e663b46710ff7e0b77be37a529a9e569163f1d86c19c914b759a0aec9"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SCL%28R%29.ngmesh",
+    "file": "brain\\SCL(R).ngmesh",
+    "bytes": 1586200,
+    "sha256": "2b76e5fe1dc1f1f263d396e2d7de52116f0d095e9e4e7932c9c8e04cb30e2d27"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/65:0",
+    "file": "brain\\65-manifest.json",
+    "bytes": 44,
+    "sha256": "b1873a072a57ec45a362d66afc737cc68e625e2559fb9f23ac9ef950bb781bcf"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SIP%28L%29.ngmesh",
+    "file": "brain\\SIP(L).ngmesh",
+    "bytes": 1573960,
+    "sha256": "a1f5fe2534de80986c16259c9fc1be42d617f4598b4ccdab4b7a3e806cc30258"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/66:0",
+    "file": "brain\\66-manifest.json",
+    "bytes": 44,
+    "sha256": "4d39f4d66a759d58f33e0611b098b3e4318a9d3363d779b47b2120289482a480"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SIP%28R%29.ngmesh",
+    "file": "brain\\SIP(R).ngmesh",
+    "bytes": 1892704,
+    "sha256": "f6deb94b284a20072255f0fa76053a390ad5b7caedb1d9601168b45ac99ab357"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/67:0",
+    "file": "brain\\67-manifest.json",
+    "bytes": 44,
+    "sha256": "e2171870a0974200d664fe2d77f3fa454619be23265428bdf1121aa91ec63302"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SLP%28L%29.ngmesh",
+    "file": "brain\\SLP(L).ngmesh",
+    "bytes": 2200732,
+    "sha256": "788f764098f0ef6db9a0475c0614cfca56a5531eaa40afbaf23fa8f431591d27"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/68:0",
+    "file": "brain\\68-manifest.json",
+    "bytes": 44,
+    "sha256": "372efa587fd9b4d550e408153980d4d47d76391fb03cfe7eaec74741ec1b7e40"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SLP%28R%29.ngmesh",
+    "file": "brain\\SLP(R).ngmesh",
+    "bytes": 2414680,
+    "sha256": "c39cd49d55a38c77933e6de547bd08d17523019bb2db599e45ac267a20eb1e1c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/69:0",
+    "file": "brain\\69-manifest.json",
+    "bytes": 44,
+    "sha256": "5a341e597402abe3d25b0eec06f72483e6de9e761aecd1bf4ac9e35f928f2514"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SMP%28L%29.ngmesh",
+    "file": "brain\\SMP(L).ngmesh",
+    "bytes": 2033572,
+    "sha256": "a10680f5d6c9dbd4386019cac1f32c103eac287c80c1d8c51425ae38ba938b24"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/70:0",
+    "file": "brain\\70-manifest.json",
+    "bytes": 44,
+    "sha256": "f33c9e720e16794dbc8054964178e935c746f0774341a886d3ed3c2420e777be"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SMP%28R%29.ngmesh",
+    "file": "brain\\SMP(R).ngmesh",
+    "bytes": 2045284,
+    "sha256": "c452ecee8d8933e6dc14f9428a2c094d6d996768e13b99ff29f5ca613e8da9fd"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/71:0",
+    "file": "brain\\71-manifest.json",
+    "bytes": 44,
+    "sha256": "00ed2b5f6e3d4b0bf12dbac19fe1d7793c61e98882d225d689de00e3ba014d9f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SPS%28L%29.ngmesh",
+    "file": "brain\\SPS(L).ngmesh",
+    "bytes": 1992208,
+    "sha256": "1127c7ef9490525a25f586e3ce67d2022fb7f33df55c6a7626717459f28555d4"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/72:0",
+    "file": "brain\\72-manifest.json",
+    "bytes": 44,
+    "sha256": "45ae23f0d17dc4216e11e0e0a7e377c7f3da0dc4f971258920924200c233b56f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/SPS%28R%29.ngmesh",
+    "file": "brain\\SPS(R).ngmesh",
+    "bytes": 2135644,
+    "sha256": "46fa92fc6e9ce025fb8639cb65361e152d1ae978d585227714f177d1e97320d7"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/73:0",
+    "file": "brain\\73-manifest.json",
+    "bytes": 44,
+    "sha256": "be2b66a5259ad52591338808aa59173ef9e3a447852edc8b603b1673ee6784fb"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/VES%28L%29.ngmesh",
+    "file": "brain\\VES(L).ngmesh",
+    "bytes": 1600936,
+    "sha256": "dbb758a3fbb53a74eeb78753f6256cf2d9c867429b82c8ae95464d3f2bfea785"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/74:0",
+    "file": "brain\\74-manifest.json",
+    "bytes": 44,
+    "sha256": "abf6797e991138434d795a0114b5e367df4d2d0d7b6c81345e26af1ba6f22333"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/VES%28R%29.ngmesh",
+    "file": "brain\\VES(R).ngmesh",
+    "bytes": 1699588,
+    "sha256": "278bbcf67f303c3e76354165ac7facbfab66c42b05637c7ea90342f7f757dee6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/75:0",
+    "file": "brain\\75-manifest.json",
+    "bytes": 44,
+    "sha256": "94549e29d6c95052e00bb4518af29345d6198f436a3e86468b673d6ab092f537"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/WED%28L%29.ngmesh",
+    "file": "brain\\WED(L).ngmesh",
+    "bytes": 1905628,
+    "sha256": "61989be0eb5d4c1b1c969871bce8df421cece79e703166c3affd5dc5f8bd617a"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/76:0",
+    "file": "brain\\76-manifest.json",
+    "bytes": 44,
+    "sha256": "da0989cbb05c14235fb3ef9a5908e85f209dd7aea8414352f7c5c49bd24aa708"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/WED%28R%29.ngmesh",
+    "file": "brain\\WED(R).ngmesh",
+    "bytes": 1909648,
+    "sha256": "baad40f683a3d801c99d98a1f13e2311376fae9e820eaba6db9a8d13f2596b95"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/77:0",
+    "file": "brain\\77-manifest.json",
+    "bytes": 44,
+    "sha256": "d1a4135dd1174d428487544509763f4fe6dc067967a42dc23b384a4f08508a58"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/a%27L%28L%29.ngmesh",
+    "file": "brain\\a'L(L).ngmesh",
+    "bytes": 297832,
+    "sha256": "82c45903d45d727683180025c1e05cdb50e1bab95b03147fad395919978d551e"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/78:0",
+    "file": "brain\\78-manifest.json",
+    "bytes": 44,
+    "sha256": "ae13a1f654cc8ade2a1bae68e26b226774300b91597086470ebdbdc34ae4ff82"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/a%27L%28R%29.ngmesh",
+    "file": "brain\\a'L(R).ngmesh",
+    "bytes": 450736,
+    "sha256": "9581ea0c7bee3f38a031b6814bebabd710efefd7a1323cb73b03cd19a42d91f6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/79:0",
+    "file": "brain\\79-manifest.json",
+    "bytes": 43,
+    "sha256": "e3d38eb6790a9b9531e565b2deb367037d9fe075fe0ad7a632f9b8c7d3516bfd"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/aL%28L%29.ngmesh",
+    "file": "brain\\79-aL(L).ngmesh",
+    "bytes": 515116,
+    "sha256": "0d57e4de5b5567b48017ad88776e1bd288f950eeb4a5930fd964131403d11552"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/80:0",
+    "file": "brain\\80-manifest.json",
+    "bytes": 43,
+    "sha256": "0e6a3bf33b533f5282202fbb428875e47e15bcc102b747cbd482a95ce577b82b"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/aL%28R%29.ngmesh",
+    "file": "brain\\80-aL(R).ngmesh",
+    "bytes": 642424,
+    "sha256": "a075a908386470b30a7e15a1e580e8d5bdada6c83aea199413a13accfe29b2e8"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/81:0",
+    "file": "brain\\81-manifest.json",
+    "bytes": 44,
+    "sha256": "f0032cda086127c2eb171b42346a8374a1301db6f9e5bbef5a684359867fae38"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/b%27L%28L%29.ngmesh",
+    "file": "brain\\b'L(L).ngmesh",
+    "bytes": 417784,
+    "sha256": "bbf40dbae91d87fd467df09a98233b8c9df2bce95404b61018b0dddf4837e18d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/82:0",
+    "file": "brain\\82-manifest.json",
+    "bytes": 44,
+    "sha256": "88fbd822371c9b452d32715429f0838a74c58fe103826aca4fa317d17b1423e4"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/b%27L%28R%29.ngmesh",
+    "file": "brain\\b'L(R).ngmesh",
+    "bytes": 423976,
+    "sha256": "7125223038862085b7c00d9636640f329a8f81cfab7bba15393493570ef51c78"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/83:0",
+    "file": "brain\\83-manifest.json",
+    "bytes": 43,
+    "sha256": "9baa56fa2baae122d7d523065ef6291816a665c1bb81c7046b3a3205393f9d7a"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/bL%28L%29.ngmesh",
+    "file": "brain\\bL(L).ngmesh",
+    "bytes": 352504,
+    "sha256": "4a0dd399a7e77ce0838c0c54c3a012295619b1683fa352bad88257beb327d4ba"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/84:0",
+    "file": "brain\\84-manifest.json",
+    "bytes": 43,
+    "sha256": "71554ec2c40d450b7b378280b7a396878e5d30380c03e7fba46e6748255538da"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/bL%28R%29.ngmesh",
+    "file": "brain\\bL(R).ngmesh",
+    "bytes": 428116,
+    "sha256": "63f69732c91d8ea8d259f1dd1425523e194aa1e1ab031d2e7e5c7cd09ea040dc"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/85:0",
+    "file": "brain\\85-manifest.json",
+    "bytes": 43,
+    "sha256": "0b9d42bcb71dd12efa4e823325b6ee2d5ae3b790ef0713322d734892de61d080"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/gL%28L%29.ngmesh",
+    "file": "brain\\gL(L).ngmesh",
+    "bytes": 1136932,
+    "sha256": "d49c6265f25dabd94912ed1d4431c6928d20ad4ef4d16fce1fc254f1b89aba58"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/86:0",
+    "file": "brain\\86-manifest.json",
+    "bytes": 43,
+    "sha256": "0ad43d3dae0a02fa07f0b45fdbed69992619406c2d008c916991b1a74aecef4b"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/gL%28R%29.ngmesh",
+    "file": "brain\\gL(R).ngmesh",
+    "bytes": 1128688,
+    "sha256": "eda698add18607704dde557839b91f5df0fc03c82f3939ddb860953d2021a4fb"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/93:0",
+    "file": "brain\\93-manifest.json",
+    "bytes": 43,
+    "sha256": "2497bc8ca7e3d87fce6b40a4de64835ef56b67b1d6c2c476f85a1cd39d37ccad"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AB%28R%29.ngmesh",
+    "file": "brain\\AB(R).ngmesh",
+    "bytes": 43444,
+    "sha256": "36d074d20598ce8d8b4bbfaa9e88e64039401b566e676f45944ec7ee8d072d1e"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/94:0",
+    "file": "brain\\94-manifest.json",
+    "bytes": 43,
+    "sha256": "958e8c22184eafe6a2f460611792bf74b9a4a8b462afa6c7cff591ccafc97782"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/AB%28L%29.ngmesh",
+    "file": "brain\\AB(L).ngmesh",
+    "bytes": 21520,
+    "sha256": "89188ed7fe6cb2ff706d581c683b588e97c3cc0cd9697229c50a8fa9e9a1d7dd"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/95:0",
+    "file": "brain\\95-manifest.json",
+    "bytes": 49,
+    "sha256": "b8636ddb7aa3b70692386d6fd7914bcf2940e74a4dee8edcb57b48ed4e95537f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/CV-anterior.ngmesh",
+    "file": "brain\\CV-anterior.ngmesh",
+    "bytes": 1738936,
+    "sha256": "7005bb55dfe111a9b2223537a4469c30e655504429af80d10c6c8928430694c8"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/96:0",
+    "file": "brain\\96-manifest.json",
+    "bytes": 41,
+    "sha256": "53cc7ee84b12c872c6cc56738ceec7658c97a5f002385e5b3bc58920a8f3fd6c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/fullbrain-roi-v4/mesh/CRN.ngmesh",
+    "file": "brain\\CRN.ngmesh",
+    "bytes": 866476,
+    "sha256": "5fa74c81204d23d869ed29ac53b47a58f8f45e66b194f003b4e5e45b17072cb7"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/4:0",
+    "file": "vnc\\4-manifest.json",
+    "bytes": 40,
+    "sha256": "3a9ba6507477b001e5b5b76268c91647353b80d92d6ca66d4c88a022197bb503"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/CV.ngmesh",
+    "file": "vnc\\CV.ngmesh",
+    "bytes": 2850220,
+    "sha256": "e3ece650016d49205f59169ba2dbccd32892fbb855a68ed5107a93749506b7e6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/5:0",
+    "file": "vnc\\5-manifest.json",
+    "bytes": 50,
+    "sha256": "56a39a5370301fbcec461186577d845d1c52e136e5963ec60553d70d61553e13"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/LegNp%28T1%29%28L%29.ngmesh",
+    "file": "vnc\\LegNp(T1)(L).ngmesh",
+    "bytes": 5152144,
+    "sha256": "eb48cb807676b3096ca0fd468ae2a328e1c792244e143a5b8773ac73a692ae2b"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/6:0",
+    "file": "vnc\\6-manifest.json",
+    "bytes": 50,
+    "sha256": "a0732f679edf3c853e8e3d31d699dd69edf062c019c0bc8cd0b207b957ad7830"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/LegNp%28T1%29%28R%29.ngmesh",
+    "file": "vnc\\LegNp(T1)(R).ngmesh",
+    "bytes": 5206480,
+    "sha256": "1d6e8704913186fb1bda65529fac5e2e298098a42d37ede01fa8e982bc215338"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/7:0",
+    "file": "vnc\\7-manifest.json",
+    "bytes": 50,
+    "sha256": "24467102001699a1f3767649fd7c6858427e2fe022a6402553f241daaef9df73"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/LegNp%28T2%29%28L%29.ngmesh",
+    "file": "vnc\\LegNp(T2)(L).ngmesh",
+    "bytes": 4334248,
+    "sha256": "58771ebe0a0c3f5e15521e00259114314360729d02936df9152f9d6c4eaf478d"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/8:0",
+    "file": "vnc\\8-manifest.json",
+    "bytes": 50,
+    "sha256": "e955c9a7f013c3442087746ec5fa931b682cf159b536016331c480025af60aaa"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/LegNp%28T2%29%28R%29.ngmesh",
+    "file": "vnc\\LegNp(T2)(R).ngmesh",
+    "bytes": 4205704,
+    "sha256": "a656485058ce4e3d8f0f5e35e112bf1e38fb73ceeccc8145b0973a9df1d30dab"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/9:0",
+    "file": "vnc\\9-manifest.json",
+    "bytes": 50,
+    "sha256": "f7f8311c058e3e5a414f64d8d401e738ada0e4ca2be748d7d9274b3f72812a0c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/LegNp%28T3%29%28L%29.ngmesh",
+    "file": "vnc\\LegNp(T3)(L).ngmesh",
+    "bytes": 4620196,
+    "sha256": "f27668a9cfc2477fa09dfd8ecef0275adc428d1214bbf37ec07c67d793e4d98f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/10:0",
+    "file": "vnc\\10-manifest.json",
+    "bytes": 50,
+    "sha256": "feb4f56dec5e5ebf19f07d39ab0ad3fa0ca9aeaa717d778b1aba847ec267360c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/LegNp%28T3%29%28R%29.ngmesh",
+    "file": "vnc\\LegNp(T3)(R).ngmesh",
+    "bytes": 5025220,
+    "sha256": "97602190a4aa175a4b9aaf5ae27650b6e2b8ff1faa2bd496857358364216dad1"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/11:0",
+    "file": "vnc\\11-manifest.json",
+    "bytes": 43,
+    "sha256": "35d68b26527e72e2da57fbbca3377a213cb7baef0f989692d93751d5b422d76c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/Ov%28L%29.ngmesh",
+    "file": "vnc\\Ov(L).ngmesh",
+    "bytes": 1530016,
+    "sha256": "5c7e1bde6cd686af265b3a5c52a137f45b60384595540b30b2683d709d9095be"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/12:0",
+    "file": "vnc\\12-manifest.json",
+    "bytes": 43,
+    "sha256": "7389178649104645f0a427a7a508e515f808c19824b2dacb7a472a0ea29260f6"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/Ov%28R%29.ngmesh",
+    "file": "vnc\\Ov(R).ngmesh",
+    "bytes": 1499488,
+    "sha256": "1f5ba88d2d42eaf46d8db648dc8be8a34b2d88e3f1cdaad1767a73d5975c3447"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/13:0",
+    "file": "vnc\\13-manifest.json",
+    "bytes": 44,
+    "sha256": "f4a0463d709a7bba696b036bd594070e93ad8825373b6648191b2bb506e94a8c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/IntTct.ngmesh",
+    "file": "vnc\\IntTct.ngmesh",
+    "bytes": 5733844,
+    "sha256": "4539dfbdb89077764e647796c0dc4a5197bb5115dee7cd83a8c19eecbc22d009"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/14:0",
+    "file": "vnc\\14-manifest.json",
+    "bytes": 42,
+    "sha256": "3f99850cb6ab9c1053b2e0eb4c7ec45b14f2a4da5519809cace76708984f719a"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/LTct.ngmesh",
+    "file": "vnc\\LTct.ngmesh",
+    "bytes": 3901540,
+    "sha256": "271d71a619708c556dec2e1c9bca4666b87a48a9aa3c0d4c03563fed7d8af54f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/15:0",
+    "file": "vnc\\15-manifest.json",
+    "bytes": 54,
+    "sha256": "65df62ea0720a79dedb86d97ed05a1e0129bad6593204291059af218218bcc05"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/NTct%28UTct-T1%29%28L%29.ngmesh",
+    "file": "vnc\\NTct(UTct-T1)(L).ngmesh",
+    "bytes": 982324,
+    "sha256": "ce74268ebb5b4e1da49aecfaa295eff4fe64f49c073f97086dd13997e3c92933"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/16:0",
+    "file": "vnc\\16-manifest.json",
+    "bytes": 54,
+    "sha256": "cb6ff3978315e59a04c0798026d72703d58b9515f95b21b7c7de0777fe06d1be"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/NTct%28UTct-T1%29%28R%29.ngmesh",
+    "file": "vnc\\NTct(UTct-T1)(R).ngmesh",
+    "bytes": 915400,
+    "sha256": "9bcd4fe8c0d1e03607191085fa58924883b5a8c4756fcf51d345d066805abf96"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/17:0",
+    "file": "vnc\\17-manifest.json",
+    "bytes": 54,
+    "sha256": "2e3dd651b297b4ab836209126a83ff0356339b007f2f96ea5c22cf422f0beb19"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/WTct%28UTct-T2%29%28L%29.ngmesh",
+    "file": "vnc\\WTct(UTct-T2)(L).ngmesh",
+    "bytes": 2804008,
+    "sha256": "764086a552932161b9f755f540c1751e09b381c6a8ec9f6094c7aadc6f211467"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/18:0",
+    "file": "vnc\\18-manifest.json",
+    "bytes": 54,
+    "sha256": "ed63b79fd44d18bff755c3120ef0cca039a6d8baf5c2ff1d10628d66cdd6de5f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/WTct%28UTct-T2%29%28R%29.ngmesh",
+    "file": "vnc\\WTct(UTct-T2)(R).ngmesh",
+    "bytes": 2850064,
+    "sha256": "55a9fbfd6325452d50beb49bd1e6ad2380e9df3d2826fb6793dc6f3310970a07"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/19:0",
+    "file": "vnc\\19-manifest.json",
+    "bytes": 54,
+    "sha256": "9b2201ac0dac99e25675f5bffa6cd58155e4d2bf38a9c53facacadd65b07fc5b"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/HTct%28UTct-T3%29%28L%29.ngmesh",
+    "file": "vnc\\HTct(UTct-T3)(L).ngmesh",
+    "bytes": 1209664,
+    "sha256": "d61ab9965dcc382496ce1d26cbd9a924a3ddde043536116f9c85aa8f50b18077"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/20:0",
+    "file": "vnc\\20-manifest.json",
+    "bytes": 54,
+    "sha256": "7e3f40c587ff6cac1504f8e301e879a3af539480145f480f82c7f76ea77f9e77"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/HTct%28UTct-T3%29%28R%29.ngmesh",
+    "file": "vnc\\HTct(UTct-T3)(R).ngmesh",
+    "bytes": 1275112,
+    "sha256": "2fb1b27ba79af2393f0926037c24a243ebba00f9a854aaa887582a5f1aa6d8b5"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/21:0",
+    "file": "vnc\\21-manifest.json",
+    "bytes": 41,
+    "sha256": "322c95d34f9c67e219d93dbf43c0bf21d6d1bc5ee3d39d05651a81a87dba814c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/ANm.ngmesh",
+    "file": "vnc\\ANm.ngmesh",
+    "bytes": 6208576,
+    "sha256": "ebc620a57b32b25b575964fc222dbf2e67af340da957e7c3db55d8788146c200"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/22:0",
+    "file": "vnc\\22-manifest.json",
+    "bytes": 49,
+    "sha256": "092837fd7be81ebc711624d4dde65bf373dddd597f0d72b277f01e7d1f837490"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/mVAC%28T1%29%28L%29.ngmesh",
+    "file": "vnc\\mVAC(T1)(L).ngmesh",
+    "bytes": 814816,
+    "sha256": "1752fc4478eda8d87eb80ca9b55e74ba460d47605d08ac2255aeed5571aab009"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/23:0",
+    "file": "vnc\\23-manifest.json",
+    "bytes": 49,
+    "sha256": "33c3b098d62ea608a22b9a151d0e7494b020c42aeb4cf16ba03fed8707b7aa8f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/mVAC%28T1%29%28R%29.ngmesh",
+    "file": "vnc\\mVAC(T1)(R).ngmesh",
+    "bytes": 767884,
+    "sha256": "4b3b838941f19f52db8e43a7e7bb92c6db14716b54e53093131b595636986197"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/24:0",
+    "file": "vnc\\24-manifest.json",
+    "bytes": 49,
+    "sha256": "08f2408d8feab3d1fc39cd40303552b08dffcc34bd0a13d68c4717cf4edcf2b2"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/mVAC%28T2%29%28L%29.ngmesh",
+    "file": "vnc\\mVAC(T2)(L).ngmesh",
+    "bytes": 685240,
+    "sha256": "4c2bce3b90470a006c3462a463efda23b9ff4326509557dd5bca443ef52d5198"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/25:0",
+    "file": "vnc\\25-manifest.json",
+    "bytes": 49,
+    "sha256": "119425faf1fe424e14a8f681afde3485ae611deca35ef51d08e7f157a747411f"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/mVAC%28T2%29%28R%29.ngmesh",
+    "file": "vnc\\mVAC(T2)(R).ngmesh",
+    "bytes": 554668,
+    "sha256": "898bf86e3a804f3bc19b7dbdf7878d073697cacace003c9d6143e48c7e7a964c"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/26:0",
+    "file": "vnc\\26-manifest.json",
+    "bytes": 49,
+    "sha256": "8ec1c59aabbc4dfda88dd0e3f032a5120cec818fa0ada0b3cfba7ff06ab2ba78"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/mVAC%28T3%29%28L%29.ngmesh",
+    "file": "vnc\\mVAC(T3)(L).ngmesh",
+    "bytes": 344080,
+    "sha256": "fee896981228cc35a08a20085a92c27cf3225e883c104f811f7323854bce36ec"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/27:0",
+    "file": "vnc\\27-manifest.json",
+    "bytes": 49,
+    "sha256": "5aba8ed204da9f8745f4b694e9d1f872c0b51818ae017bd5e6d539d965ab51e5"
+  },
+  {
+    "url": "https://storage.googleapis.com/flyem-male-cns/rois/malecns-vnc-neuropil-roi-v0/mesh/mVAC%28T3%29%28R%29.ngmesh",
+    "file": "vnc\\mVAC(T3)(R).ngmesh",
+    "bytes": 351916,
+    "sha256": "5a3811a35acbb3d24f6d0efce43f86f35ee00d003a7bee302ad790ab6881961f"
+  },
+  {
+    "url": "https://registry.npmjs.org/three/-/three-0.170.0.tgz",
+    "file": "three-0.170.0.tgz",
+    "bytes": 7156850,
+    "sha256": "4a608a355dcaba72e0e5383cdc814303f5b6060b43c238cdf6932dceb699238d"
+  },
+  {
+    "file": "C:\\Users\\cc\\Documents\\ChatGPT\\brain\\flybrain\\data\\body-annotations-male-cns-v1.0-minconf-0.5.feather",
+    "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "bytes": 14483314
+  }
+]

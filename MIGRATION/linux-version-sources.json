@@ -1,0 +1,14 @@
+{
+  "torch": "2.12.1+cu130",
+  "python": "3.12",
+  "fallback_to_local_for": [
+    "imageio",
+    "llvmlite",
+    "mmh3",
+    "numba",
+    "packaging",
+    "pygame",
+    "websockets"
+  ],
+  "original_cloud_inventory": "studies/brain-sokoban-v1/remote-20261003/requirements-resolved.txt"
+}

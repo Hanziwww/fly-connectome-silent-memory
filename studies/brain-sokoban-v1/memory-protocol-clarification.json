@@ -1,0 +1,11 @@
+{
+  "reason": "Implement the separately requested cue-delay-choice probe in addition to cross-step memory tasks",
+  "before_dynamic_training": true,
+  "short_probe_prefix_windows": 0,
+  "cross_step_prefix_windows": [1, 2, 4, 8],
+  "trained_prefix_windows": [0, 1, 4],
+  "heldout_prefix_windows": [2, 8],
+  "trained_delay_ms": [0, 40, 160],
+  "heldout_delay_ms": [20, 80, 320, 640],
+  "calibration_and_static_tasks_unchanged": true
+}

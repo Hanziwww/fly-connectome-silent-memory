@@ -1,0 +1,73 @@
+% Discussion (Gate C; deepened with literature at the user's request): the central result first; each pillar against prior work;
+% the disease consequence; digital twins as experimental systems with six predictions for flies; a closing line. Novelty is
+% argued against named precedents only.
+
+A fixed connectome, trained end to end, holds working memory in neuronal adaptation and recalls it only in the brain state
+that wrote it. The trace needs neither persistent firing nor a dedicated circuit, and the learned readout can use it only where
+the operations that write and read it match the state of learning. The result joins two questions that are usually asked
+apart: what holds a silent memory, and why recall depends on the state of the brain.
+
+One dependence accounts for four observations in the model. The operator that turns the silent trace into a push depends on
+the state of the network, in time and in excitability. Hence the lock to the trained timings, its widening when training spans
+timings or excitability states, the loss of access after a lesion and its partial return on relearning. Excitability-driven
+decoder drift\cellcite{haimerl2025} and state-dependent retrieval\cellcite{jovasevic2015,meyer2017} then become two sides of one
+rule: recall spans the states of learning, at writing and at reading. Context-dependent memory in humans, with recall best in
+the setting of learning\cellcite{smith2001}, may express the same rule at the scale of whole environments. Because the lesion
+rewrites the trace as well as its reading, restoring either end alone does not restore recall.
+
+The wiring itself is robust. Routes from the input to the readout persist after heavy cell loss, and a single extra spike is
+absorbed before the decision. What fails under the lesion is therefore not reachability but the match between the state that
+wrote a memory and the state that reads it. In animals, neuromodulators shift the intrinsic properties on which such a match
+rests: cholinergic activation, for example, switches the firing mode of hippocampal CA3 neurons\cellcite{kis2024}. Training
+across states widens the match, and cell-to-cell differences in adaptation leave the mechanism intact, in line with the
+robustness that heterogeneity lends to learning in spiking networks\cellcite{pereznieves2021}. Varied conditions during learning
+may therefore protect a memory against later shifts of state.
+
+Learning on real wiring recruits adaptation, an intrinsic and cell-autonomous variable, rather than persistent firing or
+synaptic facilitation\cellcite{mongillo2008,masse2019,pals2020}. Holding the cue costs no extra spikes, an economy that matters
+because neural signaling is energetically expensive\cellcite{niven2008}. The time dependence of the readout also has a concrete
+place. In primate recordings, stable population codes sit beside impulse responses that change with
+time\cellcite{murray2017,wolff2020}; in the model, the trace persists through the delay while the operator that reads it drifts,
+so the time dependence lies in the reading, not in the code. Models of representational drift ask how stable readouts can track
+a code that keeps changing\cellcite{rule2022}; the model poses the converse problem, a persistent code read by a changing
+operator, which the learned readout solves only over the timings it was trained on.
+
+The carriers of the trace are enriched for \gene{SK} in the fly's own transcriptomes. SK currents shape afterhyperpolarization
+and sparse coding in fly circuits\cellcite{chen2026}, and enhancing them impairs hippocampal memory in mice\cellcite{rice2024}.
+The signature sides with a neurocentric view of memory\cellcite{titley2017} without implying that flies hold working memories in
+SK currents: the enrichment marks where to look. The delays here last under a second, shorter than the visual memories of
+seconds that depend on signaling in ring neurons of the fly's central complex\cellcite{neuser2008,kuntz2017}, so the two
+mechanisms may serve different time scales.
+
+No circuit in the model is necessary for the memory. Its strongest ensemble is densely wired yet no more necessary than matched
+sets, and removing all Kenyon cells, the intrinsic cells of the mushroom body, leaves visual memory intact. Flies without
+mushroom bodies likewise keep visual learning\cellcite{wolf1998}, although mushroom-body circuits can also store visual
+memories\cellcite{vogt2014}. Engrams of a single memory are spread across many brain regions in mice\cellcite{roy2022}; in the
+model, the spread follows from where the trace is written and read, and the cue concentrates in the readout cells, several times
+out of proportion to their number. Excitability biases which neurons join an engram\cellcite{delamare2024,hansel2024}, and
+adaptation currents carried by SK channels may set that bias for a silent working memory.
+
+The model also bears on when to treat. A disease-like shift after learning rewrites the trace and changes its reading, so
+normalizing excitability late is a second shift, one that removes the access learned under the disease. Restoring excitability
+should therefore help new learning more than the recall of memories formed during the disease. This reading is consistent with
+the mixed effects of lowering hyperexcitability in patients\cellcite{bakker2012,vossel2021,faini2025}, with the recovery of
+memories by direct engram activation in early disease models\cellcite{roy2016} and with the rescue of retrieval by activating
+parvalbumin interneurons in such mice\cellcite{park2024}. Because hyperexcitability emerges long before
+diagnosis\cellcite{li2024,okechukwu2026}, a progressing disease keeps moving memories away from the state in which they were
+formed, and treatments that hold the state steady early may protect access better than treatments that reverse it late.
+
+Connectome models have so far predicted pathways and activity without learning, or learned within one sensory
+pathway\cellcite{shiu2024,lappalainen2024}. A digital twin trained on tasks allows experiments that no animal allows, such as
+moving a stored trace from one brain state into another, and each of its results is a prediction for the fly. Because every
+experiment here was declared before it ran and replays bit for bit, others can re-examine the twin with the same certainty.
+Coupled to a physics model of the fly's body\cellcite{vaxenburg2025}, a trained twin could also link memory to movement in a
+closed loop.
+
+Six of these predictions can be tested directly. Knocking down \gene{SK} in carrier hemilineages (0A, 13A/19A, 6A and 21A),
+which driver lines can target\cellcite{harris2015}, should shorten visual delay memory more than knocking it down in
+\gene{SK}-poor ones (9B, 14A and 10B). An impulse during the delay should reveal the cue in the cell types the model
+marks\cellcite{wolff2017}. Training across sustained excitability shifts too small to change behavior should protect later
+recall, whereas a shift confined to encoding, or to recall, should impair short visual memory. With temporal control of
+transgene expression\cellcite{mcguire2003}, memories formed before Aβ42 is induced should be lost while new learning
+works\cellcite{ping2015}, and acute restoration of Kv4 after training under Aβ42 should impair that memory. Memory failure, in
+this model, need not mean lost storage: it can mean a key that no longer fits its lock.

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 10,
+  "reason": "T-SC1b lineage-pair tier and the VNC compartment test",
+  "changes": {
+    "read_so_far": "the VNC atlas designation labels, cluster sizes and marker lists (eLife source data); no expression matrix and no test",
+    "bridge_change": {
+      "pairs": "the four paired designations (13A/19A, 5B/6B, 20A/22A, 8A/24B; 22 clusters) are no longer left out: each forms one unit (its clusters' assigned cells pooled), at a lineage-pair tier below the strict lineage tier (exact > alias > fuzzy > lineage > lineage_pair > class), as flybrain's fuzzy tier pools a cluster for a small group of related types",
+      "labels": "a MaleCNS single label X maps to unit X when X is designated alone, else to the pair unit containing X; a composite X.Y maps only to an identical pair; other composites stay unmapped",
+      "gates": "V2 compares a pair unit with the majority EM transmitter of both member hemilineages; V3 uses the joint marker sets of Figure 4-source data 1 (lin13A & 19A etc.)",
+      "units": "Allen designations (single or pair) with >= 30 assigned cells; each unit appears once in the z-scores"
+    },
+    "coverage_from_labels": {
+      "strict": {
+        "vnc_carriers": 0.312,
+        "all_carriers": 0.142
+      },
+      "with_pairs": {
+        "vnc_carriers": 0.555,
+        "all_carriers_type_plus_lineage": 0.324
+      },
+      "note": "upper bounds if every designation passes the gates"
+    },
+    "new_family": "F14.SC.trace.v2.vnc (Holm, 4 tests): H1 v2 within the VNC compartment, the only compartment where the lineage tier can reach Gate SC-A",
+    "sensitivity": "the strict-lineage-only results are reported descriptively (no tests)",
+    "testplan_sha256": "8534a35ad65f4f67a91e8411b4bc4132dabb31305119cacec290ebd10c5c844d"
+  },
+  "previous_sha256": "a5ce3e6a7d8c09afc71f2ae2351abeedbf19afdee71a2421f7cc355979ced823",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792693781.9207149
+}

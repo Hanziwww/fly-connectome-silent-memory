@@ -1,0 +1,89 @@
+{
+ "task": "T-SC5 aging operator from cell-type-resolved K+ channel expression, C4-C6 (G2 rules; F14.SC.aging)",
+ "declared": "2026-10-22, before any age change of expression was computed",
+ "code": {
+  "file": "code/sc_aging.py",
+  "sha256": "f1a5a64c4f2c15e95f06ab652044de81237207831121fcb2fe6d107553e6fa5c"
+ },
+ "genes": [
+  "Sh",
+  "Shab",
+  "Shaw",
+  "Shawl",
+  "Shal",
+  "KCNQ",
+  "SK",
+  "slo",
+  "eag",
+  "sei",
+  "Elk",
+  "Irk1",
+  "Irk2",
+  "Irk3",
+  "Ork1",
+  "Task6",
+  "Task7"
+ ],
+ "davie": {
+  "young": [
+   1,
+   3,
+   6,
+   9
+  ],
+  "old": [
+   30,
+   50
+  ],
+  "sample": "Age x Genotype x Replicate",
+  "non_neuronal": [
+   "Ensheathing_glia",
+   "Astrocyte-like",
+   "Perineurial_glia",
+   "Cortex_glia",
+   "Subperineurial_glia",
+   "Chiasm_glia",
+   "Plasmatocytes",
+   "Photoreceptors",
+   "Hsp"
+  ]
+ },
+ "afca": {
+  "ages": [
+   "30",
+   "70"
+  ],
+  "by": "sex (female, male)",
+  "counts": "expm1(X) x total_counts / 1e4",
+  "pan": "afca_annotation_broad 'CNS neuron'",
+  "why": "the 5-day cells are FCA data (batch)"
+ },
+ "min_cells": 50,
+ "statistic": "log2 f = mean log2(CPM_K + 1) old - young",
+ "mapping": {
+  "offset": "-3.22 mV x (1 - f) / 0.46 x dose",
+  "operators": {
+   "aging_pan": "Davie pan-neuronal f on every cell",
+   "aging_class": "mean log2 f of the cell's Davie candidate units; else its superclass mean; else pan-neuronal"
+  }
+ },
+ "c4_c6": {
+  "brains": [
+   "p05",
+   "m0joint"
+  ],
+  "doses": [
+   0.5,
+   1.0,
+   1.5
+  ],
+  "c5": "mean KC odour spikes aged / healthy <= 1.05 at dose 1 on both brains; <= 0.1% of cells above 100 Hz under the task input",
+  "c6": "the C5 criteria at doses 0.5 and 1.5 on both brains",
+  "reference": "KC postsynaptic odour Ca2+ flat or lower with age (doi:10.1371/journal.pbio.1002563)"
+ },
+ "descriptive": [
+  "per-gene age changes",
+  "KCNQ vs the published decline (doi:10.1371/journal.pone.0062445)",
+  "GF looming response and MBON responses under the operators"
+ ]
+}

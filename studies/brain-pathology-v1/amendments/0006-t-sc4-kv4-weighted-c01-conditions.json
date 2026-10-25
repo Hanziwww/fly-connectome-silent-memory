@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 6,
+  "reason": "T-SC4 Kv4-weighted C01 conditions",
+  "changes": {
+    "added_task_file": {
+      "file": "tasks/sc-kv4-conditions.json",
+      "sha256": "2d77f0684a41757a86fd9d777b11761b16a40f9f5fa21eeaffcce07eaf59c112"
+    },
+    "why": "T-SC4 (declared in tasks/sc-panels-v1.json, amendment 0005): the per-cell Kv4 weights and the 39 conditions are written before any run.",
+    "conditions": [
+      "check-uniform-dose0.5",
+      "kv4-class-dose0.5",
+      "kv4-class-dose1",
+      "kv4-class-dose1.5",
+      "kv4-class-dose2",
+      "kv4-global-dose0.5",
+      "kv4-global-dose1",
+      "kv4-global-dose1.5",
+      "kv4-global-dose2",
+      "kv4-class-dose0.003125",
+      "kv4-class-dose0.00625",
+      "kv4-class-dose0.0125",
+      "kv4-class-dose0.025",
+      "kv4-class-dose0.05",
+      "kv4-class-dose0.1",
+      "kv4-class-dose0.2",
+      "kv4-class-dose0.3",
+      "kv4-class-dose0.4",
+      "loo-ol_intrinsic",
+      "loo-cb_intrinsic",
+      "loo-vnc_intrinsic",
+      "loo-visual_projection",
+      "loo-vnc_sensory",
+      "loo-ol_sensory",
+      "loo-cb_sensory",
+      "loo-ascending_neuron",
+      "loo-descending_neuron",
+      "b-C01-dose0.5-M0-head_only-r1-uniform",
+      "b-C01-dose0.5-M0-head_only-r1-kv4",
+      "b-C01-dose0.5-M0-head_only-r2-uniform",
+      "b-C01-dose0.5-M0-head_only-r2-kv4",
+      "b-C01-dose0.5-M0-head_only-r3-uniform",
+      "b-C01-dose0.5-M0-head_only-r3-kv4",
+      "b-C01-dose0.5-M0-joint-r1-uniform",
+      "b-C01-dose0.5-M0-joint-r1-kv4",
+      "b-C01-dose0.5-M0-joint-r2-uniform",
+      "b-C01-dose0.5-M0-joint-r2-kv4",
+      "b-C01-dose0.5-M0-joint-r3-uniform",
+      "b-C01-dose0.5-M0-joint-r3-kv4"
+    ],
+    "weight_stats": {
+      "class": {
+        "min": 0.0,
+        "p01": 0.45991071074378037,
+        "median": 0.9588182881377646,
+        "p99": 2.0459538003028506,
+        "max": 2.0459538003028506,
+        "mean": 1.0000000000000002
+      },
+      "global": {
+        "min": 0.0,
+        "p01": 0.4796640994791911,
+        "median": 1.0000000000000002,
+        "p99": 2.133828511215135,
+        "max": 2.133828511215135,
+        "mean": 1.0
+      }
+    },
+    "deviations_from_plan": {
+      "adfca_operator": "the third operator (a cell-type Shal change measured in T-SC4b) is not built: in the AD Fly Cell Atlas, pan-neuronal Shal mRNA is higher under Abeta42 (log2 fold change +0.13, F14.SC.adfca.pan, Holm-significant) and rises in 45 of 58 neuron types, so the data give no loss pattern; the C01 calibration rests on Kv4 current (protein) loss",
+      "check": "the uniform identity check runs once (dose 0.5) through the weighted code path with w = 1",
+      "regime_b": "evaluated under the uniform lesion (control) and the class-weighted lesion; restored is in runs/rescue (F12.rescue)"
+    }
+  },
+  "previous_sha256": "d4b4dbf62282e56002bd7b99d4edaebc62d559f0d5f8c4655d8efab17736b0ef",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792690421.1800456
+}

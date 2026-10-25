@@ -1,0 +1,9 @@
+{
+  "id": "mixed-b16",
+  "precision": "mixed",
+  "batch": 16,
+  "eligible": true,
+  "total_training_seconds": 494.2421751000802,
+  "total_wall_seconds": 503.21586430002935,
+  "selection": "fastest two-task learned+reload success"
+}

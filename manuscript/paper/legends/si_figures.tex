@@ -1,0 +1,107 @@
+% Supplemental figures for Document S1 (Gate C): files, titles (the build docstrings), the main figure each relates to, and
+% legends drawn from the builds' panel lists and source data. Not counted toward the 7,000 words.
+\setfigfile{S1}{../figures/v4/supplement/s1.pdf}\relatedto{S1}{1}
+\setfigfile{S2}{../figures/v4/supplement/s2.pdf}\relatedto{S2}{2}
+\setfigfile{S3}{../figures/v4/supplement/s3.pdf}\relatedto{S3}{3}
+\setfigfile{S4}{../figures/v4/supplement/s4.pdf}\relatedto{S4}{4}
+\setfigfile{S5}{../figures/v4/supplement/s5.pdf}\relatedto{S5}{5}
+\setfigfile{S6}{../figures/v4/supplement/s6.pdf}\relatedto{S6}{6}
+\setfigfile{S7}{../figures/v4/supplement/s7.pdf}\relatedto{S7}{7}
+
+\deflegend{S1}{The model, what training changes, and its validation}{%
+(A) Where training acts in the planning model: each cell by the mean absolute change of its cell-type group's output gain, input
+gain and threshold over the \val{L09} maps (log color), and the cells of the most consistently changed groups. Scale bar,
+100~μm.
+(B) Total parameter change against training length, one dot per map; Spearman ρ with a BCa bootstrap interval, permutation
+test, Holm-adjusted.
+(C) Mean absolute change by cell group and parameter.
+(D) Every map's learning curve: solution depth reached against training updates, by difficulty tier.
+(E) Updates to solve each map (rows by optimal moves) in the original set and five replicate sets.
+(F) Updates per stage for stages entered with or without a deadlocking move available; bars, medians.
+(G) The hardest map: training updates of the analyzed lineage in six sets, and from a neutral start with the real wiring, with
+its weights shuffled and rewired with degrees kept (one run each); cross, stopped without progress.
+(H) The model's parameters at a glance.
+(I) Bit-exact replay of every analyzed model on every graphics processor of the three training hosts.}
+
+\deflegend{S2}{The silent trace in every learner: written, held, read}{%
+(A) Where the cue writes the trace: the cells that spike differently during the cue (scene 1), and the voltage difference held
+at the end of the delay in scenes 1--3, with the cells that carry an adaptation difference. Scale bar, 100~μm.
+(B) The cue difference at the decision in five state sets: scene 1 with the readout or the brain and readout trained, scene 2,
+and scene 3 in each of its two contexts.
+(C) The share of cells above each absolute cue difference, at the end of the delay and at the decision, four learners.
+(D) Time constants of the cue difference by state variable, in every learner, timing and context; line, the intrinsic time
+constant.
+(E) The synaptic share of the decision-time drive on the grid of delay and prefix input, four learners; framed, trained timings.
+(F) The decision margin with the transplanted state against the native margin, at every delay, without and with prefix input.
+(G) Scene 3 holds its context with the cue: trained histories solved with the own state, the opposite cue's state or the other
+context's state; exact tests, Holm- and BH-adjusted.
+(H) The cue difference by state variable through the \val{H12}-ms delay, in every learner.}
+
+\deflegend{S3}{No circuit is special, in every scene and under every connection rule}{%
+(A) The scene-2 cue ensemble (the \val{D15} of cells with the largest cue difference at the decision) and its internal
+connections, beside three of its \val{D14} matched sets drawn by the same rule. Scale bar, 100~μm.
+(B) The cell groups of the scene-1 and scene-2 ensembles, which their matched sets share by design, against all cells.
+(C) Trained histories solved after silencing the ensemble or cutting its internal synapses, relative to the mean of the matched
+sets (gray), by the ensemble's scene and the scene tested.
+(D) Removing whole populations: trained histories solved, the network's rate and the giant fiber's looming response, against
+healthy.
+(E) The signatures of healthy fly circuits used by the disease study (a stable network, antennal-lobe inhibition, looming
+escape and the monoamine control) and the task rate of the healthy network under every connection rule.}
+
+\deflegend{S4}{The molecular atlas behind the \gene{SK} signature}{%
+(A) Single-gene in silico stains on the unfolded CNS (\gene{SK}, \gene{slo}, \gene{KCNQ}, \gene{Shab}, \gene{Shal} and the
+adaptation index): each mapped cell by its atlas unit's z score, with the mapping tier as brightness.
+(B) The share of each cell set mapped by cell type, by hemilineage and by hemilineage pair.
+(C) Agreement with the connectome, per atlas: the transmitters of the mapped types against the predictions from electron
+microscopy, and the map rows present.
+(D) Agreement between atlases: the expression correlation of units mapped to the same cell type, against different types.
+(E) Marker genes in the mapped units of Kenyon cells, projection neurons and ring neurons, one dot per atlas.
+(F) \gene{SK} enrichment of the scene-1 carriers with and without the hemilineage-pair tier, against matched sets and the
+mapping null.
+(G) The cue's routes to the motor neurons by hemilineage: modules tinted by atlas \gene{SK} (z); gold, types that held the
+trace; outlined, motor neurons; width, the cue drive at the first decision; beside it, each hemilineage's \gene{SK} and
+carrier share.}
+
+\deflegend{S5}{Access locked to the timing of learning, at every delay}{%
+(A) The decision-time cue difference at all seven delays (four prefix windows; scene 1, readout trained), each with its outcome
+and its cosine with the trained \val{G06}-ms pattern.
+(B) Cues solved at every delay of the dense scan and every prefix input; framed, trained timings.
+(C) At untrained timings the push toward the correct target collapses and its direction turns away from the trained push, in
+the three readouts of scene 1 in which the collapse survives correction; bars, medians; Holm-adjusted \Pv{}.
+(D) The cosine with the \val{G06}-ms pattern within each cell group, by delay.
+(E) One trace pattern injected at seven delays, without and with prefix input: the cosine between response directions, and
+each response's push; framed, trained delays.
+(F) Untrained use after training at fixed or jittered timings, timing by timing (means of \val{L19} replicates per arm), and
+their difference.}
+
+\deflegend{S6}{Many routes, fading kicks and a wider window, in detail}{%
+(A) The route network at every tenth of removal, random (the first of three seeded draws) and hubs first (cells in descending
+order of connections); numbers, cells on routes.
+(B) Cells on routes, and the readout cells by shortest route, in every draw and both orders.
+(C) Single extra spikes: per kicked cell, the growth of the difference after the spike and the cells still changed at the
+decision, at two delays and for both cues, with the cell's direct partners.
+(D) Bootstrap resamples of the access window and the cell-loss tolerance, across states over one state; triangles, estimates;
+lines, \val{G11} intervals.
+(E) Memory under each held-out jitter draw, replicate by replicate; bars, means.
+(F) Flow capacity from the visual input to the readout and from the odor input to the mushroom-body output, with Kenyon cells
+removed.
+(G) Typed routes from the visual input to the readout, intact and with \val{G08} of the other cells removed: the relay types
+with the most route traffic, the input and readout types that use them most, and every connection among them above a
+threshold; width, walks of two or three synapses through the connection; color and arrowhead, the sender's transmitter.}
+
+\deflegend{S7}{Disease steals access, not memories, in detail}{%
+(A) Each cell's change in task rate under the uniform Kv4-loss lesion at half and full dose and under the \gene{Shal} pattern of
+the same mean, and the vulnerable cells (the \val{D15} of memory-relevant cells with the largest change) by group.
+(B) The healthy circuits match the fly in both brains: sparse Kenyon-cell coding broadened by APL removal, projection-neuron
+rates raised by removing the local neurons, and the giant fiber's looming response.
+(C) Lesions after learning in every retained case and memory model; equivalence tests (TOST), Holm-adjusted.
+(D) Learning under the lesion, run by run; bars, means.
+(E) Relearning after the lesion, replicate by replicate, with the readout retrained.
+(F) Lifting the lesion late removes access in every run.
+(G) Odor memory by delay in every case, read from the mushroom-body output.
+(H) The two \gene{Shal} weightings of one mean loss: class means and the global mean.
+(I) Above full dose both weightings run away (cells above \val{G03}~Hz); below, spikes per trial against bits of cue per
+decision.
+(J) Trained histories solved when each superclass's \gene{Shal} weighting is made uniform in turn (descriptive).
+(K) The aging operator: its source, the summed potassium-channel expression of old over young flies in neuronal atlas
+units\cellcite{davie2018}, and its effect on Kenyon-cell odor responses in two brains.}

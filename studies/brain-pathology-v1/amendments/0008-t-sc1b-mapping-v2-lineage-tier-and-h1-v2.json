@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 8,
+  "reason": "T-SC1b mapping v2 lineage tier and H1 v2 design",
+  "changes": {
+    "added_task_file": {
+      "file": "tasks/sc-mapping-v2-design.json",
+      "sha256": "e69bd0ce3366c88bce0bae02db54858a51c8d8150527cb908f51dcabd06be195"
+    },
+    "why": "Mapping v2: a VNC lineage tier from the Allen et al. 2020 VNC atlas; H1 v2; post hoc sensitivity of H1 v1 and of the AD-FCA contrasts; declared before any VNC atlas file is read, after H1 v1 was known",
+    "families": {
+      "new": [
+        "F14.SC.trace.v2 (Holm, 4)",
+        "F14.SC.trace.v2.secondary (BH, 12)"
+      ],
+      "post_hoc": [
+        "F14.SC.trace.sensitivity (BH, 4)",
+        "F14.SC.adfca.sensitivity (BH, 140)"
+      ]
+    }
+  },
+  "previous_sha256": "f0e52be79a40bf7caa6a8cc2f87880796c4c7f9c832c019237863471b2f542da",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792692831.7350407
+}

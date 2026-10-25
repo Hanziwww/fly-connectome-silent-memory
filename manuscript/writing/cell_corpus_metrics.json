@@ -1,0 +1,758 @@
+{
+ "source": "PubMed metadata and PubMed Central full texts retrieved 2026-10-23 with the PubMed tools; derived metrics only (no article text)",
+ "papers": [
+  {
+   "pmid": "42691995",
+   "doi": "10.1016/j.cell.2026.08.015",
+   "year": "2026",
+   "title": "Sexual dimorphism in the complete Drosophila male central nervous system connectome.",
+   "summary_words": 143,
+   "summary_sentences": 9,
+   "summary_sentence_words": [
+    13,
+    16,
+    12,
+    21,
+    26,
+    17,
+    17,
+    15,
+    6
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "approach",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ]
+  },
+  {
+   "pmid": "42691997",
+   "doi": "10.1016/j.cell.2026.08.014",
+   "year": "2026",
+   "title": "The organization of visual pathways in the Drosophila brain.",
+   "summary_words": 139,
+   "summary_sentences": 7,
+   "summary_sentence_words": [
+    18,
+    21,
+    27,
+    13,
+    20,
+    21,
+    19
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ]
+  },
+  {
+   "pmid": "42691996",
+   "doi": "10.1016/j.cell.2026.08.016",
+   "year": "2026",
+   "title": "The complete gustatory connectome of adult Drosophila reveals how taste guides feeding, foraging, and social behavior.",
+   "summary_words": 153,
+   "summary_sentences": 7,
+   "summary_sentence_words": [
+    13,
+    14,
+    38,
+    28,
+    19,
+    16,
+    25
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "approach",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ]
+  },
+  {
+   "pmid": "40460825",
+   "doi": "10.1016/j.cell.2025.05.007",
+   "year": "2025",
+   "title": "Infrequent strong connections constrain connectomic predictions of neuronal function.",
+   "summary_words": 150,
+   "summary_sentences": 8,
+   "summary_sentence_words": [
+    7,
+    20,
+    19,
+    24,
+    27,
+    21,
+    17,
+    15
+   ],
+   "summary_roles": [
+    "question",
+    "finding",
+    "gap",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ]
+  },
+  {
+   "pmid": "40967216",
+   "doi": "10.1016/j.cell.2025.08.032",
+   "year": "2025",
+   "title": "Distinct circuit motifs evaluate opposing innate values of odors.",
+   "summary_words": 150,
+   "summary_sentences": 7,
+   "summary_sentence_words": [
+    12,
+    13,
+    32,
+    32,
+    19,
+    17,
+    25
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ]
+  },
+  {
+   "pmid": "38729112",
+   "doi": "10.1016/j.cell.2024.03.016",
+   "year": "2024",
+   "title": "Neurotransmitter classification from electron microscopy images at synaptic sites in Drosophila melanogaster.",
+   "summary_words": 149,
+   "summary_sentences": 6,
+   "summary_sentence_words": [
+    13,
+    26,
+    51,
+    16,
+    25,
+    18
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "approach",
+    "approach",
+    "finding",
+    "implication"
+   ],
+   "full": {
+    "intro_paragraphs": 3,
+    "intro_words": 466,
+    "results_sections": 10,
+    "heading_words": [
+     4,
+     7,
+     4,
+     8,
+     9,
+     6,
+     3,
+     3,
+     5,
+     8
+    ],
+    "results_words": 3873,
+    "results_paras_per_section": [
+     2,
+     4,
+     2,
+     4,
+     4,
+     2,
+     1,
+     1,
+     1,
+     5
+    ],
+    "sentence_len_mean": 26.3,
+    "sentence_len_sd": 12.4,
+    "sentence_len_p10": 13,
+    "sentence_len_p90": 43,
+    "we_per_1000": 16.5,
+    "passive_per_1000": 6.7,
+    "hedges_per_1000": 9.6,
+    "intensifiers": {
+     "notably": 2,
+     "surprisingly": 1,
+     "crucial": 1,
+     "key": 1,
+     "robust": 1,
+     "moreover": 1,
+     "together": 3
+    },
+    "figure_callouts_per_1000": 0.0,
+    "discussion_paragraphs": 7,
+    "discussion_words": 778,
+    "limitations_words": 310
+   },
+   "pmcid": "PMC11106717",
+   "in_brief_found": true
+  },
+  {
+   "pmid": "37607537",
+   "doi": "10.1016/j.cell.2023.07.035",
+   "year": "2023",
+   "title": "Brain-wide representations of behavior spanning multiple timescales and states in C.\u00a0elegans.",
+   "summary_words": 150,
+   "summary_sentences": 8,
+   "summary_sentence_words": [
+    18,
+    18,
+    27,
+    25,
+    9,
+    12,
+    23,
+    18
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "approach",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ],
+   "full": {
+    "intro_paragraphs": 5,
+    "intro_words": 509,
+    "results_sections": 2,
+    "heading_words": [
+     7,
+     9
+    ],
+    "results_words": 1099,
+    "results_paras_per_section": [
+     3,
+     6
+    ],
+    "sentence_len_mean": 20.4,
+    "sentence_len_sd": 8.7,
+    "sentence_len_p10": 10,
+    "sentence_len_p90": 31,
+    "we_per_1000": 15.5,
+    "passive_per_1000": 10.9,
+    "hedges_per_1000": 6.4,
+    "intensifiers": {
+     "together": 1
+    },
+    "figure_callouts_per_1000": 0.0,
+    "discussion_paragraphs": 4,
+    "discussion_words": 437,
+    "limitations_words": 102
+   },
+   "pmcid": "PMC10836760",
+   "in_brief_found": false
+  },
+  {
+   "pmid": "37192620",
+   "doi": "10.1016/j.cell.2023.04.023",
+   "year": "2023",
+   "title": "Dissecting the functional organization of the C.\u00a0elegans serotonergic system at whole-brain scale.",
+   "summary_words": 150,
+   "summary_sentences": 8,
+   "summary_sentence_words": [
+    7,
+    19,
+    22,
+    33,
+    17,
+    11,
+    23,
+    18
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "approach",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ],
+   "full": {
+    "intro_paragraphs": 5,
+    "intro_words": 747,
+    "results_sections": 8,
+    "heading_words": [
+     8,
+     6,
+     9,
+     12,
+     8,
+     14,
+     13,
+     7
+    ],
+    "results_words": 3991,
+    "results_paras_per_section": [
+     3,
+     4,
+     3,
+     5,
+     4,
+     2,
+     5,
+     4
+    ],
+    "sentence_len_mean": 21.6,
+    "sentence_len_sd": 9.8,
+    "sentence_len_p10": 12,
+    "sentence_len_p90": 33,
+    "we_per_1000": 16.3,
+    "passive_per_1000": 11.5,
+    "hedges_per_1000": 10.0,
+    "intensifiers": {
+     "interestingly": 1,
+     "robust": 2,
+     "thus": 6,
+     "together": 2
+    },
+    "figure_callouts_per_1000": 0.0,
+    "discussion_paragraphs": 5,
+    "discussion_words": 793,
+    "limitations_words": 151
+   },
+   "pmcid": "PMC10484565",
+   "in_brief_found": false
+  },
+  {
+   "pmid": "36563666",
+   "doi": "10.1016/j.cell.2022.11.022",
+   "year": "2022",
+   "title": "A brainstem integrator for self-location memory and positional homeostasis in zebrafish.",
+   "summary_words": 147,
+   "summary_sentences": 8,
+   "summary_sentence_words": [
+    11,
+    36,
+    17,
+    18,
+    29,
+    8,
+    9,
+    19
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "approach",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ],
+   "full": {
+    "intro_paragraphs": 4,
+    "intro_words": 497,
+    "results_sections": 4,
+    "heading_words": [
+     9,
+     4,
+     12,
+     11
+    ],
+    "results_words": 3320,
+    "results_paras_per_section": [
+     6,
+     7,
+     2,
+     5
+    ],
+    "sentence_len_mean": 25.7,
+    "sentence_len_sd": 12.2,
+    "sentence_len_p10": 13,
+    "sentence_len_p90": 41,
+    "we_per_1000": 9.3,
+    "passive_per_1000": 8.1,
+    "hedges_per_1000": 7.8,
+    "intensifiers": {
+     "robust": 2,
+     "furthermore": 1,
+     "moreover": 1,
+     "thus": 11
+    },
+    "figure_callouts_per_1000": 0.0,
+    "discussion_paragraphs": 6,
+    "discussion_words": 1050,
+    "limitations_words": 261
+   },
+   "pmcid": "PMC11605990",
+   "in_brief_found": false
+  },
+  {
+   "pmid": "38306983",
+   "doi": "10.1016/j.cell.2023.12.035",
+   "year": "2024",
+   "title": "Brain-wide neural activity underlying memory-guided movement.",
+   "summary_words": 147,
+   "summary_sentences": 8,
+   "summary_sentence_words": [
+    26,
+    24,
+    12,
+    20,
+    15,
+    19,
+    17,
+    14
+   ],
+   "summary_roles": [
+    "context",
+    "finding",
+    "finding",
+    "gap",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ],
+   "full": {
+    "intro_paragraphs": 7,
+    "intro_words": 740,
+    "results_sections": 7,
+    "heading_words": [
+     6,
+     9,
+     4,
+     7,
+     5,
+     9,
+     5
+    ],
+    "results_words": 3775,
+    "results_paras_per_section": [
+     5,
+     4,
+     8,
+     4,
+     5,
+     4,
+     6
+    ],
+    "sentence_len_mean": 23.9,
+    "sentence_len_sd": 12.5,
+    "sentence_len_p10": 12,
+    "sentence_len_p90": 37,
+    "we_per_1000": 9.0,
+    "passive_per_1000": 12.5,
+    "hedges_per_1000": 2.9,
+    "intensifiers": {
+     "notably": 1,
+     "interestingly": 1,
+     "robust": 1,
+     "furthermore": 1,
+     "moreover": 1,
+     "thus": 4,
+     "together": 2
+    },
+    "figure_callouts_per_1000": 0.0,
+    "discussion_paragraphs": 17,
+    "discussion_words": 1927,
+    "limitations_words": 141
+   },
+   "pmcid": "PMC11492138",
+   "in_brief_found": true
+  },
+  {
+   "pmid": "40695276",
+   "doi": "10.1016/j.cell.2025.06.035",
+   "year": "2025",
+   "title": "Cell-type-directed network-correcting combination therapy for Alzheimer's disease.",
+   "summary_words": 149,
+   "summary_sentences": 7,
+   "summary_sentence_words": [
+    23,
+    18,
+    11,
+    25,
+    28,
+    15,
+    29
+   ],
+   "summary_roles": [
+    "context",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ],
+   "full": {
+    "intro_paragraphs": 4,
+    "intro_words": 614,
+    "results_sections": 7,
+    "heading_words": [
+     8,
+     15,
+     14,
+     20,
+     16,
+     15,
+     15
+    ],
+    "results_words": 2714,
+    "results_paras_per_section": [
+     2,
+     2,
+     3,
+     3,
+     4,
+     3,
+     2
+    ],
+    "sentence_len_mean": 26.3,
+    "sentence_len_sd": 11.0,
+    "sentence_len_p10": 14,
+    "sentence_len_p90": 41,
+    "we_per_1000": 6.6,
+    "passive_per_1000": 9.9,
+    "hedges_per_1000": 8.8,
+    "intensifiers": {
+     "notably": 5,
+     "interestingly": 1,
+     "key": 1,
+     "furthermore": 2,
+     "taken together": 1,
+     "together": 1
+    },
+    "figure_callouts_per_1000": 0.0,
+    "discussion_paragraphs": 9,
+    "discussion_words": 1466,
+    "limitations_words": 0
+   },
+   "pmcid": "PMC12313259",
+   "in_brief_found": true
+  },
+  {
+   "pmid": "41713415",
+   "doi": "10.1016/j.cell.2026.01.024",
+   "year": "2026",
+   "title": "Liver exerkine reverses aging- and Alzheimer's-related memory loss via vasculature.",
+   "summary_words": 156,
+   "summary_sentences": 8,
+   "summary_sentence_words": [
+    15,
+    28,
+    24,
+    15,
+    22,
+    18,
+    17,
+    17
+   ],
+   "summary_roles": [
+    "context",
+    "approach",
+    "finding",
+    "approach",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ],
+   "full": {
+    "intro_paragraphs": 3,
+    "intro_words": 415,
+    "results_sections": 8,
+    "heading_words": [
+     11,
+     10,
+     14,
+     15,
+     7,
+     12,
+     16,
+     15
+    ],
+    "results_words": 3551,
+    "results_paras_per_section": [
+     5,
+     4,
+     3,
+     1,
+     2,
+     4,
+     3,
+     2
+    ],
+    "sentence_len_mean": 24.5,
+    "sentence_len_sd": 8.8,
+    "sentence_len_p10": 13,
+    "sentence_len_p90": 36,
+    "we_per_1000": 17.7,
+    "passive_per_1000": 14.9,
+    "hedges_per_1000": 0.6,
+    "intensifiers": {
+     "novel": 8,
+     "moreover": 1,
+     "collectively": 5,
+     "together": 1
+    },
+    "figure_callouts_per_1000": 0.0,
+    "discussion_paragraphs": 4,
+    "discussion_words": 634,
+    "limitations_words": 237
+   },
+   "pmcid": "PMC13070421",
+   "in_brief_found": false
+  },
+  {
+   "pmid": "37774677",
+   "doi": "10.1016/j.cell.2023.08.039",
+   "year": "2023",
+   "title": "Single-cell atlas reveals correlates of high cognitive function, dementia, and resilience to Alzheimer's disease pathology.",
+   "summary_words": 149,
+   "summary_sentences": 4,
+   "summary_sentence_words": [
+    23,
+    36,
+    45,
+    45
+   ],
+   "summary_roles": [
+    "context",
+    "finding",
+    "finding",
+    "implication"
+   ],
+   "full": {
+    "intro_paragraphs": 3,
+    "intro_words": 416,
+    "results_sections": 10,
+    "heading_words": [
+     11,
+     6,
+     8,
+     12,
+     12,
+     10,
+     8,
+     11,
+     9,
+     9
+    ],
+    "results_words": 4492,
+    "results_paras_per_section": [
+     3,
+     6,
+     5,
+     3,
+     4,
+     3,
+     2,
+     4,
+     4,
+     3
+    ],
+    "sentence_len_mean": 33.8,
+    "sentence_len_sd": 12.7,
+    "sentence_len_p10": 20,
+    "sentence_len_p90": 51,
+    "we_per_1000": 11.4,
+    "passive_per_1000": 6.9,
+    "hedges_per_1000": 2.4,
+    "intensifiers": {
+     "notably": 1,
+     "interestingly": 4,
+     "remarkably": 1,
+     "critical": 2,
+     "key": 1,
+     "furthermore": 2,
+     "collectively": 2,
+     "thus": 1
+    },
+    "figure_callouts_per_1000": 0.0,
+    "discussion_paragraphs": 6,
+    "discussion_words": 973,
+    "limitations_words": 331
+   },
+   "pmcid": "PMC10601493",
+   "in_brief_found": true
+  },
+  {
+   "pmid": "42777707",
+   "doi": "10.1016/j.cell.2026.08.046",
+   "year": "2026",
+   "title": "Projection-defined modules reveal mouse motor cortex architecture.",
+   "summary_words": 144,
+   "summary_sentences": 8,
+   "summary_sentence_words": [
+    10,
+    15,
+    14,
+    18,
+    25,
+    18,
+    22,
+    22
+   ],
+   "summary_roles": [
+    "context",
+    "gap",
+    "approach",
+    "finding",
+    "finding",
+    "finding",
+    "finding",
+    "implication"
+   ]
+  },
+  {
+   "pmid": "42361798",
+   "doi": "10.1016/j.cell.2026.05.048",
+   "year": "2026",
+   "title": "Geometric constraints on the architecture of mammalian cortical connectomes.",
+   "summary_words": 151,
+   "summary_sentences": 6,
+   "summary_sentence_words": [
+    21,
+    14,
+    7,
+    39,
+    43,
+    27
+   ],
+   "summary_roles": [
+    "context",
+    "finding",
+    "gap",
+    "approach",
+    "finding",
+    "implication"
+   ]
+  }
+ ],
+ "missing": [],
+ "note": "Derived numbers only; verbatim sentences and headings are not stored (copyright)."
+}

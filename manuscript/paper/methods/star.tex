@@ -1,0 +1,407 @@
+% STAR Methods (Gate D; not counted toward the 7,000 words). Every number is a ledger value (\val): the S group of
+% manuscript/writing/build_ledger.py reads the design values from the study's configurations, declarations and code, and the
+% results recorded only here (class (c), the user's rule) from the result tables. Software versions and accession-like
+% identifiers are \ident; the key resources table (krt) is exempt from the number and voice checks (check_tex.py).
+\subsection{Key resources table}
+\begin{krt}
+\krtgroup{Deposited data}
+MaleCNS connectome, v\ident{1.0}: neuron annotations, transmitter predictions and connection weights & Berg et al.\cite{berg2026} &
+  \url{https://male-cns.janelia.org/download/}\\
+Whole-brain single-cell atlas of the aging fly brain & Davie et al.\cite{davie2018} & GEO: GSE107451\\
+Transcriptomes of visual-system cell types (TAPIN-seq) & Davis et al.\cite{davis2020} & GEO: GSE116969\\
+Single-cell atlas of the developing and adult optic lobe & Özel et al.\cite{ozel2021} & GEO: GSE142787\\
+Single-cell atlas of the ventral nerve cord, with its published cluster annotations & Allen et al.\cite{allen2020} & GEO:
+  GSE141807; eLife 54074, figure 1 data 1--2 and figure 4 data 1\\
+Aging Fly Cell Atlas, head & Lu et al.\cite{lu2023} & GEO: GSE218661\\
+Alzheimer's disease Fly Cell Atlas, head & Park et al.\cite{park2025} & GEO: GSE261656\\
+Simulation records, trained models, result tables and source data & This paper & Core: \url{https://doi.org/10.5281/zenodo.23629827}; extended: \url{https://doi.org/10.5281/zenodo.23629835}\\
+\krtgroup{Software and algorithms}
+FlyBrain \ident{0.1.0}, whole-CNS spiking simulator of the MaleCNS connectome & C.~Benade; model of Shiu et
+  al.\cite{shiu2024} & \url{https://github.com/HEREISCB/flybrain}\\
+Code of this study: simulation, training, analysis, figures and videos & This paper & \url{https://github.com/Hanziwww/fly-connectome-silent-memory}\\
+Python \ident{3.12.13} & Python Software Foundation & \url{https://www.python.org}\\
+PyTorch \ident{2.14.0} (CUDA \ident{13.2}) and \ident{2.12.1} (CUDA \ident{13.0}) & PyTorch Foundation & \url{https://pytorch.org}\\
+NumPy \ident{2.5.3} & Harris et al.\cite{harris2020} & \url{https://numpy.org}\\
+SciPy \ident{1.18.1} & Virtanen et al.\cite{virtanen2020} & \url{https://scipy.org}\\
+pandas \ident{3.0.6} & pandas development team & \url{https://pandas.pydata.org}\\
+Numba \ident{0.67.0} & Numba developers & \url{https://numba.pydata.org}\\
+Matplotlib \ident{3.11.2} & Matplotlib development team & \url{https://matplotlib.org}\\
+Scanpy \ident{1.12.4} and anndata \ident{0.13.4} & Wolf et al.\cite{wolf2018} & \url{https://scanpy.readthedocs.io}\\
+leidenalg \ident{0.12.0} and igraph \ident{1.0.0} & Traag et al.\cite{traag2019} & \url{https://leidenalg.readthedocs.io}\\
+scikit-learn \ident{1.9.1} & scikit-learn developers & \url{https://scikit-learn.org}\\
+statsmodels \ident{0.15.0} & statsmodels developers & \url{https://www.statsmodels.org}\\
+Pillow \ident{12.3.0} & Pillow contributors & \url{https://python-pillow.org}\\
+FFmpeg \ident{6.1} & FFmpeg developers & \url{https://ffmpeg.org}\\
+Claude (language review only) & Anthropic & \url{https://claude.com/claude-code}\\
+\end{krt}
+
+\subsection{Experimental model and study participant details}
+
+This study used no animals and no human participants. Every experiment was a simulation of a model built from the connectome
+of the complete central nervous system of one adult male \textit{Drosophila melanogaster}\cellcite{berg2026}. The results
+therefore describe a male CNS; cell types and connections that differ between the sexes\cellcite{berg2026,sturner2025} limit
+their generalization to females, as discussed in the Limitations of the study.
+
+The single-cell atlases joined to the connectome came from published data, with the sexes each study reports. Davie et al.\
+sampled female and male brains of two strains in similar numbers\cellcite{davie2018}. Davis et al.\ did not sort flies by
+sex\cellcite{davis2020}. Özel et al.\ removed male cells from their adult data\cellcite{ozel2021}. The ventral nerve cord atlas
+of Allen et al.\ has female and male replicates\cellcite{allen2020}. The Aging and Alzheimer's disease Fly Cell Atlases include
+both sexes\cellcite{lu2023,park2025}, and our analysis of the latter treated sex as a covariate.
+
+\subsection{Method details}
+
+\subsubsection{The connectome model}
+
+We simulated the CNS with FlyBrain (version \ident{0.1.0}), a GPU simulator of the MaleCNS connectome that runs the leaky
+integrate-and-fire model of the fly brain\cellcite{shiu2024} on the whole CNS. The model kept all \val{L01} neurons and all
+\val{L02} million stored connections of the connectome (directed cell pairs with their synapse counts); none was pruned. In
+each step of $\Delta t$ = \val{Sdt}~ms, the membrane potential $v_i$, synaptic input $g_i$ and adaptation $a_i$ of neuron $i$
+(all in mV) were updated as
+\begin{equation*}
+v_i \leftarrow u_i + (v_i - u_i)\,e^{-\Delta t/\tau_m}, \qquad u_i = v_{\mathrm{rest}} + g_i + I_i - a_i,
+\end{equation*}
+\begin{equation*}
+g_i \leftarrow g_i\,e^{-\Delta t/\tau_s} + \textstyle\sum_j W_{ij}\, s_j(t - \delta), \qquad a_i \leftarrow a_i\,e^{-\Delta
+t/\tau_a} + J s_i(t),
+\end{equation*}
+where $I_i$ is an injected current, $s_j(t)$ marks a spike of neuron $j$ and $\delta$ is the synaptic delay. A neuron spiked
+when $v_i$ reached its threshold; it was then reset to $v_{\mathrm{reset}}$ and held there for the refractory period.
+
+The constants were those of the fly brain model\cellcite{shiu2024}: $v_{\mathrm{rest}} = v_{\mathrm{reset}}$ = \val{Svrest}~mV,
+threshold \val{Svth}~mV, $\tau_m$ = \val{Staum}~ms, $\tau_s$ = \val{Staus}~ms, a refractory period of \val{Stref}~ms, a delay of
+\val{Sdelay}~ms (two steps) and \val{Swsyn}~mV per synapse. Spike-frequency adaptation, which that model lacks, added
+$J$ = \val{Sjump}~mV per spike and decayed with $\tau_a$ = \val{Stauad}~ms. Short-term depression acted only at the terminals of
+olfactory receptor neurons and antennal-lobe local neurons (\val{Sstdcells} cells), as at the depressing synapses of olfactory
+receptor neurons in the fly\cellcite{kazama2008}. There, each spike was scaled by the available fraction of a resource and used up \val{Sstdu} of it, and the
+resource recovered with a time constant of \val{Sstdtau}~ms. Slow metabotropic and monoaminergic currents were off.
+
+The weight of the connection from neuron $j$ to neuron $i$ was
+\begin{equation*}
+W_{ij} = w\,\sigma_{ij}\,\min(n_{ij}, n_{\max})\,\gamma_{ij}\,\phi_i\,G^{\mathrm{in}}_{k(i)}\,G^{\mathrm{out}}_{k(j)},
+\end{equation*}
+where $w$ = \val{Swsyn}~mV, $n_{ij}$ is the synapse count, capped at $n_{\max}$ = \val{Scap} synapses, and $\sigma_{ij}$ is the
+sign. The rule gain $\gamma_{ij}$, the fan-in factor $\phi_i$ and the trained gains $G$ of the groups $k$ of the two cells are
+defined below. The sign followed the transmitter predicted for the presynaptic cell\cellcite{berg2026}; where the receptor
+transcripts of the postsynaptic cell type had been profiled\cellcite{davie2018,davis2020,ozel2021,kurmangaliyev2020,li2022},
+the sign of its dominant receptor class for that transmitter replaced it.
+
+The rule gain was \val{Sstg} between cells of the same cell type and 1 otherwise, with three exceptions. It was \val{Spathdn}
+from descending neurons onto the ventral nerve cord, \val{Spathvp} from visual projection neurons onto descending neurons, and
+a further \val{Spathgf} from LC4 and LPLC2 onto the giant fiber DNp01. For neurons with more than \val{Snormref} input
+synapses, $\phi_i$ was \val{Snormref} divided by their input synapse count, so that the largest neurons need coherent input to
+fire.
+
+The board of a task, four channels of 10 by 10 cells (walls, targets, boxes and the player), drove \val{L03} visual projection
+neurons, \val{Sinper} per channel and cell, each with the board value times \val{Sdrive}~mV as a constant input current. The
+readout observed \val{L04} other cells, mostly central-brain intrinsic, descending, visual projection and motor neurons, in
+\val{Spools} groups of \val{Spoolsize}. Each move was one decision window of \val{G12}~ms. The group means of the synaptic input
+at \val{Sfcur}~ms and of the voltage relative to rest at \val{Sfvolt}~ms gave \val{Sfeat} features, standardized with fixed
+statistics and clipped at \val{Sclip} standard deviations. An affine readout mapped them to logits for the four moves, and
+illegal moves were masked. In the planning task the network state was reset before each decision; in the memory task it
+persisted through the trial.
+
+\subsubsection{Training}
+
+Training changed only type-level parameters and the readout, never the wiring, the signs or the connection rules. Cells were
+grouped by cell type, or by superclass where no type was annotated, into \val{Sgroups} groups. Each group had an incoming gain
+and an outgoing gain, both bounded between \val{Sgainlo} and \val{Sgainhi}, and a threshold offset bounded at
+$\pm$\val{Sthr}~mV (\val{L05} parameters in all); the readout had \val{L06} weights and biases. Spikes were all or none in the
+simulation. Gradients passed through a surrogate derivative of the spike\cellcite{zenke2018}, $1/(1 + \beta|v_i -
+\theta_i|)^2$ at threshold $\theta_i$ with $\beta$ = \val{Ssurr} per mV, and were backpropagated through every step of a trial.
+
+We used Adam with learning rates of \val{Slrbrain} for the brain parameters and \val{Slrhead} for the readout, clipped the
+gradient norms at \val{Sclipbrain} and \val{Sclipread} and projected the brain parameters back into their bounds after each
+step. The simulation ran in float64 with gradient sums in float32, the fastest precision that passed a calibration against
+float64 and float32 on two calibration maps. In the planning task, gradients took two passes: the loss gradient with respect
+to the readout features, then the brain gradient by recomputing each batch of \val{Sbatch} boards, whose features had to
+agree with the first pass within \val{Stol}. The training seed was \val{Sseed} throughout.
+
+\subsubsection{The planning task}
+
+The planning task was Sokoban: the model moves the player to push boxes onto targets, and a box pushed into a corner can be
+lost for good. The ladder held \val{L09} maps in \val{Stiers} tiers of rising difficulty, three per tier, on boards of
+\val{Sboardlo} to \val{Sboardhi} cells across with \val{Sboxlo} to \val{Sboxhi} boxes. Their optimal solutions, of \val{Soptlo}
+to \val{L18} moves, were certified by an exhaustive reverse search and checked by an independent forward search. Every map was
+learned from the same starting model, a brain and readout trained beforehand by the same method on two warm-up maps.
+
+Training followed a reverse curriculum on the certified solution. It began one move before the goal, and each time the model
+solved the current start on its own, the start moved back by one move; any solution was accepted, detours included. With $m$
+the margin of the allowed over the disallowed move logits, the loss at the new start was
+$\val{Stemp}\,\log\big(1 + e^{(\val{Starget} - m)/\val{Stemp}}\big)$. Decisions already learned whose margin fell below \val{Sfloor}
+added the mean and the maximum of their squared shortfalls, with weight one half each. There were \val{Ssteps} updates per behavioral
+assessment, and a map was learned when the model solved it from its original start within \val{Smaxmoves} moves.
+
+Runs in both tasks had wall-clock segments of \val{Sseg1}, \val{Sseg2} and \val{Sseg3}~min. A run entered the next segment
+only if it had progressed, by a new curriculum step or by raising its smallest margin by at least \val{Sprog} with every solved
+step kept; otherwise it stopped by stagnation and kept its best model. Learning cost was the number of updates to learn a
+map. Besides the original set of maps, the replicate sets (\val{L10} in all) differed only in their starting readouts, to which
+Gaussian noise of \val{Sjit} times the standard deviation of each readout parameter tensor was added. To ask whether brain and readout learned together, we replayed all nine pairings of the brain and
+readout checkpoints from before, midway through and after training on each map, from its original start.
+
+\subsubsection{The memory task}
+
+In the memory task, the box stands between two targets, one on each side, and a cue shows which of them is in play
+(\fig{1F}). A trial began with a \val{G12}-ms cue frame of the board with the cued target. A blank delay without input
+followed, then input windows of \val{G12}~ms that showed the board without targets as the player stepped between two cells,
+the same for both cues. The model then saw the board without targets, frame by frame, and chose its moves, with the network
+state carried over from the cue. A trial was solved when the box reached the cued target. It failed when the box was pushed
+irreversibly toward the other target, when no move was legal or after \val{Smaxmoves} moves.
+
+The delays were \val{Sdel1}, \val{Sdel2}, \val{Sdel3}, \val{Sdel4}, \val{Sdel5}, \val{Sdel6} and \val{Sdel7}~ms, and the input
+windows numbered \val{Spfx1}, \val{Spfx2}, \val{Spfx3}, \val{Spfx4} or \val{Spfx5}, giving \val{A04} timings. Training used only
+the delays of \val{Sdel1}, \val{Sdel3} and \val{Sdel5}~ms with \val{Spfx1}, \val{Spfx2} or \val{Spfx4} windows (\val{A01}
+timings); the others were tested only. Each update trained one timing on both cues, cycling through the trained timings. Its
+loss was the cross-entropy of the certified moves at each decision, with illegal moves masked, averaged over decisions and
+cues. The gradient ran back through the whole trial, the cue and the silent delay included.
+
+After every \val{Ssteps} updates, free rollouts assessed the model at the trained timings, and the best assessment so far was
+kept. A run had learned when it solved all trained histories (\val{Q04} in scene 1) and chose the cued side at the first decision
+of each. At each timing, net memory use was $+1$ when the model solved the histories of both cues, 0 when it solved
+one, as a model that ignores the cue does, and $-1$ when it solved neither. We averaged it over the trained and over the
+untrained timings of a run; the lock was their difference.
+
+Four learners trained either the readout alone, on the planning-trained brain, or the brain and readout in scene 1, and the
+readout alone in scenes 2 and 3. Scene 2 is a ring-shaped board, and scene 3 presents one board in two orientations, both learned
+by one readout. Replicates (\val{L19} per scene-1 learner and \val{L20} per scene-2 and scene-3 learner) differed only in the
+order of the trained timings, a new random permutation for each block of nine updates, and in the readout noise above.
+Replicate 0 repeated the original protocol, and for three learners it reproduced the original models tensor for tensor.
+
+Six new scenes tested the lock beyond the trained ones. Two were variants of scene 1 with one or two more floor cells; for
+scenes 2 and 3, the others were the mirror image of each and the first single removal of a floor cell that kept its certified
+solutions. The readout alone learned each in \val{L20} replicates. Training at jittered timings drew the delay of each update uniformly from
+\val{Sdel1} to \val{Sdel6}~ms in steps of \val{Sdel2}~ms, and its input windows from \val{Spfx1}, \val{Spfx2}, \val{Spfx3},
+\val{Spfx4}, \val{Sjitwin} or \val{Spfx5}. Each of its replicates shared its starting readout with one fixed-timing replicate of the
+scene-1 readout learner, and the stopping rule was unchanged.
+
+\subsubsection{Recording and dissecting the trace}
+
+We replayed trained models with every state variable of every cell recorded at every millisecond, for both cues at
+selected timings. A cell spiked differently at a millisecond when it spiked after one cue and not after the other, and it held the
+trace when its adaptation differed between the cues. Exponential fits gave the decay of each state variable's cue difference
+through the delay. Between spikes the membrane equation is linear. The cue difference in the voltage of a cell that does not
+spike therefore splits exactly into its decaying initial value, a part driven by synaptic input and a part driven by
+adaptation; spike resets make up the rest. At the decision, the cue difference of the drive, synaptic input minus adaptation, splits likewise
+into synaptic and adaptation shares that sum to one.
+
+Transplants replaced, at the end of the delay, the full state of the cue-0 history (voltage, synaptic input and adaptation),
+or its adaptation alone, with that of the cue-1 history, and compared the decision-time difference that followed with the native one by its cosine. Opposite-cue swaps
+replaced the full continuous state of every cell at the start of the first decision with the other cue's state at that
+moment, at all \val{A01} trained timings; swaps from the same cue changed no decision. For the injections, the trace at the end
+of the \val{G06}-ms delay, scaled to each delay's trace size, was added to the cue-0 state at the end of each of the seven
+delays. The push of a response was its change in the readout's margin of the cued over the other target's move. Bits were
+the mutual information between the cue and the first push (toward the cued target, the other target or neither) over the
+trained timings, and spikes per trial came from the mean firing rate.
+
+For the cue flow by cell type (\figs{2H}{2K}; \fig{4I}; \fig{S4G}), we rebuilt the effective connectome of the scene-1 readout
+learner with the simulator's rules and checked it against its record by hash; the learned group gains were not applied. The
+cue drive from one cell type to another at the first decision was the sum, over their connections, of the effective weight
+times the presynaptic difference in spikes between the cues.
+
+\subsubsection{Ensembles, populations and connection rules}
+
+The cue ensemble of a scene was the \val{D15} of cells with the largest absolute cue difference in voltage at the first
+decision, after the \val{G06}-ms delay and \val{Spfx4} input windows. Its \val{D14} matched sets each drew as many cells outside
+the ensemble and the input cells, with the ensemble's counts in every stratum of cell type, synaptic distance from the input,
+degree quintile and readout role; coarser strata stood in where a stratum ran short. Matched synapse sets drew as many
+connections outside the ensemble, by the strata of both partners and the sign. Silencing gated the output of a set during the
+first decision; synapse removal set its internal connections to zero for the whole trial. Each ensemble, found in scene 1 or
+scene 2, was tested in both scenes at the trained timings, against its matched sets.
+
+Population removal deleted half or all of the Kenyon cells (\val{Skc}) or of the GABAergic antennal-lobe local neurons
+(\val{Saln}). Each removal had \val{Snullsets} null sets of the same size, from cells that were neither inputs, readouts nor
+targets, matched by synaptic distance from the input and degree quintile. It was evaluated at the trained timings in five memory
+models: the four learners and a scene-1 readout trained with the target hidden or shown (\val{D07} trained histories in all).
+
+The connection-rule variants each changed one rule and rebuilt the effective weights: signs from the presynaptic transmitter
+alone; a same-type gain of \val{Sstglo} or \val{Sstghi}, or none; or a cap of \val{Scaplo} or \val{Scaphi} synapses, or none.
+The default rules, rebuilt the same way, reproduced the original weights bit for bit. Under each of the \val{D13} rule sets,
+three replicates of the scene-1 readout learner were trained, and the tests of healthy circuits (below) were repeated.
+
+\subsubsection{Routes, kicks and excitability}
+
+Routes were directed walks of two or three synapses from the visual input cells to the readout cells in the stored connectome,
+with signs ignored; a cell's traffic was the number of routes through it. Random removal deleted \val{G07}, \val{G08} or
+\val{G02} of the cells that were neither inputs nor readouts, in seeded draws, and hub-first removal deleted them in order of
+degree. A kick added one spike to one cell at cue offset, by raising its voltage above threshold for one step. The kicked cells were five drawn from those that were neither inputs nor readouts, at two trained timings and for both
+cues (\val{E08} kicks).
+
+Threshold sweeps shifted the threshold of every cell by the same amount and measured the mean firing rate under the input of
+the memory task. Training across threshold states drew, for each training episode, one threshold offset for all cells from a
+Gaussian with a standard deviation of \val{Sthsd}~μV, in \val{E22} replicates of the scene-1 readout learner. Such a run had
+learned only when it solved every trained history without an offset and at offsets of minus and plus one standard deviation.
+
+Robustness was compared with the \val{E21} replicates trained in one state by three measures. The access window was the uniform
+lowering of the threshold at which trained memory use first fell to \val{Sed} or below (log-linear interpolation). Cell-loss
+tolerance was the share of randomly removed cells at which it did so, averaged over three draws. The third was memory use at
+two held-out offsets, at $\pm$\val{Sheldq} standard deviations.
+
+\subsubsection{Joining single-cell atlases}
+
+Each model cell took an atlas unit through FlyBrain's type maps, by tier: exact type name, alias, fuzzy match or cell class,
+preferring the best tier and then a fixed order of sources. A unit's expression was the mean of log-normalized counts over its cells
+(over its samples for the bulk data of Davis et al.) and the share of cells detecting the gene. In the ventral nerve cord, which no source resolves by type,
+we bridged through hemilineages. We reprocessed its atlas with its authors' pipeline in Scanpy\cellcite{allen2020,wolf2018}:
+their quality control, \val{Shvg} variable genes shared by both sexes, regression of replicate, counts and mitochondrial
+fraction per sex, and \val{Spcs} principal components.
+
+Leiden clustering\cellcite{traag2019} at a resolution of \val{Sres} gave \val{Sclus} clusters, twice the published number. The
+Hungarian algorithm matched one new cluster to each published cluster on standardized marker scores, and the others joined
+their best match. The published hemilineage labels then gave \val{M05} units, each a single hemilineage or a pair that the atlas
+does not separate, joined to the hemilineage labels of the connectome's ventral nerve cord cells.
+
+The bridge had to pass three gates declared before it read any atlas cell: recovered against published cluster sizes, the
+transmitter of each unit against the electron-microscopy prediction, and the enrichment of its markers. Two earlier declared
+methods failed the size gate, because single-marker clusters absorbed low-quality cells; the third passed all three
+(\fig{4H}).
+
+The panel held \val{Sgenes} genes with their FlyBase identifiers (\tab{S4}). The adaptation index of a unit was the mean $z$
+score of \gene{SK}, \gene{slo}, \gene{KCNQ} and \gene{Shab} over the mapped units of its source, and its Kv4 weight was its
+relative \gene{Shal} expression. Trace carriers were the cells with a cue difference in adaptation at the first decision, after
+the \val{G06}-ms delay and \val{Spfx4} input windows. Their mean \gene{SK} and adaptation index were tested against matched sets,
+label permutations within strata of superclass and source, and against a mapping null that permuted values across mapped types
+within the same strata, one-sided with \val{Sdraws} draws. The ventral nerve cord test used only the hemilineage units.
+
+Heterogeneous brains scaled the adaptation increment by \val{Shetlo} in the mapped cell types of the lowest third of the
+adaptation index and by \val{Shethi} in the highest third (\val{Stypes} types). A null brain permuted these factors across
+types. Each brain was learned by \val{M14} replicates of the scene-1 readout learner and \val{Shetn} of the scene-2 learner.
+
+\subsubsection{Fly pathologies}
+
+A literature search found \val{Q01} fly pathologies with a measured change in identified cells (\tab{S1}). Each was graded 0 to
+2 on six criteria, C1 to C6 (\fig{7A}). The first three asked for evidence in flies, a mechanism measured and mappable to model cells, and a change
+that the model's operators can express. The last three asked for healthy circuits that behave like the fly's, the fly
+phenotype reproduced at the calibrated dose, and its direction kept at half and one and a half times the dose and in a second
+trained brain. A case was retained if it passed the first five, ranked by its total, with at most four retained. Ties were
+broken by reach into the planned assays of learning, memory and movement, then by the planned comparison of Aβ42 with tau.
+
+Operators changed one measured property of identified cells with mechanisms the model already has: a threshold offset, a
+scaling of the adaptation increment, of presynaptic release or of synaptic input, and cell removal. Each is the identity at
+zero dose. The tests of healthy circuits, on two brains, were sparse Kenyon-cell odor coding\cellcite{honegger2011}, its loss
+without APL feedback\cellcite{lin2014}, the lateral inhibition of the antennal lobe\cellcite{olsen2008}, network stability, the
+giant fiber's response to a looming stimulus\cellcite{vonreyn2014} and the absence of any effect of monoaminergic cells.
+
+The Kv4 loss that Aβ42 causes in flies\cellcite{ping2015} was a uniform threshold offset of \val{Scal}~mV on every cell at
+dose 1. This offset gives the fly's ratio of the ramp current needed for the first spike (\val{Sramp} in the model,
+\val{Srampfly} in the fly). The other retained cases removed \val{Skcloss} of the Kenyon cells, scaled the release of GABAergic antennal-lobe local neurons
+by \val{Sfxrel}, or raised the Kenyon-cell threshold to match their measured fall in odor response. Each had a size-matched random control.
+
+The lesion after learning added the operator to a trained model. Learning under the lesion trained with the operator on from
+the start, in \val{Srepb} replicates per dose of the two scene-1 learners. Relearning applied it to a healthy-trained readout
+for \val{Supd} more updates, and the recovered share was the gain in solved histories over the loss. Late restoration removed
+it from models that had learned under it\cellcite{feng2018}.
+
+The \gene{Shal}-patterned lesion multiplied the offset of each cell by its Kv4 weight, imputed by class for unmapped cells and
+scaled to a mean of 1. The aging operator converted the change in summed potassium-channel transcripts between young and old
+flies\cellcite{davie2018}, replicated in the Aging Fly Cell Atlas\cellcite{lu2023}, into threshold offsets through the Kv4
+calibration.
+
+The olfactory assay read which of two odors a lesioned brain had seen after a delay, without a trained policy. Olfactory receptor neurons
+fired as Poisson processes, so trials differed only by input noise, and a shrinkage linear discriminant read the odor in
+\val{Sfolds}-fold cross-validation. The read-out sets were the readout features, the mushroom-body output neurons, the Kenyon
+cells and the projection neurons, for similar and dissimilar odor pairs at delays up to \val{Sdel7}~ms. Cases were compared
+by the distance between their profiles of decoding accuracy, against a null that swapped the paired trials between cases
+(\val{Snperm} draws). In the Alzheimer's disease atlas\cellcite{park2025}, expression was averaged per library and regressed by
+ordinary least squares on genotype, age and sex.
+
+\subsubsection{Writing and reading the trace in different brain states}
+
+The lesion link used the scene-1 readout learner, whose brain is fixed, so its brain states depend only on the input and the
+lesion. At the end of the delay of each trained history, the full simulator state was replaced by the state the other brain
+reached there on the same input, and the trial continued in the second brain. This was done in both directions, between the
+healthy brain and the lesioned brain at doses \val{G10} to \val{G05}.
+
+The readouts were those trained healthy (\val{K18}), those trained under the lesion (\val{K19} per dose), and readouts
+relearned under it (\val{Srelearn} per dose), rebuilt by replaying their \val{Supd} updates exactly. Before the declaration,
+the replica reproduced the recorded assessments, and transplants within one brain changed no decision. In the run, every
+condition that involved no transplant reproduced its earlier record.
+
+\subsubsection{Renders and videos}
+
+The neuron renders projected the soma positions, neuron skeletons and neuropil meshes of the connectome
+release\cellcite{berg2026} with our own renderer.
+Charts were drawn with Matplotlib. Videos were encoded with FFmpeg (H.264) with fixed settings, so that a rebuild is identical
+to the byte. In \video{S2} and \video{S3} the trace was rebuilt from the recorded spikes with the model's adaptation rule and checked
+against the record at every millisecond.
+
+\subsubsection{Reproducibility}
+
+The simulation is deterministic: every input was a constant current or a seeded draw, and reruns were bit-identical on every
+GPU we used (NVIDIA GeForce RTX \ident{5090}), which we checked before each campaign. An independent process reloaded and verified
+every trained model; \tab{S3} lists every training run and evaluation with its outcome and record. The designs and test
+families were declared before their runs, in test plans and hash-chained amendments; families added after results were post
+hoc and never primary, and results were never overwritten. The analysis reruns from the records to identical outputs, a
+manifest pins every result, figure and video by its SHA-256, and \dataS{S1} holds the values behind every figure panel.
+
+\subsubsection{Language review}
+
+During the preparation of this work, the authors used Claude (Anthropic) solely for language review. The authors reviewed and edited the manuscript and take full responsibility for its content.
+
+\subsection{Quantification and statistical analysis}
+
+The independent unit of a training result was a run, trained from its own replicate seed. Within one model, the unit was a
+history under fixed parameters, and maps were the unit of the planning ladder. Cells, time points, timings and checkpoints
+were never treated as replicates. The $n$ of each test is given in the figure legends and in \tab{S2}.
+
+Across runs we used exact sign-flip tests of mean differences, exact Mann--Whitney tests and a stratified log-rank test of
+learning times. Within models we used exact McNemar tests on paired histories and Page trend tests over doses. Correlations were Spearman's, with permutation tests;
+matched-set and mapping nulls gave $P = (k + 1)/(N + 1)$ from $N$ draws. Claims of no difference used two one-sided tests,
+with Tango's test for paired proportions\cellcite{tango1998} and a margin of \val{Smargin} percentage points.
+
+Intervals for ratios of geometric means came from bootstrap resampling (\val{G11}). Resampling enumerated every case when $n$
+was at most \val{Sexact} and otherwise used \val{Sdraws} draws, each seeded from one analysis seed and the test's name. \Pv{}
+values are two-sided unless stated. Each test family was declared before its tests were computed. Within a family, \Pv{} values
+were adjusted by Holm's method for primary families and by the Benjamini--Hochberg method for secondary and exploratory ones, always
+over the complete declared family.
+
+\tab{S2} lists every declared test the paper reports, with its family and correction. The outcomes below appear only here and
+in \tab{S2}:
+\begin{itemize}
+\item From a neutral brain, training the readout alone learned the planning maps faster than training the brain and readout
+together, and all \val{Sx8runs} runs learned (stratified log-rank \Pv{} = \val{Sx8p}).
+\item By the stagnation rule, \val{Sstag0} of \val{L19} runs of the scene-1 brain-and-readout learner, \val{Sstag1} of \val{L20}
+of the scene-2 learner and \val{Sstag2} of \val{L20} of the scene-3 learner stopped before meeting the learning criterion,
+each keeping its best model.
+\item The models trained on single representative planning maps solved none of \val{Sheldout} held-out maps without further
+updates.
+\item Replayed from the original start, none of the \val{Sstages} models saved at curriculum stages solved its map, as the
+curriculum ensures, and their first decisions showed no trend toward those of the final model.
+\item Adaptation alone, transplanted at the end of the trained \val{G06}-ms delay, did not reproduce the decision (cosine
+\val{Sadaptonly}), and responses to scaled traces changed direction with their size.
+\item Shifting the state toward the other cue's changed decisions more than norm-matched scrambled shifts in only
+\val{Sx4sig} of \val{Sx4n} models (Holm).
+\item Swaps disrupted histories with the target hidden and shown alike (\Pv{} = \val{Svisp}), against the predicted difference.
+\item In earlier follow-up analyses, state swaps were specific to the cue but not to memory, and most claims of absence were
+inconclusive.
+\item No linearization of the network was validated, so no spectral measure was interpreted.
+\item Removing as many matched random cells as the populations cost \val{Sdeplo} to \val{Sdephi} percentage points more of the
+trained histories; removing the descending neurons, the positive control, left \val{Sdnsolved} of \val{D07} solved and
+silenced the giant fiber.
+\item At a same-type gain of \val{Sstglo}, the strict lock was absent (untrained use \val{So14lo} to \val{So14hi}), and without
+same-type damping the mushroom-body tests of healthy circuits failed.
+\item With mapping by cell type alone, the carriers did not exceed matched sets, an effect of source composition, and the
+adaptation index did not exceed the mapping null (\Pv{} = \val{Smaplo} to \val{Smaphi}).
+\item Heterogeneous brains did not differ from their null brains (adjusted \Pv{} = \val{Shetplo} to \val{Shetphi}); all
+\val{Shetn} scene-2 runs were positive, at adjusted \Pv{} = \val{Shets1p}.
+\item Jittered training lowered trained-timing use by \val{Sx3cost} and took \val{Sx3upd} more updates. One new scene
+generalized partly to untrained timings, and for the scene-1 brain-and-readout learner the test of untrained use gave Holm
+\Pv{} = \val{Sjointun}.
+\item A uniform lowering of the threshold by \val{Sed50lo} to \val{Sed50hi}~μV halved memory use (per replicate), while the mean
+rate stayed at \val{Srate0lo} to \val{Srate0hi}~Hz and the network ran away only from \val{E20}~mV.
+\item Under such shifts the spike trajectories diverged only once input resumed, and the share of trained histories solved fell
+from \val{Sdy1h} to \val{Sdy1a} and \val{Sdy1b} at lowerings of \val{Sdy1sa} and \val{Sdy1sb}~mV.
+\item A persistent lowering of \val{Sdivuv}~μV left the delay silent; from \val{Sdivms}~ms after input resumed the network
+diverged, and \val{Sdivcells} cells had diverged by the end of the first decision, motor and efferent cells most often.
+\item The dose series did not identify the dose of the Kv4 lesion that halves memory, which lay below a lowering of
+\val{Sdosemin}~mV.
+\item Random removal of \val{Sed50rm} of the cells halved behavior (four-parameter logistic fit).
+\item Training across threshold states reached trained use of \val{Sdy2tr} and untrained use of \val{Sdy2un}, with \val{Sdy2upd}
+times the updates.
+\item In the olfactory assay, targeted lesions did not exceed random ones. Relearning showed no dose trend, relearning with the
+brain recovered less (\val{Sjointrec}), and no per-dose test of learning under the lesion was significant after correction
+(smallest adjusted \Pv{} = \val{Sregbp}).
+\item At doses \val{G10} and 1, the \gene{Shal}-patterned and uniform lesions were not shown to be equivalent.
+\item In the Aging Fly Cell Atlas, the change in Kenyon-cell potassium-channel transcripts had the opposite sign to that in the
+primary atlas.
+\item Reading in the state of learning beat writing in it for readouts trained under the lesion (Holm \Pv{} = \val{K15}), but
+not for readouts trained healthy (\val{K16}) or relearned (\val{K17}).
+\end{itemize}

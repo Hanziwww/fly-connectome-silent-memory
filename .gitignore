@@ -1,0 +1,25 @@
+# Data of the Zenodo records, unpacked into this folder, and local outputs
+__pycache__/
+*.pyc
+/flybrain/
+/runs/
+/archive/
+/studies/**/runs/
+/studies/**/results/
+/studies/brain-sokoban-v1/mechanisms*/**/*.npz
+/manuscript/results/
+/manuscript/figures/v4/
+/manuscript/figures/renders/
+/manuscript/figures/assets/skeletons/*
+!/manuscript/figures/assets/skeletons/receipt.csv
+/manuscript/paper/build/
+/sokoban/artifacts/**/*.bin
+/release/
+
+# Machine-specific settings and credentials, never committed
+/local/
+/runtime/
+/ssh.txt
+*known-hosts*
+/remote.toml
+/remote-*.toml

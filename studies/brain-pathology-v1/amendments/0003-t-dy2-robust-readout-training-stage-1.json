@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 3,
+  "reason": "T-DY2 robust readout training, stage 1",
+  "changes": {
+    "added_task_file": {
+      "file": "tasks/dy2-design.json",
+      "sha256": "1dbce428bcf59a91ce34c7d32e056e59772fd146b09983d7d4f03ca93d3d472c"
+    },
+    "why": "Dynamics solutions plan DY2 (standby plan S1 WP1, the open Gate 1 condition), at the user's go-ahead relayed by the fork session on 2026-10-20 (\"Go ahead: ask the main session to start T-DY1, then T-DY2, and the search part of T-SC0.\"). T-DY1 found that any persistent change of excitability from -3e-4 mV on, and input noise, decorrelates the spike trajectory within 100-300 ms and that memory loss tracks it; the readout was fitted to unperturbed trajectories. T-DY2 trains the readout under perturbations and asks whether memory, its mechanism and the timing lock persist while fragility (C01 ED50) and state dependence fall.",
+    "design": {
+      "conditions": "9 (dy2_perturbation.CONDITIONS) x replicates 0-4, M0 readout-only, X1 protocol; plus C01 dose 0.5 + th0.5 x replicates 1-5",
+      "acceptance": "unperturbed and two fixed acceptance draws",
+      "clock": "worker clock at a third of real time under a training condition (three assessments per cycle)",
+      "evaluation": "dy2_evaluate.py: C01 shifts -3e-5 to -3.22 mV, 15 removal sets, held-out draws of every condition, mechanism (adaptation clear, swap) at prefix 0; restoration for C01-trained models",
+      "references": "X1 readout-only r0-r9; regime B C01 dose 0.5 readout-only r1-r6"
+    },
+    "families": {
+      "primary": "F14.DY.robust (Holm, 10 tests)",
+      "secondary": "F14.DY.robust.secondary (BH, 45 tests)",
+      "descriptive": "F14.DY.robust.descriptive (Gate 1 criterion, ED50 ratios, outcomes)"
+    },
+    "deviations_from_plan": {
+      "levels": "threshold sigma 0.001 mV added near the T-DY1 transition beside the planned 0.1 and 0.5 mV; input noise 0.2, 1 and 5 Hz; membrane noise 0.1 and 1 mV (stationary SD); combined = input 1 Hz + sigma 0.1 mV",
+      "s1": "S1 deferred to a stage 2, declared by amendment before any S1 run (wall-clock segments; design file)",
+      "clock": "the frozen segments are kept but the worker clock under a training condition runs at a third of real time"
+    },
+    "code": {
+      "wrapper": "studies/brain-supplement-v2/code/replicate_training.py --perturb (f403eb5, e72841b)",
+      "perturbation": "code/dy2_perturbation.py",
+      "check": "code/dy2_check.py",
+      "evaluation": "code/dy2_evaluate.py",
+      "analysis": "code/analyze_dy2.py (written before any T-DY2 result)"
+    },
+    "checks": {
+      "rtx5090": {
+        "ok": true,
+        "model_pt": "studies/brain-supplement-v2/runs/x1-M0-head_only-r0/model.pt",
+        "gpu": "NVIDIA GeForce RTX 5090",
+        "failed": [],
+        "timing": {
+          "assess_trained_unpatched": 2.1189537048339844,
+          "assess_full_unpatched": 15.024568557739258,
+          "assess_trained_off": 1.92122220993042,
+          "assess_trained_input": 2.7156667709350586,
+          "assess_trained_membrane": 2.0541276931762695,
+          "assess_trained_threshold": 2.3113560676574707,
+          "assess_trained_combined": 1.9625890254974365,
+          "merged_assess_in1-th0.1": 6.032629728317261
+        },
+        "end_to_end": [
+          {
+            "exit_code": 1,
+            "wall_seconds": 422.51793217658997,
+            "updates": 88,
+            "assessments": 23,
+            "clock_seconds": 137.23706201498862,
+            "real_seconds": 420.2151098251343,
+            "episodes": 176,
+            "status": "stopped"
+          },
+          {
+            "exit_code": 1,
+            "wall_seconds": 421.31707072257996,
+            "updates": 140,
+            "assessments": 59,
+            "clock_seconds": 136.74316614237614,
+            "real_seconds": 418.9501848220825,
+            "episodes": 280,
+            "status": "stopped"
+          }
+        ],
+        "draw_effects": {
+          "input": {
+            "solved": 9,
+            "total": 18,
+            "probe_correct": 9,
+            "unperturbed_solved": 18,
+            "unperturbed_probe_correct": 18
+          },
+          "membrane": {
+            "solved": 8,
+            "total": 18,
+            "probe_correct": 8,
+            "unperturbed_solved": 18,
+            "unperturbed_probe_correct": 18
+          },
+          "threshold": {
+            "solved": 8,
+            "total": 18,
+            "probe_correct": 8,
+            "unperturbed_solved": 18,
+            "unperturbed_probe_correct": 18
+          },
+          "combined": {
+            "solved": 9,
+            "total": 18,
+            "probe_correct": 9,
+            "unperturbed_solved": 18,
+            "unperturbed_probe_correct": 18
+          }
+        }
+      }
+    },
+    "checks_note": "rtx5090 passed every check of dy2_check.py with the trained X1 replicate 0 before this declaration; the same check on rtx5090x6 (P05 readout) was still running on its GPU 0, whose queue worker starts only after that check passes; its GPUs 1-5 start after this commit",
+    "status": "declared before any T-DY2 run"
+  },
+  "previous_sha256": "ba9b334cf461f507c130512e6d2dd82901b93d13b664b97e48e5fc4addbe4c60",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792526029.2816765
+}

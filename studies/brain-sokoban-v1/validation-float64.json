@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "precision": "float64",
+  "cue_gradient_norm": 2.724508762359619,
+  "full_vs_recomputed_gradient_max_abs": 4.76837158203125e-07,
+  "independent_batch_probe_equivalent": true,
+  "full_state_restore_exact": true,
+  "resume_records": [
+    "runs\\benchmark-fp64-b16-C0\\resume.pt",
+    "runs\\benchmark-v2-fp32-b16-C0\\resume.pt",
+    "runs\\benchmark-v2-fp64-b16-C0\\resume.pt",
+    "runs\\benchmark-v3-fp32-b16-C0\\resume.pt",
+    "runs\\benchmark-v3-fp32-b8-C0\\resume.pt",
+    "runs\\benchmark-v3-fp32-b8-C1\\resume.pt"
+  ],
+  "peak_allocated_gib": 1.9770913124084473
+}

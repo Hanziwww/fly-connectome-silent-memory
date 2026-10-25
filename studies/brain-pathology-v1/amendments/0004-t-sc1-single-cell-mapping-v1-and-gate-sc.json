@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 4,
+  "reason": "T-SC1 single-cell mapping v1 and Gate SC-A",
+  "changes": {
+    "added_task_file": {
+      "file": "tasks/sc-mapping-v1.json",
+      "sha256": "f4e00928b405fc89a8f7df4691096ba03c5b0875ed67683406979c07d2f0175a"
+    },
+    "why": "Single-cell study (manuscript/SINGLE_CELL_INTEGRATION_PLAN.md; execution plan approved by the user on 2026-10-22): the mapping (M1-M3), its QC (M4) and coverage are locked (M5) before any model analysis, and Gate SC-A is applied per question.",
+    "gate_sca": {
+      "type_level": [
+        "Q4 annotation: optic lobe",
+        "Q4 annotation: Kenyon cells"
+      ],
+      "class_level": [
+        "Q1 H1: trace carriers, M0 readout-only (primary)",
+        "Q1 H1: trace carriers, M0 joint",
+        "Q1 H1: trace carriers, shared readout",
+        "Q1 H1: trace carriers, S1",
+        "Q1 H1: trace carriers, S2",
+        "Q2 Kv4-weighted C01 (SC2)",
+        "Q3 aging operator (SC3)",
+        "Q4 annotation: readout cells",
+        "Q4 annotation: ring neurons",
+        "Q5 intrinsic variants (SC4)"
+      ],
+      "table": "results/sc_gate_sca.csv"
+    },
+    "lineage": "No lineage tier (M2): Allen et al. 2026 (D5) Tables S2-S5 name central-brain types by transmitter (Achl_000 ...) and carry no hemilineage labels, so the planned route Allen type -> hemilineage -> itoleeHl cannot be built (manuscript/SINGLE_CELL_T-SC0_SEARCH.md). The approved fallback applies: the central brain stays at class level. The adult VNC atlas (Allen et al. 2020, GSE141807) gives hemilineages per cluster only (eLife source data; no per-cell labels deposited) and would reach at most the VNC share of the trace carriers (about 45%), below the gate; it is not used.",
+    "deviations_from_plan": {
+      "d3": "Kurmangaliyev et al. 2020 not used (matrix not downloaded; Ozel et al. 2021 covers the adult optic lobe)",
+      "d5": "no lineage tier (see lineage); central brain at class level, the approved fallback",
+      "outputs": "host outputs under runs/sc-mapping (pulled hash-checked); results/ tables derived locally"
+    }
+  },
+  "previous_sha256": "f3ca2dcfe4fb00fdaaaf872236b9d63aa3a5bc4e6a575712c62b9feabe7d8044",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792688881.5653975
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 2,
+  "reason": "T-DY1 micro-dose memory set",
+  "changes": {
+    "added_task_file": {
+      "file": "tasks/phase4-dose-micro-conditions.json",
+      "sha256": "7da31c45252a8c729fd720a7113485e293e0c7e6b9a54864e1aaaa6af27a6fd1"
+    },
+    "why": "T-DY1 (dynamics solutions plan, DY1; family F14.DY.sensitivity, declared 0b9e28a) relates the divergence of the network after small threshold shifts to memory loss. The dose series and its low extension stop at -0.01 mV, where memory use is already lost; this set measures the trained histories solved below it.",
+    "design": {
+      "c01_shift_mv": [
+        -0.0001,
+        -0.0003,
+        -0.001,
+        -0.003
+      ],
+      "doses": "shift / 3.22",
+      "seed": 20261021,
+      "runner": "phase4_dose_series.py --set micro (unchanged measures: the five memory models at the 9 trained timings, giant-fibre loom response, task activity)",
+      "outputs": "runs/phase4-dose-micro"
+    },
+    "status": "declared before any of its runs (descriptive family; the motivating dose-series results were seen)",
+    "analysis": "analyze_dy1.py: share solved against shift, beside the divergence curves of dy1_sensitivity.py"
+  },
+  "previous_sha256": "ae5df1198f5169e6a809e931ba8fe19cf261ad1ea163adf1bf6af6d72765aa24",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792521613.951809
+}

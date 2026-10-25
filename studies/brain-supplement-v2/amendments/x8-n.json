@@ -1,0 +1,68 @@
+{
+ "created_unix": 1792518796.0110478,
+ "replicates_per_arm_and_map": 3,
+ "target_power": 0.8,
+ "alpha": 0.05,
+ "simulated_sets": 500,
+ "permutations": 499,
+ "sd_log_updates": 0.09280715005692469,
+ "pilot_mean_log_updates": {
+  "D1-T0/head_only": 4.629339082917007,
+  "D1-T0/joint": 4.807287203698004,
+  "D3-T0/head_only": 5.073680893663857,
+  "D3-T0/joint": 5.703545353299352,
+  "D5-T0/head_only": 5.889543020440466,
+  "D5-T0/joint": 6.173073537261977,
+  "D7-T0/head_only": 6.604507421855328,
+  "D7-T0/joint": 7.309979621462129
+ },
+ "pilot_updates": {
+  "D1-T0/head_only": [
+   96,
+   100,
+   112
+  ],
+  "D1-T0/joint": [
+   152,
+   104,
+   116
+  ],
+  "D3-T0/head_only": [
+   164,
+   168,
+   148
+  ],
+  "D3-T0/joint": [
+   292,
+   300,
+   308
+  ],
+  "D5-T0/head_only": [
+   352,
+   372,
+   360
+  ],
+  "D5-T0/joint": [
+   504,
+   460,
+   476
+  ],
+  "D7-T0/head_only": [
+   756,
+   712,
+   748
+  ],
+  "D7-T0/joint": [
+   1676,
+   1312,
+   1520
+  ]
+ },
+ "curve": [
+  {
+   "replicates_per_arm_and_map": 3,
+   "power": 0.998
+  }
+ ],
+ "note": "Proposal written after the 3-replicate pilot, before any X8 test. n = 3 means the pilot is the final design; otherwise replicates 3..n-1 per arm and map extend it. Committed before any test or extension run."
+}

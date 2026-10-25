@@ -1,0 +1,31 @@
+{
+  "reason": "geometry-only independence audit before main training",
+  "changes": [
+    {
+      "task": "D1-T0",
+      "old_family": "9ef9c8129dc206e5ec66",
+      "new_family": "391c7b9712215a2942da",
+      "reason": "wall geometry duplicated another train or heldout family; no model had evaluated this task"
+    },
+    {
+      "task": "D1-T1",
+      "old_family": "2a8e5da51e4e23c8660b",
+      "new_family": "0f88214ac27010a9c55e",
+      "reason": "wall geometry duplicated another train or heldout family; no model had evaluated this task"
+    },
+    {
+      "task": "D6-T0",
+      "old_family": "6d1d3ee953b32a586dad",
+      "new_family": "d4cc1c8a2605725cbdd4",
+      "reason": "wall geometry duplicated another train or heldout family; no model had evaluated this task"
+    },
+    {
+      "task": "D6-T2",
+      "old_family": "e54ff00ecd178b3e5a7b",
+      "new_family": "dcafa777333525a05531",
+      "reason": "wall geometry duplicated another train or heldout family; no model had evaluated this task"
+    }
+  ],
+  "calibration_unchanged": true,
+  "original_lock": "tasks/versions/v1/lock.json"
+}

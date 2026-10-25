@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "created_unix": 1792698960.2838244,
+  "files": {
+    "dy2-design.json": "1dbce428bcf59a91ce34c7d32e056e59772fd146b09983d7d4f03ca93d3d472c",
+    "phase3-dependency-conditions.json": "371f9ce99baf4bae0ddda02702607cfba709b03755222d59b451f871204818b4",
+    "phase4-dose-conditions.json": "e45d4a0642f17a89489277aacaf62ec5100662dc32109c332cc925761e70eb1d",
+    "phase4-dose-low-conditions.json": "dc58b48e357aab781ef2edafe2272c013649a6a4128c1422664acd39160b613d",
+    "phase4-dose-micro-conditions.json": "7da31c45252a8c729fd720a7113485e293e0c7e6b9a54864e1aaaa6af27a6fd1",
+    "sc-aging-design.json": "98984189ed6701ed2fb7a57057c663d67d8cc730bfe080ae3191fc7875507cd5",
+    "sc-kv4-conditions.json": "2d77f0684a41757a86fd9d777b11761b16a40f9f5fa21eeaffcce07eaf59c112",
+    "sc-mapping-v1.json": "f4e00928b405fc89a8f7df4691096ba03c5b0875ed67683406979c07d2f0175a",
+    "sc-mapping-v2-design.json": "e69bd0ce3366c88bce0bae02db54858a51c8d8150527cb908f51dcabd06be195",
+    "sc-panels-v1.json": "7cae914e452b56517cb6f01f3479a4039e334f28ac99f5f8ea4e1c2a82ef03f9",
+    "sc-variant-design.json": "e6707c371bc27b4890b9da0ace90e575763bd871724e3774df9e588c942cec8e",
+    "sc-variant-lesion.json": "c87ca07f5106094900ab4a343ba1f34ec75546fdcd0bbb4ba3612d0467b6a30d",
+    "sc-variant-null-lesion.json": "ca88bd51c24c453c0a8ad219cf9d3b5429fe18bd6d92e512f79e53bb863a5ec3"
+  },
+  "status": "draft",
+  "note": "inputs written before their runs (plan v2 batches); re-locked for amendment 0012 (T-SC6 intrinsic variants)"
+}

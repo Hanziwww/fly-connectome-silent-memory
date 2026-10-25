@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "study": "brain-supplement-v2",
+  "created_unix": 1792457809.6567428,
+  "files": {
+    "x2-tasks.json": "0cc72bb7962d51e8127492409627fe896f0fe17110b21de96547e5016bb593cb",
+    "x6-x7-sets.json": "23429811d7ebb6245cc2feed6fb89b309c080577d7979363517c67e2c8202042"
+  },
+  "status": "draft",
+  "note": "inputs written before their runs (plan v2 batches); locked when the second GPU host joined"
+}

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FlyLab — Brain learning</title>
+  <link rel="stylesheet" href="style.css?v=20261002-io-layout2">
+</head>
+<body>
+<header class="app-header">
+  <a class="wordmark" href="/">FlyLab</a>
+  <nav aria-label="Experiment"><button id="show-results">Results</button><button id="methods">About</button></nav>
+</header>
+<main>
+  <div class="workbench">
+    <section class="playground" aria-labelledby="game-title">
+      <div class="panel-head"><h1 id="game-title">Sokoban</h1><span class="move-count"><b id="moves">0</b> moves</span></div>
+      <div class="panel-toolbar selectors">
+        <label class="sr-only" for="tier">Level set</label>
+        <select id="tier"><option value="joint_linear" selected>P03 · brain + linear</option><option value="repair">B00 training repair</option><option value="pilot">Four-level pilot</option></select>
+        <label class="sr-only" for="level">Level</label><select id="level"></select>
+        <span id="level-id" class="sr-only"></span>
+      </div>
+      <div class="board-wrap stage"><div id="board" class="board" aria-label="Sokoban board"></div></div>
+      <div class="panel-bottom game-tools">
+        <div class="arrows" aria-label="Manual controls"><button data-dir="0" aria-label="Move up" title="Move up">↑</button><button data-dir="1" aria-label="Move down" title="Move down">↓</button><button data-dir="2" aria-label="Move left" title="Move left">←</button><button data-dir="3" aria-label="Move right" title="Move right">→</button></div>
+        <div class="edit-controls"><button id="undo">Undo</button><button id="reset">Reset</button></div>
+      </div>
+    </section>
+
+    <section class="neural" id="neural-panel" aria-labelledby="brain-title">
+      <div class="panel-head"><h2 id="brain-title">Fly brain</h2><div class="head-actions"><button id="show-display">Display</button><button id="expand-view" aria-expanded="false">Expand</button></div></div>
+      <div class="panel-toolbar anatomy-toolbar">
+        <label class="sr-only" for="activity-mode">Activity view</label>
+        <select id="activity-mode"><option value="changes" selected>Step change</option><option value="learning">Learning change</option><option value="all">All activity</option></select>
+        <div class="view-buttons" aria-label="Camera view"><button data-view="front" aria-pressed="true">Front</button><button data-view="dorsal" aria-pressed="false">Top</button><button data-view="lateral" aria-pressed="false">Side</button><button id="fit-view">Fit</button></div>
+      </div>
+      <div class="network-frame stage">
+        <canvas id="network" tabindex="0" aria-label="Fruit-fly brain. Drag to rotate, scroll to zoom. Click a neuron to inspect it."></canvas>
+        <div id="anatomy-loading" role="status">Loading anatomy…</div><div id="tip" hidden></div>
+        <span class="side-label" id="side-r">R</span><span class="side-label" id="side-l">L</span>
+        <span id="view-label" class="view-label">Front</span><span id="comparison-label" class="comparison-label">First response</span>
+        <div class="scale"><i id="scale-bar"></i><span>100 μm</span></div>
+        <div class="cell-inspector" id="cell-inspector" hidden>
+          <div class="neuron-info"><span id="cell-id">Select a neuron</span><span id="cell-type"></span><span id="cell-connections" hidden></span><strong id="cell-rate">—</strong><button id="clear-cell" aria-label="Clear neuron selection" hidden>Close</button></div>
+          <svg preserveAspectRatio="none" id="cell-chart" viewBox="0 0 400 48" role="img" aria-label="Selected neuron response"></svg>
+        </div>
+      </div>
+      <div class="panel-bottom brain-key">
+        <div class="signal-legend"><span class="rate-key"><span id="energy-label">Rate</span><i></i><span id="energy-range">0–60+ Hz</span></span><span title="Excitatory"><i class="line-key positive"></i>Exc.</span><span title="Inhibitory"><i class="line-key negative"></i>Inh.</span></div>
+        <div class="scene-stats"><span><b id="active-count">0</b> <span id="active-label">cells</span></span><span><b id="spike-count">0</b> <span id="spike-label">spikes/ms</span></span><span><b id="link-count">0</b> <span id="link-label">routes</span></span></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="checkpoint-bar"><label for="model">Model</label><select id="model"></select><span id="level-summary"></span><span id="checkpoint-short" title="Saved checkpoint SHA-256"></span></div>
+
+  <section class="transport" aria-label="Synchronized playback">
+    <div class="play-controls"><button id="run" class="primary" disabled>Run</button><button id="pause">Pause</button><button id="step-agent" disabled>Step</button><label class="sr-only" for="game-pace">Playback speed</label><select id="game-pace"><option value="500">0.5 s</option><option value="800">0.8 s</option><option value="1600" selected>1.6 s</option><option value="4800">4.8 s</option><option value="8000">8 s</option></select></div>
+    <div class="shared-timeline"><label class="sr-only" for="snapshot">Shared simulation time</label><input id="snapshot" type="range" min="0" max="40" value="40" step="1" aria-label="Shared simulation time in milliseconds"><output id="snapshot-label">40 ms</output><button id="play-response" disabled>Replay</button><button id="step-response" disabled aria-label="Advance both views by one millisecond">+1 ms</button><svg preserveAspectRatio="none" id="population-chart" role="img" aria-label="Spike events. Click to seek both views." viewBox="0 0 400 44"></svg></div>
+  </section>
+  <div class="sr-only"><span id="status" role="status" aria-live="polite">Ready</span><span id="response-label" hidden>Current board</span><span id="movement-clock" hidden></span></div>
+
+  <section class="io-panel" aria-labelledby="io-title">
+    <div class="io-head"><h2 id="io-title">Input / output</h2><span id="io-response-label">Current board</span></div>
+    <div class="io-grid">
+      <section class="io-input" aria-labelledby="input-title">
+        <div class="io-section-head"><h3 id="input-title">Brain input</h3></div>
+        <div class="io-content input-body"><div id="input-channels" class="input-channels"></div></div>
+        <div class="io-footer"><p id="input-caption" class="io-caption"></p></div>
+      </section>
+      <section class="io-readout" aria-labelledby="readout-title">
+        <div class="io-section-head"><h3 id="readout-title">Neural readout</h3><div class="io-meta"><span>4,096 cells</span><output id="readout-time">— ms</output></div></div>
+        <div class="io-content readout-body">
+          <div class="readout-image"><canvas id="readout-map" width="64" height="64" tabindex="0" role="img" aria-label="Observed neuron voltage array. Each square is one neuron."></canvas><span id="readout-empty">No recording</span></div>
+          <div class="readout-key"><span id="readout-reference">ΔVm from rest</span><span class="voltage-key" title="A square-root color scale makes weak responses visible and saturates at ±15 mV. Selected cells show their recorded value."><i></i><span>−15 · 0 · +15 mV</span></span></div>
+        </div>
+        <div class="io-footer"><p id="readout-detail" class="io-caption">Select a cell to inspect it.</p></div>
+      </section>
+      <section class="io-policy" aria-labelledby="policy-title">
+        <div class="io-section-head"><h3 id="policy-title">Policy output</h3><span id="output-action">—</span></div>
+        <div class="io-content policy-body"><div id="policy-output" class="policy-output" hidden></div><p id="policy-empty" class="io-caption">Run or Step to read an action.</p></div>
+        <div class="io-footer"><p id="policy-caption" class="io-caption">Final action probabilities</p><p id="reference-action" class="io-caption" hidden></p></div>
+      </section>
+    </div>
+  </section>
+
+  <details class="inspector" id="inspector">
+    <summary>Inspector</summary>
+    <div class="inspector-grid">
+      <section class="decision-card" aria-label="Decision inputs">
+        <div class="decision-heading"><strong id="decision-number">Decision 1</strong><span id="decision-action">—</span></div>
+        <ol class="decision-phases"><li data-phase="input" aria-current="step">Input</li><li data-phase="response">Playback</li><li data-phase="action">Complete</li></ol>
+        <p id="decision-note"></p>
+        <div class="trace"><span>Moves</span><output id="trace">—</output></div>
+        <div class="model-row"><button id="replay">Restart &amp; run</button></div>
+        <p class="caption" id="learning-stats"></p>
+        <p class="caption" id="optimum-caption">Verified reference: <b id="optimum">—</b> moves</p>
+      </section>
+      <section>
+        <div class="cell-list-head"><span id="tracked-label">Cells</span><button id="inspect-current">Inspect board</button></div>
+        <div id="top-cells" class="top-cells"></div><label class="quiet-control" title="Show the complete 0–40 ms recording."><input id="include-quiet" type="checkbox"> Include quiet start</label><p id="signal" class="caption"></p><p id="trace-note" class="caption"></p>
+      </section>
+    </div>
+  </details>
+</main>
+
+<dialog id="display-dialog" aria-labelledby="display-title">
+  <div class="dialog-head"><h2 id="display-title">Display</h2><button data-close="display-dialog" aria-label="Close display settings">Close</button></div>
+  <div class="settings-row"><label for="anatomy-scope">Anatomy</label><select id="anatomy-scope"><option value="brain">Brain</option><option value="all">Whole CNS</option><option value="vnc">Ventral nerve cord</option></select></div>
+  <div class="visual-controls">
+    <label>Activity gain <input id="activity-gain" type="range" min="50" max="250" value="140"><output id="gain-label">1.4×</output></label>
+    <label>Region opacity <input id="region-opacity" type="range" min="0" max="30" value="8"><output id="opacity-label">8%</output></label>
+    <label>Connections <select id="link-budget"><option value="50">50 strongest</option><option value="120" selected>120 strongest</option><option value="250">250 strongest</option><option value="600">600 strongest</option><option value="1500">1,500 strongest</option></select></label>
+  </div>
+  <div class="anatomy-layers"><label><input id="surfaces" type="checkbox" checked> Regions</label><label><input id="somata" type="checkbox" checked> Background cells</label><label><input id="cells" type="checkbox" checked> Active cells</label><label><input id="branches" type="checkbox" checked> Neuron branches</label><label><input id="edges" type="checkbox" checked> Connections</label><label><input id="focus-cell" type="checkbox" disabled> Focus selection</label></div>
+  <div id="region-key" class="region-key" aria-label="Region colors"></div><div class="region-row"><label for="region-select">Highlight</label><select id="region-select"><option>All regions</option></select></div><div id="region-name" class="caption">All regions</div>
+</dialog>
+
+<dialog id="results-dialog" aria-labelledby="results-title">
+  <div class="dialog-head"><h2 id="results-title">Training results</h2><button data-close="results-dialog" aria-label="Close training results">Close</button></div><p id="summary"></p>
+  <div class="results-grid"><div><h3 id="training-heading">Curriculum completion · joint updates</h3><svg id="training" role="img" aria-label="Reference-state training accuracy by search generation"></svg><div class="chart-key" id="training-key"></div></div><div><h3>Autonomous completion</h3><table><thead><tr><th id="score-name">Model</th><th id="score-before">Before repair</th><th id="score-after">After repair</th><th>Moves</th></tr></thead><tbody id="scores"></tbody></table></div></div>
+  <p id="comparison" class="caption"></p><details id="retention-results"><summary>Retention by checkpoint</summary><table><thead><tr><th>Checkpoint</th><th>Introduced</th><th>Retained</th><th>All four</th></tr></thead><tbody id="seed-scores"></tbody></table></details>
+  <section id="intervention-results"><h3 id="intervention-heading">Brain substitution and restoration</h3><table><thead id="intervention-headings"><tr><th>Intervention</th><th>Solved</th><th>After restoration</th></tr></thead><tbody id="intervention-scores"></tbody></table><p id="intervention-caption" class="caption">Same input rules and frozen readout. Restore the learned brain after every intervention. Counts are paired controls on three fitted checkpoints, not independent brains or tasks.</p></section>
+  <p><a id="evaluation-data" href="repair/20261001-b00-intervention01/verification.json" download>Evaluation data</a> · <a href="/README.md">Results &amp; workflow</a></p>
+</dialog>
+
+<dialog id="about" aria-labelledby="about-title">
+  <div class="dialog-head"><h2 id="about-title">About FlyLab</h2><button id="close-about">Close</button></div>
+  <p>167,106 simulated neurons and 35,310 type-shared internal parameters. Joint learning updates the brain and a 2,052-parameter linear action readout together. Verified tasks and checkpoints are listed in the level menu; Results shows their measured outcomes. The four-level pilot and three B00 repair checkpoints remain available. Connection endpoints and effective signs stay fixed.</p>
+  <p>Each board drives a fresh 40 ms simulation. The policy reads 512 pooled neural features; it has no direct board input. Output correction is disabled. This tests parameter learning, not persistent neural-state memory.</p>
+  <p>Step change compares consecutive inputs. Learning change compares the selected checkpoint with the brain before its training stage. Each selected model uses its own saved readout. Traces record actual spikes and voltage; anatomical routes show a subset of the full simulated network.</p>
+  <p>Playback uses saved checkpoints. Playing a level does not update the weights.</p>
+  <p id="anatomy-caption" class="caption"></p><p id="morphology-coverage" class="caption"></p>
+  <p class="caption"><a href="https://male-cns.janelia.org/download/" target="_blank" rel="noreferrer">MaleCNS data</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a></p>
+  <p><a href="/README.md">Results &amp; workflow</a></p>
+</dialog>
+<script type="importmap">{"imports":{"three":"./vendor/three.module.min.js"}}</script>
+<script type="module" src="app.js?v=20261002-joint-levels"></script>
+</body>
+</html>
+

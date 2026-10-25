@@ -1,0 +1,14 @@
+{
+ "note": "bioRxiv metadata from the bioRxiv tool (get_preprint), 2026-10-23; fields as the server returned them",
+ "records": [
+  {
+   "doi": "10.1101/2025.07.23.666352",
+   "title": "Representational drift without synaptic plasticity",
+   "authors": [{"last_name": "Haimerl", "initials": "C"}, {"last_name": "Machens", "initials": "C"}],
+   "year": "2025",
+   "server": "bioRxiv",
+   "posted": "2025-07-29",
+   "version": "1"
+  }
+ ]
+}

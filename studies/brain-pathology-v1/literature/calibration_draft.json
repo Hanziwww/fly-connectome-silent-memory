@@ -1,0 +1,609 @@
+{
+  "schema": "flybrain.brain-pathology-v1.calibration_draft/1.0",
+  "generated": "2026-10-19",
+  "source": "studies/brain-pathology-v1/literature/atlas.csv and candidates.csv",
+  "rules": [
+    "Only effect sizes stated in a paper (abstract or full text) appear in reported_effect; anything else is 'not reported'.",
+    "No value here was estimated, interpolated or converted from a figure.",
+    "Where a paper reports only a direction, the proposed parameter change carries a free magnitude to be fitted against the published phenotype, not a number invented here.",
+    "Operators are limited to: remove neurons; remove synapses/connections; scale presynaptic release strength; shift excitability (threshold or spike-frequency-adaptation strength); scale active-zone strength; short-term-depression parameters."
+  ],
+  "candidates": [
+    {
+      "candidate_id": "C01_abeta42_kv4_hyperexcitability_panneuronal",
+      "condition": "Abeta42, pan-neuronal",
+      "target": {
+        "malecns_types": [
+          "all central brain neurons"
+        ],
+        "mapping_confidence": "low (pan-neuronal driver)"
+      },
+      "reported_effect": {
+        "measure": "injected current needed for the first action potential (ramp protocol)",
+        "control": "35.9 +/- 4.7 pA (n=13)",
+        "case": "19.5 +/- 2.2 pA (n=6)",
+        "stated_change": "-46% in threshold current; -57% in threshold charge transfer (5132.8 +/- 1091.32 -> 2197.4 +/- 484.46 pA*ms)",
+        "doi": "10.1371/journal.pgen.1005025",
+        "supporting": [
+          "Kv4 current density -37% in mushroom body neurons (same DOI)",
+          "IA reduced in MB neurons but not projection neurons: 10.1016/j.neuroscience.2017.06.008"
+        ],
+        "unchanged_controls": "capacitance 1.9 +/- 0.1 -> 1.8 +/- 0.1 pF; resting potential -52.8 +/- 2.3 -> -49.1 +/- 1.7 mV; input resistance 2.5 +/- 0.1 -> 2.4 +/- 0.2 GOhm (all not significant)"
+      },
+      "proposed_parameter_change": {
+        "operator": "shift_excitability",
+        "statement": "-46% threshold current (equivalently -57% threshold charge) -> downward shift of firing threshold, magnitude to be fitted so that rheobase falls by 46% in the model's LIF units",
+        "free_parameters": [
+          "threshold_shift_mV"
+        ],
+        "hold_fixed": [
+          "membrane capacitance",
+          "leak conductance",
+          "resting potential"
+        ],
+        "fit_target": "rheobase ratio case/control = 0.54 (19.5/35.9); charge ratio 0.43 (2197.4/5132.8)"
+      },
+      "age_staging": "no change at 2-3 days; Kv4 protein and current loss from 7-8 days; behaviour from 14 days; cell loss from 25 days (10.1371/journal.pgen.1005025)",
+      "known_conflicts": [
+        "10.1016/j.cub.2015.01.016 found no excitability change with Abeta42 in l-LNv (only AbetaArctic)",
+        "10.3389/fncel.2019.00260 reports reduced Ca2+ influx in Kenyon cells with Abeta42"
+      ]
+    },
+    {
+      "candidate_id": "C02_abeta42_kv4_hyperexcitability_mushroombody",
+      "condition": "Abeta42, mushroom body",
+      "target": {
+        "malecns_types": [
+          "KCab-s",
+          "KCab-m",
+          "KCab-c",
+          "KCab-p",
+          "KCg-m",
+          "KCg-d",
+          "KCa'b'-ap1",
+          "KCa'b'-ap2",
+          "KCa'b'-m"
+        ],
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "Kv4 (A-type) current density in MB neurons; cell counts",
+        "control": "320.2 +/- 33.52 pA (culture, n=25); intact brain values not reported",
+        "case": "194.3 +/- 23.68 pA (culture, n=9); significant reduction at 8 days in the intact brain (n=6-13)",
+        "stated_change": "-37% Kv4 current density; MB neuron number -17% at 40 days with MB-restricted expression (132.10 +/- 3.17 -> 110.30 +/- 4.03, n=8-9)",
+        "doi": "10.1371/journal.pgen.1005025",
+        "supporting": [
+          "10.1016/j.neuroscience.2017.06.008 (IA down in MB neurons, not in projection neurons)"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "shift_excitability (KC* only)",
+        "statement": "-37% A-type K+ conductance in KC* -> threshold shift / reduced spike-frequency-adaptation strength, magnitude fitted to a 37% loss of the adaptation current",
+        "free_parameters": [
+          "threshold_shift_mV_KC",
+          "sfa_strength_scale_KC"
+        ],
+        "fit_target": "A-type current scale 0.63 of control; rescue arm restores to 1.04 (334.3/320.2)"
+      },
+      "age_staging": "no effect at 3 days; present at 8 days; cell loss only from 25-40 days",
+      "known_conflicts": [
+        "opposite sign in C16 (10.3389/fncel.2019.00409: -48.1% K+-evoked Ca2+ in MB lobes)"
+      ],
+      "task_caveat": "the model's current memory tasks are visual and do not engage Kenyon cells, so expect a circuit-level (KC->MBON/APL) readout only"
+    },
+    {
+      "candidate_id": "C03_intraneuronal_abeta_release_probability_down",
+      "condition": "intraneuronal Abeta42 / Abeta-Arctic",
+      "target": {
+        "malecns_types": [
+          "DLMn a, b",
+          "DLMn c-f"
+        ],
+        "mapping_confidence": "low"
+      },
+      "reported_effect": {
+        "measure": "synaptic vesicle release probability; Ca2+-channel cluster density; Bruchpilot amount; bouton number",
+        "control": "not reported",
+        "case": "not reported",
+        "stated_change": "age-dependent reduction in release probability, in Ca2+-channel cluster density and in Brp, with increased pre/postsynaptic contact length and NO bouton loss",
+        "doi": "10.1016/j.nbd.2012.11.006",
+        "supporting": [
+          "10.1523/JNEUROSCI.3699-09.2010 (same model: reduced vesicle pools, faster synaptic fatigue, 39 +/- 12% successful central responses)",
+          "10.1016/j.celrep.2018.06.029 (independent group: late-stage presynaptic depression in adult projection neurons, +70% inter-event time)"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "scale_presynaptic_release + scale_active_zone_strength",
+        "statement": "-Y% release probability -> presynaptic scale (1 - Y) with Y fitted; the only published anchor for Y in an adult central neuron is the +70% inter-event time (i.e. release rate x0.58) from 10.1016/j.celrep.2018.06.029",
+        "free_parameters": [
+          "presynaptic_release_scale",
+          "active_zone_strength_scale"
+        ],
+        "hold_fixed": [
+          "synapse count (no bouton loss was reported)"
+        ],
+        "fit_target": "not reported in the source paper; use the 0.58 release-rate ratio from the companion adult dataset as the initial guess"
+      },
+      "age_staging": "progressive; detectable at the ages at which the model's locomotor phenotype appears (14-21 days)",
+      "known_conflicts": [
+        "early-stage increase in release (C11) in the same protein and a different cell type"
+      ]
+    },
+    {
+      "candidate_id": "C04_abeta42_late_stage_neuron_loss",
+      "condition": "Abeta42, late stage",
+      "target": {
+        "malecns_types": [
+          "KCab-s",
+          "KCab-m",
+          "KCab-c",
+          "KCab-p",
+          "KCg-m",
+          "KCg-d",
+          "KCa'b'-ap1",
+          "KCa'b'-ap2",
+          "KCa'b'-m",
+          "R1-R6"
+        ],
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "MB neuron counts; ommatidia with intact rhabdomere complement; brain vacuole counts",
+        "control": "132.10 +/- 3.17 MB neurons per section (n=8-9); 92% of ommatidia intact at 30 days",
+        "case": "110.30 +/- 4.03 MB neurons (n=8-9); 56% of ommatidia intact at 30 days",
+        "stated_change": "-17% mushroom body neurons at 40 days (10.1371/journal.pgen.1005025); photoreceptor survival 92% -> 56% at 30 days (10.1186/s40478-016-0333-4); brain vacuole number doubled at 2 weeks of adult-onset expression (10.1016/j.celrep.2018.11.098)",
+        "doi": "10.1371/journal.pgen.1005025",
+        "supporting": [
+          "10.1073/pnas.0400895101 (onset at 30 days, severe at 45 days)",
+          "10.1371/journal.pone.0001703 (Arctic variant worse)"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "remove_neurons",
+        "statement": "delete 17% of KC* cells (late stage, 40 days equivalent) and, for the retinal variant, 36 percentage points of R1-R6 (92% -> 56% survival, i.e. delete ~39% of the surviving-at-control population)",
+        "free_parameters": [
+          "kc_deletion_fraction",
+          "r16_deletion_fraction"
+        ],
+        "fit_target": "KC*: 0.83 of control cells; R1-R6: 0.61 of control cells (56/92)",
+        "dose_response": "run 0%, 9%, 17%, 25% KC deletion and 0%, 20%, 39% R1-R6 deletion to get a curve rather than a point"
+      },
+      "age_staging": "no loss before 25 days (pan-neuronal) or 15 days (MB-restricted); Kv4 co-expression delays onset and reduces loss by 58% at 50 days"
+    },
+    {
+      "candidate_id": "C05_tau_in_kenyon_cells",
+      "condition": "human/bovine/fly tau in Kenyon cells",
+      "target": {
+        "malecns_types": [
+          "KCab-s",
+          "KCab-m",
+          "KCab-c",
+          "KCab-p",
+          "KCg-m",
+          "KCg-d",
+          "KCa'b'-ap1",
+          "KCa'b'-ap2",
+          "KCa'b'-m"
+        ],
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "peak K+-evoked Ca2+ influx in MB lobes; olfactory learning",
+        "control": "100% (control genotypes); learning index in controls",
+        "case": "-48.1% peak Ca2+ (p=0.006); learning impaired by 25-30%; single-pairing learning ~50% lower",
+        "stated_change": "-48.1% depolarisation-evoked Ca2+ influx (10.3389/fncel.2019.00409); 25-30% learning impairment and ~50% lower single-trial learning (10.1101/lm.70804)",
+        "doi": "10.3389/fncel.2019.00409",
+        "supporting": [
+          "10.3389/fncel.2019.00260 (same direction for tau and Abeta42)",
+          "10.1523/JNEUROSCI.1490-09.2010 (MB structural vulnerability with developmental expression)"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "shift_excitability (KC*, upward threshold)",
+        "statement": "-48% depolarisation-evoked Ca2+ -> upward threshold shift / increased SFA strength in KC*, magnitude fitted to a 0.52 ratio of evoked response",
+        "free_parameters": [
+          "threshold_shift_mV_KC",
+          "sfa_strength_scale_KC"
+        ],
+        "fit_target": "evoked response ratio case/control = 0.519 (100% - 48.1%)",
+        "hold_fixed": [
+          "KC cell count (no degeneration at the behavioural ages: 10.1101/lm.70804, 10.3389/fncel.2019.00260)"
+        ]
+      },
+      "age_staging": "deficits at 2-5 days with adult-onset drivers; no MB degeneration before 21 days and only mild at 60 days",
+      "known_conflicts": [
+        "adult-onset MB-restricted tau with ~14x higher levels gave no protein-synthesis-dependent memory deficit (10.1523/JNEUROSCI.1374-22.2023), so the behavioural consequence is protocol dependent"
+      ]
+    },
+    {
+      "candidate_id": "C07_aging_active_zone_enlargement",
+      "condition": "normal aging (3 vs 30 days)",
+      "target": {
+        "malecns_types": [
+          "ALPN (presynaptic)",
+          "KC* (postsynaptic)"
+        ],
+        "connection": "ALPN -> KC* (calyx)",
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "T-bar size (EM); BRP ring diameter (STED); BRP/RBP gold particles per T-bar; odour-evoked SynaptopHluorin signal; active zones per bouton area",
+        "control": "3-day-old flies (values in figures and S1 Data only)",
+        "case": "30-day-old flies: larger T-bars, larger BRP rings, more BRP/RBP per T-bar, profoundly larger odour-evoked SynpH signal, FEWER active zones per bouton area; postsynaptic KC Ca2+ not increased (slightly reduced); Dalpha7 and Drep2 unchanged",
+        "stated_change": "not reported numerically (all effect sizes are in figures and S1 Data)",
+        "doi": "10.1371/journal.pbio.1002563",
+        "supporting": [
+          "10.1038/nn.3512 (spermidine suppression)",
+          "10.1371/journal.pbio.3001730 (PreScale peaks at mid-age, reduces new memory)",
+          "10.1002/cne.23798 (adult NMJ: larger boutons, proportionally more AZs, higher vesicle density)",
+          "10.1038/s41467-019-09262-2 (brain-wide BRP increase phenocopies aging)"
+        ],
+        "causality_test": "four genomic copies of brp in young flies reduced STM, 3-h ITM and ASM to aged levels while sparing ARM (10.1371/journal.pbio.1002563)"
+      },
+      "proposed_parameter_change": {
+        "operator": "scale_active_zone_strength + scale_presynaptic_release + short_term_depression",
+        "statement": "+X% active-zone strength and +X% release probability on ALPN->KC* with a compensating reduction in synapse count per connection; X to be fitted so that the simulated odour-evoked release rises while the postsynaptic KC response does not (the published signature)",
+        "free_parameters": [
+          "az_strength_scale_ALPN_KC",
+          "release_scale_ALPN_KC",
+          "synapse_count_scale_ALPN_KC",
+          "std_recovery_tau"
+        ],
+        "fit_target": "qualitative triple constraint: presynaptic release up, AZ number per bouton down, postsynaptic response flat-to-slightly-down",
+        "note": "because release goes up while AZ number goes down, a single scalar increase in synaptic weight is NOT a faithful implementation"
+      },
+      "age_staging": "progressive from 3 to 30 days, peaking at mid-age then declining (10.1371/journal.pbio.3001730)"
+    },
+    {
+      "candidate_id": "C11_abeta42_early_release_increase_alpn",
+      "condition": "Abeta42, 0-2 days after eclosion",
+      "target": {
+        "malecns_types": [
+          "ALPN"
+        ],
+        "connection": "ORN_* -> ALPN and ALLN -> ALPN",
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "spontaneous EPSC inter-event interval in adult projection neurons",
+        "control": "5579.67 +/- 1804.34 ms (n=7)",
+        "case": "2439.60 +/- 1182.44 ms (n=9)",
+        "stated_change": "inter-event interval 0.437 of control, i.e. event frequency x2.29 (p<0.05); mEPSC data in culture: inter-event 822.47 +/- 29.98 vs 1983.54 +/- 118.04 ms (41% of control) with unchanged amplitude (5.23 +/- 0.29 vs 6.05 +/- 0.43 pA) -> presynaptic",
+        "doi": "10.1016/j.celrep.2018.06.029"
+      },
+      "proposed_parameter_change": {
+        "operator": "scale_presynaptic_release",
+        "statement": "+129% release rate onto ALPN -> presynaptic scale 2.29 on ORN_*->ALPN (and ALLN->ALPN) at the early stage",
+        "free_parameters": [
+          "release_scale_onto_ALPN_early"
+        ],
+        "fit_target": "spontaneous event rate ratio case/control = 2.29 (5579.67/2439.60)",
+        "hold_fixed": [
+          "postsynaptic quantal amplitude (unchanged in the paper)"
+        ]
+      },
+      "age_staging": "0-2 days only; reverses by 9-13 days (see C12)"
+    },
+    {
+      "candidate_id": "C12_abeta42_late_release_decrease_alpn",
+      "condition": "Abeta42, 9-13 days after eclosion",
+      "target": {
+        "malecns_types": [
+          "ALPN"
+        ],
+        "connection": "ORN_* -> ALPN and ALLN -> ALPN",
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "spontaneous EPSC inter-event interval in adult projection neurons",
+        "control": "1256.57 +/- 263.68 ms (n=6)",
+        "case": "2161.49 +/- 624.18 ms (n=8)",
+        "stated_change": "inter-event interval 70% greater than age-matched controls, i.e. event frequency 0.58 of control (p<0.05)",
+        "doi": "10.1016/j.celrep.2018.06.029",
+        "supporting": [
+          "10.1016/j.nbd.2012.11.006 (reduced release probability in an identified neuron)"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "scale_presynaptic_release",
+        "statement": "-42% release rate onto ALPN -> presynaptic scale 0.58 at the late stage",
+        "free_parameters": [
+          "release_scale_onto_ALPN_late"
+        ],
+        "fit_target": "spontaneous event rate ratio case/control = 0.581 (1256.57/2161.49)"
+      },
+      "age_staging": "9-13 days; must be run as the second half of an age-staged pair with C11"
+    },
+    {
+      "candidate_id": "C13_fragilex_weak_gabaergic_lateral_inhibition",
+      "condition": "dfmr1 null (fragile X)",
+      "target": {
+        "malecns_types": [
+          "ALLN (presynaptic, GABAergic)",
+          "ALPN (postsynaptic)"
+        ],
+        "connection": "ALLN -> ALPN and ALLN -> ALLN",
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "PN hyperpolarisation and firing suppression evoked by optogenetic activation of GABAergic local interneurons; LN self-inhibition; PN odour tuning",
+        "control": "wild type: pronounced hyperpolarisation and strong suppression of PN firing (n=16 cells); LN firing suppressed after 250 ms (n=8)",
+        "case": "dfmr1-: markedly reduced hyperpolarisation and significantly weaker firing suppression (n=16); LNs show sustained depolarisation and firing (n=16, p=6.5e-4); PN lifetime sparseness reduced (p=9.8e-14)",
+        "stated_change": "not reported as a percentage (effect sizes are in figures)",
+        "doi": "10.1016/j.cub.2017.02.065",
+        "supporting": [
+          "10.1016/j.nbd.2014.01.008 (GABAergic circuit dysfunction in the same model)"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "scale_presynaptic_release (and optionally remove_synapses) on ALLN outputs",
+        "statement": "-Y% GABAergic release from ALLN -> presynaptic scale (1 - Y) on ALLN->ALPN and ALLN->ALLN, Y fitted so that simulated ALPN odour tuning broadens by the published amount in lifetime sparseness",
+        "free_parameters": [
+          "release_scale_ALLN",
+          "synapse_removal_fraction_ALLN"
+        ],
+        "fit_target": "lifetime sparseness distribution of ALPN responses shifted as in 10.1016/j.cub.2017.02.065 Fig 3F (no scalar published)",
+        "secondary_target": "ALLN self-inhibition weakened (sustained rather than transient ALLN firing)"
+      },
+      "age_staging": "constitutive null; measured in adults",
+      "note": "the only shortlisted candidate whose presynaptic and postsynaptic classes are both named, GABAergic (non-zero weight) and directly measured"
+    },
+    {
+      "candidate_id": "C14_aging_kcnq_m_current_loss",
+      "condition": "normal aging (1-5 vs 25-30 days)",
+      "target": {
+        "malecns_types": [
+          "KCab-s",
+          "KCab-m",
+          "KCab-c",
+          "KCab-p"
+        ],
+        "mapping_confidence": "medium"
+      },
+      "reported_effect": {
+        "measure": "brain KCNQ mRNA level with age; 1-h memory",
+        "control": "KCNQ expression at 5 days (reference); aged wild-type memory impaired (p<0.01)",
+        "case": "KCNQ declined to about 10% of the 5-day level (p<0.05, 20 flies per replicate)",
+        "stated_change": "-90% KCNQ expression in aged brains",
+        "doi": "10.1371/journal.pone.0062445"
+      },
+      "proposed_parameter_change": {
+        "operator": "shift_excitability (reduce SFA strength in KCab*)",
+        "statement": "-90% M-current -> reduce spike-frequency-adaptation strength in KCab* by up to 90% (threshold also shifts down), magnitude fitted",
+        "free_parameters": [
+          "sfa_strength_scale_KCab",
+          "threshold_shift_mV_KCab"
+        ],
+        "fit_target": "adaptation-current scale 0.10 of young value (upper bound: the 90% figure is an mRNA level, not a recorded current)",
+        "rescue_arm": "restoring KCNQ in the mushroom body rescues age-related memory impairment, so the model should show the phenotype reversing when the adaptation current is restored"
+      },
+      "age_staging": "progressive to 25-30 days",
+      "known_conflicts": [
+        "predicts MORE excitable aged Kenyon cells, whereas 10.1371/journal.pbio.1002563 reports slightly REDUCED postsynaptic Ca2+ responses in aged KC dendrites"
+      ]
+    },
+    {
+      "candidate_id": "C15_tau_mbon_m4m6_hyperexcitability",
+      "condition": "human tau 0N4R in M4/M6 mushroom body output neurons",
+      "target": {
+        "malecns_types": [
+          "MBON01",
+          "MBON03",
+          "MBON04"
+        ],
+        "mapping_confidence": "medium"
+      },
+      "reported_effect": {
+        "measure": "peak KCl-evoked Ca2+ transient (GCaMP6f, % of control)",
+        "control": "100%",
+        "case": "268.9 +/- 45.2% of control (p=0.005); nimodipine returns it to 98.9 +/- 21.1%",
+        "stated_change": "+169% depolarisation-evoked Ca2+ influx; Ca-alpha1D transcript +68% (p=0.04) pan-neuronally",
+        "doi": "10.3389/fncel.2019.00409"
+      },
+      "proposed_parameter_change": {
+        "operator": "shift_excitability (MBON01/03/04, downward threshold)",
+        "statement": "+169% evoked response -> downward threshold shift / reduced SFA strength in MBON01, MBON03, MBON04, fitted to an evoked-response ratio of 2.69",
+        "free_parameters": [
+          "threshold_shift_mV_MBON_M4M6",
+          "sfa_strength_scale_MBON_M4M6"
+        ],
+        "fit_target": "evoked response ratio case/control = 2.689",
+        "rescue_arm": "L-type channel knockdown restores both Ca2+ (0.989) and 1-h memory"
+      },
+      "age_staging": "2-5 days old adults (adult-onset driver)",
+      "pairing": "run together with C16 (opposite sign in the presynaptic Kenyon cells) to test the KC->MBON transformation"
+    },
+    {
+      "candidate_id": "C16_tau_kenyon_cell_hypoexcitability",
+      "condition": "human tau 0N4R (or Abeta42) in Kenyon cells",
+      "target": {
+        "malecns_types": [
+          "KCab-s",
+          "KCab-m",
+          "KCab-c",
+          "KCab-p",
+          "KCg-m",
+          "KCg-d",
+          "KCa'b'-ap1",
+          "KCa'b'-ap2",
+          "KCa'b'-m"
+        ],
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "peak K+-evoked Ca2+ influx in MB lobes",
+        "control": "100%",
+        "case": "-48.1% (p=0.006)",
+        "stated_change": "-48.1% depolarisation-evoked Ca2+ influx; same direction for Abeta42 and for Ank2 knockdown",
+        "doi": "10.3389/fncel.2019.00409",
+        "supporting": [
+          "10.3389/fncel.2019.00260"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "shift_excitability (KC*, upward threshold)",
+        "statement": "-48% evoked response -> upward threshold shift / increased SFA strength in KC*, fitted to a 0.519 response ratio",
+        "free_parameters": [
+          "threshold_shift_mV_KC",
+          "sfa_strength_scale_KC"
+        ],
+        "fit_target": "evoked response ratio case/control = 0.519"
+      },
+      "age_staging": "2-5 days old adults, before any degeneration (MB lobes verified intact)",
+      "known_conflicts": [
+        "opposite sign to C01/C02 (Kv4 loss -> hyperexcitability)"
+      ]
+    },
+    {
+      "candidate_id": "C17_tau_giant_fiber_failure_rate",
+      "condition": "human tau isoforms in the giant fiber system",
+      "target": {
+        "malecns_types": [
+          "DNp01",
+          "PSI",
+          "TTMn",
+          "DLMn a, b",
+          "DLMn c-f",
+          "GFC1",
+          "GFC2",
+          "GFC3",
+          "GFC4"
+        ],
+        "mapping_confidence": "medium"
+      },
+      "reported_effect": {
+        "measure": "response failure rate under high-frequency stimulation; conduction and response speed",
+        "control": "not reported (abstract only)",
+        "case": "not reported (abstract only)",
+        "stated_change": "0N3R increases failure rate at high-frequency stimulation; 0N4R compromises stimulus conduction and response speed age-dependently; R406W causes only mild conduction velocity defects",
+        "doi": "10.1016/j.nbd.2018.12.004",
+        "supporting": [
+          "10.1002/dneu.20388 (normal aging in the same circuit: following frequency falls from >=130 Hz at 5 days to 60-80 Hz at 35-45 days; dfmr1 flies only 40 Hz at 5 days)",
+          "10.1523/JNEUROSCI.3699-09.2010 (Abeta accelerates fatigue at 100 Hz in the same pathway)"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "short_term_depression (+ optional presynaptic scaling)",
+        "statement": "raise short-term depression / lower release so that the simulated following frequency falls, using the aging anchor as the only published quantity: following frequency >=130 Hz -> 60-80 Hz (ratio ~0.46-0.62)",
+        "free_parameters": [
+          "std_depression_factor",
+          "std_recovery_tau",
+          "release_scale"
+        ],
+        "fit_target": "following frequency ratio 0.46-0.62 for the aging arm; tau-specific target not reported"
+      },
+      "age_staging": "age-dependent for 0N4R and for normal aging",
+      "blocking_gap": "full text of 10.1016/j.nbd.2018.12.004 and 10.1002/dneu.20388 needed before fitting"
+    },
+    {
+      "candidate_id": "C18_abeta_dlm_synaptic_fatigue",
+      "condition": "intraneuronal Abeta42 / Abeta-Arctic (A307-GAL4)",
+      "target": {
+        "malecns_types": [
+          "DLMn a, b",
+          "DLMn c-f",
+          "DNp01",
+          "PSI"
+        ],
+        "mapping_confidence": "medium"
+      },
+      "reported_effect": {
+        "measure": "synaptic fatigue rate (inverse decay constant of EJC amplitude during 100 Hz, 250 pulses); presynaptic mitochondria and vesicle pools; central response success rate",
+        "control": "100% successful responses with direct motor axon stimulation",
+        "case": "39 +/- 12% successful responses on brain stimulation (p<0.01); fatigue rate increased with age, earliest and strongest for Abeta-Arctic",
+        "stated_change": "-61 percentage points in central response success rate; fatigue rate increase not reported numerically; vesicle pools reduced and vesicle size increased by 21 days; no change in terminal size",
+        "doi": "10.1523/JNEUROSCI.3699-09.2010",
+        "supporting": [
+          "10.1016/j.nbd.2012.11.006"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "short_term_depression + scale_presynaptic_release + scale_active_zone_strength",
+        "statement": "set short-term depression so that sustained 100 Hz transmission fails progressively, with a central transmission success rate of 0.39 as the published anchor; fatigue is use-dependent (no effect at 10 Hz), so the change must be in depression dynamics, not in baseline weight alone",
+        "free_parameters": [
+          "std_depression_factor",
+          "std_recovery_tau",
+          "release_scale",
+          "az_strength_scale"
+        ],
+        "fit_target": "success rate 0.39 +/- 0.12 at high frequency, with near-normal transmission at 10 Hz"
+      },
+      "age_staging": "mitochondrial depletion by 9 days precedes the fatigue change; vesicle loss by 21 days"
+    },
+    {
+      "candidate_id": "C22_aging_dopamine_neuron_count_preserved",
+      "condition": "normal aging (control arm)",
+      "target": {
+        "malecns_types": [
+          "PPL101-PPL108",
+          "PPL201-PPL204",
+          "PPM1201-PPM1205",
+          "PAL01",
+          "PAL03"
+        ],
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "dopaminergic neurons per hemisphere (anti-TH), day 2 vs day 60",
+        "control": "PPL1 10.43 (SD 2.38); PPL2 7.58 (1.76); PPM1/2 5.95 (2.33); PPM3 4.62 (2.31); PAL 3.66 (1.52)",
+        "case": "PPL1 10.86 (SD 2.18); PPL2 6.58 (1.90); PPM1/2 5.83 (1.88); PPM3 3.95 (2.59); PAL 4.33 (1.23)",
+        "stated_change": "no significant age-related loss (n=24 hemispheres per time point)",
+        "doi": "10.3389/fnins.2010.00205",
+        "supporting": [
+          "10.1093/sleep/32.8.984 (no loss after sleep deprivation)",
+          "10.1002/gene.20106 (no loss with alpha-synuclein by whole-mount counting)"
+        ]
+      },
+      "proposed_parameter_change": {
+        "operator": "none (control arm)",
+        "statement": "no parameter change: aging must NOT be implemented as dopaminergic cell loss, and the published locomotor decline (climbing index 0.92 at day 2 -> 0.34 at day 60) has to be produced by the synaptic states in C07 and C14 instead",
+        "free_parameters": [],
+        "fit_target": "cell counts unchanged; locomotor readout declines"
+      },
+      "age_staging": "day 2 to day 70"
+    },
+    {
+      "candidate_id": "C23_abeta_photoreceptor_loss_visual",
+      "condition": "Abeta42 (and, as contrast arms, tau and alpha-synuclein) in photoreceptors",
+      "target": {
+        "malecns_types": [
+          "R1-R6",
+          "R7d",
+          "R7p",
+          "R7y"
+        ],
+        "mapping_confidence": "high"
+      },
+      "reported_effect": {
+        "measure": "percentage of ommatidia with a full complement of 7 intact rhabdomeres; ERG depolarisation amplitude",
+        "control": "92% of ommatidia intact at 30 days (97% at 10 days)",
+        "case": "Abeta42: 56% at 30 days (p<0.001); tau: 92% at 30 days (no loss) but progressive ERG loss; alpha-synuclein: 89% at 10 days (p<0.001) and not countable at 30 days",
+        "stated_change": "Abeta42 photoreceptor survival 0.61 of control at 30 days; tau 1.00 of control with ERG failure; alpha-synuclein 0.92 of control at 10 days",
+        "doi": "10.1186/s40478-016-0333-4",
+        "sample": "~100 ommatidia per 100x field, >=4 animals per genotype per timepoint"
+      },
+      "proposed_parameter_change": {
+        "operator": "remove_neurons (Abeta42, alpha-synuclein) / scale_presynaptic_release without removal (tau)",
+        "statement": "Abeta42: delete 39% of R1-R6 (56/92 survival). alpha-synuclein: delete 8% of R1-R6 at the 10-day equivalent (89/97). tau: keep all cells and scale R1-R6 presynaptic release down until the simulated visual response falls, since the ERG falls while cell number is preserved",
+        "free_parameters": [
+          "r16_deletion_fraction",
+          "release_scale_R16_tau"
+        ],
+        "fit_target": "Abeta42 cell survival 0.61; alpha-synuclein 0.92; tau survival 1.00 with reduced transmission",
+        "dose_response": "0%, 8%, 20%, 39% deletion"
+      },
+      "age_staging": "1, 10 and 30 days",
+      "note": "the only shortlisted state in a cell type the model's existing visual memory tasks drive directly, so it is the natural first implementation and the natural C5 test"
+    }
+  ],
+  "excluded_candidates_and_reason": {
+    "C06_tau_panneuronal_reversible": "fails C2 and C3: mechanism is protein-synthesis-dependent memory (translation/plasticity), no representable parameter measured",
+    "C08_aging_dpm_to_ab_kc_connectivity_loss": "fails C3: DPM is annotated dopaminergic in this model, so its synapses carry zero weight and removing DPM->KC contacts is functionally silent",
+    "C09_dopamine_neuron_dysfunction_pd": "fails C3: dopaminergic synapses carry zero weight; the measured mechanism is neuromodulation",
+    "C10_fragilex_5ht2a_loss": "fails C3: serotonin receptor signalling; serotonergic synapses carry zero weight and there is no receptor operator",
+    "C19_sleep_loss_plus_abeta_arctic_hyperexcitability": "fails C3 in effect: l-LNv is annotated serotonergic, so an imposed excitability change cannot propagate",
+    "C20_asyn_sleep_loss_d1_dependent_memory_loss": "fails C2 and C3: dopamine receptor transcripts only; sleep history is not a model variable",
+    "C21_aging_kc_fibre_number_decline": "fails C1: single 1984 study, fibre profiles rather than cell counts, contradicted by modern aging work that finds synaptic rather than cellular change",
+    "C24_tau_dopaminergic_release_loss": "fails C3: dopaminergic release, zero weight in this model"
+  }
+}

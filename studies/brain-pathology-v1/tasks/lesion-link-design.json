@@ -1,0 +1,815 @@
+{
+ "amendment": 15,
+ "written_unix": 1792802570.8167183,
+ "learner": "scene 1 (M0), readout trained (head_only); brain fixed",
+ "timings": "the 9 trained timings (delays 0, 40, 160 ms x prefix windows 0, 1, 4), both cues, hidden goal",
+ "lesions": {
+  "L0.5": {
+   "kind": "threshold_offset",
+   "cells": 167106,
+   "value": -1.61,
+   "label": "pan-neuronal Kv4 loss, dose 0.5"
+  },
+  "L1": {
+   "kind": "threshold_offset",
+   "cells": 167106,
+   "value": -3.22,
+   "label": "pan-neuronal Kv4 loss, dose 1"
+  },
+  "L1.5": {
+   "kind": "threshold_offset",
+   "cells": 167106,
+   "value": -4.83,
+   "label": "pan-neuronal Kv4 loss, dose 1.5"
+  },
+  "L2": {
+   "kind": "threshold_offset",
+   "cells": 167106,
+   "value": -6.44,
+   "label": "pan-neuronal Kv4 loss, dose 2"
+  }
+ },
+ "doses": [
+  0.5,
+  1.0,
+  1.5,
+  2.0
+ ],
+ "showcase": {
+  "delay_ms": 160,
+  "prefix_windows": 4
+ },
+ "readouts": [
+  {
+   "name": "x1-r0",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r0",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r1",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r1",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r2",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r2",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r3",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r3",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r4",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r4",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r5",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r5",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r6",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r6",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r7",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r7",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r8",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r8",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "x1-r9",
+   "kind": "healthy-trained",
+   "source": "x1-M0-head_only-r9",
+   "learned": "H",
+   "dose": null,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "b-d0.5-r1",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose0.5-M0-head_only-r1",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "b-d0.5-r2",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose0.5-M0-head_only-r2",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "b-d0.5-r3",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose0.5-M0-head_only-r3",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "b-d0.5-r4",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose0.5-M0-head_only-r4",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "b-d0.5-r5",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose0.5-M0-head_only-r5",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "b-d0.5-r6",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose0.5-M0-head_only-r6",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "b-d1-r1",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1-M0-head_only-r1",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "b-d1-r2",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1-M0-head_only-r2",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "b-d1-r3",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1-M0-head_only-r3",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "b-d1-r4",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1-M0-head_only-r4",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "b-d1-r5",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1-M0-head_only-r5",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "b-d1-r6",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1-M0-head_only-r6",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "b-d1.5-r1",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1.5-M0-head_only-r1",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "b-d1.5-r2",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1.5-M0-head_only-r2",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "b-d1.5-r3",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1.5-M0-head_only-r3",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "b-d1.5-r4",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1.5-M0-head_only-r4",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "b-d1.5-r5",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1.5-M0-head_only-r5",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "b-d1.5-r6",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose1.5-M0-head_only-r6",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "b-d2-r1",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose2-M0-head_only-r1",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "b-d2-r2",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose2-M0-head_only-r2",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "b-d2-r3",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose2-M0-head_only-r3",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "b-d2-r4",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose2-M0-head_only-r4",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "b-d2-r5",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose2-M0-head_only-r5",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "b-d2-r6",
+   "kind": "lesion-trained",
+   "source": "b-C01-dose2-M0-head_only-r6",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "c-d0.5-r1",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r1",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "c-d0.5-r2",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r2",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "c-d0.5-r3",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r3",
+   "learned": "L0.5",
+   "dose": 0.5,
+   "conditions": [
+    "H-H",
+    "L0.5-L0.5",
+    "H-L0.5",
+    "L0.5-H"
+   ]
+  },
+  {
+   "name": "c-d1-r1",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r1",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "c-d1-r2",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r2",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "c-d1-r3",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r3",
+   "learned": "L1",
+   "dose": 1.0,
+   "conditions": [
+    "H-H",
+    "L1-L1",
+    "H-L1",
+    "L1-H"
+   ]
+  },
+  {
+   "name": "c-d1.5-r1",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r1",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "c-d1.5-r2",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r2",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "c-d1.5-r3",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r3",
+   "learned": "L1.5",
+   "dose": 1.5,
+   "conditions": [
+    "H-H",
+    "L1.5-L1.5",
+    "H-L1.5",
+    "L1.5-H"
+   ]
+  },
+  {
+   "name": "c-d2-r1",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r1",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "c-d2-r2",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r2",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  },
+  {
+   "name": "c-d2-r3",
+   "kind": "relearned",
+   "source": "x1-M0-head_only-r3",
+   "learned": "L2",
+   "dose": 2.0,
+   "conditions": [
+    "H-H",
+    "L2-L2",
+    "H-L2",
+    "L2-H"
+   ]
+  }
+ ],
+ "transplant": "full simulator state (backend.STATE_FIELDS and the clock accumulators) of each history at the end of its delay, from the writing state, into the reading state",
+ "video": [
+  {
+   "readout": "x1-r1",
+   "condition": "H-H"
+  },
+  {
+   "readout": "x1-r1",
+   "condition": "L1-L1"
+  },
+  {
+   "readout": "x1-r1",
+   "condition": "H-L1"
+  },
+  {
+   "readout": "x1-r1",
+   "condition": "L1-H"
+  },
+  {
+   "readout": "c-d1-r1",
+   "condition": "L1-L1"
+  },
+  {
+   "readout": "b-d1-r1",
+   "condition": "L1-L1"
+  },
+  {
+   "readout": "b-d1-r1",
+   "condition": "H-H"
+  }
+ ],
+ "inputs": {
+  "models": {
+   "x1-M0-head_only-r0": "0bd7675d5f7802c0bac1ecd9dd2d80db6a8f02b97c5231052cc72b9c9059463d",
+   "x1-M0-head_only-r1": "b191b7f7cbc1cf22037b1a607daf021132f9cfc1bca3ef4e23d2ac78bb59c75c",
+   "x1-M0-head_only-r2": "e95d207730aaa01e0852e0ef7435bf6e1715eb7ff4e884e121a1904f2cd372d8",
+   "x1-M0-head_only-r3": "fc19f1dec6902087ae12b810cc515a91ccbb971290e4835e388942f7b8be3055",
+   "x1-M0-head_only-r4": "78d9f0dc2fb42a4b3b8d23d498b2cb7adb2c50ba5acb39d9ccf3ec18c62fe90d",
+   "x1-M0-head_only-r5": "1b37d4e253591b923c770e7ac0ebc829a13439b10a5a93ffd034ff0c0afe3065",
+   "x1-M0-head_only-r6": "830c86c2695b206dea01e348cef7d7bb5d28f72224c5e5a3f1c30b0c174ccbf4",
+   "x1-M0-head_only-r7": "8cfc455f990eaa027a8860d13f9756687be6c004c5845c0e07c98eb0e43df4bd",
+   "x1-M0-head_only-r8": "bf2e61b4f0a1330b260c89d65235d82f9603a63e93c67da81ff9a3cef7357586",
+   "x1-M0-head_only-r9": "0dd9e0bfc58578b3c6f5d8cb248bef71a9b95c309d26eb5dbc3caa8ad2d6b1a2",
+   "b-C01-dose0.5-M0-head_only-r1": "9617a260b7eca7356d1e7f225ed9ca42e2d2657506e5b20ffc19c0071ea2158a",
+   "b-C01-dose0.5-M0-head_only-r2": "db48fee4a39e51b7234e4872f7542cc33f179bc0ad16ff4ed0393d3fa59ab835",
+   "b-C01-dose0.5-M0-head_only-r3": "5038f1bb205c53d28033b68db1fbe48bb88ccc2edc8d1181be2ad6ca12a3fbe7",
+   "b-C01-dose0.5-M0-head_only-r4": "b95f1ea04394b37c49d876daf4ff45a661c050726b23f1c8240f6f96881b90cd",
+   "b-C01-dose0.5-M0-head_only-r5": "69821969d5fcc9f36a7acab0ad9bd36b0138eab40ed1a98d857c1f19cda9ca04",
+   "b-C01-dose0.5-M0-head_only-r6": "32ffc3d2ee6b074a8cfecf2e4cf4134a2a15b482595938b2db9c9287adc49c77",
+   "b-C01-dose1-M0-head_only-r1": "727b7ca088be2c02dabbda81a443eb7ba89964af1b6fc24daca396d6920e2142",
+   "b-C01-dose1-M0-head_only-r2": "69501f45d2298181246621423137c09a1452f74ed4f227c55e0e5dbcb426385d",
+   "b-C01-dose1-M0-head_only-r3": "a4a1826e4f7c398725d02b6071263808218051845739d050d7bdcbd43acb8768",
+   "b-C01-dose1-M0-head_only-r4": "1021b438f8d779821573d33cd0db63c2bc3bb36873b6550dccc3a75009311279",
+   "b-C01-dose1-M0-head_only-r5": "cbb07dfdcd83fbfc67df82b759de0c359f356baf6644f095678c6b44da1bee9d",
+   "b-C01-dose1-M0-head_only-r6": "61dae81260c63798b9d67e7ec16b1a9232c23055cfb09fc0b4493e2e00c74b64",
+   "b-C01-dose1.5-M0-head_only-r1": "a2021dfc108c587f00f193fb0bb3a53a0712140c6655dfc8fb50d1d29cccc197",
+   "b-C01-dose1.5-M0-head_only-r2": "a813ebee4072fdcd8ef3b42f711ec99decc37fd3618cfc6cbd978e8502b5c0bb",
+   "b-C01-dose1.5-M0-head_only-r3": "fe9a9d7c49299c4a43a96b9100eb19d5e05d6338e70af1b9d1aec52e56ff87ae",
+   "b-C01-dose1.5-M0-head_only-r4": "f55eab0fed6add39bb80329435993570c57a6f004672f4f6003eb4b27e960b56",
+   "b-C01-dose1.5-M0-head_only-r5": "24958d0f5973a5ad5b057351be462413e8f511489cd3c7f85454d780483f240c",
+   "b-C01-dose1.5-M0-head_only-r6": "0c32ea64f87b49358fb0805591fa4a513fd9336e81a2a9eba06d1c5b8dca6cb5",
+   "b-C01-dose2-M0-head_only-r1": "14b204c422e73fe536ccb2b5c0e398466ab36addf7768b8b8bab121cefe142b9",
+   "b-C01-dose2-M0-head_only-r2": "8eb87235cde4079cf62c9ad364bcb3885d35fea7c879cbf218c6fd13972c6e50",
+   "b-C01-dose2-M0-head_only-r3": "467af523ba0f543654e096beba4a0a79410f5e1a14ed5a473b060b3182d8e101",
+   "b-C01-dose2-M0-head_only-r4": "b631778c5dff66c382022b277946253246091b28f838481e2ddf25f4cf15975f",
+   "b-C01-dose2-M0-head_only-r5": "2a16051b01c56b257c13d3addc349943a470c0922cab14208a6836fd1492f177",
+   "b-C01-dose2-M0-head_only-r6": "f78d8f451bde8cb07c8804d6a546f9cf43f3dac88004d2e48f3c5f8ede63e9c3"
+  },
+  "regime_c": {
+   "C01-dose0.5-head_only-r1": "27aa627cf723a492a6b7dbc78c6603b7a2c36a7af5ce8a9f031ec60bf27d5757",
+   "C01-dose0.5-head_only-r2": "b042e18c52cc8e2bdd2d61bab3ff1f5a2290156bb800bbf10609a4cb560887a1",
+   "C01-dose0.5-head_only-r3": "287b1a9ad5ae2e893e4c30e5d3d59886bf7ffdf7a6270fb382267dd1b1e13afb",
+   "C01-dose1-head_only-r1": "4fc7aceacc8dc63413f0f078b77c6ebcd122e0ca47f49c292fd5b463f1090e96",
+   "C01-dose1-head_only-r2": "586ee2e623e5bfc4ecc149aedb40b310a57a7a29bf22eacf0e21a45a9e24ccf4",
+   "C01-dose1-head_only-r3": "1dcdcb1417c3080a46410712ea7fff6acfb99c3418583e78abd016006bf238a7",
+   "C01-dose1.5-head_only-r1": "483747262f325cac5f25848828451d696bdb6852501315e41f6d3e7e02dd45d1",
+   "C01-dose1.5-head_only-r2": "db3990d6a17de201199f36a54e44ed298a25d297d92ec57b0dd4676b0850fc59",
+   "C01-dose1.5-head_only-r3": "2df3b28f4fa8e55c6a694bf1b180917c0e96fe912dead31d35d1ed4f09ea9806",
+   "C01-dose2-head_only-r1": "7819a8957bfa83f69ae8342caf04f0ae4adf51cb3453f47ac36a7bbf102723d8",
+   "C01-dose2-head_only-r2": "baf305f090a26a1b26f13817514a83b38ec42dc299dfa934e7ee8457bdb943ea",
+   "C01-dose2-head_only-r3": "e42ed524c7e7f42a6dece0f198828c675592792e199d6e40240ee45d71447745"
+  }
+ }
+}

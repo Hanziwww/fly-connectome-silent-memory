@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 13,
+  "reason": "T-SC1b VNC bridge v3 by cluster correspondence, final attempt",
+  "changes": {
+    "diagnosis": {
+      "evidence": {
+        "file": "runs/sc-lineage-vnc-diag/vnc_sink_diag.json",
+        "sha256": "3d301791ea7a4d83119204a59a09ab89a01ca5396386322c06f4fbaa9d78f75d",
+        "code": "code/sc_lineage_vnc_diag.py",
+        "code_sha256": "0fdd41dfc6c69b1cd06cb780b2a99b62bbdf1b16d41a57777ed7f946ede27cf3"
+      },
+      "finding": "the three most over-filled published clusters in run 2 are exactly the three with <= 3 published markers: 109 (1 marker, 2935 cells vs 63 published); 18 (1 marker, 2982 cells vs 363 published); 63 (3 markers, 445 cells vs 193 published)",
+      "mechanism": "a cell score is the mean z of a cluster's markers, so its spread falls with the number of markers (SD 1.0 for one marker against a median 0.31 for >= 12): any cell detecting the single marker wins the per-cell argmax; the remaining clusters are under-filled (median recovery 0.42)"
+    },
+    "change": {
+      "code": {
+        "file": "code/sc_lineage_vnc_v3.py",
+        "sha256": "1ecddaf3c990ea0dbfc4f848a29cafeb1ba31bb305472edb817fb94f88c7425f",
+        "selftest": "synthetic data, 14 planted clusters incl. two single-marker ones: sizes rho 1.0, 100% of cells correct"
+      },
+      "procedure": "the authors' Seurat 2.3.4 pipeline (Allen et al. 2020 Methods) in scanpy: their QC and log1p(cp10k) (as run 2); variable genes per sex (Seurat v2 dispersion, cut-offs 0.001), intersected; per sex replicate, UMI and mitochondrial fraction regressed out, scaled and clipped at 10; 45 principal components (for their 45 CCA dimensions); 30-nearest-neighbour graph; Leiden over-clustered at twice the published granularity (240 clusters; bisection on log resolution, seed 0)",
+      "correspondence": "run 2's cell scores standardised per published cluster over the cells; per new cluster the mean standardised score; every published cluster first takes one new cluster (Hungarian, maximum summed score), every remaining new cluster joins its best-scoring published cluster; an assignment counts if its score is >= 0.25",
+      "outputs": "runs/sc-lineage-vnc-v3 (run 2 stays in runs/sc-lineage-vnc)"
+    },
+    "unchanged": "QC, normalisation, marker sets, units (>= 30 cells), the label map (amendment 0010), gates V1-V3 and their thresholds, H1 v2 and its families (amendments 0008-0010); sc_trace_v2.py reads the v3 bridge",
+    "seen_so_far": "runs 1-2 gates and cluster recovery, the diagnosis above; no H1 v2 statistic has been computed",
+    "rule": "final attempt: if V1, V2 or V3 fails the VNC stays unmapped and F14.SC.trace.v2 and its subfamilies are not computed (as amendment 0011); if all pass, sc_trace_v2.py runs as declared",
+    "trace_code": {
+      "file": "code/sc_trace_v2.py",
+      "sha256": "79bb4e6a224c62b96b402053a7d75c51b4716cd75fd91820662f48848f354f98"
+    }
+  },
+  "previous_sha256": "907b9cec14dab49ee76c7d46bd5e2be264451586ae9ed69b7e4c3f58b4c8434c",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792710928.569813
+}

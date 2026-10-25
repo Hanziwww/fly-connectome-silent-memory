@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 1,
+  "reason": "Phase 4 dose series low-dose extension",
+  "changes": {
+    "added_task_file": {
+      "file": "tasks/phase4-dose-low-conditions.json",
+      "sha256": "dc58b48e357aab781ef2edafe2272c013649a6a4128c1422664acd39160b613d"
+    },
+    "why": "The main series (tasks/phase4-dose-conditions.json) put the C01 ED50 below its lowest dose (0.05x, -0.16 mV): the 4-parameter logistic fit pins the ED50 at its bound, so it is not identified. Random removal fell to its floor from the lowest share (0.002).",
+    "design": {
+      "c01_doses": [
+        0.0,
+        0.003125,
+        0.00625,
+        0.0125,
+        0.025
+      ],
+      "c01_mv_per_dose": -3.22,
+      "random_shares": [
+        0.0002,
+        0.0005,
+        0.001
+      ],
+      "draws": 3,
+      "seed": 20261020,
+      "dose_zero": "C01 at dose 0 runs the healthy brain through the dose-series code path; it must reproduce regime A's healthy outcome (trained-history share solved 0.921)",
+      "records": "rows also keep first_push_correct (energy per decoded bit)",
+      "runner": "phase4_dose_series.py --set low; outputs runs/phase4-dose-low"
+    },
+    "status": "post hoc: the main series results were seen; estimates only, no tests",
+    "analysis": "analyze_phase4_dose.py keeps the declared fits of the main series and adds fits of main plus low, labelled post hoc"
+  },
+  "previous_sha256": null,
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792467343.0935574
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "study": "brain-pathology-v1",
+  "number": 7,
+  "reason": "T-SC5 aging operator design",
+  "changes": {
+    "added_task_file": {
+      "file": "tasks/sc-aging-design.json",
+      "sha256": "98984189ed6701ed2fb7a57057c663d67d8cc730bfe080ae3191fc7875507cd5"
+    },
+    "why": "T-SC5 (SINGLE_CELL_INTEGRATION_PLAN.md SC3; execution plan approved 2026-10-22): the expression contrast, the mapping to threshold offsets and the C4-C6 criteria are fixed before any age change is computed.",
+    "deviations_from_plan": {
+      "afca": "AFCA 30 vs 70 days only (the 5-day cells are FCA data); Davie is primary"
+    }
+  },
+  "previous_sha256": "98ae191d69956cec8476353ad2ab8abd072a37dc1580cb208b7b45a055f442e1",
+  "protocol_sha256": "67483c7464e8cb46c66f95488c6c5e8be75e74059e8e8ec5e0b0342c6650febd",
+  "created_unix": 1792691218.5225084
+}

@@ -1,0 +1,26 @@
+% Limitations of the study (Gate C, revised at the user's request): each limitation with its context and the data or methods
+% that can resolve it, in the constructive form of the MaleCNS paper's Limitations; the sex of the model and the limits on
+% generalizing it (the guide's SGBA rule).
+Our results come from a model, so each statement about flies or patients is a prediction that awaits a test in the animal. We
+built the model on the connectome of one male fly, and some cell types and connections differ between the
+sexes\cellcite{berg2026,sturner2025}. Female connectomes of the brain and of the nerve cord came from separate
+animals\cellcite{dorkenwald2024,azevedo2024}. A connectome that unites the brain and nerve cord of one female
+fly\cellcite{bates2026} will allow the same training and tests in the other sex, once its proofreading and cell typing match
+those of the male CNS. Each connectome is also a snapshot of one animal: cell types recur across individuals, with occasional
+variation in neuron counts and connections\cellcite{schlegel2024}. Twins trained on several connectomes would separate what is
+general in the mechanism from what is individual.
+
+During the task, synapses change only by short-term depression at olfactory terminals, the model has no neuromodulation, and
+its delays last under a second, shorter than the visual memories of several seconds in behaving
+flies\cellcite{neuser2008,kuntz2017}. Adding short-term synaptic dynamics across the CNS and the dopamine-gated plasticity that writes associative memories in the mushroom body\cellcite{aso2016} would show whether the
+intrinsic trace competes with synaptic memories over longer delays or complements them. The transplant between brain states
+moves the full state, including its cue-independent part, so it separates where a trace was written from where it was read, not
+the trace from the state that carries it. Transplants of single state variables can make that separation.
+
+The molecular links rest on transcripts. Channel transcripts can track channel currents in identified
+neurons\cellcite{schulz2006}, but disease can uncouple the two: in Aβ42 flies, \gene{Shal} transcripts rise\cellcite{park2025}
+while the Kv4 channel is degraded\cellcite{ping2015}. The atlases map \val{M09} of the trace carriers, and most of the others lie
+in the brain, where atlases that resolve lineages\cellcite{allen2026} or span the whole body\cellcite{li2022} can extend the
+join. The disease operators are calibrated to published fly phenotypes rather than measured in the model's own cells.
+Recordings from identified neurons of Aβ42 flies would calibrate them cell by cell, and the twin could then follow how such
+shifts reshape memory as a disease progresses.
